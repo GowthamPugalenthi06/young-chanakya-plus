@@ -137,7 +137,9 @@ main {
 thead {
   font-weight: 600;
 }
-
+.img-reveal{
+  visibility: visible !important ;
+}
 article,
 aside,
 details,
