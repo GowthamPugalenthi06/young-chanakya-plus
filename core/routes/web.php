@@ -1420,7 +1420,7 @@ Route::get('/events',function(){
   return view('yc.events');
 })->name('events');
 
-Route::get('/home',function(){
+Route::get('/',function(){
   return view('yc.home');
 })->name('home');
 
