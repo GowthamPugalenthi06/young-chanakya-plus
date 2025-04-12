@@ -538,7 +538,63 @@
           }
         });
       });
+      //event in home page 
+      $(document).ready(function () {
+        $(".change-price-plan li a").on("click", function (e) {
+          e.preventDefault();
+          $(".change-price-plan li a").removeClass("active");
+          $(this).addClass("active");
       
+          var type = $(this).attr("data-type");
+          if (type == "workshop") {
+            $(".text-price-student").html("₹499");
+            $(".text-type-student").html("- user / month");
+            $(".text-price-standard").html("₹699");
+            $(".text-type-standard").html("- user / month");
+            $(".text-price-business").html("₹899 ");
+            $(".text-type-business").html("- user / month");
+            $(".text-price-enterprise").html("₹899");
+            $(".text-type-enterprise").html("- user / month");
+            $(".text-price-Chanakya").html("₹7999");
+            $(".text-type-Chanakya").html("- user / month");
+            $(".text-price-Business").html("₹4999");
+            $(".text-type-Business").html("- user / month");
+            $(".text-price-CXO").html("₹1999");
+            $(".text-type-CXO").html("- user / month");
+          } else if (type == "webinars") {
+            $(".text-price-student").html("₹4999");
+            $(".text-type-student").html("- user / year");
+            $(".text-price-standard").html("₹6999");
+            $(".text-type-standard").html("- user / year");
+            $(".text-price-business").html("₹9999");
+            $(".text-type-business").html("- user / year");
+            $(".text-price-enterprise").html("₹9999");
+            $(".text-type-enterprise").html("- user / year");
+            $(".text-price-Chanakya").html("₹79999");
+            $(".text-type-Chanakya").html("- user / month");
+            $(".text-price-Business").html("₹49999");
+            $(".text-type-Business").html("- user / month");
+            $(".text-price-CXO").html("₹19999");
+            $(".text-type-CXO").html("- user / month");
+          } else if (type == "conclaves") {
+            $(".text-price-student").html("₹4999");
+            $(".text-type-student").html("- user / year");
+            $(".text-price-standard").html("₹6999");
+            $(".text-type-standard").html("- user / year");
+            $(".text-price-business").html("₹9999");
+            $(".text-type-business").html("- user / year");
+            $(".text-price-enterprise").html("₹9999");
+            $(".text-type-enterprise").html("- user / year");
+            $(".text-price-Chanakya").html("₹79999");
+            $(".text-type-Chanakya").html("- user / month");
+            $(".text-price-Business").html("₹49999");
+            $(".text-type-Business").html("- user / month");
+            $(".text-price-CXO").html("₹19999");
+            $(".text-type-CXO").html("- user / month");
+          }
+        });
+      });
+    
     $(".change-media li a").on("click", function (e) {
         e.preventDefault();
         $(".change-media li a").removeClass("active");

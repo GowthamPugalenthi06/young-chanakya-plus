@@ -16,33 +16,49 @@
 </head>
 
 <body>
-@include('layouts.header')
-@include('layouts.preload')
+  @php
+  $hero = \App\HeroSection::getContent();
+  @endphp
+  @include('layouts.header')
+  @include('layouts.preload')
   <main class="main">
     <section class="section">
       <div class="container">
         <div class="banner-1">
           <div class="row align-items-center">
             <div class="col-lg-7">
-              <h1 class="color-brand-1 mb-20 text-anim">The data layer between your business and its potential.</h1>
+              <h1 class="color-brand-1 mb-20 text-anim">India's Premier Startup
+                Leadership Business School.</h1>
               <div class="row">
                 <div class="col-lg-9 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
-                  <p class="font-md color-grey-500 mb-30">Optimize write performance with a document data model that
-                    maps to your application’s access patterns. Meet a wide range of query requirements via a single
-                    query API that supports everything from simple lookups to complex processing pipelines for data
-                    analytics and transformations.</p>
+                  <p class="font-md color-grey-500 mb-30">Guide passionate undergrads through a 6-month journey of
+                    hands-on learning, workshops, and mentorship.</p>
                 </div>
               </div>
-              <div class="box-button mt-30 wow animate__animated animate__fadeInUp" data-wow-delay=".4s"><a
-                  class="btn btn-brand-1 hover-up" href="{{route('about')}}">Learn more</a>
-                  <!-- <a
-                  class="btn btn-default font-sm-bold hover-up" href="#">
-                  <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
-                    </path>
-                  </svg></a>-->
+              <div class="d-flex justify-between gap-4">
+                <div class="box-button mt-30 wow animate__animated animate__fadeInUp" data-wow-delay=".4s"><a
+                    class="btn btn-brand-1 hover-up" href="{{route('about')}}">Become a Chanakya <svg
+                      class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M14 5l7 7m0 0l-7 7m7-7H3">
+                      </path>
+                    </svg></a>
+
                 </div>
+                <div class="box-button mt-35 wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
+                  <a class="btn  hover-up" style=" color: #024430;" href="{{route('about')}}">
+                    <b> Become a Member </b>
+                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="#024430" viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M14 5l7 7m0 0l-7 7m7-7H3">
+                      </path>
+                    </svg>
+                  </a>
+                </div>
+
+              </div>
             </div>
             <div class="col-lg-5 d-none d-lg-block wow animate__animated animate__fadeIn">
               <object data="{{asset('assets/yc/imgs/page/homepage1/hero-banner.svg')}}" type="image/svg+xml"></object>
@@ -51,759 +67,520 @@
         </div>
       </div>
     </section>
-    <section class="section">
-      <div class="box-radius-bottom">
-        <div class="container">
-          <div class="text-center">
-            <h3 class="color-brand-1 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Loved By
-              Developers, Trusted By Enterprises</h3>
-            <p class="font-lg color-grey-500 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">We helped
-              these brands turn online assessments into success stories.<br class="d-none d-lg-block">Join them. Elevate
-              your testing.</p>
-          </div>
-          <div class="mt-30 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-            <div class="box-swiper">
-              <div class="swiper-container swiper-group-8">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img src="{{asset('assets/yc/imgs/page/homepage1/placed.png')}}" alt="iori"></div>
-                  <div class="swiper-slide"><img src="{{asset('assets/yc/imgs/page/homepage1/cuebiq.png')}}" alt="iori"></div>
-                  <div class="swiper-slide"><img src="{{asset('assets/yc/imgs/page/homepage1/factual.png')}}" alt="iori"></div>
-                  <div class="swiper-slide"><img src="{{asset('assets/yc/imgs/page/homepage1/placeiq.png')}}" alt="iori"></div>
-                  <div class="swiper-slide"><img src="{{asset('assets/yc/imgs/page/homepage1/airmeet.png')}}" alt="iori"></div>
-                  <div class="swiper-slide"><img src="{{asset('assets/yc/imgs/page/homepage1/spen.png')}}" alt="iori"></div>
-                  <div class="swiper-slide"><img src="{{asset('assets/yc/imgs/page/homepage1/klippa.png')}}" alt="iori"></div>
-                  <div class="swiper-slide"><img src="{{asset('assets/yc/imgs/page/homepage1/matrix.png')}}" alt="iori"></div>
-                </div>
-                <div class="swiper-pagination swiper-pagination-group-8"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section mt-50 overflow-hidden">
+    <!-- Second Section -->
+    <section class="section mt-100">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6 text-center mb-30">
-            <div class="box-phones">
-              <div class="box-phones-inner">
-                <div class="img-phone-1 wow animate__animated animate__zoomIn" data-wow-delay=".0s"><img
-                    src="{{asset('assets/yc/imgs/page/homepage8/phone1.png')}}" alt="iori"></div>
-                <div class="img-phone-2 wow animate__animated animate__zoomIn" data-wow-delay=".4s"><img
-                    src="{{asset('assets/yc/imgs/page/homepage8/phone2.png')}}" alt="iori"></div>
-              </div>
-            </div>
+          <div class="col-lg-12 text-center">
+
+            <ul class="tabs-plan change-price-plan" role="tablist">
+              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".0s"><a class="active" href="#"
+                  data-type="workshop">Upcoming Workshops</a></li>
+              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".1s"><a href="#"
+                  data-type="webinars">Upcoming Webinars</a></li>
+              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".1s"><a href="#"
+                  data-type="conclaves">Upcoming Conclaves</a></li>
+            </ul>
           </div>
-          <div class="col-lg-6 mb-30">
-            <div class="box-our-app"><span class="title-line line-48 wow animate__animated animate__fadeInUp"
-                data-wow-delay=".0s">Why Youngchanakya</span>
-              <h3 class="color-brand-1 mb-20 mt-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Our app
-                is great for individuals, startups and enterprises. It have never been easier to manage your finances
-              </h3>
-              <p class="font-sm color-grey-500 mb-40 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Eos
-                eveniet nesciunt et accusamus suscipit est magnam consequatur aut quisquam perferendis a reprehenderit
-                quis aut voluptatem repellat est beatae reiciendis? Cum omnis corrupti cum incidunt veritatis vel libero
-                provident aut reiciendis animi ut quod quaerat et velit animi et omnis illo. Sit quae harum eos incidunt
-                sequi eum iste fugit ex omnis aliquam a explicabo quam.</p>
-              <div class="box-item-comment wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
-                <div class="image-comment"><img src="{{asset('assets/yc/imgs/page/homepage8/author.png')}}" alt="iori"></div>
-                <div class="info-comment">
-                  <p class="font-lg-bold color-grey-500 comment-quote mb-15">Et corporis quia est iusto delectus ea
-                    consequuntur sapiente in quia totam ut internos architecto. Eos deleniti dolore eos enim totam et
-                    eaque nisi.</p><span class="font-md-bold color-brand-1">Albert Flores</span>
-                  <p class="font-xs color-grey-500">Bank of America</p>
+        </div>
+        <div class="row mt-50">
+          <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
+
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card1-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card1-title">
+                  From Bootstrapping to VC Funding
+                </h5>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card1-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
+                  </a>
                 </div>
               </div>
+
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
+
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card-title">
+                  From Bootstrapping to VC Funding
+                </h5>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
+
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card-title">
+                  From Bootstrapping to VC Funding
+                </h5>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
+
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card-title">
+                  From Bootstrapping to VC Funding
+                </h5>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
+                  </a>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
+        <div class="border-bottom mt-30"></div>
       </div>
     </section>
-    <section class="section mt-110">
+
+    <section class="section mt-50">
       <div class="container">
         <div class="row align-items-end">
-          <div class="col-lg-6 mb-20">
-            <h2 class="color-brand-1 mb-0 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Mindset of Community.</h2>
-          </div>
-          <div class="col-lg-6 mb-20">
-            <p class="color-grey-500 font-md mb-20 wow animate__animated animate__fadeIn" data-wow-delay=".2s">Discover
-              powerful features to boost your productivit. You are always welcome to visit our little den. Professional
-              in teir craft! All products were super amazing with strong attension to details, comps and overall vibe.
-            </p><a class="btn btn-default p-0 font-sm-bold hover-up" href="#">Contact Us
-              <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
-                </path>
-              </svg></a>
+          <div class="col-lg-8 col-md-8">
+            <h3 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Master Business
+              Skills for
+              Lasting Success</h3>
+            <p class="font-lg color-gray-500 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Learn
+              strategies to grow a successful business in a competitive landscape..<br class="d-none d-lg-block">Gain
+              expertise in operations and strategy for long-term impact.</p>
           </div>
         </div>
-        <div class="row mt-45">
-          <div class="col-lg-4 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-            <div class="card-human">
-              <div class="card-image mb-15"><img src="{{asset('assets/yc/imgs/page/homepage12/human1.png')}}" alt="iori"></div>
-              <div class="card-info mb-30">
-                <h4 class="color-brand-1 mt-15 mb-10">Cross Platform</h4>
-                <p class="font-sm color-grey-500">Discover powerful features to boost your productivit. You are always
-                  welcome to visit our little den.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-            <div class="card-human">
-              <div class="card-info mb-30">
-                <h4 class="color-brand-1 mt-15 mb-10">Cross Platform</h4>
-                <p class="font-sm color-grey-500">Discover powerful features to boost your productivit. You are always
-                  welcome to visit our little den.</p>
-              </div>
-              <div class="card-image mb-15"><img src="{{asset('assets/yc/imgs/page/homepage12/human2.png')}}" alt="iori">
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
-            <div class="card-human">
-              <div class="card-image mb-15"><img src="{{asset('assets/yc/imgs/page/homepage12/human3.png')}}" alt="iori"></div>
-              <div class="card-info mb-30">
-                <h4 class="color-brand-1 mt-15 mb-10">Cross Platform</h4>
-                <p class="font-sm color-grey-500">Discover powerful features to boost your productivit. You are always
-                  welcome to visit our little den.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section pt-0 pb-50 bg-core-value bg-7 mb-40 mt-100">
-      <div class="container">
-        <div class="row box-list-core-value">
-          <div class="col-lg-4 mb-70">
-            <div class="box-core-value pl-0">
-              <h1 class="color-brand-1 mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Why Membership
-              </h1>
-              <p class="font-md color-grey-400 wow animate__animated animate__fadeIn" data-wow-delay=".2s">We break down
-                barriers so teams can focus on what matters – working together to create products their customers love.
-              </p>
-              <div class="mt-30 wow animate__animated animate__fadeIn" data-wow-delay=".4s"><a
-                  class="btn btn-white-circle font-sm-bold border-brand" href="#">JOIN OUR TEAM TODAY</a></div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <ul class="list-core-value list-core-value-white">
-              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".0s"><span class="ticked"></span>
-                <h5 class="color-brand-1 mb-5">Customers First</h5>
-                <div class="box-border-dashed">
-                  <p class="font-md color-grey-500 mb-20">Our company exists to help merchants sell more. We make every
-                    decision and measure every outcome based on how well it serves our customers.</p>
-                </div>
-              </li>
-              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".2s"><span class="ticked"></span>
-                <h5 class="color-brand-1 mb-5">Act With Integrity</h5>
-                <div class="box-border-dashed">
-                  <p class="font-md color-grey-500 mb-20">We’re honest, transparent and committed to doing what’s best
-                    for our customers and our company. We openly collaborate in pursuit of the truth. We have no
-                    tolerance for politics, hidden agendas or passive-aggressive behavior.</p>
-                </div>
-              </li>
-              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".4s"><span class="ticked"></span>
-                <h5 class="color-brand-1 mb-5">Make a Difference Every Day</h5>
-                <div class="box-border-dashed">
-                  <p class="font-md color-grey-500 mb-20">Our company exists to help merchants sell more. We make every
-                    decision and measure every outcome based on how well it serves our customers.</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-4">
-            <ul class="list-core-value list-core-value-white">
-              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".0s"><span class="ticked"></span>
-                <h5 class="color-brand-1 mb-5">Think Big</h5>
-                <div class="box-border-dashed">
-                  <p class="font-md color-grey-500 mb-20">Being the world's leading commerce platform requires unrivaled
-                    vision, innovation and execution. We never settle. We challenge our ideas of what’s possible in
-                    order to better meet the needs of our customers.</p>
-                </div>
-              </li>
-              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".2s"><span class="ticked"></span>
-                <h5 class="color-brand-1 mb-5">Do the right thing</h5>
-                <div class="box-border-dashed">
-                  <p class="font-md color-grey-500 mb-20">Integrity is the foundation for everything we do. We are
-                    admired and respected for our commitment to honesty, trust, and transparency.</p>
-                </div>
-              </li>
-              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".4s"><span class="ticked"></span>
-                <h5 class="color-brand-1 mb-5">Stronger united</h5>
-                <div class="box-border-dashed">
-                  <p class="font-md color-grey-500 mb-20">We’ve created a positive and inclusive culture that fosters
-                    open, honest, and meaningful relationships.</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section pt-100 pb-100 bg-2">
-      <div class="container">
-        <div class="box-story box-story-1">
-          <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-6 col-md-6">
-              <div class="box-info-video">
-                <div class="img-reveal"><img class="bd-rd8 d-block" src="{{asset('assets/yc/imgs/page/about/img3.png')}}" alt="iori"></div>
-              </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6">
-              <div class="box-info-video mt-30 mb-30"><span class="btn btn-tag wow animate__animated animate__fadeIn" data-wow-delay=".0s">Student</span>
-                <h3 class="color-brand-1 mt-10 mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Behind every brand is an<br class="d-none d-lg-block">interesting story</h3>
-                <p class="font-md color-grey-400 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Ea nostrum temporibus ex nulla totam qui galisum quae a adipisci modi. In exercitationem culpa sed blanditiis corrupti sit doloremque maxime eos iusto molestiae ex laborum nulla in quas dignissimos 33 dolorum quis.</p>
-                <ul class="list-dots mt-20 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-                  <li>Aut voluptate iste ex esse earum.</li>
-                  <li>Sed placeat nostrum eum voluptas tenetu</li>
-                  <li>Et reprehenderit fugit et unde voluptate</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="box-story box-story-2">
-          <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-6 col-md-6">
-              <div class="box-info-video mt-30 mb-30"><span class="btn btn-tag wow animate__animated animate__fadeIn" data-wow-delay=".0s">Volunteer</span>
-                <h3 class="color-brand-1 mt-10 mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">We have a mission to help businesses grow the best with existing conditions</h3>
-                <p class="font-md color-grey-400 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Ea nostrum temporibus ex nulla totam qui galisum quae a adipisci modi. In exercitationem culpa sed blanditiis corrupti sit doloremque maxime eos iusto molestiae ex laborum nulla in quas dignissimos 33 dolorum quis. Est dolor autem et voluptate autem id enim optio vel incidunt alias.</p>
-              </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6">
-              <div class="box-info-video">
-                <div class="img-reveal"><img class="bd-rd8 d-block" src="{{asset('assets/yc/imgs/page/about/img4.png')}}" alt="iori"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="box-story box-story-1">
-          <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-6 col-md-6">
-              <div class="box-info-video">
-                <div class="img-reveal"><img class="bd-rd8 d-block" src="{{asset('assets/yc/imgs/page/about/img3.png')}}" alt="iori"></div>
-              </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6">
-              <div class="box-info-video mt-30 mb-30"><span class="btn btn-tag wow animate__animated animate__fadeIn" data-wow-delay=".0s">Startup</span>
-                <h3 class="color-brand-1 mt-10 mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Behind every brand is an<br class="d-none d-lg-block">interesting story</h3>
-                <p class="font-md color-grey-400 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Ea nostrum temporibus ex nulla totam qui galisum quae a adipisci modi. In exercitationem culpa sed blanditiis corrupti sit doloremque maxime eos iusto molestiae ex laborum nulla in quas dignissimos 33 dolorum quis.</p>
-                <ul class="list-dots mt-20 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-                  <li>Aut voluptate iste ex esse earum.</li>
-                  <li>Sed placeat nostrum eum voluptas tenetu</li>
-                  <li>Et reprehenderit fugit et unde voluptate</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="members">
-      <h1></h1>
-      <div class="image-slideshow">
-        <div class="mover-1"></div>
-        <div class="mover-2"></div>
-      </div>
-    </section>
-    <section class="container py-5 mb-lg-2 mt-lg-3 my-xl-4 my-xxl-5">
-      <div class="d-md-flex align-items-center justify-content-between pt-2 pt-sm-3 pb-3 mt-md-3 mb-3 mb-lg-4">
-        <div class="d-flex align-items-center mb-4 mb-md-0">
-          <h2 class="h1 mb-0">Event schedule</h2>
-          <div class="text-warning flex-shrink-0 ps-sm-1 ms-3">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M12 0L12.6798 4.12733C13.2879 7.81883 16.1812 10.7121 19.8727 11.3202L24 12L19.8727 12.6798C16.1812 13.2879 13.2879 16.1812 12.6798 19.8727L12 24L11.3202 19.8727C10.7121 16.1812 7.81882 13.2879 4.12733 12.6798L0 12L4.12733 11.3202C7.81883 10.7121 10.7121 7.81882 11.3202 4.12733L12 0Z">
-              </path>
-            </svg>
-          </div>
-        </div>
-        <ul class="nav nav-tabs flex-nowrap mb-0" role="tablist">
-          <li class="nav-item me-1">
-            <a class="nav-link px-3 px-sm-4 active" href="#dayOne" data-bs-toggle="tab" role="tab">Day one (Nov 15)</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link px-3 px-sm-4" href="#dayTwo" data-bs-toggle="tab" role="tab">Day two (Nov 16)</a>
-          </li>
-        </ul>
-      </div>
-      <div class="tab-content border-top border-bottom mb-3 mb-sm-4 mb-lg-5">
+        <div class="row mt-55">
+          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+            <div class="card-blog-grid card-blog-grid-2 hover-up">
+              <div class="card-image img-reveal"><a href="blog-detail.html"><img
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news1.png') }}" alt="iori"></a></div>
+              <div class="card-info"><a href="blog-detail.html">
+                  <h6 class="color-brand-1">Strategically Plan for Long-Term Business Growth</h6>
+                </a>
+                <p class="font-sm color-grey-500 mt-20">Learn to craft long-term business strategies that align with
+                  market demands and competitive landscapes, ensuring your vision turns into action.</p>
 
-        <!-- Day 1 tab -->
-        <div class="tab-pane fade show active" id="dayOne" role="tabpanel">
-          <div class="row py-3 my-2 my-md-3">
-            <div class="col-md-3">
-              <div class="h6 mb-2 mb-md-0">9:30 - 10:30 am</div>
-            </div>
-            <div class="col-md-6">
-              <h3 class="h4 mb-0">Opening party &amp; registration</h3>
-              <p class="pt-2 pt-md-3 mb-md-0">Vitae lectus metus non dolor mattis penatibus ultricies aliquet nunc sit
-                metus turpis enim urna nec risus vehicula pharetra diam erat ac proin donec.</p>
-            </div>
-            <div class="col-md-3 text-md-end">
-              <div class="d-inline-flex">
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-4" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/05.jpg')}}" width="48" alt="Avatar">
-                </div>
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-3 ms-n3" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/08.jpg')}}" width="48" alt="Avatar">
-                </div>
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-2 ms-n3" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/09.jpg')}}" width="48" alt="Avatar">
-                </div>
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-1 ms-n3" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/12.jpg')}}" width="48" alt="Avatar">
-                </div>
               </div>
             </div>
           </div>
-          <hr>
-          <div class="row py-3 my-2 my-md-3">
-            <div class="col-md-3">
-              <div class="h6 mb-2 mb-md-0">10:30 - 11:30 am</div>
-            </div>
-            <div class="col-md-6">
-              <h3 class="h4 mb-0">What are the top ideas for startup in 2023</h3>
-              <p class="pt-2 pt-md-3 mb-md-0">Iaculis tellus morbi dui metus non leo pellentesque et euismod et tellus.
-              </p>
-            </div>
-            <div class="col-md-3 text-md-end">
-              <div class="d-inline-flex">
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-4" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/10.jpg')}}" width="48" alt="Avatar">
-                </div>
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-3 ms-n3" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/06.jpg')}}" width="48" alt="Avatar">
-                </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+            <div class="card-blog-grid card-blog-grid-2 hover-up">
+              <div class="card-image img-reveal"><a href="blog-detail.html"><img
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news2.png') }}" alt="iori"></a></div>
+              <div class="card-info"><a href="blog-detail.html">
+                  <h6 class="color-brand-1">Master Financial Insights for Smarter Decisions</h6>
+                </a>
+                <p class="font-sm color-grey-500 mt-20">Develop a strong understanding of financial principles to ensure
+                  profitability and sound fiscal management for informed confident decisions.</p>
+
               </div>
             </div>
           </div>
-          <hr>
-          <div class="row py-3 my-2 my-md-3">
-            <div class="col-md-3">
-              <div class="h6 mb-2 mb-md-0">11:30 - 12:00 am</div>
-            </div>
-            <div class="col-md-6">
-              <h3 class="h4 mb-0">Coffee break</h3>
-            </div>
-          </div>
-          <hr>
-          <div class="row py-3 my-2 my-md-3">
-            <div class="col-md-3">
-              <div class="h6 mb-2 mb-md-0">12:00 - 15:00 am</div>
-            </div>
-            <div class="col-md-6">
-              <h3 class="h4 mb-0">Workshop: leading UI/UX design trends</h3>
-              <p class="pt-2 pt-md-3 mb-md-0">Mi ullamcorper porttitor auctor nunc dui massa mattis fusce convallis.
-                Aliquam quam nulla faucibus id. Eu cum quisque imperdiet semper ut ligula scelerisque. </p>
-            </div>
-            <div class="col-md-3 text-md-end">
-              <div class="d-inline-flex">
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-4" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/19.jpg')}}" width="48" alt="Avatar">
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr>
-          <div class="row py-3 my-2 my-md-3">
-            <div class="col-md-3">
-              <div class="h6 mb-2 mb-md-0">15:00 - 17:30 pm</div>
-            </div>
-            <div class="col-md-6">
-              <h3 class="h4 mb-0">Group discussion: How to align and empower cross-team success</h3>
-              <p class="pt-2 pt-md-3 mb-md-0">Vitae lectus metus non dolor mattis penatibus ultricies aliquet nunc sit
-                metus.</p>
-            </div>
-            <div class="col-md-3 text-md-end">
-              <div class="d-inline-flex">
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-4" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/08.jpg')}}" width="48" alt="Avatar">
-                </div>
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-3 ms-n3" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/06.jpg')}}" width="48" alt="Avatar">
-                </div>
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-2 ms-n3" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/09.jpg')}}" width="48" alt="Avatar">
-                </div>
+
+          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+            <div class="card-blog-grid card-blog-grid-2 hover-up">
+              <div class="card-image img-reveal"><a href="blog-detail.html"><img
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news3.png') }}" alt="iori"></a></div>
+              <div class="card-info"><a href="blog-detail.html">
+                  <h6 class="color-brand-1">Optimize Operations for Business Efficiency</h6>
+                </a>
+                <p class="font-sm color-grey-500 mt-45">Master process optimization techniques to enhance productivity
+                  and reduce operational costs, helping sustainable business practices.</p>
+
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="container">
+        <div class="row align-items-end">
+          <div class="col-lg-8 col-md-8">
+            <h3 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Build and Scale
+              Your
+              Startup Successfully</h3>
+            <p class="font-lg color-gray-500 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Enhance the
+              mindset, skills, and strategies to launch and expand your startup.<br class="d-none d-lg-block">Learn how
+              to adapt, secure funding, and create a scalable business model.</p>
+          </div>
+        </div>
+        <div class="row mt-55">
+          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+            <div class="card-blog-grid card-blog-grid-2 hover-up">
+              <div class="card-image img-reveal"><a href="blog-detail.html"><img
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news1.png') }}" alt="iori"></a></div>
+              <div class="card-info"><a href="blog-detail.html">
+                  <h6 class="color-brand-1">Develop Agile Strategies for Startup Success</h6>
+                </a>
+                <p class="font-sm color-grey-500 mt-20">Discover dynamic strategies for adapting business models to
+                  evolving market conditions, so your startup stays relevant and resilient.</p>
 
-        <!-- Day 2 tab -->
-        <div class="tab-pane fade" id="dayTwo" role="tabpanel">
-          <div class="row py-3 my-2 my-md-3">
-            <div class="col-md-3">
-              <div class="h6 mb-2 mb-md-0">12:00 - 15:00 am</div>
-            </div>
-            <div class="col-md-6">
-              <h3 class="h4 mb-0">Workshop: How Blockchain affects modern IT market</h3>
-              <p class="pt-2 pt-md-3 mb-md-0">Mi ullamcorper porttitor auctor nunc dui massa mattis fusce convallis.
-                Aliquam quam nulla faucibus id. Eu cum quisque imperdiet semper ut ligula scelerisque. </p>
-            </div>
-            <div class="col-md-3 text-md-end">
-              <div class="d-inline-flex">
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-4" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/19.jpg')}}" width="48" alt="Avatar">
-                </div>
               </div>
             </div>
           </div>
-          <hr>
-          <div class="row py-3 my-2 my-md-3">
-            <div class="col-md-3">
-              <div class="h6 mb-2 mb-md-0">9:30 - 10:30 am</div>
-            </div>
-            <div class="col-md-6">
-              <h3 class="h4 mb-0">The future of front-end frameworks</h3>
-              <p class="pt-2 pt-md-3 mb-md-0">Vitae lectus metus non dolor mattis penatibus ultricies aliquet nunc sit
-                metus turpis enim urna nec risus vehicula pharetra diam erat ac proin donec.</p>
-            </div>
-            <div class="col-md-3 text-md-end">
-              <div class="d-inline-flex">
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-4" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/05.jpg')}}" width="48" alt="Avatar">
-                </div>
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-3 ms-n3" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/08.jpg')}}" width="48" alt="Avatar">
-                </div>
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-2 ms-n3" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/09.jpg')}}" width="48" alt="Avatar">
-                </div>
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-1 ms-n3" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/12.jpg')}}" width="48" alt="Avatar">
-                </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+            <div class="card-blog-grid card-blog-grid-2 hover-up">
+              <div class="card-image img-reveal"><a href="blog-detail.html"><img
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news2.png') }}" alt="iori"></a></div>
+              <div class="card-info"><a href="blog-detail.html">
+                  <h6 class="color-brand-1">Secure Investor Trust and Funding Deals</h6>
+                </a>
+                <p class="font-sm color-grey-500 mt-20 mb-20">Learn to engage investors effectively, crafting compelling
+                  pitches and securing funding to fuel your growth journey.</p>
+
               </div>
             </div>
           </div>
-          <hr>
-          <div class="row py-3 my-2 my-md-3">
-            <div class="col-md-3">
-              <div class="h6 mb-2 mb-md-0">11:30 - 12:00 am</div>
-            </div>
-            <div class="col-md-6">
-              <h3 class="h4 mb-0">Coffee break</h3>
-            </div>
-          </div>
-          <hr>
-          <div class="row py-3 my-2 my-md-3">
-            <div class="col-md-3">
-              <div class="h6 mb-2 mb-md-0">15:00 - 17:30 pm</div>
-            </div>
-            <div class="col-md-6">
-              <h3 class="h4 mb-0">Group discussion: How good UI desig influences our perception</h3>
-              <p class="pt-2 pt-md-3 mb-md-0">Vitae lectus metus non dolor mattis penatibus ultricies aliquet nunc sit
-                metus.</p>
-            </div>
-            <div class="col-md-3 text-md-end">
-              <div class="d-inline-flex">
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-4" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/08.jpg')}}" width="48" alt="Avatar">
-                </div>
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-3 ms-n3" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/06.jpg')}}" width="48" alt="Avatar">
-                </div>
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-2 ms-n3" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/09.jpg')}}" width="48" alt="Avatar">
-                </div>
+
+          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+            <div class="card-blog-grid card-blog-grid-2 hover-up">
+              <div class="card-image img-reveal"><a href="blog-detail.html"><img
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news3.png') }}" alt="iori"></a></div>
+              <div class="card-info"><a href="blog-detail.html">
+                  <h6 class="color-brand-1">Scale Your Startup Without Losing Focus</h6>
+                </a>
+                <p class="font-sm color-grey-500 mt-20">Develop expansion strategies that maintain efficiency while
+                  increasing market reach, ensuring your startup thrives without losing its core identity.</p>
+
               </div>
             </div>
           </div>
-          <hr>
-          <div class="row py-3 my-2 my-md-3">
-            <div class="col-md-3">
-              <div class="h6 mb-2 mb-md-0">10:30 - 11:30 am</div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row align-items-end">
+          <div class="col-lg-8 col-md-8">
+            <h3 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
+              Lead with Confidence and
+              Entrepreneurial Mindset</h3>
+            <p class="font-lg color-gray-500 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Sharpen
+              leadership skills to navigate challenges and inspire growth.<br class="d-none d-lg-block">Develop
+              decision-making agility, and storytelling for sustainability.</p>
+          </div>
+        </div>
+        <div class="row mt-55">
+          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+            <div class="card-blog-grid card-blog-grid-2 hover-up">
+              <div class="card-image img-reveal"><a href="blog-detail.html"><img
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news1.png') }}" alt="iori"></a></div>
+              <div class="card-info"><a href="blog-detail.html">
+                  <h6 class="color-brand-1">Make Quick, Confident Business Decisions Daily</h6>
+                </a>
+                <p class="font-sm color-grey-500 mt-20">Enhance rapid decision-making skills for handling uncertainties
+                  and business risks, so you can stay ahead of the curve with confidence.</p>
+
+              </div>
             </div>
-            <div class="col-md-6">
-              <h3 class="h4 mb-0">What are the top ideas for startup in 2024</h3>
-              <p class="pt-2 pt-md-3 mb-md-0">Iaculis tellus morbi dui metus non leo pellentesque et euismod et tellus.
-              </p>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+            <div class="card-blog-grid card-blog-grid-2 hover-up">
+              <div class="card-image img-reveal"><a href="blog-detail.html"><img
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news2.png') }}" alt="iori"></a></div>
+              <div class="card-info"><a href="blog-detail.html">
+                  <h6 class="color-brand-1">Tell Brand Stories That Inspire Audiences</h6>
+                </a>
+                <p class="font-sm color-grey-500 mt-45">Learn to craft authentic brand narratives that connect
+                  emotionally with audiences, turning customers into loyal advocates.</p>
+
+              </div>
             </div>
-            <div class="col-md-3 text-md-end">
-              <div class="d-inline-flex">
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-4" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/10.jpg')}}" width="48" alt="Avatar">
-                </div>
-                <div class="bg-light flex-shrink-0 rounded-circle position-relative z-3 ms-n3" style="padding: 3px;">
-                  <img class="rounded-circle" src="{{asset('assets/yc/img/avatar/06.jpg')}}" width="48" alt="Avatar">
-                </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+            <div class="card-blog-grid card-blog-grid-2 hover-up">
+              <div class="card-image img-reveal"><a href="blog-detail.html"><img
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news3.png') }}" alt="iori"></a></div>
+              <div class="card-info"><a href="blog-detail.html">
+                  <h6 class="color-brand-1">Stay Resilient Through Failures and Challenges</h6>
+                </a>
+                <p class="font-sm color-grey-500 mt-45">Build mental resilience to overcome failures through
+                  entrepreneurial challenges, ensuring setbacks become stepping stones to success.</p>
+
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="section mt-80">
+    <!-- next section-->
+    <section class="section mt-100">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Resources</h2>
+            <b>
+              <p class="color-brand-1 mb-20">Chanakya Growth Path</p>
+            </b>
+            <h3 class="color-brand-1 mb-40 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+              From Ideation to Acceleration</h3>
           </div>
         </div>
-        <div class="mt-30 mb-60">
-          <ul class="list-buttons">
-            <li class="wow animate__animated animate__fadeIn" data-wow-delay=".0s"><a class="button-click active"
-                href="#" data-type="all">All resources</a></li>
-            <li class="wow animate__animated animate__fadeIn" data-wow-delay=".2s"><a class="button-click" href="#"
-                data-type="featured">Podcasts</a></li>
-            <li class="wow animate__animated animate__fadeIn" data-wow-delay=".3s"><a class="button-click" href="#"
-                data-type="company">Blogs</a></li>
-            <li class="wow animate__animated animate__fadeIn" data-wow-delay=".4s"><a class="button-click" href="#"
-                data-type="product-news">Case Studies</a></li>
-            <li class="wow animate__animated animate__fadeIn" data-wow-delay=".5s"><a class="button-click" href="#"
-                data-type="customer-stories">Videos</a></li>
-          </ul>
-        </div>
-        <div class="box-list-blogs">
-          <div class="row mt-55">
-            <div class="col-lg-12 mb-60 item-article featured wow animate__animated animate__fadeIn"
-              data-wow-delay=".0s">
-              <div class="item-1">
-                <div class="box-cover-border">
-                  <div class="row align-items-center">
-                    <div class="col-lg-6"><img class="d-block" src="{{asset('assets/yc/imgs/page/homepage2/img-marketing.png')}}"
-                        alt="iori"></div>
-                    <div class="col-lg-6">
-                      <div class="box-info-video"><span class="btn btn-tag">Featured</span><a href="#">
-                          <h3 class="color-brand-1 mt-15 mb-20">7 Things To Keep In Mind When Starting A Business</h3>
-                        </a>
-                        <div class="mb-25 mt-10"><span class="font-xs-color-grey-500">November 17, 2022</span><span
-                            class="font-xs-color-grey-500 icon-read">2 min read</span></div>
-                        <p class="font-md color-grey-500">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                          qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform
-                          magnetic growth strategies whereas prospective "outside the box" thinking.</p>
-                        <div class="box-button text-start mt-45"><a class="btn btn-default font-sm-bold pl-0 hover-up"
-                            href="#">Read more
-                            <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                            </svg></a></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 mb-30 item-article featured wow animate__animated animate__fadeIn"
-              data-wow-delay=".0s">
-              <div class="card-blog-grid card-blog-grid-3 hover-up">
-                <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img1.png')}}"
-                      alt="iori"></a>
-                  <label class="lbl-border">Marketting</label>
-                </div>
-                <div class="card-info"><a href="blog-detail.html">
-                    <h4 class="color-brand-1">How to save money - 8 simple ways to start saving money every month</h4>
-                  </a>
-                  <div class="mb-25 mt-10"><span class="font-xs color-grey-500">November 17, 2022</span><span
-                      class="font-xs color-grey-500 icon-read">2 min read</span></div>
-                  <p class="font-sm color-grey-500 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                    qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic
-                    growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 mb-30 item-article guides wow animate__animated animate__fadeIn"
-              data-wow-delay=".0s">
-              <div class="card-blog-grid card-blog-grid-3 hover-up">
-                <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img2.png')}}"
-                      alt="iori"></a>
-                  <label class="lbl-border">Technology</label>
-                </div>
-                <div class="card-info"><a href="blog-detail.html">
-                    <h4 class="color-brand-1">Essential Steps to Building And Refining an Effective UX Portfolio</h4>
-                  </a>
-                  <div class="mb-25 mt-10"><span class="font-xs color-grey-500">November 17, 2022</span><span
-                      class="font-xs color-grey-500 icon-read">2 min read</span></div>
-                  <p class="font-sm color-grey-500 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                    qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic
-                    growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-30 item-article customer-stories wow animate__animated animate__fadeIn"
-              data-wow-delay=".0s">
-              <div class="card-blog-grid card-blog-grid-3 hover-up">
-                <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img3.png')}}"
-                      alt="iori"></a>
-                  <label class="lbl-border">Marketting</label>
-                </div>
-                <div class="card-info"><a href="blog-detail.html">
-                    <h4 class="color-brand-1">10 Content Proofreading Tips to Catch More Avoidable Goofs</h4>
-                  </a>
-                  <div class="mb-25 mt-10"><span class="font-xs color-grey-500">November 17, 2022</span><span
-                      class="font-xs color-grey-500 icon-read">2 min read</span></div>
-                  <p class="font-sm color-grey-500 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                    qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic
-                    growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-30 item-article product-news wow animate__animated animate__fadeIn"
-              data-wow-delay=".0s">
-              <div class="card-blog-grid card-blog-grid-3 hover-up">
-                <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img4.png')}}"
-                      alt="iori"></a>
-                  <label class="lbl-border">Tutorial</label>
-                </div>
-                <div class="card-info"><a href="blog-detail.html">
-                    <h4 class="color-brand-1">Everything a Beginner Blogger Needs to Know for 2023</h4>
-                  </a>
-                  <div class="mb-25 mt-10"><span class="font-xs color-grey-500">November 17, 2022</span><span
-                      class="font-xs color-grey-500 icon-read">2 min read</span></div>
-                  <p class="font-sm color-grey-500 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                    qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic
-                    growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-30 item-article company wow animate__animated animate__fadeIn"
-              data-wow-delay=".0s">
-              <div class="card-blog-grid card-blog-grid-3 hover-up">
-                <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img5.png')}}"
-                      alt="iori"></a>
-                  <label class="lbl-border">Team work</label>
-                </div>
-                <div class="card-info"><a href="blog-detail.html">
-                    <h4 class="color-brand-1">Bad Email Marketing and Nickelback Don’t Have Much in Common</h4>
-                  </a>
-                  <div class="mb-25 mt-10"><span class="font-xs color-grey-500">November 17, 2022</span><span
-                      class="font-xs color-grey-500 icon-read">2 min read</span></div>
-                  <p class="font-sm color-grey-500 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                    qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic
-                    growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-12 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-              <div class="box-ads-1 mb-70">
-                <h3 class="color-brand-1 font-shippori title-ads mb-5">Get our free marketing books</h3>
-                <p class="font-xs color-grey-500 mb-10">We synthesize all the tips and trends about online marketing in
-                  valuable books</p><a class="btn btn-default font-sm-bold color-grey-900 pl-0" href="#">Register now
-                  <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
-                    </path>
-                  </svg></a>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-30 item-article featured wow animate__animated animate__fadeIn"
-              data-wow-delay=".0s">
-              <div class="card-blog-grid card-blog-grid-3 hover-up">
-                <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img6.png')}}"
-                      alt="iori"></a>
-                  <label class="lbl-border">Writing</label>
-                </div>
-                <div class="card-info"><a href="blog-detail.html">
-                    <h4 class="color-brand-1">7 Copywriting Strategies the Great Copywriters Wish You Knew</h4>
-                  </a>
-                  <div class="mb-25 mt-10"><span class="font-xs color-grey-500">November 17, 2022</span><span
-                      class="font-xs color-grey-500 icon-read">2 min read</span></div>
-                  <p class="font-sm color-grey-500 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                    qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic
-                    growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-30 item-article featured wow animate__animated animate__fadeIn"
-              data-wow-delay=".0s">
-              <div class="card-blog-grid card-blog-grid-3 hover-up">
-                <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img7.png')}}"
-                      alt="iori"></a>
-                  <label class="lbl-border">Blogging</label>
-                </div>
-                <div class="card-info"><a href="blog-detail.html">
-                    <h4 class="color-brand-1">What Is the Main Action a Writer Takes When Proofreading?</h4>
-                  </a>
-                  <div class="mb-25 mt-10"><span class="font-xs color-grey-500">November 17, 2022</span><span
-                      class="font-xs color-grey-500 icon-read">2 min read</span></div>
-                  <p class="font-sm color-grey-500 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                    qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic
-                    growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-30 item-article other wow animate__animated animate__fadeIn"
-              data-wow-delay=".0s">
-              <div class="card-blog-grid card-blog-grid-3 hover-up">
-                <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img8.png')}}"
-                      alt="iori"></a>
-                  <label class="lbl-border">Marketting</label>
-                </div>
-                <div class="card-info"><a href="blog-detail.html">
-                    <h4 class="color-brand-1">The Betty Crocker Secret to an Email Marketing Strategy People Enjoy</h4>
-                  </a>
-                  <div class="mb-25 mt-10"><span class="font-xs color-grey-500">November 17, 2022</span><span
-                      class="font-xs color-grey-500 icon-read">2 min read</span></div>
-                  <p class="font-sm color-grey-500 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                    qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic
-                    growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-30 item-article other wow animate__animated animate__fadeIn"
-              data-wow-delay=".0s">
-              <div class="card-blog-grid card-blog-grid-3 hover-up">
-                <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img9.png')}}"
-                      alt="iori"></a>
-                  <label class="lbl-border">Business</label>
-                </div>
-                <div class="card-info"><a href="blog-detail.html">
-                    <h4 class="color-brand-1">Email Autoresponders: Meet the Lazy Marketer’s Best Friend</h4>
-                  </a>
-                  <div class="mb-25 mt-10"><span class="font-xs color-grey-500">November 17, 2022</span><span
-                      class="font-xs color-grey-500 icon-read">2 min read</span></div>
-                  <p class="font-sm color-grey-500 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                    qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic
-                    growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-30 item-article other wow animate__animated animate__fadeIn"
-              data-wow-delay=".0s">
-              <div class="card-blog-grid card-blog-grid-3 hover-up">
-                <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img10.png')}}"
-                      alt="iori"></a>
-                  <label class="lbl-border">Marketting</label>
-                </div>
-                <div class="card-info"><a href="blog-detail.html">
-                    <h4 class="color-brand-1">Stop Wondering About How to Respond to Criticism</h4>
-                  </a>
-                  <div class="mb-25 mt-10"><span class="font-xs color-grey-500">November 17, 2022</span><span
-                      class="font-xs color-grey-500 icon-read">2 min read</span></div>
-                  <p class="font-sm color-grey-500 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                    qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic
-                    growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-30 item-article other wow animate__animated animate__fadeIn"
-              data-wow-delay=".0s">
-              <div class="card-blog-grid card-blog-grid-3 hover-up">
-                <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img11.png')}}"
-                      alt="iori"></a>
-                  <label class="lbl-border">Blogging</label>
-                </div>
-                <div class="card-info"><a href="blog-detail.html">
-                    <h4 class="color-brand-1">Top 5 Content Marketing Mistakes You’ll Wish You Fixed Sooner</h4>
-                  </a>
-                  <div class="mb-25 mt-10"><span class="font-xs color-grey-500">November 17, 2022</span><span
-                      class="font-xs color-grey-500 icon-read">2 min read</span></div>
-                  <p class="font-sm color-grey-500 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                    qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic
-                    growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
-                </div>
+        <div class="row align-items-center">
+          <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
+            <div class="card-guide" style="background-color: #024430;">
+
+              <div class="card-info ">
+                <h5 class="text-white mb-15">Ideation – Sparking Innovative Ideas</h5>
+                <p class="font-md text-white">Kickstart the journey by generating creative solutions through
+                  brainstorming and workshops, identifying real-world problems, and forming the foundation for ventures.
+                </p>
+
               </div>
             </div>
           </div>
-          <div class="mt-20 mb-30 text-center wow animate__animated animate__fadeIn" data-wow-delay=".0s"><a
-              class="btn btn-brand-1 font-sm-bold" href="#">Load More...</a></div>
+          <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
+            <div class="card-guide" style="background-color: #024430;">
+
+              <div class="card-info ">
+                <h5 class="text-white mb-15">Market Research – Insight Validations</h5>
+                <p class="font-md text-white">With initial ideas, students conduct thorough research to assess market
+                  feasibility. They analyze trends, audience needs, and competitors to validate ideas and define unique
+                  value proposition.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
+            <div class="card-guide" style="background-color: #024430;">
+
+              <div class="card-info ">
+                <h5 class="text-white mb-15">Prototyping – Shaping Ideas to Reality</h5>
+                <p class="font-md text-white">Students build tangible prototypes or MVPs, focusing on hands-on
+                  development. They test, gather feedback, and refine models to ensure functional, user-centered
+                  solutions.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
+            <div class="card-guide" style="background-color: #024430;">
+
+              <div class="card-info ">
+                <h5 class="text-white mb-15">Go-to-Market – Strategizing Launches</h5>
+                <p class="font-md text-white">Strategic plans for product positioning, marketing, and distribution. This
+                  ensures impactful market entry by targeting the right audience with effective tactics.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
+            <div class="card-guide" style="background-color: #024430;">
+
+              <div class="card-info ">
+                <h5 class="text-white mb-15">Growth – Scaling Ventures Sustainably</h5>
+                <p class="font-md text-white">Shift focus to scaling operations and expanding market presence. Implement
+                  adaptive strategies to enhance reach, optimize efficiency, and drive sustainable growth.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
+            <div class="card-guide" style="background-color: #024430;">
+
+              <div class="card-info ">
+                <h5 class="text-white mb-15">Acceleration – Fueling Impact</h5>
+                <p class="font-md text-white">Learn fundraising essentials, craft compelling pitches, and connect with
+                  investors. Leverage mentorship and networks to accelerate growth and solidify venture success.</p>
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-
+    <!-- our team -->
+    <section class="section mt-90">
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col-lg-6">
+            <h6 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".s">Industry Experts
+            </h6>
+            <h2 class="color-brand-1 mb-50 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Meet the
+              Chanakya's</h2>
+          </div>
+        </div>
+        <div class="row align-items-start">
+          <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
+            <div class="card-team mb-30">
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team1.png') }}" alt="iori"></div>
+              <div class="card-info"><a class="font-lg" href="#">Devon Lane</a>
+                <p class="font-xs color-grey-200 mb-10">CEO</p>
+                <p class="font-xs color-grey-400">Sharing content online allows you to craft an online persona that
+                  reflects your personal values and professional skills. Even if you only use social media occasionally
+                </p>
+                <div class="list-socials"><a class="icon-socials icon-linkedin" href="#"></a><a
+                    class="icon-socials icon-instagram" href="#"></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
+            <div class="card-team mb-30">
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team2.png') }}" alt="iori"></div>
+              <div class="card-info"><a class="font-lg" href="#">Jennie Tho</a>
+                <p class="font-xs color-grey-200 mb-10">Finance Manager</p>
+                <p class="font-xs color-grey-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit laborum — semper quis lectus.</p>
+                <div class="list-socials"><a class="icon-socials icon-linkedin" href="#"></a><a
+                    class="icon-socials icon-instagram" href="#"></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
+            <div class="card-team mb-30">
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team3.png') }}" alt="iori"></div>
+              <div class="card-info"><a class="font-lg" href="#">Symon Lesin</a>
+                <p class="font-xs color-grey-200 mb-10">Technology Manager</p>
+                <p class="font-xs color-grey-400">In a professional context it often happens that private or corporate
+                  clientsorder a publication to publish news. Excepteur sint occaecat cupidatat non proident,</p>
+                <div class="list-socials"><a class="icon-socials icon-linkedin" href="#"></a><a
+                    class="icon-socials icon-instagram" href="#"></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
+            <div class="card-team mb-30">
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team1.png') }}" alt="iori"></div>
+              <div class="card-info"><a class="font-lg" href="#">Virginia Aguilar</a>
+                <p class="font-xs color-grey-200 mb-10">Director of People</p>
+                <p class="font-xs color-grey-400">In a professional context it often happens that private or corporate
+                  clientsorder a publication to publish news. Excepteur sint occaecat cupidatat non proident,</p>
+                <div class="list-socials"><a class="icon-socials icon-linkedin" href="#"></a><a
+                    class="icon-socials icon-instagram" href="#"></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
+            <div class="card-team mb-30">
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team1.png') }}" alt="iori"></div>
+              <div class="card-info"><a class="font-lg" href="#">Devon Lane</a>
+                <p class="font-xs color-grey-200 mb-10">CEO</p>
+                <p class="font-xs color-grey-400">Sharing content online allows you to craft an online persona that
+                  reflects your personal values and professional skills. Even if you only use social media occasionally
+                </p>
+                <div class="list-socials"><a class="icon-socials icon-linkedin" href="#"></a><a
+                    class="icon-socials icon-instagram" href="#"></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
+            <div class="card-team mb-30">
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team2.png') }}" alt="iori"></div>
+              <div class="card-info"><a class="font-lg" href="#">Jennie Tho</a>
+                <p class="font-xs color-grey-200 mb-10">Finance Manager</p>
+                <p class="font-xs color-grey-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit laborum — semper quis lectus.</p>
+                <div class="list-socials"><a class="icon-socials icon-linkedin" href="#"></a><a
+                    class="icon-socials icon-instagram" href="#"></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
+            <div class="card-team mb-30">
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team3.png') }}" alt="iori"></div>
+              <div class="card-info"><a class="font-lg" href="#">Symon Lesin</a>
+                <p class="font-xs color-grey-200 mb-10">Technology Manager</p>
+                <p class="font-xs color-grey-400">In a professional context it often happens that private or corporate
+                  clientsorder a publication to publish news. Excepteur sint occaecat cupidatat non proident,</p>
+                <div class="list-socials"><a class="icon-socials icon-linkedin" href="#"></a><a
+                    class="icon-socials icon-instagram" href="#"></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
+            <div class="card-team mb-30">
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team1.png') }}" alt="iori"></div>
+              <div class="card-info"><a class="font-lg" href="#">Virginia Aguilar</a>
+                <p class="font-xs color-grey-200 mb-10">Director of People</p>
+                <p class="font-xs color-grey-400">In a professional context it often happens that private or corporate
+                  clientsorder a publication to publish news. Excepteur sint occaecat cupidatat non proident,</p>
+                <div class="list-socials"><a class="icon-socials icon-linkedin" href="#"></a><a
+                    class="icon-socials icon-instagram" href="#"></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-bottom mt-30"></div>
+    </section>
     <!-- program -->
     <section class="section mt-50">
       <div class="container">
@@ -874,198 +651,497 @@
         </div>
       </div>
     </section>
-    <!-- nextgen impact -->
-    <section class="section mt-100">
+    <!-- nextgen Leader -->
+    <section class="section mt-50">
       <div class="container">
-        <div class="box-radius-16 pl-0 pr-0 pb-0 overflow-hidden bg-7">
-          <div class="box-container">
-            <div class="row">
-              <div class="col-lg-6">
-                <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeIn" data-wow-delay=".0s">NextGen Impacts</h2>
-                <p class="font-md color-grey-500 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Access advanced order types including limit, market, stop limit and dollar cost averaging. Track your total asset holdings, values and equity over time. Monitor markets, manage your portfolio, and trade crypto on the go.</p>
-              </div>
-              <div class="col-lg-6">
-                <div class="row">
-                  <div class="col-lg-6 col-sm-6 mb-30 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-                    <div class="box-image-bg-60">
-                      <div class="img-reveal"><img class="d-block" src="{{asset('assets/yc/imgs/page/homepage3/personal.svg')}}" alt="iori"></div>
-                    </div>
-                    <h6 class="color-brand-1 mb-15">Personal</h6>
-                    <p class="font-sm color-grey-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada felis eget finibus placerat. Aliquam sit amet vestibulum felis, sit amet porta neque</p>
-                  </div>
-                  <div class="col-lg-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-                    <div class="box-image-bg-60">
-                      <div class="img-reveal"><img class="d-block" src="{{asset('assets/yc/imgs/page/homepage3/building.svg')}}" alt="iori"></div>
-                    </div>
-                    <h6 class="color-brand-1 mb-15">Enterprise</h6>
-                    <p class="font-sm color-grey-500">Duis tincidunt dui a felis tincidunt, vehicula ornare diam auctor. Integer id libero id est efficitur mattis. Nunc suscipit consectetur diam a imperdiet. Suspendisse imperdiet</p>
-                  </div>
-                </div>
+        <div class="row mt-50 align-items-center">
+
+          <div class="col-lg-12 text-center">
+            <b>
+              <p class="color-brand-1 mb-20">Vision Into a Scalable Business</p>
+            </b>
+            <h3 class="color-brand-1 mb-40 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+              Empowering the NextGen of Startup Leaders</h3>
+          </div>
+          <div class="col-lg-3 wow animate__animated animate__fadeIn">
+            <div class="card-offer card-we-do hover-up">
+              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do.png') }} alt="iori"></div>
+              <div class="card-info">
+                <h5 class="color-brand-1 mb-10"><a class="color-brand-1">Visionary
+                    Mindset</a></h5>
+                <p class="font-md color-grey-500 mb-5">Inspiring bold, innovative ideas for future ventures.</p>
+
               </div>
             </div>
           </div>
-          <div class="row align-items-center mt-60">
-            <div class="col-lg-6">
-              <div class="img-reveal"><img class="d-block w-100" src="{{asset('assets/yc/imgs/page/homepage5/img.png')}}" alt="iori"></div>
+          <div class="col-lg-3 wow animate__animated animate__fadeIn">
+            <div class="card-offer card-we-do hover-up">
+              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do4.png') }} alt="iori"></div>
+              <div class="card-info">
+                <h5 class="color-brand-1 mb-10"><a class="color-brand-1">
+                    Strategic Mentoring</a></h5>
+                <p class="font-md color-grey-500 mb-5">Guided with expert-driven and seasoned mentors.</p>
+
+              </div>
             </div>
-            <div class="col-lg-6">
-              <div class="box-business-inner"><span class="btn btn-tag wow animate__animated animate__fadeIn" data-wow-delay=".0s">Business</span>
-                <h3 class="color-brand-1 mt-10 mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Integrate with over 1,000 project management apps</h3>
-                <p class="font-md color-grey-400 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
-                <div class="mt-20">
-                  <ul class="list-ticks wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-                    <li>
-                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                      </svg>Task tracking
-                    </li>
-                    <li>
-                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                      </svg>Create task dependencies
-                    </li>
-                    <li>
-                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                      </svg>Task visualization
-                    </li>
-                    <li>
-                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                      </svg>hare files, discuss
-                    </li>
-                    <li>
-                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                      </svg>Meet deadlines faster
-                    </li>
-                    <li>
-                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                      </svg>Track time spent on each project
-                    </li>
-                  </ul>
-                </div>
-                <div class="mt-50 text-start wow animate__animated animate__fadeIn" data-wow-delay=".0s"><a class="btn btn-brand-1 hover-up" href="#">Download App</a><a class="btn btn-default font-sm-bold hover-up" href="#">Learn More
-                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+          </div>
+          <div class="col-lg-3 wow animate__animated animate__fadeIn">
+            <div class="card-offer card-we-do hover-up">
+              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do2.png') }} alt="iori"></div>
+              <div class="card-info">
+                <h5 class="color-brand-1 mb-10"><a class="color-brand-1">Startup
+                    Simulations</a></h5>
+                <p class="font-md color-grey-500 mb-5">Turning startup ignitions into successful realities.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 wow animate__animated animate__fadeIn">
+            <div class="card-offer card-we-do hover-up">
+              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do5.png') }} alt="iori"></div>
+              <div class="card-info">
+                <h5 class="color-brand-1 mb-25"><a class="color-brand-1">Growth Blueprint for Success</a></h5>
+                <p class="font-md color-grey-500 mb-15">Equipping leaders for exponential growth.
+
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 wow animate__animated animate__fadeIn">
+            <div class="card-offer card-we-do hover-up">
+              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do.png') }} alt="iori"></div>
+              <div class="card-info">
+                <h5 class="color-brand-1 mb-10"><a class="color-brand-1">Leadership Edge</a></h5>
+                <p class="font-md color-grey-500 mb-5">Shaping future leaders with skills for lasting impact.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 wow animate__animated animate__fadeIn">
+            <div class="card-offer card-we-do hover-up">
+              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do4.png') }} alt="iori"></div>
+              <div class="card-info">
+                <h5 class="color-brand-1 mb-10"><a class="color-brand-1">
+                    Capital Strategy</a></h5>
+                <p class="font-md color-grey-500 mb-5">Preparing startups to secure vital early funding.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 wow animate__animated animate__fadeIn">
+            <div class="card-offer card-we-do hover-up">
+              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do2.png') }} alt="iori"></div>
+              <div class="card-info">
+                <h5 class="color-brand-1 mb-10"><a class="color-brand-1">Brand Elevation</a></h5>
+                <p class="font-md color-grey-500 mb-5">Building strong brand identity for market positioning.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 wow animate__animated animate__fadeIn">
+            <div class="card-offer card-we-do hover-up">
+              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do5.png') }} alt="iori"></div>
+              <div class="card-info">
+                <h5 class="color-brand-1 mb-10"><a class="color-brand-1">
+                    Global Perspectives</a></h5>
+                <p class="font-md color-grey-500 mb-5">Broaden horizons for business expansion.
+
+                </p>
+
               </div>
             </div>
           </div>
         </div>
+
+
       </div>
     </section>
-    <!-- CTA for membership -->
-    <section class="section mt-50 mb-30">
+    <!--Chanakya Guide-->
+    <section class="section mt-50">
       <div class="container">
-        <div class="box-radius-border box-radius-border-help">
-          <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-6">
-              <img class="d-block" src="{{asset('assets/yc/imgs/page/help/answer.png')}}" alt="Membership">
+        <div class="row mt-50 align-items-center">
+          <div class="col-lg-12 text-center">
+            <b>
+              <p class="color-brand-1 mb-20">True Stories, Meaningful Change</p>
+            </b>
+            <h3 class="color-brand-1 mb-40 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+            Chanakya’s Guide From Sound to Scripted Wisdom
+            </h3>
+          </div>
+
+          <!-- Card 1 -->
+          <div class="col-lg-6 wow animate__animated animate__fadeIn mb-4">
+            <div class="card d-flex flex-row justify-content-between align-items-start p-4"
+              style="background-color: #fff2e9; border-radius: 20px; min-height: 320px; position: relative;">
+              <div class="card-body pe-4 mt-30">
+                <h5 class="text-uppercase font-sm color-brand-1 mt-5 mb-20">Voice of Chanakya</h5>
+                <h4 class="color-brand-1 mb-3">Innovators Speak: <br> Tales of Pioneers</h4>
+                <a href="#" class="btn btn-brand-1 rounded-pill">Discover More →</a>
+              </div>
+              <div class="card-image align-self-end" style="margin-bottom: -30px;">
+                <img src="{{ asset('assets/yc/imgs/page/homepage1/popular-men-2.png') }}" alt="iori" class="img-fluid"
+                  style="max-height: 300px; width: auto;">
+              </div>
             </div>
-            <div class="col-xl-6 col-lg-6">
-              <div class="box-info-answer">
-                <span class="btn btn-tag">Become a Member</span>
-                <h2 class="color-brand-1 mt-10 mb-15">Ready to Elevate Your Journey?</h2>
-                <p class="color-grey-500 font-md">Unlock exclusive learning access, community benefits, and insider
-                  events by joining our membership program today.</p>
-                <div class="box-button mt-30">
-                  <a class="btn btn-brand-1 hover-up" href="{{route('membership')}}">Join Now</a>
-                  <a class="btn btn-default font-sm-bold hover-up" href="{{route('membership')}}">
-                    View Plans
-                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-lg-6 wow animate__animated animate__fadeIn mb-4">
+            <div class="card d-flex flex-row justify-content-between align-items-start p-4"
+              style="background-color: #fff2e9; border-radius: 20px; min-height: 320px; position: relative;">
+              <div class="card-body pe-4 mt-30">
+                <h5 class="text-uppercase font-sm color-brand-1 mb-20">The Chanakya Journal</h5>
+                <h4 class="color-brand-1 mb-3">Beyond Theory: <br> Real-World Lessons</h4>
+                <a href="#" class="btn btn-brand-1 rounded-pill">Explore More →</a>
+              </div>
+              <div class="card-image align-self-end" style="margin-bottom: -30px;">
+                <img src="{{ asset('assets/yc/imgs/page/homepage1/blogs.png') }}" alt="iori" class="img-fluid"
+                  style="max-height: 300px; width: auto;">
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    <!-- Featured Courses -->
+    <section class="section mt-100">
+      <div class="container">
+        <div class="row align-items-end">
+          <div class="col-lg-8 col-md-8">
+
+            <b>
+              <h6 class="color-brand-1 mb-20">Top Class Courses</h6>
+            </b>
+            <h2 class="color-brand-1 mb-20">Explore Featured Courses</h2>
+
+          </div>
+          <div class="col-lg-4 col-md-4 text-md-end text-start">
+            <ul class="tabs-plan change-price-plan" role="tablist">
+              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".0s"><a class="active" href="#"
+                  data-type="workshop">Industry Study </a></li>
+              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".1s"><a href="#"
+                  data-type="webinars">Unicorn Study</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-50">
+          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
+
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card1-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card1-title">
+                  From Bootstrapping to VC Funding
+                </h5>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card1-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
                   </a>
                 </div>
               </div>
+
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- FAQ -->
-    <section class="section pt-80 mb-30">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeIn" data-wow-delay=".1s">Frequently asked questions</h2>
-          <p class="font-lg color-gray-500 wow animate__animated animate__fadeIn" data-wow-delay=".2s">Feeling inquisitive? Have a read through some of our FAQs or<br class="d-none d-lg-block"> contact our supporters for help</p>
-        </div>
-        <div class="row mt-50 mb-50">
-          <div class="col-xl-2 col-lg-2"></div>
-          <div class="col-xl-8 col-lg-8 position-relative">
-            <div class="box-author-1"><img src="{{asset('assets/yc/imgs/page/homepage6/author.png')}}" alt="iori"></div>
-            <div class="box-author-2"><img src="{{asset('assets/yc/imgs/page/homepage6/author2.png')}}" alt="iori"></div>
-            <div class="box-author-3"><img src="{{asset('assets/yc/imgs/page/homepage6/author3.png')}}" alt="iori"></div>
-            <div class="accordion" id="accordionFAQ">
-              <div class="accordion-item wow animate__animated animate__fadeIn">
-                <h5 class="accordion-header" id="headingOne">
-                  <button class="accordion-button text-heading-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Where is my order? Quisque molestie</button>
+
+          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
+
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card-title">
+                  From Bootstrapping to VC Funding
                 </h5>
-                <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
-                  <div class="accordion-body">Vel tenetur officiis ab reiciendis dolor aut quae doloremque est ipsum natus et consequatur animi aut sunt dolores ut quasi rerum. Aut velit velit id quasi velit eum reiciendis laudantium quo galisum incidunt aut velit animi hic temporibus blanditiis sit odit iure. Eum laborum dolores ea molestias fuga qui temporibus accusantium qui soluta aliquid ab vero soluta.</div>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
+                  </a>
                 </div>
               </div>
-              <div class="accordion-item wow animate__animated animate__fadeIn">
-                <h5 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button text-heading-5 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">How can I return an item purchased online?</button>
-                </h5>
-                <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
-                  <div class="accordion-body">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex. Ex illum officiis id.</div>
-                </div>
-              </div>
-              <div class="accordion-item wow animate__animated animate__fadeIn">
-                <h5 class="accordion-header" id="headingThree">
-                  <button class="accordion-button text-heading-5 collapsed text-heading-5 type=" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Can I cancel or change my order?</button>
-                </h5>
-                <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
-                  <div class="accordion-body">Aut architecto consequatur sit error nemo sed dolorum suscipit 33 impedit dignissimos ut velit blanditiis qui quos magni id dolore dignissimos. Sit ipsa consectetur et sint harum et dicta consequuntur id cupiditate perferendis qui quisquam enim. Vel autem illo id error excepturi est dolorum voluptas qui maxime consequatur et culpa quibusdam in iusto vero sit amet Quis.</div>
-                </div>
-              </div>
-              <div class="accordion-item wow animate__animated animate__fadeIn">
-                <h5 class="accordion-header" id="headingFour">
-                  <button class="accordion-button text-heading-5 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">I have promotional or discount code?</button>
-                </h5>
-                <div class="accordion-collapse collapse" id="collapseFour" aria-labelledby="headingFour" data-bs-parent="#accordionFAQ">
-                  <div class="accordion-body">Eos nostrum aperiam ab enim quas sit voluptate fuga. Ea aperiam voluptas a accusantium similique 33 alias sapiente non vitae repellat et dolorum omnis eos beatae praesentium id sunt corporis. Aut nisi blanditiis aut corrupti quae et accusantium doloribus sed tempore libero a dolorum beatae.</div>
-                </div>
-              </div>
-              <div class="accordion-item wow animate__animated animate__fadeIn">
-                <h5 class="accordion-header" id="headingFive">
-                  <button class="accordion-button text-heading-5 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">What are the delivery types you use?</button>
-                </h5>
-                <div class="accordion-collapse collapse" id="collapseFive" aria-labelledby="headingFive" data-bs-parent="#accordionFAQ">
-                  <div class="accordion-body">Et beatae quae ex minima porro aut nihil quia sed optio dignissimos et voluptates deleniti et nesciunt veritatis et suscipit quod. Est sint voluptate id unde nesciunt non deleniti debitis. Ut dolores tempore vel placeat nemo quo enim reprehenderit eos corrupti maiores et minima quaerat. Quo sequi eaque eum similique sint et autem perspiciatis cum Quis exercitationem quo quos excepturi non ducimus ducimus eos natus velit.</div>
-                </div>
-              </div>
-              <div class="accordion-item wow animate__animated animate__fadeIn">
-                <h5 class="accordion-header" id="headingSix">
-                  <button class="accordion-button text-heading-5 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">How can I pay for my purchases?</button>
-                </h5>
-                <div class="accordion-collapse collapse" id="collapseSix" aria-labelledby="headingSix" data-bs-parent="#accordionFAQ">
-                  <div class="accordion-body">Qui quas itaque ut molestias culpa vel culpa voluptas eos fugit sint ex veritatis totam cum unde maxime! Qui eius fugiat qui veritatis cumque a nesciunt nemo. Id numquam rerum est molestiae quia ut nisi architecto a officiis itaque eum quod repellat ut dolorem dolorem aut ipsam ipsa.</div>
-                </div>
-              </div>
-              <div class="accordion-item wow animate__animated animate__fadeIn">
-                <h5 class="accordion-header" id="headingSeven">
-                  <button class="accordion-button text-heading-5 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Can I cancel my order?</button>
-                </h5>
-                <div class="accordion-collapse collapse" id="collapseSeven" aria-labelledby="headingSeven" data-bs-parent="#accordionFAQ">
-                  <div class="accordion-body">Sed assumenda minus est omnis internos nam corrupti eius non perferendis vero. Est ratione dolor ab veniam quas ex praesentium consequatur ut vero rerum est impedit nihil vel Quis consequatur ut vero sapiente. Ut optio ipsum ad temporibus voluptates et alias numquam eos reiciendis voluptatum. Id omnis modi est vero adipisci qui omnis ipsum rem necessitatibus perspiciatis aut modi iste ab dolores sequi.</div>
-                </div>
-              </div>
+
             </div>
           </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
+
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card-title">
+                  From Bootstrapping to VC Funding
+                </h5>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
+        <div class="border-bottom mt-30"></div>
       </div>
     </section>
 
+    <!--business leader-->
+    <section class="section mt-50">
+        <div class="container">
+        <div class="row align-items-end">
+          <div class="col-lg-8 col-md-8">
+
+            <b>
+              <h6 class="color-brand-1 mb-20">Top Class Courses</h6>
+            </b>
+            <h2 class="color-brand-1 mb-20">Explore Featured Courses</h2>
+
+          </div>
+          <div class="col-lg-4 col-md-4 text-md-end text-start">
+          <a href="#" class="btn btn-brand-1 rounded-pill">Explore Our Plans  →</a>
+          </div>
+        </div>
+          <div class="row mt-50">
+            <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+              <div class="card-plan-style-2 hover-up">
+                <div class="card-plan">
+                  <div class="card-image-plan">
+                    
+                    <div class="info-plan">
+                      
+                      <p class="font-md color-grey-400 mb-10">Students</p>
+                      <h4 class="color-brand-1 mb-5">Young Leaders</h4>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+                <div class="mt-30 mb-30 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+                  <ul class="list-ticks list-ticks-2">
+                    <li>
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg>Startup exposure
+                    </li>
+                    <li>
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg>Founder mentorship
+                    </li>
+                    <li>
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg>Entrepreneur network
+                    </li>
+                    <li>
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg>Business summits
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+              <div class="card-plan-style-2 hover-up">
+                <div class="card-plan">
+                  <div class="card-image-plan">
+                    
+                    <div class="info-plan">
+                      
+                      <p class="font-md color-grey-400 mb-10">Entrepreneurs</p>
+                      <h4 class="color-brand-1 mb-5">Impact Makers</h4>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+                <div class="mt-30 mb-30 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+                  <ul class="list-ticks list-ticks-2">
+                    <li>
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg> Startup scaling
+                    </li>
+                    <li>
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg>Mentorship from leaders
+                    </li>
+                    <li>
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg> Pitch to investors
+                    </li>
+                    <li>
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg> Business collaborations
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+              <div class="card-plan-style-2 hover-up">
+                <div class="card-plan">
+                  <div class="card-image-plan">
+                    
+                    <div class="info-plan">
+                      
+                      <p class="font-md color-grey-400 mb-10">CXOs</p>
+                      <h4 class="color-brand-1 mb-5">C-Suite Innovators</h4>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+                <div class="mt-30 mb-30 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+                  <ul class="list-ticks list-ticks-2">
+                    <li>
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg>Elite networking
+                    </li>
+                    <li>
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg>Leadership summits
+                    </li>
+                    <li>
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg>Mentorship & influence
+                    </li>
+                    <li>
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg> Investment insights
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+              <div class="card-plan-style-2 hover-up">
+                <div class="card-plan">
+                  <div class="card-image-plan">
+                    
+                    <div class="info-plan">
+                      
+                      <p class="font-md color-grey-400 mb-10">Business People</p>
+                      <h4 class="color-brand-1 mb-5">Strategic Thinkers</h4>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+                <div class="mt-30 mb-30 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+                  <ul class="list-ticks list-ticks-2">
+                    <li>
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg>Growth Strategies
+                    </li>
+                    <li>
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg> B2B networking
+                    </li>
+                    <li>
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg> Expert mentorship
+                    </li>
+                    <li>
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg>Funding opportunities
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="border-bottom mt-30"></div>
+        </div>
+      </section>
+
+
+    <!-- CTA for membership -->
+    <section class="section mt-50 pt-50 pb-40">
+        <div class="container">
+          <div class="box-cover-border">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="img-reveal"><img class="d-block" src={{ asset('assets/yc/imgs/page/homepage2/img-marketing.png') }} alt="iori"></div>
+              </div>
+              <div class="col-lg-6">
+                <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Become a Sponsor</span>
+                  <h2 class="color-brand-1 mt-15 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Support Innovation-
+                  Watch possibilities become realities</h2>
+                  <p class="font-md color-grey-500 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Join us to shape the future of startup leadership with visionary entrepreneurs and industry leaders. Together, we’ll create opportunities, drive growth, and pave the way for the next generation of businesses.</p>
+                  <div class="box-button text-start mt-65 wow animate__animated animate__fadeInUp" data-wow-delay=".3s"><a class="btn btn-brand-1 hover-up" href="#">Contact With Us <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                      </svg></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
   </main>
-@include('layouts.footer')
-@include('layouts.script')
+  @include('layouts.footer')
+  @include('layouts.script')
 </body>
 
 </html>

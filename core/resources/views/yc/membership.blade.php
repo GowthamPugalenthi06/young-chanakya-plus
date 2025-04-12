@@ -41,10 +41,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-12 text-center">
-            <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeIn" data-wow-delay=".0s"> Choose The Best
-              Plan</h2>
-            <p class="font-lg color-gray-500 wow animate__animated animate__fadeIn" data-wow-delay=".2s"> Pick your
-              plan. Change whenever you want.<br class="d-none d-lg-block">No switching fees between packages</p>
+           
             <ul class="tabs-plan change-price-plan" role="tablist">
               <li class="wow animate__animated animate__fadeIn" data-wow-delay=".0s"><a class="active" href="#"
                   data-type="monthly">Monthly</a></li>
@@ -56,20 +53,20 @@
         <div class="row mt-50">
           <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
             <div class="card-plan card-plan-2 hover-up">
-              <label class="popular">Popular</label>
+              <!-- <label class="popular">Popular</label> -->
               <div class="card-image-plan">
                 <div class="icon-plan bg-2"><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}"
                     alt="iori"></div>
                 <div class="info-plan">
-                  <h4 class="color-brand-1">Student</h4>
-                  <p class="font-md color-grey-400">Advanced project</p>
+                  <h5 class="color-brand-1">Student</h5>
+                  <p class="font-md color-grey-400 mt-10 mb-10">Designed to provide students with a launchpad for their startup journey</p>
                 </div>
               </div>
               <div class="box-day-trial box-trial-two">
                 <div class="trial-col-1"><span class="font-lg-bold color-brand-1 text-price-student">₹499</span><span
                     class="font-md color-grey-500 text-type-standard">- user / month</span><br><span
                     class="font-xs color-grey-500">Billed annually</span></div>
-                <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Started
+                <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Now
                     <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -82,52 +79,34 @@
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Brand Awareness Ads
+                    </svg> Startup courses & business modules
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Retargeting Ads
+                    </svg>2 annual networking events
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Contextual, Demographic
+                    </svg> Virtual mentorship from experts  
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Facebook Advertising
+                    </svg>Internship & project opportunities
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Global Certificates
+                    </svg>Leadership & problem-solving events
+
                   </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Snapchat Advertising
-                  </li>
-                  <li class="mutted">
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
-                      </path>
-                    </svg>TikTok Advertising
-                  </li>
-                  <li class="mutted">
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
-                      </path>
-                    </svg>Advanced List Building
-                  </li>
+                 
                 </ul>
               </div>
 
@@ -135,20 +114,20 @@
           </div>
           <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
             <div class="card-plan card-plan-2 hover-up">
-              <label class="popular">Popular</label>
+              <!-- <label class="popular">Popular</label> -->
               <div class="card-image-plan">
                 <div class="icon-plan bg-1"><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}"
                     alt="iori"></div>
                 <div class="info-plan">
-                  <h4 class="color-brand-1">Standard</h4>
-                  <p class="font-md color-grey-400">Advanced project</p>
+                  <h5 class="color-brand-1">Standard</h5>
+                  <p class="font-md color-grey-400 mt-10 mb-10">Perfect for those looking to build industry experience and connections</p>
                 </div>
               </div>
               <div class="box-day-trial box-trial-two">
                 <div class="trial-col-1"><span class="font-lg-bold color-brand-1 text-price-standard">₹699</span><span
                     class="font-md color-grey-500 text-type-standard">- user / month</span><br><span
                     class="font-xs color-grey-500">Billed annually</span></div>
-                <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Started
+                <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Now
                     <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -161,52 +140,33 @@
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Brand Awareness Ads
+                    </svg> Assist startups & community projects
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Retargeting Ads
+                    </svg> Access workshops & resources
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Contextual, Demographic
+                    </svg> Work on real case studies
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Facebook Advertising
+                    </svg>Get a certificate & recommendation
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Global Certificates
+                    </svg>Access to summits & ideathons
                   </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Snapchat Advertising
-                  </li>
-                  <li class="mutted">
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
-                      </path>
-                    </svg>TikTok Advertising
-                  </li>
-                  <li class="mutted">
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
-                      </path>
-                    </svg>Advanced List Building
-                  </li>
+                 
                 </ul>
               </div>
 
@@ -218,15 +178,15 @@
                 <div class="icon-plan bg-2"><img src="{{asset('assets/yc/imgs/page/homepage2/creation.png')}}"
                     alt="iori"></div>
                 <div class="info-plan">
-                  <h4 class="color-brand-1">Startup & Entrepreneur</h4>
-                  <p class="font-md color-grey-400">Protect for testing</p>
+                  <h5 class="color-brand-1">Startup & Entrepreneur</h5>
+                  <p class="font-md color-grey-400 mt-10 mb-10">For entrepreneurs serious about growing their startup with guidance</p>
                 </div>
               </div>
               <div class="box-day-trial box-trial-two">
                 <div class="trial-col-1"><span class="font-lg-bold color-brand-1 text-price-enterprise">₹899
                   </span><span class="font-md color-grey-500 text-type-enterprise">- user / month</span><br><span
                     class="font-xs color-grey-500">Billed annually</span></div>
-                <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Started
+                <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Now
                     <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -239,71 +199,58 @@
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Brand Awareness Ads
+                    </svg> Scaling strategies & investor meetups
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Retargeting Ads
+                    </svg> 1-on-1 mentorship from experts
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Contextual, Demographic
+                    </svg>Access to 4 summits & showcases
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Facebook Advertising
+                    </svg>Legal & financial advisory
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Global Certificates
+                    </svg> Priority pitching & funding access
                   </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Snapchat Advertising
-                  </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>TikTok Advertising
-                  </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Advanced List Building
-                  </li>
+                  
                 </ul>
               </div>
 
             </div>
           </div>
-          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+          
+          
+        </div>
+        <div class="row mt-50 d-flex  justify-content-center">
+        <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
             <div class="card-plan card-plan-2 hover-up">
-              <label class="popular">Popular</label>
+              <!-- <label class="popular">Popular</label> -->
               <div class="card-image-plan">
                 <div class="icon-plan bg-2"><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}"
                     alt="iori"></div>
                 <div class="info-plan">
-                  <h4 class="color-brand-1">CXO</h4>
-                  <p class="font-md color-grey-400">Advanced project</p>
+                  <h5 class="color-brand-1">CXO</h5>
+                  <p class="font-md color-grey-400 mt-10 mb-10">Ideal for executives seeking elite networking to stay ahead</p>
                 </div>
               </div>
               <div class="box-day-trial box-trial-two">
                 <div class="trial-col-1"><span class="font-lg-bold color-brand-1 text-price-CXO">₹1999 </span><span
                     class="font-md color-grey-500 text-type-CXO">- user / month</span><br><span
                     class="font-xs color-grey-500">Billed annually</span></div>
-                <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Started
+                <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Now
                     <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -316,52 +263,33 @@
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Brand Awareness Ads
+                    </svg>VIP leadership access 
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Retargeting Ads
+                    </svg>6 exclusive networking events
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Contextual, Demographic
+                    </svg>Connect with top investors & leaders
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Facebook Advertising
+                    </svg> High-impact workshops
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Global Certificates
+                    </svg> High-visibility industry events
                   </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Snapchat Advertising
-                  </li>
-                  <li class="mutted">
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
-                      </path>
-                    </svg>TikTok Advertising
-                  </li>
-                  <li class="mutted">
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
-                      </path>
-                    </svg>Advanced List Building
-                  </li>
+                 
                 </ul>
               </div>
 
@@ -374,15 +302,15 @@
                 <div class="icon-plan bg-1"><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}"
                     alt="iori"></div>
                 <div class="info-plan">
-                  <h4 class="color-brand-1">Business</h4>
-                  <p class="font-md color-grey-400">Advanced project</p>
+                  <h5 class="color-brand-1">Business</h5>
+                  <p class="font-md color-grey-400 mt-10 mb-10">For entrepreneurs seeking high-value connections & long-term mentorship</p>
                 </div>
               </div>
               <div class="box-day-trial box-trial-two">
                 <div class="trial-col-1"><span class="font-lg-bold color-brand-1 text-price-Business">₹4999</span><span
                     class="font-md color-grey-500 text-type-Business">- user / month</span><br><span
                     class="font-xs color-grey-500">Billed annually</span></div>
-                <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Started
+                <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Now
                     <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -395,129 +323,33 @@
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Brand Awareness Ads
+                    </svg> Access to all summits & networking events
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Retargeting Ads
+                    </svg> 1-on-1 mentorship with industry leaders
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Contextual, Demographic
+                    </svg> Join business projects & trade events
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Facebook Advertising
+                    </svg> Premium resources on funding & expansion
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Global Certificates
+                    </svg> 24/7 personalized support
                   </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Snapchat Advertising
-                  </li>
-                  <li class="mutted">
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
-                      </path>
-                    </svg>TikTok Advertising
-                  </li>
-                  <li class="mutted">
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
-                      </path>
-                    </svg>Advanced List Building
-                  </li>
-                </ul>
-              </div>
-
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
-            <div class="card-plan card-plan-2 hover-up">
-              <label class="popular">Popular</label>
-              <div class="card-image-plan">
-                <div class="icon-plan bg-2"><img src="{{asset('assets/yc/imgs/page/homepage2/creation.png')}}"
-                    alt="iori"></div>
-                <div class="info-plan">
-                  <h4 class="color-brand-1">Chanakya</h4>
-                  <p class="font-md color-grey-400">Protect for testing</p>
-                </div>
-              </div>
-              <div class="box-day-trial box-trial-two">
-                <div class="trial-col-1"><span class="font-lg-bold color-brand-1 text-price-Chanakya">₹7999</span><span
-                    class="font-md color-grey-500 text-type-Chanakya">- user / month</span><br><span
-                    class="font-xs color-grey-500">Billed annually</span></div>
-                <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Started
-                    <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
-              </div>
-              <div class="mt-30 mb-30">
-                <ul class="list-ticks list-ticks-2">
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Brand Awareness Ads
-                  </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Retargeting Ads
-                  </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Contextual, Demographic
-                  </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Facebook Advertising
-                  </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Global Certificates
-                  </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Snapchat Advertising
-                  </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>TikTok Advertising
-                  </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Advanced List Building
-                  </li>
+                 
                 </ul>
               </div>
 

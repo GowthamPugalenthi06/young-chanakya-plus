@@ -3,6 +3,11 @@
 use Illuminate\Support\Facades\Route;
 use App\Permalink;
 
+//gg
+// use App\Http\Controllers\Admin\HeroSectionController;
+
+// Route::get('/admin/hero-section', [HeroSectionController::class, 'edit'])->name('home.hero.edit');
+// Route::post('/admin/hero-section', [HeroSectionController::class, 'update'])->name('home.hero.update');
 
 /*
 |--------------------------------------------------------------------------
@@ -1447,3 +1452,12 @@ Route::get('/terms-and-condition',function(){
 Route::get('/videos',function(){
   return view('yc.video-series');
 })->name('video-series');
+Route::get('/ug-program',function(){
+  return view('yc.video-series');
+})->name('ug-program');
+Route::get('/pg-program',function(){
+  return view('yc.video-series');
+})->name('pg-program');
+Route::get('/event-details',function(){
+  return view('yc.eventdetail');
+})->name('event-details');

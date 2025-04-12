@@ -12,7 +12,13 @@
                     <li><a href="{{route('home')}}">Home</a></li>
                     <li><a href="{{route('about')}}">About</a></li>
                     <li><a href="{{route('membership')}}">Membership</a></li>
-                    <li><a href="{{route('program')}}">Program</a></li>
+                    <li class="has-children"><a href="#">Program</a>
+                      <ul class="sub-menu">
+                        <li><a href="{{route('ug-program')}}">UG Program</a></li>
+                        <li><a href="{{route('pg-program')}}">PG Program</a></li>
+                        
+                      </ul>
+                    </li>
                     <li class="has-children"><a href="#">Resources</a>
                       <ul class="sub-menu">
                         <li><a href="{{route('podcast')}}">Podcast</a></li>

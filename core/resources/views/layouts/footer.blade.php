@@ -13,7 +13,7 @@
               <h6 class="color-brand-1">Follow Us</h6>
               <div class="mt-15"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a><a class="icon-socials icon-linkedin" href="#"></a><a class="icon-socials icon-youtube" href="#"></a></div>
             </div>
-            <div class="col-lg-6 width-25 mb-30">
+            <div class="col-lg-6 width-25 mb-30 mt-50">
               <h5 class="mb-10 color-brand-1">Company Info</h5>
               <ul class="menu-footer">
                 <li><a href="{{route('about')}}">About us</a></li>
@@ -24,7 +24,7 @@
 
               </ul>
             </div>
-            <div class="col-lg-6 width-16 mb-30">
+            <div class="col-lg-6 width-16 mb-30 mt-50">
               <h5 class="mb-10 color-brand-1">Useful Links</h5>
               <ul class="menu-footer">
                 <li><a href="{{route('become-a-chanakya')}}">Become a Chanakya</a></li>

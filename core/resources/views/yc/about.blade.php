@@ -26,9 +26,10 @@
           <div class="row align-items-center">
             <div class="col-xxl-6 col-xl-7 col-lg-12">
               <div class="box-banner-service">
-                <h2 class="color-brand-1 mb-20 mt-30 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
+              <span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s">About Young Chanakya</span>
+                <h3 class="color-brand-1 mb-20 mt-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
                   Shaping Leaders of Tomorrow
-                </h2>
+                </h3>
                 <div class="row">
                   <div class="col-lg-9 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
 
@@ -37,10 +38,18 @@
                       entrepreneurship support. We provide the right opportunities to learn, build skills, and succeed.
                     </p>
                     <ul class="list-style-checked color-grey-500 font-md mt-20 mb-20">
-                      <li class="mb-2">✅ Comprehensive Skill Development & Expert Mentorship</li>
-                      <li class="mb-2">✅ Exclusive Internship & Job Placement Opportunities</li>
-                      <li class="mb-2">✅ Strategic Entrepreneurial Guidance & Startup Support</li>
-                      <li class="mb-2">✅ Powerful Networking & Professional Growth</li>
+                      <li class="mb-2"><svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg> Comprehensive Skill Development & Expert Mentorship</li>
+                      <li class="mb-2"><svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg> Exclusive Internship & Job Placement Opportunities</li>
+                      <li class="mb-2"><svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg> Strategic Entrepreneurial Guidance & Startup Support</li>
+                      <li class="mb-2"><svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg> Powerful Networking & Professional Growth</li>
                     </ul>
                   </div>
                 </div>
@@ -188,7 +197,7 @@
                       </div>
                       <div class="carrd-title">
                         <h4 class="color-brand-1 mb-15">Trees Stage</h4>
-                        <p class="font-sm color-grey-500">Curiosity & Learning</p>
+                        <p class="font-sm color-grey-500">Become a Leader</p>
                       </div>
                     </div>
                     <div class="card-info">

@@ -17,7 +17,7 @@
 @include('layouts.header')
 @include('layouts.preload')
     <main class="main">
-      <section class="section banner-8">
+      <!-- <section class="section banner-8">
         <div class="asset-1 shape-1"></div>
         <div class="asset-2 shape-2"></div>
         <div class="asset-3 shape-3"></div>
@@ -330,7 +330,123 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
+    
+      <section class="section mt-100">
+      <div class="container">
+        <div class="row align-items-end">
+        <ul class="tabs-plan change-price-plan" role="tablist">
+              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".0s"><a class="active" href="#"
+                  data-type="workshop">Upcoming Events </a></li>
+              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".1s"><a href="#"
+                  data-type="webinars">Past Events</a></li>
+
+            </ul>
+         
+        </div>
+        <div class="row mt-50">
+          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
+
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card1-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card1-title">
+                  From Bootstrapping to VC Funding
+                </h5>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card1-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
+
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card-title">
+                  From Bootstrapping to VC Funding
+                </h5>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
+
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card-title">
+                  From Bootstrapping to VC Funding
+                </h5>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="border-bottom mt-30"></div>
+      </div>
+    </section>
     </main>
 @include('layouts.footer')
 @include('layouts.script')
