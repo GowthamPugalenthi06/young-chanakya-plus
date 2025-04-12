@@ -342,10 +342,10 @@
                 <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Upcoming Events</h2>
                 <p class="font-lg color-gray-500 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Discover and register for exciting upcoming events, workshops,<br class="d-none d-lg-block"> and networking opportunities near you.</p>
               </div>
-              <div class="col-lg-4 col-md-4 text-md-end text-start wow animate__animated animate__fadeInUp" data-wow-delay=".4s"><a class="btn btn-default font-sm-bold pl-0">Contact Us
+              <!-- <div class="col-lg-4 col-md-4 text-md-end text-start wow animate__animated animate__fadeInUp" data-wow-delay=".4s"><a class="btn btn-default font-sm-bold pl-0">Contact Us
                   <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                  </svg></a></div>
+                  </svg></a></div> -->
             </div>
             <div class="row mt-50 mb-100 d-flex flex-wrap-wrap" style="flex-direction:column">
               <div class="container-fluid mt-4">
