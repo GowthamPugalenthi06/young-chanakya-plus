@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Permalink;
+use Illuminate\Support\Facades\Route;
 
 //gg
 // use App\Http\Controllers\Admin\HeroSectionController;
@@ -1425,7 +1425,7 @@ Route::get('/events',function(){
   return view('yc.events');
 })->name('events');
 
-Route::get('/',function(){
+Route::get('/home',function(){
   return view('yc.home');
 })->name('home');
 

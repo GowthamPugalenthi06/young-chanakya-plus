@@ -39,7 +39,7 @@
           </div>
         </div>
       </section>
-      <section class="section mt-170 mb-30">
+      <section class="section mt-100 mb-30">
       <div class="container">
         <div class="box-radius-border box-radius-border-help">
           <div class="row align-items-center">
@@ -537,12 +537,12 @@
       <section class="section mt-70">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5 ">
+            <div class="col-lg-6">
               <h2 class="color-brand-1 mb-15">Become a Sponsor</h2>
               <p class="font-sm color-grey-500">Your sponsorship isn’t just support – it’s an investment in the future, shaping minds that will drive tomorrow’s success.</p>
               
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-6">
               <div class="box-form-contact wow animate__animated animate__fadeIn" data-wow-delay=".6s">
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
