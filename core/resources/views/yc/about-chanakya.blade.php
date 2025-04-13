@@ -76,7 +76,7 @@
             <div class="tab-pane fade active show" id="tab-explore-1" role="tabpanel" aria-labelledby="tab-explore-1">
               <div class="box-tab-32">
                 <div class="row align-items-center">
-                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/homepage10/img-tab.png"
+                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}"
                       alt="iori"></div>
                   <div class="col-xl-6 col-lg-7">
                     <div class="box-business-tab"><span class="btn btn-tag">Business</span>
@@ -1013,7 +1013,7 @@
         <div class="border-bottom"></div>
       </section>
     </div>
-    <section class="section mt-50 mb-30">
+    <section class="section mt-50 mb-100">
       <div class="container">
         <div class="box-radius-border box-radius-border-help">
           <div class="row align-items-center">

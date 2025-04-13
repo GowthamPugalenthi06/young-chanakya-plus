@@ -1453,10 +1453,10 @@ Route::get('/videos',function(){
   return view('yc.video-series');
 })->name('video-series');
 Route::get('/ug-program',function(){
-  return view('yc.video-series');
+  return view('yc.program');
 })->name('ug-program');
 Route::get('/pg-program',function(){
-  return view('yc.video-series');
+  return view('yc.program');
 })->name('pg-program');
 Route::get('/event-details',function(){
   return view('yc.eventdetail');
