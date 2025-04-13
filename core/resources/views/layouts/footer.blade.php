@@ -50,7 +50,7 @@
                   <li><a class="font-sm color-white" href="term-conditions.html">Terms of service</a></li>
                 </ul>
               </div>
-              <div class="col-lg-6 col-md-12 text-center text-lg-end"><span class="color-white font-md">©Iori Official 2023. All right reversed.</span></div>
+              <div class="col-lg-6 col-md-12 text-center text-lg-end"><span class="color-white font-md">©YC Official 2023. All right reversed.</span></div>
             </div>
           </div>
         </div>

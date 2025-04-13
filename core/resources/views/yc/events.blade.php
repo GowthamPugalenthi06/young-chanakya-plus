@@ -30,7 +30,7 @@
                 <div class="text-center"><span class="font-md color-grey-400 wow animate__animated animate__fadeInUp" data-wow-delay=".s">Think. Creative. Solve</span>
                   <h1 class="color-brand-1 mb-25 mt-10 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Innovative Solution to Move Your Business Forward</h1>
                   <p class="font-md color-grey-500 mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".4s">Collaborate, plan projects and manage resources with powerful features that your whole team<br class="d-none d-lg-block">can use.  The latest news, tips and advice to help you run your business with less fuss.</p>
-                  <div class="text-center wow animate__animated animate__fadeInUp" data-wow-delay=".6s"><a href="#"><img class="mr-10" src="{{asset('assets/yc/imgs/template/appstore.png')}}" alt="iori"></a><a href="#"><img src="{{asset('assets/yc/imgs/template/google-play.png')}}" alt="iori"></a></div>
+                  <div class="text-center wow animate__animated animate__fadeInUp" data-wow-delay=".6s"><a href="#"><img class="mr-10" src="{{asset('assets/yc/imgs/template/appstore.png')}}" alt="YC"></a><a href="#"><img src="{{asset('assets/yc/imgs/template/google-play.png')}}" alt="YC"></a></div>
                 </div>
               </div>
             </div>
@@ -41,7 +41,7 @@
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div class="card-member-2 mb-30">
-                      <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage8/member.png')}}" alt="iori"></div>
+                      <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage8/member.png')}}" alt="YC"></div>
                       <div class="card-info bg-1"><a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
                         <div class="d-flex align-items-center">
                           <p class="font-xs color-grey-200">Graphic Designer</p>
@@ -52,7 +52,7 @@
                   </div>
                   <div class="swiper-slide">
                     <div class="card-member-2 bg-2 mb-30">
-                      <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage8/member1.png')}}" alt="iori"></div>
+                      <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage8/member1.png')}}" alt="YC"></div>
                       <div class="card-info bg-4"><a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
                         <div class="d-flex align-items-center">
                           <p class="font-xs color-grey-200">Graphic Designer</p>
@@ -63,7 +63,7 @@
                   </div>
                   <div class="swiper-slide">
                     <div class="card-member-2 bg-5 mb-30">
-                      <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage8/member2.png')}}" alt="iori"></div>
+                      <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage8/member2.png')}}" alt="YC"></div>
                       <div class="card-info bg-3"><a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
                         <div class="d-flex align-items-center">
                           <p class="font-xs color-grey-200">Graphic Designer</p>
@@ -74,7 +74,7 @@
                   </div>
                   <div class="swiper-slide">
                     <div class="card-member-2 bg-1 mb-30">
-                      <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage8/member3.png')}}" alt="iori"></div>
+                      <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage8/member3.png')}}" alt="YC"></div>
                       <div class="card-info bg-2"><a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
                         <div class="d-flex align-items-center">
                           <p class="font-xs color-grey-200">Graphic Designer</p>
@@ -85,7 +85,7 @@
                   </div>
                   <div class="swiper-slide">
                     <div class="card-member-2 bg-4 mb-30">
-                      <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage8/member4.png')}}" alt="iori"></div>
+                      <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage8/member4.png')}}" alt="YC"></div>
                       <div class="card-info bg-5"><a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
                         <div class="d-flex align-items-center">
                           <p class="font-xs color-grey-200">Graphic Designer</p>
@@ -96,7 +96,7 @@
                   </div>
                   <div class="swiper-slide">
                     <div class="card-member-2 bg-7 mb-30">
-                      <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage8/member5.png')}}" alt="iori"></div>
+                      <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage8/member5.png')}}" alt="YC"></div>
                       <div class="card-info bg-7"><a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
                         <div class="d-flex align-items-center">
                           <p class="font-xs color-grey-200">Graphic Designer</p>
@@ -147,7 +147,7 @@
                 <div class="item-1">
                   <div class="box-cover-border">
                     <div class="row align-items-center">
-                      <div class="col-lg-6"><img class="d-block" src="{{asset('assets/yc/imgs/page/homepage2/img-marketing.png')}}" alt="iori"></div>
+                      <div class="col-lg-6"><img class="d-block" src="{{asset('assets/yc/imgs/page/homepage2/img-marketing.png')}}" alt="YC"></div>
                       <div class="col-lg-6">
                         <div class="box-info-video"><span class="btn btn-tag">Featured</span><a href="#">
                             <h3 class="color-brand-1 mt-15 mb-20">7 Things To Keep In Mind When Starting A Business</h3></a>
@@ -165,7 +165,7 @@
               </div>
               <div class="col-lg-6 col-md-6 mb-30 item-article featured wow animate__animated animate__fadeIn" data-wow-delay=".0s">
                 <div class="card-blog-grid card-blog-grid-3 hover-up">
-                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img1.png')}}" alt="iori"></a>
+                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img1.png')}}" alt="YC"></a>
                     <label class="lbl-border">Marketting</label>
                   </div>
                   <div class="card-info"><a href="blog-detail.html">
@@ -177,7 +177,7 @@
               </div>
               <div class="col-lg-6 col-md-6 mb-30 item-article guides wow animate__animated animate__fadeIn" data-wow-delay=".0s">
                 <div class="card-blog-grid card-blog-grid-3 hover-up">
-                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img2.png')}}" alt="iori"></a>
+                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img2.png')}}" alt="YC"></a>
                     <label class="lbl-border">Technology</label>
                   </div>
                   <div class="card-info"><a href="blog-detail.html">
@@ -189,7 +189,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-30 item-article customer-stories wow animate__animated animate__fadeIn" data-wow-delay=".0s">
                 <div class="card-blog-grid card-blog-grid-3 hover-up">
-                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img3.png')}}" alt="iori"></a>
+                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img3.png')}}" alt="YC"></a>
                     <label class="lbl-border">Marketting</label>
                   </div>
                   <div class="card-info"><a href="blog-detail.html">
@@ -201,7 +201,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-30 item-article product-news wow animate__animated animate__fadeIn" data-wow-delay=".0s">
                 <div class="card-blog-grid card-blog-grid-3 hover-up">
-                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img4.png')}}" alt="iori"></a>
+                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img4.png')}}" alt="YC"></a>
                     <label class="lbl-border">Tutorial</label>
                   </div>
                   <div class="card-info"><a href="blog-detail.html">
@@ -213,7 +213,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-30 item-article company wow animate__animated animate__fadeIn" data-wow-delay=".0s">
                 <div class="card-blog-grid card-blog-grid-3 hover-up">
-                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img5.png')}}" alt="iori"></a>
+                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img5.png')}}" alt="YC"></a>
                     <label class="lbl-border">Team work</label>
                   </div>
                   <div class="card-info"><a href="blog-detail.html">
@@ -234,7 +234,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-30 item-article featured wow animate__animated animate__fadeIn" data-wow-delay=".0s">
                 <div class="card-blog-grid card-blog-grid-3 hover-up">
-                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img6.png')}}" alt="iori"></a>
+                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img6.png')}}" alt="YC"></a>
                     <label class="lbl-border">Writing</label>
                   </div>
                   <div class="card-info"><a href="blog-detail.html">
@@ -246,7 +246,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-30 item-article featured wow animate__animated animate__fadeIn" data-wow-delay=".0s">
                 <div class="card-blog-grid card-blog-grid-3 hover-up">
-                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img7.png')}}" alt="iori"></a>
+                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img7.png')}}" alt="YC"></a>
                     <label class="lbl-border">Blogging</label>
                   </div>
                   <div class="card-info"><a href="blog-detail.html">
@@ -258,7 +258,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-30 item-article other wow animate__animated animate__fadeIn" data-wow-delay=".0s">
                 <div class="card-blog-grid card-blog-grid-3 hover-up">
-                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img8.png')}}" alt="iori"></a>
+                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img8.png')}}" alt="YC"></a>
                     <label class="lbl-border">Marketting</label>
                   </div>
                   <div class="card-info"><a href="blog-detail.html">
@@ -270,7 +270,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-30 item-article other wow animate__animated animate__fadeIn" data-wow-delay=".0s">
                 <div class="card-blog-grid card-blog-grid-3 hover-up">
-                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img9.png')}}" alt="iori"></a>
+                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img9.png')}}" alt="YC"></a>
                     <label class="lbl-border">Business</label>
                   </div>
                   <div class="card-info"><a href="blog-detail.html">
@@ -282,7 +282,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-30 item-article other wow animate__animated animate__fadeIn" data-wow-delay=".0s">
                 <div class="card-blog-grid card-blog-grid-3 hover-up">
-                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img10.png')}}" alt="iori"></a>
+                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img10.png')}}" alt="YC"></a>
                     <label class="lbl-border">Marketting</label>
                   </div>
                   <div class="card-info"><a href="blog-detail.html">
@@ -294,7 +294,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-30 item-article other wow animate__animated animate__fadeIn" data-wow-delay=".0s">
                 <div class="card-blog-grid card-blog-grid-3 hover-up">
-                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img11.png')}}" alt="iori"></a>
+                  <div class="card-image"><a href="blog-detail.html"><img src="{{asset('assets/yc/imgs/page/blog/img11.png')}}" alt="YC"></a>
                     <label class="lbl-border">Blogging</label>
                   </div>
                   <div class="card-info"><a href="blog-detail.html">

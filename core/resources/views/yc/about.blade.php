@@ -92,7 +92,7 @@
         <div class="col-xxl-6 col-xl-6 col-lg-6 pr-0">
           <div class="d-none d-xxl-block pr-50 mt-30">
             <div class="img-reveal">
-              <img class="w-100 d-block" src="{{asset('assets/yc/imgs/page/blog/banner.png')}}" alt="iori">
+              <img class="w-100 d-block" src="{{asset('assets/yc/imgs/page/blog/banner.png')}}" alt="YC">
             </div>
           </div>
         </div>
@@ -110,9 +110,9 @@
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                     </svg></a></div>
                 
-                <!-- <div class="box-author wow animate__animated animate__fadeIn" data-wow-delay=".6s"><a href="#"><img src="assets/yc/imgs/page/team/author.png" alt="iori"></a>
+                <!-- <div class="box-author wow animate__animated animate__fadeIn" data-wow-delay=".6s"><a href="#"><img src="assets/yc/imgs/page/team/author.png" alt="YC"></a>
                   <div class="author-info"><a href="#"><span class="font-md-bold color-brand-1 author-name">Bessie Cooper</span></a>
-                    <div class="rating d-inline-block"><img src="assets/imgs/template/icons/star.svg" alt="iori"><img src="assets/yc/imgs/template/icons/star.svg" alt="iori"><img src="assets/imgs/template/icons/star.svg" alt="iori"><img src="assets/imgs/template/icons/star.svg" alt="iori"><img src="assets/imgs/template/icons/star.svg" alt="iori"></div>
+                    <div class="rating d-inline-block"><img src="assets/imgs/template/icons/star.svg" alt="YC"><img src="assets/yc/imgs/template/icons/star.svg" alt="YC"><img src="assets/imgs/template/icons/star.svg" alt="YC"><img src="assets/imgs/template/icons/star.svg" alt="YC"><img src="assets/imgs/template/icons/star.svg" alt="YC"></div>
                   </div>
                 </div> -->
               </div>
@@ -121,16 +121,16 @@
                   <div class="arrow-down-banner shape-1"></div>
                   <div class="arrow-right-banner shape-2"></div>
                   <div class="banner-col-1">
-                    <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay=".0s"><img src="assets/yc/imgs/page/team/banner1.png" alt="iori"></div>
+                    <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay=".0s"><img src="assets/yc/imgs/page/team/banner1.png" alt="YC"></div>
                   </div>
                   <div class="banner-col-2">
-                    <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay=".2s"><img src="assets/yc/imgs/page/team/banner2.png" alt="iori"></div>
-                    <div class="img-banner hasBorder wow animate__animated animate__zoomIn" data-wow-delay=".4s"><img src="assets/yc/imgs/page/team/banner3.png" alt="iori"></div>
+                    <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay=".2s"><img src="assets/yc/imgs/page/team/banner2.png" alt="YC"></div>
+                    <div class="img-banner hasBorder wow animate__animated animate__zoomIn" data-wow-delay=".4s"><img src="assets/yc/imgs/page/team/banner3.png" alt="YC"></div>
                   </div>
                   <div class="banner-col-3">
-                    <div class="img-banner hasBorder2 wow animate__animated animate__zoomIn" data-wow-delay=".6s"><img src="assets/yc/imgs/page/team/banner4.png" alt="iori"></div>
-                    <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay=".8s"><img src="assets/yc/imgs/page/team/banner5.png" alt="iori" style="height: 200px"></div>
-                    {{-- <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay="1s"><img src="assets/yc/imgs/page/team/banner6.png" alt="iori"></div> --}}
+                    <div class="img-banner hasBorder2 wow animate__animated animate__zoomIn" data-wow-delay=".6s"><img src="assets/yc/imgs/page/team/banner4.png" alt="YC"></div>
+                    <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay=".8s"><img src="assets/yc/imgs/page/team/banner5.png" alt="YC" style="height: 200px"></div>
+                    {{-- <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay="1s"><img src="assets/yc/imgs/page/team/banner6.png" alt="YC"></div> --}}
                   </div>
                 </div>
               </div>
@@ -184,7 +184,7 @@
             <div class="tab-pane fade active show" id="tab-explore-1" role="tabpanel" aria-labelledby="tab-explore-1">
               <div class="box-tab-32">
                 <div class="row align-items-center">
-                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="{{asset('assets/yc/imgs/page/about/kishore-yc.jpg')}}" alt="iori" style="height:600px; width:700px; background-size: cover;"></div>
+                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="{{asset('assets/yc/imgs/page/about/kishore-yc.jpg')}}" alt="YC" style="height:600px; width:700px; background-size: cover;"></div>
                   <div class="col-xl-6 col-lg-7">
                     <div class="box-business-tab"><span class="btn btn-tag">Founder Talk</span>
                       <h3 class="color-brand-1 mt-10 mb-15">Building a Community of Innovators</h3>
@@ -356,7 +356,7 @@
             <div class="col-xl-6 col-lg-6 col-md-6">
               <div class="box-info-video">
                 <div class="img-reveal"><img class="bd-rd8 d-block"
-                    src="{{asset('assets/yc/imgs/page/about/img3.png')}}" alt="iori"></div>
+                    src="{{asset('assets/yc/imgs/page/about/img3.png')}}" alt="YC"></div>
               </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6">
@@ -398,7 +398,7 @@
             <div class="col-xl-6 col-lg-6 col-md-6">
               <div class="box-info-video">
                 <div class="img-reveal">
-                  <img class="bd-rd8 d-block" src="{{asset('assets/yc/imgs/page/about/img4.png')}}" alt="iori">
+                  <img class="bd-rd8 d-block" src="{{asset('assets/yc/imgs/page/about/img4.png')}}" alt="YC">
                 </div>
               </div>
             </div>
@@ -423,7 +423,7 @@
                     <div class="bg-brand-1 box-cover-video">
                       <div class="row align-items-center">
                         <div class="col-xl-6 col-lg-6">
-                          <div class="img-reveal"><img class="d-block" src="assets/yc/imgs/page/homepage1/img-video.png" alt="iori"></div>
+                          <div class="img-reveal"><img class="d-block" src="assets/yc/imgs/page/homepage1/img-video.png" alt="YC"></div>
                         </div>
                         <div class="col-xl-6 col-lg-6">
                           <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Business</span>
@@ -449,7 +449,7 @@
                            
                           </div>
                         </div>
-                        <div class="col-xl-6 col-lg-6"><img class="d-block" src="assets/yc/imgs/page/homepage4/img-video.png" alt="iori"></div>
+                        <div class="col-xl-6 col-lg-6"><img class="d-block" src="assets/yc/imgs/page/homepage4/img-video.png" alt="YC"></div>
                       </div>
                     </div>
                   </div>
@@ -478,7 +478,7 @@
             <div class="col-md-4 mb-4">
               <div class="card-guide">
                 <div class="card-image">
-                  <img src="assets/yc/imgs/page/help/icon1.svg" alt="iori">
+                  <img src="assets/yc/imgs/page/help/icon1.svg" alt="YC">
                 </div>
                 <div class="card-info">
                   <h5 class="color-brand-1 mb-15">Knowledge Base</h5>
@@ -490,7 +490,7 @@
             <div class="col-md-4 mb-4">
               <div class="card-guide">
                 <div class="card-image">
-                  <img src="assets/yc/imgs/page/help/icon2.svg" alt="iori">
+                  <img src="assets/yc/imgs/page/help/icon2.svg" alt="YC">
                 </div>
                 <div class="card-info">
                   <h5 class="color-brand-1 mb-15">Community Forums</h5>
@@ -502,7 +502,7 @@
             <div class="col-md-4 mb-4">
               <div class="card-guide">
                 <div class="card-image">
-                  <img src="assets/yc/imgs/page/help/icon3.svg" alt="iori">
+                  <img src="assets/yc/imgs/page/help/icon3.svg" alt="YC">
                 </div>
                 <div class="card-info">
                   <h5 class="color-brand-1 mb-15">Documentation</h5>
@@ -518,7 +518,7 @@
             <div class="col-md-4 mb-4">
               <div class="card-guide">
                 <div class="card-image">
-                  <img src="assets/yc/imgs/page/help/icon1.svg" alt="iori">
+                  <img src="assets/yc/imgs/page/help/icon1.svg" alt="YC">
                 </div>
                 <div class="card-info">
                   <h5 class="color-brand-1 mb-15">Knowledge Base</h5>
@@ -530,7 +530,7 @@
             <div class="col-md-4 mb-4">
               <div class="card-guide">
                 <div class="card-image">
-                  <img src="assets/yc/imgs/page/help/icon2.svg" alt="iori">
+                  <img src="assets/yc/imgs/page/help/icon2.svg" alt="YC">
                 </div>
                 <div class="card-info">
                   <h5 class="color-brand-1 mb-15">Community Forums</h5>
@@ -542,7 +542,7 @@
             <div class="col-md-4 mb-4">
               <div class="card-guide">
                 <div class="card-image">
-                  <img src="assets/yc/imgs/page/help/icon3.svg" alt="iori">
+                  <img src="assets/yc/imgs/page/help/icon3.svg" alt="YC">
                 </div>
                 <div class="card-info">
                   <h5 class="color-brand-1 mb-15">Documentation</h5>
@@ -558,7 +558,7 @@
             <div class="col-xl-2 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
               <div class="card-plan hover-up">
                 <div class="card-image-plan d-flex justify-content-center mb-20">
-                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage1/free.svg')}}" alt="iori">
+                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage1/free.svg')}}" alt="YC">
                   </div>
 
 
@@ -580,7 +580,7 @@
             <div class="col-xl-2 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
               <div class="card-plan hover-up">
                 <div class="card-image-plan d-flex justify-content-center mb-20">
-                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage2/creation.png')}}" alt="iori">
+                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage2/creation.png')}}" alt="YC">
                   </div>
 
 
@@ -602,7 +602,7 @@
             <div class="col-xl-2 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
               <div class="card-plan hover-up">
                 <div class="card-image-plan d-flex justify-content-center mb-20">
-                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}" alt="iori">
+                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}" alt="YC">
                   </div>
 
 
@@ -624,7 +624,7 @@
             <div class="col-xl-2 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
               <div class="card-plan hover-up">
                 <div class="card-image-plan d-flex justify-content-center mb-20">
-                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage2/creation.png')}}" alt="iori">
+                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage2/creation.png')}}" alt="YC">
                   </div>
 
 
@@ -646,7 +646,7 @@
             <div class="col-xl-2 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
               <div class="card-plan hover-up">
                 <div class="card-image-plan d-flex justify-content-center mb-20">
-                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage1/free.svg')}}" alt="iori">
+                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage1/free.svg')}}" alt="YC">
                   </div>
 
 
@@ -668,7 +668,7 @@
             <div class="col-xl-2 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
               <div class="card-plan hover-up">
                 <div class="card-image-plan d-flex justify-content-center mb-20">
-                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}" alt="iori">
+                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}" alt="YC">
                   </div>
 
 
@@ -702,7 +702,7 @@
               <div class="row">
                 <div class="col-1-5 mb-4">
                   <div class="card-member-2">
-                    <div class="card-image"><img src="assets/yc/imgs/page/homepage8/member.png" alt="iori"></div>
+                    <div class="card-image"><img src="assets/yc/imgs/page/homepage8/member.png" alt="YC"></div>
                     <div class="card-info bg-1">
                       <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
                       <div class="d-flex align-items-center">
@@ -718,7 +718,7 @@
                 </div>
                 <div class="col-1-5 mb-4">
                   <div class="card-member-2">
-                    <div class="card-image"><img src="assets/yc/imgs/page/homepage8/member.png" alt="iori"></div>
+                    <div class="card-image"><img src="assets/yc/imgs/page/homepage8/member.png" alt="YC"></div>
                     <div class="card-info bg-1">
                       <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
                       <div class="d-flex align-items-center">
@@ -734,7 +734,7 @@
                 </div>
                 <div class="col-1-5 mb-4">
                   <div class="card-member-2">
-                    <div class="card-image"><img src="assets/yc/imgs/page/homepage8/member.png" alt="iori"></div>
+                    <div class="card-image"><img src="assets/yc/imgs/page/homepage8/member.png" alt="YC"></div>
                     <div class="card-info bg-1">
                       <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
                       <div class="d-flex align-items-center">
@@ -750,7 +750,7 @@
                 </div>
                 <div class="col-1-5 mb-4">
                   <div class="card-member-2">
-                    <div class="card-image"><img src="assets/yc/imgs/page/homepage8/member.png" alt="iori"></div>
+                    <div class="card-image"><img src="assets/yc/imgs/page/homepage8/member.png" alt="YC"></div>
                     <div class="card-info bg-1">
                       <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
                       <div class="d-flex align-items-center">
@@ -766,7 +766,7 @@
                 </div>
                 <div class="col-1-5 mb-4">
                   <div class="card-member-2">
-                    <div class="card-image"><img src="assets/yc/imgs/page/homepage8/member.png" alt="iori"></div>
+                    <div class="card-image"><img src="assets/yc/imgs/page/homepage8/member.png" alt="YC"></div>
                     <div class="card-info bg-1">
                       <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
                       <div class="d-flex align-items-center">
@@ -793,7 +793,7 @@
         <div class="box-radius-border box-radius-border-help">
           <div class="row align-items-center">
             <div class="col-xl-6 col-lg-6"><img class="d-block" src="{{asset('assets/yc/imgs/page/about/Elite circle.jpg')}}"
-                alt="iori" style="width:800px; height:350px;"></div>
+                alt="YC" style="width:800px; height:350px;"></div>
             <div class="col-xl-6 col-lg-6">
               <div class="box-info-answer"><span class="btn btn-tag">More help</span>
                 <h2 class="color-brand-1 mt-10 mb-15">Join the Elite Circle</h2>

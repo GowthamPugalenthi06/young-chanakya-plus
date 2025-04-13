@@ -62,7 +62,7 @@
       <div class="mobile-header-active mobile-header-wrapper-style perfect-scrollbar">
         <div class="mobile-header-wrapper-inner">
           <div class="mobile-header-content-area">
-            <div class="mobile-logo"><a class="d-flex" href="index.html"><img alt="IORI" src="{{asset('assets/yc/imgs/template/logo.svg')}}"></a></div>
+            <div class="mobile-logo"><a class="d-flex" href="index.html"><img alt="YC" src="{{asset('assets/yc/imgs/template/logo.svg')}}"></a></div>
             <div class="burger-icon"><span class="burger-icon-top"></span><span class="burger-icon-mid"></span><span class="burger-icon-bottom"></span></div>
             <div class="perfect-scroll">
               <div class="mobile-menu-wrap mobile-header-border">

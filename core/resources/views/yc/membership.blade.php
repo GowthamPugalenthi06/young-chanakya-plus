@@ -32,7 +32,7 @@
               
             </div>
             <div class="col-lg-5 d-none d-lg-block wow animate__animated animate__fadeIn"><img
-                src="{{asset('assets/yc/imgs/page/homepage2/banner.png')}}" alt="iori"></div>
+                src="{{asset('assets/yc/imgs/page/homepage2/banner.png')}}" alt="YC"></div>
           </div>
         </div>
       </div>
@@ -76,7 +76,7 @@
               <!-- <label class="popular">Popular</label> -->
               <div class="card-image-plan">
                 <div class="icon-plan bg-2"><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}"
-                    alt="iori"></div>
+                    alt="YC"></div>
                 <div class="info-plan">
                   <h5 class="color-brand-1">Student</h5>
                   <p class="font-md color-grey-400 mt-10 mb-10">Designed to provide students with a launchpad for their startup journey</p>
@@ -137,7 +137,7 @@
               <!-- <label class="popular">Popular</label> -->
               <div class="card-image-plan">
                 <div class="icon-plan bg-1"><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}"
-                    alt="iori"></div>
+                    alt="YC"></div>
                 <div class="info-plan">
                   <h5 class="color-brand-1">Volunteer</h5>
                   <p class="font-md color-grey-400 mt-10 mb-10">Perfect for those looking to build industry experience and connections</p>
@@ -196,7 +196,7 @@
             <div class="card-plan card-plan-2 hover-up">
               <div class="card-image-plan">
                 <div class="icon-plan bg-2"><img src="{{asset('assets/yc/imgs/page/homepage2/creation.png')}}"
-                    alt="iori"></div>
+                    alt="YC"></div>
                 <div class="info-plan">
                   <h5 class="color-brand-1">Startup & Entrepreneur</h5>
                   <p class="font-md color-grey-400 mt-10 mb-10">For entrepreneurs serious about growing their startup with guidance</p>
@@ -243,7 +243,7 @@
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg> Priority pitching & funding access
+                    </svg> PrYCty pitching & funding access
                   </li>
                   
                 </ul>
@@ -260,7 +260,7 @@
               <!-- <label class="popular">Popular</label> -->
               <div class="card-image-plan">
                 <div class="icon-plan bg-2"><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}"
-                    alt="iori"></div>
+                    alt="YC"></div>
                 <div class="info-plan">
                   <h5 class="color-brand-1">CXO</h5>
                   <p class="font-md color-grey-400 mt-10 mb-10">Ideal for executives seeking elite networking to stay ahead</p>
@@ -320,7 +320,7 @@
 
               <div class="card-image-plan">
                 <div class="icon-plan bg-1"><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}"
-                    alt="iori"></div>
+                    alt="YC"></div>
                 <div class="info-plan">
                   <h5 class="color-brand-1">Business</h5>
                   <p class="font-md color-grey-400 mt-10 mb-10">For entrepreneurs seeking high-value connections & long-term mentorship</p>
@@ -592,7 +592,7 @@
                           <button class="accordion-button text-heading-5 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-4" aria-expanded="false" aria-controls="collapseFour-4">How does funding access work?</button>
                         </h5>
                         <div class="accordion-collapse collapse" id="collapseFour-4" aria-labelledby="headingFour-4" data-bs-parent="#accordionFAQ5">
-                          <div class="accordion-body">You'll be prioritized for pitch events and introduced to curated investor circles based on your startup profile.</div>
+                          <div class="accordion-body">You'll be prYCtized for pitch events and introduced to curated investor circles based on your startup profile.</div>
                         </div>
                       </div>
                     </div>

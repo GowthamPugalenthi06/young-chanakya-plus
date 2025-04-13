@@ -234,7 +234,7 @@
           <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
             <div class="card-blog-grid card-blog-grid-2 hover-up">
               <div class="card-image img-reveal"><a href="blog-detail.html"><img
-                    src="{{ asset('assets/yc/imgs/page/homepage2/news1.png') }}" alt="iori"></a></div>
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news1.png') }}" alt="YC"></a></div>
               <div class="card-info"><a href="blog-detail.html">
                   <h6 class="color-brand-1">Strategically Plan for Long-Term Business Growth</h6>
                 </a>
@@ -247,7 +247,7 @@
           <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
             <div class="card-blog-grid card-blog-grid-2 hover-up">
               <div class="card-image img-reveal"><a href="blog-detail.html"><img
-                    src="{{ asset('assets/yc/imgs/page/homepage2/news2.png') }}" alt="iori"></a></div>
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news2.png') }}" alt="YC"></a></div>
               <div class="card-info"><a href="blog-detail.html">
                   <h6 class="color-brand-1">Master Financial Insights for Smarter Decisions</h6>
                 </a>
@@ -261,7 +261,7 @@
           <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
             <div class="card-blog-grid card-blog-grid-2 hover-up">
               <div class="card-image img-reveal"><a href="blog-detail.html"><img
-                    src="{{ asset('assets/yc/imgs/page/homepage2/news3.png') }}" alt="iori"></a></div>
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news3.png') }}" alt="YC"></a></div>
               <div class="card-info"><a href="blog-detail.html">
                   <h6 class="color-brand-1">Optimize Operations for Business Efficiency</h6>
                 </a>
@@ -288,7 +288,7 @@
           <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
             <div class="card-blog-grid card-blog-grid-2 hover-up">
               <div class="card-image img-reveal"><a href="blog-detail.html"><img
-                    src="{{ asset('assets/yc/imgs/page/homepage2/news1.png') }}" alt="iori"></a></div>
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news1.png') }}" alt="YC"></a></div>
               <div class="card-info"><a href="blog-detail.html">
                   <h6 class="color-brand-1">Develop Agile Strategies for Startup Success</h6>
                 </a>
@@ -301,7 +301,7 @@
           <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
             <div class="card-blog-grid card-blog-grid-2 hover-up">
               <div class="card-image img-reveal"><a href="blog-detail.html"><img
-                    src="{{ asset('assets/yc/imgs/page/homepage2/news2.png') }}" alt="iori"></a></div>
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news2.png') }}" alt="YC"></a></div>
               <div class="card-info"><a href="blog-detail.html">
                   <h6 class="color-brand-1">Secure Investor Trust and Funding Deals</h6>
                 </a>
@@ -315,7 +315,7 @@
           <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
             <div class="card-blog-grid card-blog-grid-2 hover-up">
               <div class="card-image img-reveal"><a href="blog-detail.html"><img
-                    src="{{ asset('assets/yc/imgs/page/homepage2/news3.png') }}" alt="iori"></a></div>
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news3.png') }}" alt="YC"></a></div>
               <div class="card-info"><a href="blog-detail.html">
                   <h6 class="color-brand-1">Scale Your Startup Without Losing Focus</h6>
                 </a>
@@ -342,7 +342,7 @@
           <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
             <div class="card-blog-grid card-blog-grid-2 hover-up">
               <div class="card-image img-reveal"><a href="blog-detail.html"><img
-                    src="{{ asset('assets/yc/imgs/page/homepage2/news1.png') }}" alt="iori"></a></div>
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news1.png') }}" alt="YC"></a></div>
               <div class="card-info"><a href="blog-detail.html">
                   <h6 class="color-brand-1">Make Quick, Confident Business Decisions Daily</h6>
                 </a>
@@ -355,7 +355,7 @@
           <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
             <div class="card-blog-grid card-blog-grid-2 hover-up">
               <div class="card-image img-reveal"><a href="blog-detail.html"><img
-                    src="{{ asset('assets/yc/imgs/page/homepage2/news2.png') }}" alt="iori"></a></div>
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news2.png') }}" alt="YC"></a></div>
               <div class="card-info"><a href="blog-detail.html">
                   <h6 class="color-brand-1">Tell Brand Stories That Inspire Audiences</h6>
                 </a>
@@ -369,7 +369,7 @@
           <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
             <div class="card-blog-grid card-blog-grid-2 hover-up">
               <div class="card-image img-reveal"><a href="blog-detail.html"><img
-                    src="{{ asset('assets/yc/imgs/page/homepage2/news3.png') }}" alt="iori"></a></div>
+                    src="{{ asset('assets/yc/imgs/page/homepage2/news3.png') }}" alt="YC"></a></div>
               <div class="card-info"><a href="blog-detail.html">
                   <h6 class="color-brand-1">Stay Resilient Through Failures and Challenges</h6>
                 </a>
@@ -481,7 +481,7 @@
         <div class="row align-items-start">
           <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
             <div class="card-team mb-30">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team1.png') }}" alt="iori"></div>
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team1.png') }}" alt="YC"></div>
               <div class="card-info"><a class="font-lg" href="#">Devon Lane</a>
                 <p class="font-xs color-grey-200 mb-10">CEO</p>
                 <p class="font-xs color-grey-400">Sharing content online allows you to craft an online persona that
@@ -494,7 +494,7 @@
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
             <div class="card-team mb-30">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team2.png') }}" alt="iori"></div>
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team2.png') }}" alt="YC"></div>
               <div class="card-info"><a class="font-lg" href="#">Jennie Tho</a>
                 <p class="font-xs color-grey-200 mb-10">Finance Manager</p>
                 <p class="font-xs color-grey-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
@@ -506,7 +506,7 @@
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
             <div class="card-team mb-30">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team3.png') }}" alt="iori"></div>
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team3.png') }}" alt="YC"></div>
               <div class="card-info"><a class="font-lg" href="#">Symon Lesin</a>
                 <p class="font-xs color-grey-200 mb-10">Technology Manager</p>
                 <p class="font-xs color-grey-400">In a professional context it often happens that private or corporate
@@ -518,7 +518,7 @@
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
             <div class="card-team mb-30">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team1.png') }}" alt="iori"></div>
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team1.png') }}" alt="YC"></div>
               <div class="card-info"><a class="font-lg" href="#">Virginia Aguilar</a>
                 <p class="font-xs color-grey-200 mb-10">Director of People</p>
                 <p class="font-xs color-grey-400">In a professional context it often happens that private or corporate
@@ -530,7 +530,7 @@
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
             <div class="card-team mb-30">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team1.png') }}" alt="iori"></div>
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team1.png') }}" alt="YC"></div>
               <div class="card-info"><a class="font-lg" href="#">Devon Lane</a>
                 <p class="font-xs color-grey-200 mb-10">CEO</p>
                 <p class="font-xs color-grey-400">Sharing content online allows you to craft an online persona that
@@ -543,7 +543,7 @@
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
             <div class="card-team mb-30">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team2.png') }}" alt="iori"></div>
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team2.png') }}" alt="YC"></div>
               <div class="card-info"><a class="font-lg" href="#">Jennie Tho</a>
                 <p class="font-xs color-grey-200 mb-10">Finance Manager</p>
                 <p class="font-xs color-grey-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
@@ -555,7 +555,7 @@
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
             <div class="card-team mb-30">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team3.png') }}" alt="iori"></div>
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team3.png') }}" alt="YC"></div>
               <div class="card-info"><a class="font-lg" href="#">Symon Lesin</a>
                 <p class="font-xs color-grey-200 mb-10">Technology Manager</p>
                 <p class="font-xs color-grey-400">In a professional context it often happens that private or corporate
@@ -567,7 +567,7 @@
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
             <div class="card-team mb-30">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team1.png') }}" alt="iori"></div>
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/about/team1.png') }}" alt="YC"></div>
               <div class="card-info"><a class="font-lg" href="#">Virginia Aguilar</a>
                 <p class="font-xs color-grey-200 mb-10">Director of People</p>
                 <p class="font-xs color-grey-400">In a professional context it often happens that private or corporate
@@ -665,7 +665,7 @@
           </div>
           <div class="col-lg-3 wow animate__animated animate__fadeIn">
             <div class="card-offer card-we-do hover-up">
-              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do.png') }} alt="iori"></div>
+              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do.png') }} alt="YC"></div>
               <div class="card-info">
                 <h5 class="color-brand-1 mb-10"><a class="color-brand-1">Visionary
                     Mindset</a></h5>
@@ -676,7 +676,7 @@
           </div>
           <div class="col-lg-3 wow animate__animated animate__fadeIn">
             <div class="card-offer card-we-do hover-up">
-              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do4.png') }} alt="iori"></div>
+              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do4.png') }} alt="YC"></div>
               <div class="card-info">
                 <h5 class="color-brand-1 mb-10"><a class="color-brand-1">
                     Strategic Mentoring</a></h5>
@@ -687,7 +687,7 @@
           </div>
           <div class="col-lg-3 wow animate__animated animate__fadeIn">
             <div class="card-offer card-we-do hover-up">
-              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do2.png') }} alt="iori"></div>
+              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do2.png') }} alt="YC"></div>
               <div class="card-info">
                 <h5 class="color-brand-1 mb-10"><a class="color-brand-1">Startup
                     Simulations</a></h5>
@@ -698,7 +698,7 @@
           </div>
           <div class="col-lg-3 wow animate__animated animate__fadeIn">
             <div class="card-offer card-we-do hover-up">
-              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do5.png') }} alt="iori"></div>
+              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do5.png') }} alt="YC"></div>
               <div class="card-info">
                 <h5 class="color-brand-1 mb-25"><a class="color-brand-1">Growth Blueprint for Success</a></h5>
                 <p class="font-md color-grey-500 mb-15">Equipping leaders for exponential growth.
@@ -710,7 +710,7 @@
           </div>
           <div class="col-lg-3 wow animate__animated animate__fadeIn">
             <div class="card-offer card-we-do hover-up">
-              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do.png') }} alt="iori"></div>
+              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do.png') }} alt="YC"></div>
               <div class="card-info">
                 <h5 class="color-brand-1 mb-10"><a class="color-brand-1">Leadership Edge</a></h5>
                 <p class="font-md color-grey-500 mb-5">Shaping future leaders with skills for lasting impact.</p>
@@ -720,7 +720,7 @@
           </div>
           <div class="col-lg-3 wow animate__animated animate__fadeIn">
             <div class="card-offer card-we-do hover-up">
-              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do4.png') }} alt="iori"></div>
+              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do4.png') }} alt="YC"></div>
               <div class="card-info">
                 <h5 class="color-brand-1 mb-10"><a class="color-brand-1">
                     Capital Strategy</a></h5>
@@ -731,7 +731,7 @@
           </div>
           <div class="col-lg-3 wow animate__animated animate__fadeIn">
             <div class="card-offer card-we-do hover-up">
-              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do2.png') }} alt="iori"></div>
+              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do2.png') }} alt="YC"></div>
               <div class="card-info">
                 <h5 class="color-brand-1 mb-10"><a class="color-brand-1">Brand Elevation</a></h5>
                 <p class="font-md color-grey-500 mb-5">Building strong brand identity for market positioning.</p>
@@ -741,7 +741,7 @@
           </div>
           <div class="col-lg-3 wow animate__animated animate__fadeIn">
             <div class="card-offer card-we-do hover-up">
-              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do5.png') }} alt="iori"></div>
+              <div class="card-image"><img src={{ asset('assets/yc/imgs/page/homepage2/we-do5.png') }} alt="YC"></div>
               <div class="card-info">
                 <h5 class="color-brand-1 mb-10"><a class="color-brand-1">
                     Global Perspectives</a></h5>
@@ -780,7 +780,7 @@
                 <a href="#" class="btn btn-brand-1 rounded-pill">Discover More →</a>
               </div>
               <div class="card-image align-self-end" style="margin-bottom: -30px;">
-                <img src="{{ asset('assets/yc/imgs/page/homepage1/popular-men-2.png') }}" alt="iori" class="img-fluid"
+                <img src="{{ asset('assets/yc/imgs/page/homepage1/popular-men-2.png') }}" alt="YC" class="img-fluid"
                   style="max-height: 300px; width: auto;">
               </div>
             </div>
@@ -796,7 +796,7 @@
                 <a href="#" class="btn btn-brand-1 rounded-pill">Explore More →</a>
               </div>
               <div class="card-image align-self-end" style="margin-bottom: -30px;">
-                <img src="{{ asset('assets/yc/imgs/page/homepage1/blogs.png') }}" alt="iori" class="img-fluid"
+                <img src="{{ asset('assets/yc/imgs/page/homepage1/blogs.png') }}" alt="YC" class="img-fluid"
                   style="max-height: 300px; width: auto;">
               </div>
             </div>
@@ -1121,7 +1121,7 @@
           <div class="box-cover-border">
             <div class="row align-items-center">
               <div class="col-lg-6">
-                <div class="img-reveal"><img class="d-block" src={{ asset('assets/yc/imgs/page/homepage2/img-marketing.png') }} alt="iori"></div>
+                <div class="img-reveal"><img class="d-block" src={{ asset('assets/yc/imgs/page/homepage2/img-marketing.png') }} alt="YC"></div>
               </div>
               <div class="col-lg-6">
                 <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Become a Sponsor</span>

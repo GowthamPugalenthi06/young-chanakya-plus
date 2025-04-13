@@ -55,7 +55,7 @@
         <div class="col-xxl-6 col-xl-6 col-lg-6 pr-0">
           <div class="d-none d-xxl-block pl-70">
             <div class="img-reveal ml-60"><img class="d-block"
-                src="{{asset('assets/yc/imgs/page/blog/about-img-4.png')}}" alt="iori"
+                src="{{asset('assets/yc/imgs/page/blog/about-img-4.png')}}" alt="YC"
                 style="border-radius: 16px; width: 550px; height: 300px;"></div>
           </div>
         </div>

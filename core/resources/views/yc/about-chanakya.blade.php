@@ -39,7 +39,7 @@
             </div>
             <div class="col-lg-6 mb-30 ml-1 ">
               <div class="text-center wow animate__animated animate__fadeIn "><img
-                  src="{{ asset('assets/yc/imgs/page/homepage1/chanakya-img1.png') }}" width="400" alt="iori"></div>
+                  src="{{ asset('assets/yc/imgs/page/homepage1/chanakya-img1.png') }}" width="400" alt="YC"></div>
             </div>
           </div>
         </div>
@@ -77,7 +77,7 @@
               <div class="box-tab-32">
                 <div class="row align-items-center">
                   <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}"
-                      alt="iori"></div>
+                      alt="YC"></div>
                   <div class="col-xl-6 col-lg-7">
                     <div class="box-business-tab"><span class="btn btn-tag">Business</span>
                       <h3 class="color-brand-1 mt-10 mb-15">Integrate with over 1,000 project management apps</h3>
@@ -138,7 +138,7 @@
             <div class="tab-pane fade" id="tab-explore-2" role="tabpanel" aria-labelledby="tab-explore-2">
               <div class="box-tab-32">
                 <div class="row align-items-center">
-                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/blog2/img1.png" alt="iori">
+                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/blog2/img1.png" alt="YC">
                   </div>
                   <div class="col-xl-6 col-lg-7">
                     <div class="box-business-tab"><span class="btn btn-tag">Business</span>
@@ -201,7 +201,7 @@
               <div class="box-tab-32">
                 <div class="row align-items-center">
                   <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/homepage10/img-tab.png"
-                      alt="iori"></div>
+                      alt="YC"></div>
                   <div class="col-xl-6 col-lg-7">
                     <div class="box-business-tab"><span class="btn btn-tag">Business</span>
                       <h3 class="color-brand-1 mt-10 mb-15">Integrate with over 1,000 project management apps</h3>
@@ -262,7 +262,7 @@
             <div class="tab-pane fade" id="tab-explore-4" role="tabpanel" aria-labelledby="tab-explore-4">
               <div class="box-tab-32">
                 <div class="row align-items-center">
-                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/blog2/img1.png" alt="iori">
+                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/blog2/img1.png" alt="YC">
                   </div>
                   <div class="col-xl-6 col-lg-7">
                     <div class="box-business-tab"><span class="btn btn-tag">Business</span>
@@ -325,7 +325,7 @@
               <div class="box-tab-32">
                 <div class="row align-items-center">
                   <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/homepage10/img-tab.png"
-                      alt="iori"></div>
+                      alt="YC"></div>
                   <div class="col-xl-6 col-lg-7">
                     <div class="box-business-tab"><span class="btn btn-tag">Business</span>
                       <h3 class="color-brand-1 mt-10 mb-15">Integrate with over 1,000 project management apps</h3>
@@ -1005,7 +1005,7 @@
         <div class="box-radius-border box-radius-border-help">
           <div class="row align-items-center">
             <div class="col-xl-6 col-lg-6"><img class="d-block" src="{{asset('assets/yc/imgs/page/help/answer.png')}}"
-                alt="iori"></div>
+                alt="YC"></div>
             <div class="col-xl-6 col-lg-6">
               <div class="box-info-answer">
                 <h2 class="color-brand-1 mt-10 mb-15">Become a Chanakya</h2>

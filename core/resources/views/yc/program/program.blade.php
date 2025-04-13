@@ -63,7 +63,7 @@
             </div>
             <div class="col-lg-6 mb-30">
               <div class="text-center wow animate__animated animate__fadeIn"><img
-                  src="{{ asset('assets/yc/imgs/page/homepage10/banner.png') }}" alt="iori"></div>
+                  src="{{ asset('assets/yc/imgs/page/homepage10/banner.png') }}" alt="YC"></div>
             </div>
           </div>
         </div>
@@ -77,7 +77,7 @@
             <div class="swiper-wrapper">
               <div class="hi-slide ml-20">
                 <div class="card-guide">
-                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/help/icon1.svg') }}" alt="iori"></div>
+                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/help/icon1.svg') }}" alt="YC"></div>
                   <div class="card-info">
                     <h5 class="color-brand-1 mb-15">Knowledge Base</h5>
                     <p class="font-xs color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
@@ -93,7 +93,7 @@
               </div>
               <div class="hi-slide ml-20">
                 <div class="card-guide">
-                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/help/icon2.svg') }}" alt="iori"></div>
+                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/help/icon2.svg') }}" alt="YC"></div>
                   <div class="card-info">
                     <h5 class="color-brand-1 mb-15">Community Forums</h5>
                     <p class="font-xs color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
@@ -109,7 +109,7 @@
               </div>
               <div class="hi-slide ml-20">
                 <div class="card-guide">
-                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/help/icon3.svg') }}" alt="iori"></div>
+                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/help/icon3.svg') }}" alt="YC"></div>
                   <div class="card-info">
                     <h5 class="color-brand-1 mb-15">Documentation</h5>
                     <p class="font-xs color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
@@ -135,7 +135,7 @@
           <div class="row align-items-center">
             <div class="col-xl-6 col-lg-6">
               <div class="img-reveal"><img class="d-block"
-                  src="{{ asset('assets/yc/imgs/page/homepage1/img-video.png') }}" alt="iori"></div>
+                  src="{{ asset('assets/yc/imgs/page/homepage1/img-video.png') }}" alt="YC"></div>
             </div>
             <div class="col-xl-6 col-lg-6">
               <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp"
@@ -173,7 +173,7 @@
           </div>
           <div class="box-video-banner">
             <div class="image-banner-5 wow animate__animated animate__fadeIn"><img
-                src="{{ asset('assets/yc/imgs/page/homepage5/banner.png') }}" alt="IORI"></div>
+                src="{{ asset('assets/yc/imgs/page/homepage5/banner.png') }}" alt="YC"></div>
           </div>
         </div>
       </div>
@@ -201,7 +201,7 @@
         <div class="row mt-50">
           <div class="col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
             <div class="card-offer hover-up">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage1/cross.png') }}" alt="iori">
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage1/cross.png') }}" alt="YC">
               </div>
               <div class="card-info">
                 <h4 class="color-brand-1 mb-15">Cross-Platform</h4>
@@ -219,7 +219,7 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
             <div class="card-offer hover-up">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage1/cross2.png') }}" alt="iori">
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage1/cross2.png') }}" alt="YC">
               </div>
               <div class="card-info">
                 <h4 class="color-brand-1 mb-15">Business strategy</h4>
@@ -237,7 +237,7 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
             <div class="card-offer hover-up">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage1/cross3.png') }}" alt="iori">
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage1/cross3.png') }}" alt="YC">
               </div>
               <div class="card-info">
                 <h4 class="color-brand-1 mb-15">Local Marketing</h4>
@@ -255,7 +255,7 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
             <div class="card-offer hover-up">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage1/cross4.png') }}" alt="iori">
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage1/cross4.png') }}" alt="YC">
               </div>
               <div class="card-info">
                 <h4 class="color-brand-1 mb-15">Social Media</h4>
@@ -273,7 +273,7 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
             <div class="card-offer hover-up">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage1/cross5.png') }}" alt="iori">
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage1/cross5.png') }}" alt="YC">
               </div>
               <div class="card-info">
                 <h4 class="color-brand-1 mb-15">Brand Identity</h4>
@@ -291,7 +291,7 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
             <div class="card-offer hover-up">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage1/cross6.png') }}" alt="iori">
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage1/cross6.png') }}" alt="YC">
               </div>
               <div class="card-info">
                 <h4 class="color-brand-1 mb-15">Digital Marketing</h4>
@@ -386,7 +386,7 @@
                       <div class="row">
                         <div class="row align-items-center">
                           <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
-                              src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="iori"></div>
+                              src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
                             <div class="box-business-tab"><span class="btn btn-tag">Business</span>
                               <h3 class="color-brand-1 mt-10 mb-15">Integrate with over 1,000 project management
@@ -461,7 +461,7 @@
                       <div class="row">
                         <div class="row align-items-center">
                           <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
-                              src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="iori"></div>
+                              src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
                             <div class="box-business-tab"><span class="btn btn-tag">Business</span>
                               <h3 class="color-brand-1 mt-10 mb-15">Integrate with over 1,000 project management
@@ -536,7 +536,7 @@
                       <div class="row">
                         <div class="row align-items-center">
                           <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
-                              src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="iori"></div>
+                              src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
                             <div class="box-business-tab"><span class="btn btn-tag">Business</span>
                               <h3 class="color-brand-1 mt-10 mb-15">Integrate with over 1,000 project management
@@ -611,7 +611,7 @@
                       <div class="row">
                         <div class="row align-items-center">
                           <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
-                              src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="iori"></div>
+                              src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
                             <div class="box-business-tab"><span class="btn btn-tag">Business</span>
                               <h3 class="color-brand-1 mt-10 mb-15">Integrate with over 1,000 project management
@@ -686,7 +686,7 @@
                       <div class="row">
                         <div class="row align-items-center">
                           <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
-                              src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="iori"></div>
+                              src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
                             <div class="box-business-tab"><span class="btn btn-tag">Business</span>
                               <h3 class="color-brand-1 mt-10 mb-15">Integrate with over 1,000 project management
@@ -761,7 +761,7 @@
                       <div class="row">
                         <div class="row align-items-center">
                           <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
-                              src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="iori"></div>
+                              src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
                             <div class="box-business-tab"><span class="btn btn-tag">Business</span>
                               <h3 class="color-brand-1 mt-10 mb-15">Integrate with over 1,000 project management
@@ -852,7 +852,7 @@
           </div>
           <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
             <div class="card-offer card-we-do hover-up">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="iori">
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="YC">
               </div>
               <div class="card-info">
                 <h4 class="color-brand-1 mb-10"><a class="color-brand-1"
@@ -877,7 +877,7 @@
           </div>
           <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
             <div class="card-offer card-we-do hover-up">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="iori">
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="YC">
               </div>
               <div class="card-info">
                 <h4 class="color-brand-1 mb-10"><a class="color-brand-1"
@@ -902,7 +902,7 @@
           </div>
           <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
             <div class="card-offer card-we-do hover-up">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="iori">
+              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="YC">
               </div>
               <div class="card-info">
                 <h4 class="color-brand-1 mb-10"><a class="color-brand-1"
@@ -1107,7 +1107,7 @@
                   <button class="btn btn-brand-1-full" type="submit">Sign In</button>
                 </div>
                 <div class="form-group mb-25"><a class="btn btn-border btn-full signin-google" href="#"><img
-                      src="{{ asset('assets/yc/imgs/page/homepage4/google.png') }}" alt="iori">Sign in with Google</a>
+                      src="{{ asset('assets/yc/imgs/page/homepage4/google.png') }}" alt="YC">Sign in with Google</a>
                 </div>
                 <div class="text-already text-center"><span class="font-xs color-grey-400">Already have an
                     account?</span><a class="color-brand-1 font-xs" href="#">Sign in</a><span
