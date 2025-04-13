@@ -5,7 +5,7 @@
         <div class="container">
           <div class="main-header">
             <div class="header-left">
-              <div class="header-logo mr-100"><a class="d-flex" href="index.html"><img alt="Ecom" src="{{asset('assets/yc/imgs/yc-logo.png')}}" ></a></div>
+              <div class="header-logo mr-100"><a class="d-flex" href="index.html"><img alt="Ecom" src="{{asset('assets/yc/imgs/yc-logo.svg')}}" ></a></div>
               <div class="header-nav ">
                 <nav class="nav-main-menu d-none d-xl-block">
                   <ul class="main-menu">
@@ -62,7 +62,7 @@
       <div class="mobile-header-active mobile-header-wrapper-style perfect-scrollbar">
         <div class="mobile-header-wrapper-inner">
           <div class="mobile-header-content-area">
-            <div class="mobile-logo"><a class="d-flex" href="index.html"><img alt="YC" src="{{asset('assets/yc/imgs/template/logo.svg')}}"></a></div>
+            <div class="mobile-logo"><a class="d-flex" href="index.html"><img alt="YC" src="{{asset('assets/yc/imgs/template/yc-logo.svg')}}"></a></div>
             <div class="burger-icon"><span class="burger-icon-top"></span><span class="burger-icon-mid"></span><span class="burger-icon-bottom"></span></div>
             <div class="perfect-scroll">
               <div class="mobile-menu-wrap mobile-header-border">
