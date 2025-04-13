@@ -84,7 +84,7 @@
               </div>
               <div class="box-day-trial box-trial-two">
                 <div class="trial-col-1"><span class="font-lg-bold color-brand-1 text-price-student">₹499</span><span
-                    class="font-md color-grey-500 text-type-standard">- user / month</span><br><span
+                    class="font-md color-grey-500 text-type-standard">/ month</span><br><span
                     class="font-xs color-grey-500">Billed annually</span></div>
                 <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Now
                     <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
@@ -145,7 +145,7 @@
               </div>
               <div class="box-day-trial box-trial-two">
                 <div class="trial-col-1"><span class="font-lg-bold color-brand-1 text-price-standard">₹699</span><span
-                    class="font-md color-grey-500 text-type-standard">- user / month</span><br><span
+                    class="font-md color-grey-500 text-type-standard">/ month</span><br><span
                     class="font-xs color-grey-500">Billed annually</span></div>
                 <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Now
                     <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
@@ -204,7 +204,7 @@
               </div>
               <div class="box-day-trial box-trial-two">
                 <div class="trial-col-1"><span class="font-lg-bold color-brand-1 text-price-enterprise">₹899
-                  </span><span class="font-md color-grey-500 text-type-enterprise">- user / month</span><br><span
+                  </span><span class="font-md color-grey-500 text-type-enterprise">/ month</span><br><span
                     class="font-xs color-grey-500">Billed annually</span></div>
                 <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Now
                     <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
@@ -268,7 +268,7 @@
               </div>
               <div class="box-day-trial box-trial-two">
                 <div class="trial-col-1"><span class="font-lg-bold color-brand-1 text-price-CXO">₹1999 </span><span
-                    class="font-md color-grey-500 text-type-CXO">- user / month</span><br><span
+                    class="font-md color-grey-500 text-type-CXO">/ month</span><br><span
                     class="font-xs color-grey-500">Billed annually</span></div>
                 <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Now
                     <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
@@ -328,7 +328,7 @@
               </div>
               <div class="box-day-trial box-trial-two">
                 <div class="trial-col-1"><span class="font-lg-bold color-brand-1 text-price-Business">₹4999</span><span
-                    class="font-md color-grey-500 text-type-Business">- user / month</span><br><span
+                    class="font-md color-grey-500 text-type-Business">/ month</span><br><span
                     class="font-xs color-grey-500">Billed annually</span></div>
                 <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Now
                     <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"

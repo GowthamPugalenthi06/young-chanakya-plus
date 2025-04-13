@@ -129,8 +129,8 @@
                   </div>
                   <div class="banner-col-3">
                     <div class="img-banner hasBorder2 wow animate__animated animate__zoomIn" data-wow-delay=".6s"><img src="assets/yc/imgs/page/team/banner4.png" alt="iori"></div>
-                    <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay=".8s"><img src="assets/yc/imgs/page/team/banner5.png" alt="iori"></div>
-                    <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay="1s"><img src="assets/yc/imgs/page/team/banner6.png" alt="iori"></div>
+                    <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay=".8s"><img src="assets/yc/imgs/page/team/banner5.png" alt="iori" style="height: 200px"></div>
+                    {{-- <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay="1s"><img src="assets/yc/imgs/page/team/banner6.png" alt="iori"></div> --}}
                   </div>
                 </div>
               </div>
@@ -138,7 +138,7 @@
           </div>
         </div>
       </section>
-    <section class="section mt-50 pt-50 pb-40">
+    {{-- <section class="section mt-50 pt-50 pb-40">
       <div class="container">
         <div class="box-cover-border">
           <div class="row align-items-center">
@@ -146,7 +146,7 @@
             <div class="col-lg-6">
               <div class="img-reveal">
                 <img class="d-block img-fluid rounded-4"
-                  src="{{asset('assets/yc/imgs/page/about/kishore-yc.jpg')}}" alt="Founder Talk">
+                  src="{{asset('assets/yc/imgs/page/about/kishore-yc.jpg')}}" alt="Founder Talk" style="height:600px; width:700px; background-size: cover;">
               </div>
             </div>
 
@@ -174,11 +174,74 @@
           </div>
         </div>
       </div>
+    </section> --}}
+    <section class="section mt-30 mb-30 bg-brand-1 pt-70 pb-70 bg-explore">
+      <div class="container">
+       
+        <div class="mt-10 mb-30">
+          
+          <div class="tab-content wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+            <div class="tab-pane fade active show" id="tab-explore-1" role="tabpanel" aria-labelledby="tab-explore-1">
+              <div class="box-tab-32">
+                <div class="row align-items-center">
+                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="{{asset('assets/yc/imgs/page/about/kishore-yc.jpg')}}" alt="iori" style="height:600px; width:700px; background-size: cover;"></div>
+                  <div class="col-xl-6 col-lg-7">
+                    <div class="box-business-tab"><span class="btn btn-tag">Founder Talk</span>
+                      <h3 class="color-brand-1 mt-10 mb-15">Building a Community of Innovators</h3>
+                      <p class="font-md color-grey-400">Dear Visionaries,<br><br>
+                        Welcome to Young Chanakya! A movement to shape the next generation of startup leaders.
+                        Entrepreneurship is more than ideas; it’s about execution, resilience, and leadership. We aim to
+                        cultivate modern-day Chanakyas—strategic thinkers who drive impact.<br><br>
+      
+                        If you’re ready to dream big and hustle, Young Chanakya is for you. Let’s build, innovate, and lead
+                        together.</p>
+                      {{-- <div class="mt-20">
+                        <ul class="list-ticks">
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>Task tracking
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>Create task dependencies
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>Task visualization
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>hare files, discuss
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>Meet deadlines faster
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>Track time spent on each project
+                          </li>
+                        </ul>
+                      </div> --}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
     </section>
 
 
-
-    <section class="section mt-100">
+    <section class="section mt-50">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -344,7 +407,7 @@
 
       </div>
     </section> -->
-      <section class="section mt-80">
+      <section class="section mt-50">
         <div class="container">
           <div class="mt-30 mb-60">
             <ul class="list-buttons">
@@ -374,7 +437,7 @@
                   </div>
                 </section>
               </div>
-              <div class="col-lg-12 mb-60 item-article mision wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+              <div class="col-lg-12 mb-50 item-article mision wow animate__animated animate__fadeIn" data-wow-delay=".0s">
                 <section class="section mision pb-30">
                   <div class="container">
                     <div class="bg-brand-1 box-cover-video box-cover-video-revert">
@@ -399,17 +462,16 @@
 
 
 
-    <section class="section ctnr mt-50 bg-plan pt-110 pb-110" >
+    <section class="section ctnr mt-30 pt-50 pb-50" >
       <div class="container">
         <div class="row align-items-end">
-          <div class="col-lg-8 col-md-8">
-            <p class="font-lg wow animate__animated animate__fadeInUp mb-3" data-wow-delay=".2s">What We
-              Offer</p>
+          <div class="col-lg-12 text-center">
+            <p class="font-lg wow animate__animated animate__fadeInUp mb-3 " data-wow-delay=".2s">Who We Empower</p>
             <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".s">Empowering the
               NextGen of Startup Leaders</h2>
 
           </div>
-          <section class="section mt-40 pt-50 ctnr pb-15 bg-grey-80">
+          <section class="section mt-20 pt-30 ctnr pb-15 bg-grey-80">
         <div class="container ctnr">
           <div class="row">
             <!-- Card 1 -->
@@ -632,10 +694,10 @@
 
     <section class="section mt-90">
       <div class="container">
-        <h6 class="color-brand-1 mb-20 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Board members</h6>
-        <h2 class="color-brand-1 mb-50 wow animate__animated animate__fadeIn" data-wow-delay=".2s">Together we are
+        <h6 class="color-brand-1 mb-20 wow animate__animated animate__fadeIn text-center" data-wow-delay=".0s">Board members</h6>
+        <h2 class="color-brand-1 mb-50 wow animate__animated animate__fadeIn text-center" data-wow-delay=".2s">Together we are
           strong</h2>
-          <div class="mt-80 wow animate__animated animate__fadeIn">
+          <div class="mt-80 mb-50 wow animate__animated animate__fadeIn">
             <div class="container">
               <div class="row">
                 <div class="col-1-5 mb-4">
@@ -726,12 +788,12 @@
           </div>
       </div>
     </section>
-    <section class="section mt-50 mb-30">
+    <section class="section mt-50 mb-50">
       <div class="container">
         <div class="box-radius-border box-radius-border-help">
           <div class="row align-items-center">
             <div class="col-xl-6 col-lg-6"><img class="d-block" src="{{asset('assets/yc/imgs/page/about/Elite circle.jpg')}}"
-                alt="iori"></div>
+                alt="iori" style="width:800px; height:350px;"></div>
             <div class="col-xl-6 col-lg-6">
               <div class="box-info-answer"><span class="btn btn-tag">More help</span>
                 <h2 class="color-brand-1 mt-10 mb-15">Join the Elite Circle</h2>

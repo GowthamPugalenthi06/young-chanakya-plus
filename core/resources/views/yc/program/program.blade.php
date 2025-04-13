@@ -31,14 +31,16 @@
                 Enable highly motivating non-cash micropayments and offer<br class="d-none d-lg-block">in-demand prepaid
                 solutions – with a single connection.</p>
               <div class="box-button mb-50 wow animate__animated animate__fadeInUp" data-wow-delay=".4s"><a
-                  class="btn btn-brand-1 hover-up" href="#">Download App</a><a
+                  class="btn btn-brand-1 hover-up" href="#">Download App</a>
+                  {{-- <a
                   class="btn btn-default font-sm-bold hover-up" href="#">Learn More
                   <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
                     </path>
-                  </svg></a></div>
-              <div class="box-count-number">
+                  </svg></a> --}}
+                </div>
+              {{-- <div class="box-count-number">
                 <div class="row">
                   <div class="col-lg-3 col-md-3 col-sm-6 col-6 text-start mb-20">
                     <h3 class="color-brand-1"><span class="count">469</span><span>k</span></h3>
@@ -57,7 +59,7 @@
                     <p class="font-lg color-brand-1">Global branch</p>
                   </div>
                 </div>
-              </div>
+              </div> --}}
             </div>
             <div class="col-lg-6 mb-30">
               <div class="text-center wow animate__animated animate__fadeIn"><img
@@ -156,7 +158,7 @@
     <!-- What they will learn -->
     <section class="section banner-5">
       <div class="container">
-        <div class="mt-65 mb-100">
+        <div class="mt-65 mb-50">
           <div class="row align-items-end">
             <div class="col-lg-6 mb-20"><span class="title-line color-brand-2 wow animate__animated animate__fadeInUp"
                 data-wow-delay=".0s">Great sales platform</span>
@@ -177,9 +179,9 @@
       </div>
     </section>
     <!--What we offer-->
-    <section class="section mt-100">
+    <section class="section">
       <div class="container">
-        <div class="row align-items-end">
+        {{-- <div class="row align-items-end">
           <div class="col-lg-8 col-md-8">
             <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">What We Offer
             </h2>
@@ -195,7 +197,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
                 </path>
               </svg></a></div>
-        </div>
+        </div> --}}
         <div class="row mt-50">
           <div class="col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
             <div class="card-offer hover-up">
@@ -314,8 +316,7 @@
         <div class="container">
           <div class="row align-items-end">
             <div class="col-lg-8 col-md-8">
-              <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Upcoming
-                Events</h2>
+              <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Outcomes</h2>
               <p class="font-lg color-gray-500 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Discover
                 and register for exciting upcoming events, workshops,<br class="d-none d-lg-block"> and networking
                 opportunities near you.</p>
@@ -844,10 +845,10 @@
       <div class="container">
         <div class="row mt-50 align-items-center card-no-border">
           <div class="col-lg-6 mb-30">
-            <div class="title-line mb-10 wow animate__animated animate__fadeIn" data-wow-delay=".0s">What We Do, What
-              You Get</div>
+            <div class="title-line mb-10 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Application Process</div>
             <h2 class="color-brand-1 wow animate__animated animate__fadeIn" data-wow-delay=".2s">We facilitate the
               creation of strategy and design</h2>
+              
           </div>
           <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
             <div class="card-offer card-we-do hover-up">

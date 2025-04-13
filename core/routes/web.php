@@ -1392,9 +1392,45 @@ Route::get('/about',function(){
   return view('yc.about');
 })->name('about');
 
+Route::get('/mentor-team',function(){
+  return view('yc.team.mentor-team');
+})->name('mentor-team');
+Route::get('/advisory-team',function(){
+  return view('yc.team.advisory-team');
+})->name('advisory-team');
+Route::get('/academic-team',function(){
+  return view('yc.team.academic-team');
+})->name('academic-team');
+Route::get('/vc-team',function(){
+  return view('yc.team.vc-team');
+})->name('vc-team');
+Route::get('/management-team',function(){
+  return view('yc.team.management-team');
+})->name('management-team');
 Route::get('/program',function(){
-  return view('yc.program');
-})->name('program');
+  return view('yc.program.program');
+})->name('program');  
+Route::get('/learning',function(){
+  return view('yc.program.learning');
+})->name('learning');
+Route::get('/outcomes',function(){
+  return view('yc.program.outcomes');
+})->name('outcomes');
+
+Route::get('/ceo-md',function(){
+  return view('yc.chanakyas.ceo-md');
+})->name('ceo-md');
+Route::get('/executives',function(){
+  return view('yc.chanakyas.executives');
+})->name('executives');
+Route::get('/fortune500',function(){
+  return view('yc.chanakyas.fortune500');
+})->name('fortune500');
+Route::get('/unicorn-founders',function(){
+  return view('yc.chanakyas.unicorn-founders');
+})->name('unicorn-founders');
+
+
 
 
 Route::get('/about-chanakya',function(){
@@ -1452,12 +1488,8 @@ Route::get('/terms-and-condition',function(){
 Route::get('/videos',function(){
   return view('yc.video-series');
 })->name('video-series');
-Route::get('/ug-program',function(){
-  return view('yc.program');
-})->name('ug-program');
-Route::get('/pg-program',function(){
-  return view('yc.program');
-})->name('pg-program');
+
+
 Route::get('/event-details',function(){
   return view('yc.eventdetail');
 })->name('event-details');
