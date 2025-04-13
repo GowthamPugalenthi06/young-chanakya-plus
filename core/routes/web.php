@@ -1461,3 +1461,23 @@ Route::get('/pg-program',function(){
 Route::get('/event-details',function(){
   return view('yc.eventdetail');
 })->name('event-details');
+
+Route::get('/volunteer-membership-form',function(){
+  return view('yc.membership-forms.volunteer-member-form');
+})->name('volunteer-membership-form');
+
+Route::get('/startup-membership-form',function(){
+  return view('yc.membership-forms.startup-member-form');
+})->name('startup-membership-form');
+
+Route::get('/business-membership-form',function(){
+  return view('yc.membership-forms.business-member-form');
+})->name('business-membership-form');
+
+Route::get('/CXO-membership-form',function(){
+  return view('yc.membership-forms.CXO-member-form');
+})->name('CXO-membership-form');
+
+Route::get('/student-membership-form',function(){
+  return view('yc.membership-forms.student-member-form');
+})->name('student-membership-form');
