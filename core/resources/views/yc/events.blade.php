@@ -330,10 +330,7 @@
             </div>
           </div>
         </div>
-      </section> -->
-    
-
-      
+      </section> --> 
       <div class="no-bg-faqs">
         <section class="section mt-50 bg-faqs">
           <div class="container">
@@ -369,6 +366,10 @@
                       <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                       </svg></a></li>
+                  <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s"><a id="tab5-tab" data-bs-toggle="pill" data-bs-target="#tab5" type="button" role="tab"><span>Bootcamps</span>
+                      <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                      </svg></a></li>
                 </ul>
                 <div class="mt-80 text-start mb-40 wow animate__animated animate__fadeInUp" data-wow-delay=".0s"><a class="btn btn-brand-1 hover-up" href="#">Contact Us</a><a class="btn btn-default font-sm-bold hover-up" href="#">Support Center
                     <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -395,7 +396,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -414,7 +415,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -437,7 +438,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -459,7 +460,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -479,7 +480,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -499,7 +500,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -525,7 +526,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -545,7 +546,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -565,7 +566,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -585,7 +586,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -605,7 +606,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -625,7 +626,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -651,7 +652,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -671,7 +672,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -691,7 +692,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -711,7 +712,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -732,7 +733,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -752,7 +753,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -777,7 +778,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -797,7 +798,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -819,7 +820,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -841,7 +842,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -861,7 +862,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -881,7 +882,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> October 16, 2027
                                   </span>
-                                  <a href="#" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
@@ -890,7 +891,8 @@
                           </div>
                         </div>
                       </div>
-
+                      <!-- tab content - 5 -->
+              
                     </div>
                   </div>
                 </div>
