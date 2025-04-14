@@ -57,7 +57,7 @@
           </div>
         </div>
       </section>
-    <section class="section mt-50 bg-plan-2 pt-110 pb-110">
+    <section class="section mt-50 bg-plan-2 pt-50 pb-50">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-12 text-center">
@@ -71,27 +71,22 @@
           </div>
         </div>
         <div class="row mt-50">
-          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+          <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
             <div class="card-plan card-plan-2 hover-up">
               <!-- <label class="popular">Popular</label> -->
               <div class="card-image-plan">
                 <div class="icon-plan bg-2"><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}"
                     alt="YC"></div>
                 <div class="info-plan">
-                  <h5 class="color-brand-1">Student</h5>
-                  <p class="font-md color-grey-400 mt-10 mb-10">Designed to provide students with a launchpad for their startup journey</p>
+                  <h5 class="color-brand-1">Student / Volunteer Membership</h5>
+                  
                 </div>
               </div>
-              <div class="box-day-trial box-trial-two">
+              <div class="box-day-trial box-trial-two row">
                 <div class="trial-col-1"><span class="font-lg-bold color-brand-1 text-price-student">₹499</span><span
                     class="font-md color-grey-500 text-type-standard">/ month</span><br><span
                     class="font-xs color-grey-500">Billed annually</span></div>
-                <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Now
-                    <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+                    <div class="row"><p class="font-xs color-grey-400 mt-10 mb-10">For undergraduates, freshers, and community-first learners who want to grow</p></div>
               </div>
               <div class="mt-30 mb-30">
                 <ul class="list-ticks list-ticks-2">
@@ -99,119 +94,95 @@
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg> Startup courses & business modules
+                    </svg> Access to Leadership webinars
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>2 annual networking events
+                    </svg>Free Chanakya Learning Kit  
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg> Virtual mentorship from experts  
+                    </svg> Certificate Courses on Startup
+ 
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Internship & project opportunities
+                    </svg>Entry to Summits & Local Chapters
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Leadership & problem-solving events
+                    </svg> Priority Selection for Internships  
 
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>Mentorship from Chanakya's
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg> Intractive Q&A session with Experts 
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>Access Startup Success Stories
+                  </li>
+                  
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>Podcasts & Real-world Insights
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg> LinkedIn Badge & Certificate
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>Event volunteer opportunities
                   </li>
                  
                 </ul>
               </div>
-
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-            <div class="card-plan card-plan-2 hover-up">
-              <!-- <label class="popular">Popular</label> -->
-              <div class="card-image-plan">
-                <div class="icon-plan bg-1"><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}"
-                    alt="YC"></div>
-                <div class="info-plan">
-                  <h5 class="color-brand-1">Volunteer</h5>
-                  <p class="font-md color-grey-400 mt-10 mb-10">Perfect for those looking to build industry experience and connections</p>
-                </div>
-              </div>
-              <div class="box-day-trial box-trial-two">
-                <div class="trial-col-1"><span class="font-lg-bold color-brand-1 text-price-standard">₹699</span><span
-                    class="font-md color-grey-500 text-type-standard">/ month</span><br><span
-                    class="font-xs color-grey-500">Billed annually</span></div>
-                <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Now
-                    <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+              <div class="mt-20"><a class="btn btn-brand-1-full hover-up" href="#">Get Started
+                    <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                     </svg></a></div>
-              </div>
-              <div class="mt-30 mb-30">
-                <ul class="list-ticks list-ticks-2">
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg> Assist startups & community projects
-                  </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg> Access workshops & resources
-                  </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg> Work on real case studies
-                  </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Get a certificate & recommendation
-                  </li>
-                  <li>
-                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Access to summits & ideathons
-                  </li>
-                 
-                </ul>
-              </div>
-
             </div>
           </div>
-          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
+          <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
             <div class="card-plan card-plan-2 hover-up">
               <div class="card-image-plan">
                 <div class="icon-plan bg-2"><img src="{{asset('assets/yc/imgs/page/homepage2/creation.png')}}"
                     alt="YC"></div>
                 <div class="info-plan">
-                  <h5 class="color-brand-1">Startup & Entrepreneur</h5>
-                  <p class="font-md color-grey-400 mt-10 mb-10">For entrepreneurs serious about growing their startup with guidance</p>
+                  <h5 class="color-brand-1"> Startup Membership</h5>
                 </div>
               </div>
-              <div class="box-day-trial box-trial-two">
-                <div class="trial-col-1"><span class="font-lg-bold color-brand-1 text-price-enterprise">₹899
+              <div class="box-day-trial box-trial-two row">
+                <div class="trial-col-1"><span class="font-lg-bold color-brand-1 text-price-enterprise">₹999
                   </span><span class="font-md color-grey-500 text-type-enterprise">/ month</span><br><span
                     class="font-xs color-grey-500">Billed annually</span></div>
-                <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Now
-                    <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+                    <div class="row"><p class="font-xs color-grey-400 mt-10 mb-10">For entrepreneurs serious about growing their startup with guidance</p></div>
+
               </div>
               <div class="mt-30 mb-30">
                 <ul class="list-ticks list-ticks-2">
@@ -219,63 +190,92 @@
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg> Scaling strategies & investor meetups
+                    </svg> Access to Startup Bootcamps
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg> 1-on-1 mentorship from experts
+                    </svg> Kickstart with Launchpad Access
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Access to 4 summits & showcases
+                    </svg>Learn Fundraising Strategies
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Legal & financial advisory
+                    </svg>Build Investor-Ready Pitch Decks
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg> PrYCty pitching & funding access
+                    </svg>Attend Monthly Demo Days Free
                   </li>
-                  
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>Access to CXO Mentorship
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>Get Legal & Financial Support
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>Access Product Development Help
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>Pitch Your Idea to Chanakya VCs
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>Expand Your Network
+                  </li><li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>Resources for Business Growth
+                  </li>
+
                 </ul>
               </div>
-
+              <div class="mt-20"><a class="btn btn-brand-1-full hover-up" href="#">Get Started
+                    <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg></a></div>
             </div>
           </div>
-          
-          
-        </div>
-        <div class="row mt-50 d-flex  justify-content-center">
-        <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+          <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
             <div class="card-plan card-plan-2 hover-up">
               <!-- <label class="popular">Popular</label> -->
               <div class="card-image-plan">
                 <div class="icon-plan bg-2"><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}"
                     alt="YC"></div>
                 <div class="info-plan">
-                  <h5 class="color-brand-1">CXO</h5>
-                  <p class="font-md color-grey-400 mt-10 mb-10">Ideal for executives seeking elite networking to stay ahead</p>
+                  <h5 class="color-brand-1">Business / Entrepreneur Membership</h5>
                 </div>
               </div>
-              <div class="box-day-trial box-trial-two">
+              <div class="box-day-trial box-trial-two row">
                 <div class="trial-col-1"><span class="font-lg-bold color-brand-1 text-price-CXO">₹1999 </span><span
                     class="font-md color-grey-500 text-type-CXO">/ month</span><br><span
                     class="font-xs color-grey-500">Billed annually</span></div>
-                <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Now
-                    <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+                    <div class="row"><p class="font-xs color-grey-400 mt-10 mb-10">For business owners, solo entrepreneurs, and MSMEs ready to scale</p></div>
+
               </div>
               <div class="mt-30 mb-30">
                 <ul class="list-ticks list-ticks-2">
@@ -283,59 +283,93 @@
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>VIP leadership access 
+                    </svg>Join Business Scaling Workshops
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>6 exclusive networking events
+                    </svg>Learn Modern Branding Techniques
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg>Connect with top investors & leaders
+                    </svg>Get Legal & Accounting Support
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg> High-impact workshops
+                    </svg> Connect with Startup Networks
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg> High-visibility industry events
+                    </svg>Access Business Matchmaking
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg> Promote Your Brand Locally
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg> Access Exclusive Promotion Slots
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>Participate in BizTalk Series
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg> Be Part of Expert Roundtables
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>Use Ready-to-Go Digital Toolkits
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>Startup-to-Business Growth Track
                   </li>
                  
                 </ul>
               </div>
-
+              <div class="mt-20"><a class="btn btn-brand-1-full hover-up" href="#">Get Started
+                    <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg></a></div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+          <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
             <div class="card-plan card-plan-2 hover-up">
 
               <div class="card-image-plan">
                 <div class="icon-plan bg-1"><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}"
                     alt="YC"></div>
                 <div class="info-plan">
-                  <h5 class="color-brand-1">Business</h5>
-                  <p class="font-md color-grey-400 mt-10 mb-10">For entrepreneurs seeking high-value connections & long-term mentorship</p>
+                  <h5 class="color-brand-1"> Executive Membership</h5>
                 </div>
               </div>
-              <div class="box-day-trial box-trial-two">
+              <div class="box-day-trial box-trial-two row">
                 <div class="trial-col-1"><span class="font-lg-bold color-brand-1 text-price-Business">₹4999</span><span
                     class="font-md color-grey-500 text-type-Business">/ month</span><br><span
                     class="font-xs color-grey-500">Billed annually</span></div>
-                <div class="trial-col-2"><a class="btn btn-brand-1-full hover-up" href="#">Get Now
-                    <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+                    <div class="row"><p class="font-xs color-grey-400 mt-10 mb-10">For professionals looking to mentor, invest, or transition into entrepreneurship</p></div>
+
               </div>
               <div class="mt-30 mb-30">
                 <ul class="list-ticks list-ticks-2">
@@ -343,44 +377,83 @@
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg> Access to all summits & networking events
+                    </svg> Access to Founder's Lounge 
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg> 1-on-1 mentorship with industry leaders
+                    </svg> Join Exclusive Investment Forums
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg> Join business projects & trade events
+                    </svg> Become a Young Chanakya Mentor
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg> Premium resources on funding & expansion
+                    </svg> Invitations to Summits and Panels
                   </li>
                   <li>
                     <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                    </svg> 24/7 personalized support
+                    </svg> Speaking Slots Opportunity 
                   </li>
-                 
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg> Access to Executive Roundtables
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg> Gain Sector-Specific Insights
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg> Explore BTS Access to Startups
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg> Exclusive CXO Networking Events
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg> Co-create Educational Curriculum
+                  </li>
+                  <li>
+                    <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg> Become a Program Advisor
+                  </li>
                 </ul>
               </div>
-
+              <div class="mt-20"><a class="btn btn-brand-1-full hover-up" href="#">Get Started
+                    <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg></a></div>
             </div>
           </div>
         </div>
-
-      </div>
+          
+        </div>
+        
     </section>
     <div class="no-bg-faqs">
-        <section class="section pt-80 mb-30 bg-faqs">
+        <section class="section pt-50 mb-30 bg-faqs">
           <div class="container">
             <div class="row align-items-end">
               <div class="col-lg-8 col-md-8">
@@ -601,7 +674,6 @@
               </div>
             </div>
           </div>
-          <div class="border-bottom"></div>
         </section>
       </div>
 

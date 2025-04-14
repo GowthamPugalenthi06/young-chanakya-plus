@@ -1464,6 +1464,9 @@ Route::get('/events',function(){
 Route::get('/home',function(){
   return view('yc.home');
 })->name('home');
+Route::get('/founder',function(){
+  return view('yc.founder');
+})->name('founder');
 
 Route::get('/institution-collaboration',function(){
   return view('yc.institution-collaboration');

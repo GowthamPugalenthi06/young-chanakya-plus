@@ -508,14 +508,14 @@
           if (type == "monthly") {
             $(".text-price-student").html("₹499");
             $(".text-type-student").html("/ month");
-            $(".text-price-standard").html("₹699");
-            $(".text-type-standard").html("/ month");
-            $(".text-price-business").html("₹899 ");
+            // $(".text-price-standard").html("₹699");
+            // $(".text-type-standard").html("/ month");
+            $(".text-price-business").html("₹999 ");
             $(".text-type-business").html("/ month");
-            $(".text-price-enterprise").html("₹899");
-            $(".text-type-enterprise").html("/ month");
-            $(".text-price-Chanakya").html("₹7999");
-            $(".text-type-Chanakya").html("/ month");
+            // $(".text-price-enterprise").html("₹899");
+            // $(".text-type-enterprise").html("/ month");
+            // $(".text-price-Chanakya").html("₹7999");
+            // $(".text-type-Chanakya").html("/ month");
             $(".text-price-Business").html("₹4999");
             $(".text-type-Business").html("/ month");
             $(".text-price-CXO").html("₹1999");

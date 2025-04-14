@@ -596,7 +596,11 @@ a:hover {
 .membership-container{
   /* max-width:1250px; !important
   padding-left: 50px */
+<<<<<<< HEAD
   width: 95% important!; 
+=======
+  width: 95% important! ;
+>>>>>>> 32ca0f7fda47b7f8f58e92fc620e524ec727c4e8
 }
 .hover-up {
   transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
