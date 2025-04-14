@@ -27,8 +27,8 @@
           <h2 class="color-brand-1 wow animate__animated animate__fadeIn" data-wow-delay=".2s">We’re Always Searching
             For<br class="d-none d-lg-block">Amazing People to Join Our Team.</h2>
         </div>
-        <div class="box-video mt-70"><img src="{{asset('assets/yc/imgs/page/career/img-video.png')}}" alt="iori">
-          <div class="image-1 shape-1"><img src="{{asset('assets/yc/imgs/page/career/certify.png')}}" alt="iori"></div>
+        <div class="box-video mt-70"><img src="{{asset('assets/yc/imgs/page/career/img-video.png')}}" alt="YC">
+          <div class="image-1 shape-1"><img src="{{asset('assets/yc/imgs/page/career/certify.png')}}" alt="YC"></div>
         </div>
       </div>
     </section>
@@ -47,7 +47,7 @@
           <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
             <div class="card-small card-small-2">
               <div class="card-image"><a href="#">
-                  <div class="box-image"><img src="{{asset('assets/yc/imgs/page/homepage1/free.svg')}}" alt="iori">
+                  <div class="box-image"><img src="{{asset('assets/yc/imgs/page/homepage1/free.svg')}}" alt="YC">
                   </div>
                 </a></div>
               <div class="card-info"><a href="#">
@@ -61,7 +61,7 @@
           <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
             <div class="card-small card-small-2">
               <div class="card-image"><a href="#">
-                  <div class="box-image"><img src="{{asset('assets/yc/imgs/page/homepage1/cross.png')}}" alt="iori">
+                  <div class="box-image"><img src="{{asset('assets/yc/imgs/page/homepage1/cross.png')}}" alt="YC">
                   </div>
                 </a></div>
               <div class="card-info"><a href="#">
@@ -75,7 +75,7 @@
           <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
             <div class="card-small card-small-2">
               <div class="card-image"><a href="#">
-                  <div class="box-image"><img src="{{asset('assets/yc/imgs/page/homepage2/identity.png')}}" alt="iori">
+                  <div class="box-image"><img src="{{asset('assets/yc/imgs/page/homepage2/identity.png')}}" alt="YC">
                   </div>
                 </a></div>
               <div class="card-info"><a href="#">
@@ -89,7 +89,7 @@
           <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
             <div class="card-small card-small-2">
               <div class="card-image"><a href="#">
-                  <div class="box-image"><img src="{{asset('assets/yc/imgs/page/career/persuasion.png')}}" alt="iori">
+                  <div class="box-image"><img src="{{asset('assets/yc/imgs/page/career/persuasion.png')}}" alt="YC">
                   </div>
                 </a></div>
               <div class="card-info"><a href="#">
@@ -106,7 +106,7 @@
     <section class="section pt-50 pb-100">
       <div class="container">
         <div class="box-image-detail"><img class="bd-rd16 d-block"
-            src="{{asset('assets/yc/imgs/page/job-detail/img-job.png')}}" alt="iori"></div>
+            src="{{asset('assets/yc/imgs/page/job-detail/img-job.png')}}" alt="YC"></div>
         <div class="content-detail">
           <div class="row">
             <div class="col-lg-10 col-11 m-auto">
@@ -219,7 +219,7 @@
                     <li>Aware of trends in mobile, communications, and collaboration</li>
                     <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts
                     </li>
-                    <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals
+                    <li>The ability to scope and estimate efforts accurately and prYCtize tasks and goals
                       independently
                     </li>
                     <li>History of impacting shipping products with your work</li>
@@ -345,7 +345,7 @@
                     <li>Aware of trends in mobile, communications, and collaboration</li>
                     <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts
                     </li>
-                    <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals
+                    <li>The ability to scope and estimate efforts accurately and prYCtize tasks and goals
                       independently
                     </li>
                     <li>History of impacting shipping products with your work</li>
@@ -425,7 +425,7 @@
         <div class="row mt-50">
           <div class="col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
             <div class="card-offer hover-up">
-              <div class="card-image"><img src="{{asset('assets/yc/imgs/page/job-detail/ui.png')}}" alt="iori"></div>
+              <div class="card-image"><img src="{{asset('assets/yc/imgs/page/job-detail/ui.png')}}" alt="YC"></div>
               <div class="card-info">
                 <h4 class="color-brand-1 mb-15">UI / UX Designer fulltime</h4>
                 <p class="font-md color-grey-500 mb-15">Seamless importing and round-tripping of Microsoft Project
@@ -441,7 +441,7 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
             <div class="card-offer hover-up">
-              <div class="card-image"><img src="{{asset('assets/yc/imgs/page/job-detail/java.png')}}" alt="iori"></div>
+              <div class="card-image"><img src="{{asset('assets/yc/imgs/page/job-detail/java.png')}}" alt="YC"></div>
               <div class="card-info">
                 <h4 class="color-brand-1 mb-15">Java Software Engineer</h4>
                 <p class="font-md color-grey-500 mb-15">Seamless importing and round-tripping of Microsoft Project
@@ -457,7 +457,7 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
             <div class="card-offer hover-up">
-              <div class="card-image"><img src="{{asset('assets/yc/imgs/page/job-detail/senior.png')}}" alt="iori">
+              <div class="card-image"><img src="{{asset('assets/yc/imgs/page/job-detail/senior.png')}}" alt="YC">
               </div>
               <div class="card-info">
                 <h4 class="color-brand-1 mb-15">Senior System Engineer</h4>
@@ -481,7 +481,7 @@
           <div class="row align-items-center">
             <div class="col-lg-6">
               <div class="img-reveal"><img class="d-block"
-                  src="{{asset('assets/yc/imgs/page/homepage2/img-marketing.png')}}" alt="iori"></div>
+                  src="{{asset('assets/yc/imgs/page/homepage2/img-marketing.png')}}" alt="YC"></div>
             </div>
             <div class="col-lg-6">
               <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp"

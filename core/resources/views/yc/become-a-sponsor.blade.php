@@ -33,18 +33,18 @@
                     </a></div>
               </div>
               <div class="col-lg-5 d-none d-lg-block">
-                <div class="box-banner-contact"><img src= "{{asset('assets/yc/imgs/page/contact/banner.png')}}" alt="iori"></div>
+                <div class="box-banner-contact"><img src= "{{asset('assets/yc/imgs/page/contact/banner.png')}}" alt="YC"></div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="section mt-170 mb-30">
+      <section class="section mt-100 mb-30">
       <div class="container">
         <div class="box-radius-border box-radius-border-help">
           <div class="row align-items-center">
             <div class="col-xl-6 col-lg-6"><img class="d-block" src="{{asset('assets/yc/imgs/page/help/answer.png')}}"
-                alt="iori"></div>
+                alt="YC"></div>
             <div class="col-xl-6 col-lg-6">
               <div class="box-info-answer"><span class="btn btn-tag">Become a Sponsor</span>
                 <h2 class="color-brand-1 mt-10 mb-15">Be the Force Behind Future Leaders</h2>
@@ -74,7 +74,7 @@
           <div class="row align-items-center">
             <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
               <div class="card-guide bg-light">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/payment.png')}}"alt="iori"></div>
+                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/payment.png')}}"alt="YC"></div>
                 <div class="card-info">
                   <h5 class=" mb-15">Preeminent & Recognition</h5>
                   <p class="font-md color-grey-500">Be seen as a visionary brand supporting the next wave of leaders</p>
@@ -84,7 +84,7 @@
             </div>
             <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
               <div class="card-guide bg-light">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/money.png')}}" alt="iori"></div>
+                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/money.png')}}" alt="YC"></div>
                 <div class="card-info">
                   <h5 class="color-brand-1 mb-15">Powerful Networking</h5>
                   <p class="font-md color-grey-500">Connect with top industry minds, influencers, and decision-makers</p>
@@ -94,7 +94,7 @@
             </div>
             <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
               <div class="card-guide bg-light">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/support.png')}}" alt="iori"></div>
+                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/support.png')}}" alt="YC"></div>
                 <div class="card-info">
                   <h5 class="color-brand-1 mb-15">Prime Brand Exposure</h5>
                   <p class="font-md color-grey-500">Get featured across digital platforms, events, and media</p>
@@ -106,7 +106,7 @@
           <div class="row align-items-center">
             <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
               <div class="card-guide bg-light">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/support.png')}}"alt="iori"></div>
+                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/support.png')}}"alt="YC"></div>
                 <div class="card-info">
                   <h5 class=" mb-15">Customized Collaboration</h5>
                   <p class="font-md color-grey-500">Tailored sponsorships that align with your brand’s mission</p>
@@ -116,7 +116,7 @@
             </div>
             <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
               <div class="card-guide bg-light">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/payment.png')}}" alt="iori"></div>
+                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/payment.png')}}" alt="YC"></div>
                 <div class="card-info">
                   <h5 class="color-brand-1 mb-15">Targeted Engagement</h5>
                   <p class="font-md color-grey-500">Reach high-potential young talents and emerging professionals</p>
@@ -126,7 +126,7 @@
             </div>
             <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
               <div class="card-guide bg-light">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/money.png')}}" alt="iori"></div>
+                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/money.png')}}" alt="YC"></div>
                 <div class="card-info">
                   <h5 class="color-brand-1 mb-15">Brand Storytelling
                   </h5>
@@ -152,7 +152,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
               <div class="card-plan card-plan-2 hover-up">
                 <div class="card-image-plan">
-                  <div class="icon-plan"><img src="{{asset('assets/yc/imgs/page/homepage1/free.svg')}}" alt="iori"></div>
+                  <div class="icon-plan"><img src="{{asset('assets/yc/imgs/page/homepage1/free.svg')}}" alt="YC"></div>
                   <div class="info-plan">
                     <h4 class="color-brand-1">Title Sponsor</h4>
                     <p class="font-md color-grey-400">Protect for testing</p>
@@ -216,7 +216,7 @@
               <div class="card-plan card-plan-2 hover-up">
                 <label class="popular">Popular</label>
                 <div class="card-image-plan">
-                  <div class="icon-plan bg-1"><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}" alt="iori"></div>
+                  <div class="icon-plan bg-1"><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}" alt="YC"></div>
                   <div class="info-plan">
                     <h4 class="color-brand-1">Co-Sponsor</h4>
                     <p class="font-md color-grey-400">Advanced project</p>
@@ -279,7 +279,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
               <div class="card-plan card-plan-2 hover-up">
                 <div class="card-image-plan">
-                  <div class="icon-plan bg-2"><img src="{{asset('assets/yc/imgs/page/homepage2/creation.png')}}" alt="iori"></div>
+                  <div class="icon-plan bg-2"><img src="{{asset('assets/yc/imgs/page/homepage2/creation.png')}}" alt="YC"></div>
                   <div class="info-plan">
                     <h4 class="color-brand-1">
                     Media Sponsor</h4>
@@ -343,7 +343,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
               <div class="card-plan card-plan-2 hover-up">
                 <div class="card-image-plan">
-                  <div class="icon-plan"><img src="{{asset('assets/yc/imgs/page/homepage1/free.svg')}}" alt="iori"></div>
+                  <div class="icon-plan"><img src="{{asset('assets/yc/imgs/page/homepage1/free.svg')}}" alt="YC"></div>
                   <div class="info-plan">
                     <h4 class="color-brand-1">Digital Sponsor</h4>
                     <p class="font-md color-grey-400">Protect for testing</p>
@@ -407,7 +407,7 @@
               <div class="card-plan card-plan-2 hover-up">
                 <label class="popular">Popular</label>
                 <div class="card-image-plan">
-                  <div class="icon-plan bg-1"><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}" alt="iori"></div>
+                  <div class="icon-plan bg-1"><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}" alt="YC"></div>
                   <div class="info-plan">
                     <h4 class="color-brand-1">Event Sponsor</h4>
                     <p class="font-md color-grey-400">Advanced project</p>
@@ -470,7 +470,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
               <div class="card-plan card-plan-2 hover-up">
                 <div class="card-image-plan">
-                  <div class="icon-plan bg-2"><img src="{{asset('assets/yc/imgs/page/homepage2/creation.png')}}" alt="iori"></div>
+                  <div class="icon-plan bg-2"><img src="{{asset('assets/yc/imgs/page/homepage2/creation.png')}}" alt="YC"></div>
                   <div class="info-plan">
                     <h4 class="color-brand-1">Technology Sponsor</h4>
                     <p class="font-md color-grey-400">Protect for testing</p>
@@ -537,12 +537,12 @@
       <section class="section mt-70">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5 ">
+            <div class="col-lg-6">
               <h2 class="color-brand-1 mb-15">Become a Sponsor</h2>
               <p class="font-sm color-grey-500">Your sponsorship isn’t just support – it’s an investment in the future, shaping minds that will drive tomorrow’s success.</p>
               
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-6">
               <div class="box-form-contact wow animate__animated animate__fadeIn" data-wow-delay=".6s">
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">

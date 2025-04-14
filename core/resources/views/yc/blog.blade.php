@@ -25,15 +25,15 @@
           <div class="row align-items-center">
             <div class="col-xxl-6 col-xl-7 col-lg-12">
               <div class="box-banner-service p-0">
-                <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp mb-30" data-wow-delay=".0s">Voice of
+                <h2 class="color-brand-1 mb-20 wow animate_animated animate_fadeInUp mb-30" data-wow-delay=".0s">Voice of
                   Chanakya</h2>
                 <div class="row">
-                  <div class="col-lg-12 wow animate__animated animate__fadeInUp mt-10 mb-20" data-wow-delay=".3s">
+                  <div class="col-lg-12 wow animate_animated animate_fadeInUp mt-10 mb-20" data-wow-delay=".3s">
                     <p class="font-lg color-grey-500">Unfiltered wisdom from industry leaders, entrepreneurs, and
                       changemakers, sharing their stories, struggles, and success secrets to inspire your journey</p>
                   </div>
                 </div>
-                <div class="box-button mt-30 wow animate__animated animate__fadeInUp mt-30" data-wow-delay=".4s"><a
+                <div class="box-button mt-30 wow animate_animated animate_fadeInUp mt-30" data-wow-delay=".4s"><a
                     class="btn btn-brand-1 hover-up" href="{{route('about')}}">Share Your Thoughts <svg
                       class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
@@ -53,74 +53,110 @@
         <div class="col-xxl-6 col-xl-6 col-lg-6 pr-0">
           <div class="d-none d-xxl-block pl-70">
             <div class="img-reveal ml-60"><img class="d-block" src="{{asset('assets/yc/imgs/page/blog/about-img-4.png')}}"
-                alt="iori" style="border-radius: 16px; width: 550px; height: 300px;"></div>
+                alt="YC" style="border-radius: 16px; width: 550px; height: 300px;"></div>
           </div>
         </div>
       </div>
     </section>
-    <section class="section ">
-      <div class="container ">
-        
-        <div class="row mt-50">
-          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-            <div class="card shadow-sm p-4 rounded-3 h-100" style="border: 1px solid #e0e0e0;">
-              <!-- Image -->
-              <img src="{{ asset('assets/yc/imgs/page/homepage1/event-09.jpg') }}" alt="Boat"
-                class="rounded-3 w-100 mb-3" style="height: 230px; object-fit: cover;">
-
-              <!-- Title -->
-              <h5 class="fw-bold text-dark mb-2">Boat</h5>
-
-              <!-- Dotted Divider -->
-              <hr style="border-top: 1px dotted #ccc; margin-top: 0.5rem; margin-bottom: 0.8rem;">
-
-              <!-- Read More -->
-              <a href="#" class="text-decoration-none" style="color: #F9B980; font-weight: 500;">
-                Read More &rarr;
-              </a>
+    <section class="section mt-80">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="color-brand-1 mb-20 wow animate_animated animate_fadeIn" data-wow-delay=".0s">Lastest Articles</h2>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-            <div class="card shadow-sm p-4 rounded-3 h-100" style="border: 1px solid #e0e0e0;">
-              <!-- Image -->
-              <img src="{{ asset('assets/yc/imgs/page/homepage1/event-09.jpg') }}" alt="Boat"
-                class="rounded-3 w-100 mb-3" style="height: 230px; object-fit: cover;">
-
-              <!-- Title -->
-              <h5 class="fw-bold text-dark mb-2">Lenskart</h5>
-
-              <!-- Dotted Divider -->
-              <hr style="border-top: 1px dotted #ccc; margin-top: 0.5rem; margin-bottom: 0.8rem;">
-
-              <!-- Read More -->
-              <a href="#" class="text-decoration-none" style="color: #F9B980; font-weight: 500;">
-                Read More &rarr;
-              </a>
-            </div>
+          <div class="mt-30 mb-60">
+            <ul class="list-buttons">
+              <li class="wow animate_animated animate_fadeIn" data-wow-delay=".0s"><a class="button-click active" href="#" data-type="all">All articles</a></li>
+              <li class="wow animate_animated animate_fadeIn" data-wow-delay=".2s"><a class="button-click" href="#" data-type="featured">Featured</a></li>
+              <li class="wow animate_animated animate_fadeIn" data-wow-delay=".3s"><a class="button-click" href="#" data-type="company">Company</a></li>
+              <li class="wow animate_animated animate_fadeIn" data-wow-delay=".4s"><a class="button-click" href="#" data-type="product-news">Product News</a></li>
+              <li class="wow animate_animated animate_fadeIn" data-wow-delay=".5s"><a class="button-click" href="#" data-type="customer-stories">Customer Stories</a></li>
+              <li class="wow animate_animated animate_fadeIn" data-wow-delay=".6s"><a class="button-click" href="#" data-type="guides">Guides</a></li>
+              <li class="wow animate_animated animate_fadeIn" data-wow-delay=".7s"><a class="button-click" href="#" data-type="other">Other</a></li>
+            </ul>
           </div>
-          <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-            <div class="card shadow-sm p-4 rounded-3 h-100" style="border: 1px solid #e0e0e0;">
-              <!-- Image -->
-              <img src="{{ asset('assets/yc/imgs/page/homepage1/event-09.jpg') }}" alt="Boat"
-                class="rounded-3 w-100 mb-3" style="height: 230px; object-fit: cover;">
-
-              <!-- Title -->
-              <h5 class="fw-bold text-dark mb-2">Zepto</h5>
-
-              <!-- Dotted Divider -->
-              <hr style="border-top: 1px dotted #ccc; margin-top: 0.5rem; margin-bottom: 0.8rem;">
-
-              <!-- Read More -->
-              <a href="#" class="text-decoration-none" style="color: #F9B980; font-weight: 500;">
-                Read More &rarr;
-              </a>
+          <div class="box-list-blogs">
+            <div class="row mt-55"> 
+              <div class="col-lg-4 col-md-6 mb-30 item-article featured wow animate_animated animate_fadeIn" data-wow-delay=".0s">
+                <div class="card-blog-grid card-blog-grid-3 hover-up">
+                  <div class="card-image"><a href="blog-detail.html"><img src="assets/imgs/page/blog/img6.png" alt="YC"></a>
+                    <label class="lbl-border">Writing</label>
+                  </div>
+                  <div class="card-info"><a href="blog-detail.html">
+                      <h4 class="color-brand-1">7 Copywriting Strategies the Great Copywriters Wish You Knew</h4></a>
+                    <div class="mb-25 mt-10"><span class="font-xs color-grey-500">November 17, 2022</span><span class="font-xs color-grey-500 icon-read">2 min read</span></div>
+                    <p class="font-sm color-grey-500 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-30 item-article featured wow animate_animated animate_fadeIn" data-wow-delay=".0s">
+                <div class="card-blog-grid card-blog-grid-3 hover-up">
+                  <div class="card-image"><a href="blog-detail.html"><img src="assets/imgs/page/blog/img7.png" alt="YC"></a>
+                    <label class="lbl-border">Blogging</label>
+                  </div>
+                  <div class="card-info"><a href="blog-detail.html">
+                      <h4 class="color-brand-1">What Is the Main Action a Writer Takes When Proofreading?</h4></a>
+                    <div class="mb-25 mt-10"><span class="font-xs color-grey-500">November 17, 2022</span><span class="font-xs color-grey-500 icon-read">2 min read</span></div>
+                    <p class="font-sm color-grey-500 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-30 item-article other wow animate_animated animate_fadeIn" data-wow-delay=".0s">
+                <div class="card-blog-grid card-blog-grid-3 hover-up">
+                  <div class="card-image"><a href="blog-detail.html"><img src="assets/imgs/page/blog/img8.png" alt="YC"></a>
+                    <label class="lbl-border">Marketting</label>
+                  </div>
+                  <div class="card-info"><a href="blog-detail.html">
+                      <h4 class="color-brand-1">The Betty Crocker Secret to an Email Marketing Strategy People Enjoy</h4></a>
+                    <div class="mb-25 mt-10"><span class="font-xs color-grey-500">November 17, 2022</span><span class="font-xs color-grey-500 icon-read">2 min read</span></div>
+                    <p class="font-sm color-grey-500 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-30 item-article other wow animate_animated animate_fadeIn" data-wow-delay=".0s">
+                <div class="card-blog-grid card-blog-grid-3 hover-up">
+                  <div class="card-image"><a href="blog-detail.html"><img src="assets/imgs/page/blog/img9.png" alt="YC"></a>
+                    <label class="lbl-border">Business</label>
+                  </div>
+                  <div class="card-info"><a href="blog-detail.html">
+                      <h4 class="color-brand-1">Email Autoresponders: Meet the Lazy Marketer’s Best Friend</h4></a>
+                    <div class="mb-25 mt-10"><span class="font-xs color-grey-500">November 17, 2022</span><span class="font-xs color-grey-500 icon-read">2 min read</span></div>
+                    <p class="font-sm color-grey-500 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-30 item-article other wow animate_animated animate_fadeIn" data-wow-delay=".0s">
+                <div class="card-blog-grid card-blog-grid-3 hover-up">
+                  <div class="card-image"><a href="blog-detail.html"><img src="assets/imgs/page/blog/img10.png" alt="YC"></a>
+                    <label class="lbl-border">Marketting</label>
+                  </div>
+                  <div class="card-info"><a href="blog-detail.html">
+                      <h4 class="color-brand-1">Stop Wondering About How to Respond to Criticism</h4></a>
+                    <div class="mb-25 mt-10"><span class="font-xs color-grey-500">November 17, 2022</span><span class="font-xs color-grey-500 icon-read">2 min read</span></div>
+                    <p class="font-sm color-grey-500 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-30 item-article other wow animate_animated animate_fadeIn" data-wow-delay=".0s">
+                <div class="card-blog-grid card-blog-grid-3 hover-up">
+                  <div class="card-image"><a href="blog-detail.html"><img src="assets/imgs/page/blog/img11.png" alt="YC"></a>
+                    <label class="lbl-border">Blogging</label>
+                  </div>
+                  <div class="card-info"><a href="blog-detail.html">
+                      <h4 class="color-brand-1">Top 5 Content Marketing Mistakes You’ll Wish You Fixed Sooner</h4></a>
+                    <div class="mb-25 mt-10"><span class="font-xs color-grey-500">November 17, 2022</span><span class="font-xs color-grey-500 icon-read">2 min read</span></div>
+                    <p class="font-sm color-grey-500 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
+                  </div>
+                </div>
+              </div>
             </div>
+            
+            <div class="mt-20 mb-30 text-center wow animate_animated animate_fadeIn" data-wow-delay=".0s"><a class="btn btn-brand-1 font-sm-bold" href="#">Load More...</a></div>
           </div>
-
         </div>
-        <div class="border-bottom mt-100"></div>
-      </div>
-    </section>
+      </section>
+      
 
   </main>
   @include('layouts.footer')

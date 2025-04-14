@@ -39,7 +39,7 @@
             </div>
             <div class="col-lg-6 mb-30 ml-1 ">
               <div class="text-center wow animate__animated animate__fadeIn "><img
-                  src="{{ asset('assets/yc/imgs/page/homepage1/chanakya-img1.png') }}" width="400" alt="iori"></div>
+                  src="{{ asset('assets/yc/imgs/page/homepage1/chanakya-img1.png') }}" width="400" alt="YC"></div>
             </div>
           </div>
         </div>
@@ -76,8 +76,8 @@
             <div class="tab-pane fade active show" id="tab-explore-1" role="tabpanel" aria-labelledby="tab-explore-1">
               <div class="box-tab-32">
                 <div class="row align-items-center">
-                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/homepage10/img-tab.png"
-                      alt="iori"></div>
+                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}"
+                      alt="YC"></div>
                   <div class="col-xl-6 col-lg-7">
                     <div class="box-business-tab"><span class="btn btn-tag">Business</span>
                       <h3 class="color-brand-1 mt-10 mb-15">Integrate with over 1,000 project management apps</h3>
@@ -138,7 +138,7 @@
             <div class="tab-pane fade" id="tab-explore-2" role="tabpanel" aria-labelledby="tab-explore-2">
               <div class="box-tab-32">
                 <div class="row align-items-center">
-                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/blog2/img1.png" alt="iori">
+                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/blog2/img1.png" alt="YC">
                   </div>
                   <div class="col-xl-6 col-lg-7">
                     <div class="box-business-tab"><span class="btn btn-tag">Business</span>
@@ -201,7 +201,7 @@
               <div class="box-tab-32">
                 <div class="row align-items-center">
                   <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/homepage10/img-tab.png"
-                      alt="iori"></div>
+                      alt="YC"></div>
                   <div class="col-xl-6 col-lg-7">
                     <div class="box-business-tab"><span class="btn btn-tag">Business</span>
                       <h3 class="color-brand-1 mt-10 mb-15">Integrate with over 1,000 project management apps</h3>
@@ -262,7 +262,7 @@
             <div class="tab-pane fade" id="tab-explore-4" role="tabpanel" aria-labelledby="tab-explore-4">
               <div class="box-tab-32">
                 <div class="row align-items-center">
-                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/blog2/img1.png" alt="iori">
+                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/blog2/img1.png" alt="YC">
                   </div>
                   <div class="col-xl-6 col-lg-7">
                     <div class="box-business-tab"><span class="btn btn-tag">Business</span>
@@ -325,7 +325,7 @@
               <div class="box-tab-32">
                 <div class="row align-items-center">
                   <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/homepage10/img-tab.png"
-                      alt="iori"></div>
+                      alt="YC"></div>
                   <div class="col-xl-6 col-lg-7">
                     <div class="box-business-tab"><span class="btn btn-tag">Business</span>
                       <h3 class="color-brand-1 mt-10 mb-15">Integrate with over 1,000 project management apps</h3>
@@ -398,15 +398,9 @@
                 inquisitive? Have a read through some of our FAQs or<br class="d-none d-lg-block"> contact our
                 supporters for help</p>
             </div>
-            <div class="col-lg-4 col-md-4 text-md-end text-start wow animate__animated animate__fadeInUp"
-              data-wow-delay=".4s"><a class="btn btn-default font-sm-bold pl-0">Contact Us
-                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
-                  </path>
-                </svg></a></div>
+            
           </div>
-          <div class="row mt-50 mb-100">
+          <div class="row mt-50 mb-50">
             <div class="col-xl-3 col-lg-4">
               <ul class="list-faqs nav nav-tabs" role="tablist">
                 <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s"><a class="active"
@@ -450,14 +444,7 @@
                         d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                     </svg></a></li>
               </ul>
-              <div class="mt-80 text-start mb-40 wow animate__animated animate__fadeInUp" data-wow-delay=".0s"><a
-                  class="btn btn-brand-1 hover-up" href="#">Contact Us</a><a
-                  class="btn btn-default font-sm-bold hover-up" href="#">Support Center
-                  <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
-                    </path>
-                  </svg></a></div>
+             
             </div>
             <div class="col-xl-9 col-lg-8">
               <div class="tab-content tab-content-slider">
@@ -1010,15 +997,15 @@
             </div>
           </div>
         </div>
-        <div class="border-bottom"></div>
+        {{-- <div class="border-bottom"></div> --}}
       </section>
     </div>
-    <section class="section mt-50 mb-30">
+    <section class="section mt-50 mb-100">
       <div class="container">
         <div class="box-radius-border box-radius-border-help">
           <div class="row align-items-center">
             <div class="col-xl-6 col-lg-6"><img class="d-block" src="{{asset('assets/yc/imgs/page/help/answer.png')}}"
-                alt="iori"></div>
+                alt="YC"></div>
             <div class="col-xl-6 col-lg-6">
               <div class="box-info-answer">
                 <h2 class="color-brand-1 mt-10 mb-15">Become a Chanakya</h2>

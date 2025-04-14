@@ -14,13 +14,42 @@
   <link href="{{asset('assets/yc/css/style.css?v=5.0.0')}}" rel="stylesheet">
   <link href="{{asset('assets/yc/css/vendors/aos.css')}}" rel="stylesheet">
   <title>About</title>
+  <style>
+  .col-1-5 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+
+  @media (max-width: 991.98px) {
+    .col-1-5 {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    .col-1-5 {
+      width: 100%;
+    }
+  }
+
+  .item-article {
+    display: none;
+  }
+  .ctnr{
+    background-color:#ffefd1;
+  }
+
+  .item-article.active {
+    display: block;
+  }
+</style>
 </head>
 
 <body>
   @include('layouts.preload')
   @include('layouts.header')
   <main class="main">
-    <section class="section banner-service bg-grey-60 pb-30 position-relative">
+    <!-- <section class="section banner-service bg-grey-60 pb-30 position-relative">
       <div class="box-banner-abs">
         <div class="container">
           <div class="row align-items-center">
@@ -63,13 +92,53 @@
         <div class="col-xxl-6 col-xl-6 col-lg-6 pr-0">
           <div class="d-none d-xxl-block pr-50 mt-30">
             <div class="img-reveal">
-              <img class="w-100 d-block" src="{{asset('assets/yc/imgs/page/blog/banner.png')}}" alt="iori">
+              <img class="w-100 d-block" src="{{asset('assets/yc/imgs/page/blog/banner.png')}}" alt="YC">
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="section mt-50 pt-50 pb-40">
+    </section> -->
+    <section class="section banner-team">
+        <div class="container">
+          <div class="banner-1">
+            <div class="row align-items-center">
+              <div class="col-lg-5">
+                <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Shaping Leaders of Tomorrow</h2>
+                <p class="font-md color-grey-500 mb-25 wow animate__animated animate__fadeIn" data-wow-delay=".4s">Young Chanakya helps students and young professionals grow through mentorship, internships, and entrepreneurship support. We provide the right opportunities to learn, build skills, and succeed.</p>
+                <div class="box-button mt-30 mb-60 wow animate__animated animate__fadeIn" data-wow-delay=".2s"><a class="btn btn-brand-1 hover-up" href="#">Contact Us</a><a class="btn btn-default font-sm-bold hover-up" href="#">Support Center
+                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg></a></div>
+                
+                <!-- <div class="box-author wow animate__animated animate__fadeIn" data-wow-delay=".6s"><a href="#"><img src="assets/yc/imgs/page/team/author.png" alt="YC"></a>
+                  <div class="author-info"><a href="#"><span class="font-md-bold color-brand-1 author-name">Bessie Cooper</span></a>
+                    <div class="rating d-inline-block"><img src="assets/imgs/template/icons/star.svg" alt="YC"><img src="assets/yc/imgs/template/icons/star.svg" alt="YC"><img src="assets/imgs/template/icons/star.svg" alt="YC"><img src="assets/imgs/template/icons/star.svg" alt="YC"><img src="assets/imgs/template/icons/star.svg" alt="YC"></div>
+                  </div>
+                </div> -->
+              </div>
+              <div class="col-lg-7 d-none d-lg-block">
+                <div class="box-banner-team">
+                  <div class="arrow-down-banner shape-1"></div>
+                  <div class="arrow-right-banner shape-2"></div>
+                  <div class="banner-col-1">
+                    <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay=".0s"><img src="assets/yc/imgs/page/team/banner1.png" alt="YC"></div>
+                  </div>
+                  <div class="banner-col-2">
+                    <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay=".2s"><img src="assets/yc/imgs/page/team/banner2.png" alt="YC"></div>
+                    <div class="img-banner hasBorder wow animate__animated animate__zoomIn" data-wow-delay=".4s"><img src="assets/yc/imgs/page/team/banner3.png" alt="YC"></div>
+                  </div>
+                  <div class="banner-col-3">
+                    <div class="img-banner hasBorder2 wow animate__animated animate__zoomIn" data-wow-delay=".6s"><img src="assets/yc/imgs/page/team/banner4.png" alt="YC"></div>
+                    <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay=".8s"><img src="assets/yc/imgs/page/team/banner5.png" alt="YC" style="height: 200px"></div>
+                    {{-- <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay="1s"><img src="assets/yc/imgs/page/team/banner6.png" alt="YC"></div> --}}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    {{-- <section class="section mt-50 pt-50 pb-40">
       <div class="container">
         <div class="box-cover-border">
           <div class="row align-items-center">
@@ -77,7 +146,7 @@
             <div class="col-lg-6">
               <div class="img-reveal">
                 <img class="d-block img-fluid rounded-4"
-                  src="{{asset('assets/yc/imgs/page/homepage2/img-marketing.png')}}" alt="Founder Talk">
+                  src="{{asset('assets/yc/imgs/page/about/kishore-yc.jpg')}}" alt="Founder Talk" style="height:600px; width:700px; background-size: cover;">
               </div>
             </div>
 
@@ -105,11 +174,74 @@
           </div>
         </div>
       </div>
+    </section> --}}
+    <section class="section mt-30 mb-30 bg-brand-1 pt-70 pb-70 bg-explore">
+      <div class="container">
+       
+        <div class="mt-10 mb-30">
+          
+          <div class="tab-content wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+            <div class="tab-pane fade active show" id="tab-explore-1" role="tabpanel" aria-labelledby="tab-explore-1">
+              <div class="box-tab-32">
+                <div class="row align-items-center">
+                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="{{asset('assets/yc/imgs/page/about/kishore-yc.jpg')}}" alt="YC" style="height:600px; width:700px; background-size: cover;"></div>
+                  <div class="col-xl-6 col-lg-7">
+                    <div class="box-business-tab"><span class="btn btn-tag">Founder Talk</span>
+                      <h3 class="color-brand-1 mt-10 mb-15">Building a Community of Innovators</h3>
+                      <p class="font-md color-grey-400">Dear Visionaries,<br><br>
+                        Welcome to Young Chanakya! A movement to shape the next generation of startup leaders.
+                        Entrepreneurship is more than ideas; it’s about execution, resilience, and leadership. We aim to
+                        cultivate modern-day Chanakyas—strategic thinkers who drive impact.<br><br>
+      
+                        If you’re ready to dream big and hustle, Young Chanakya is for you. Let’s build, innovate, and lead
+                        together.</p>
+                      {{-- <div class="mt-20">
+                        <ul class="list-ticks">
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>Task tracking
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>Create task dependencies
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>Task visualization
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>hare files, discuss
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>Meet deadlines faster
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>Track time spent on each project
+                          </li>
+                        </ul>
+                      </div> --}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
     </section>
 
 
-
-    <section class="section mt-100">
+    <section class="section mt-50">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -217,14 +349,14 @@
     </section>
 
     <!-- next -->
-    <section class="section pt-100 pb-100 bg-2">
+    <!-- <section class="section pt-100 pb-100 bg-2">
       <div class="container">
         <div class="box-story box-story-1">
           <div class="row align-items-center">
             <div class="col-xl-6 col-lg-6 col-md-6">
               <div class="box-info-video">
                 <div class="img-reveal"><img class="bd-rd8 d-block"
-                    src="{{asset('assets/yc/imgs/page/about/img3.png')}}" alt="iori"></div>
+                    src="{{asset('assets/yc/imgs/page/about/img3.png')}}" alt="YC"></div>
               </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6">
@@ -266,7 +398,7 @@
             <div class="col-xl-6 col-lg-6 col-md-6">
               <div class="box-info-video">
                 <div class="img-reveal">
-                  <img class="bd-rd8 d-block" src="{{asset('assets/yc/imgs/page/about/img4.png')}}" alt="iori">
+                  <img class="bd-rd8 d-block" src="{{asset('assets/yc/imgs/page/about/img4.png')}}" alt="YC">
                 </div>
               </div>
             </div>
@@ -274,23 +406,159 @@
         </div>
 
       </div>
-    </section>
-    <section class="section mt-50 bg-grey-80 bg-plan pt-110 pb-110">
+    </section> -->
+      <section class="section mt-50">
+        <div class="container">
+          <div class="mt-30 mb-60">
+            <ul class="list-buttons">
+              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".0s"><a class="button-click active" href="#" data-type="vision">Vision</a></li>
+              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".0s"><a class="button-click" href="#" data-type="mision">Mission</a></li>
+            </ul>
+          </div>
+          <div class="box-list-blogs">
+            <div class="row mt-55">
+              <div class="col-lg-12 mb-60 item-article vision wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+                <section class="section pb-90">
+                  <div class="container">
+                    <div class="bg-brand-1 box-cover-video">
+                      <div class="row align-items-center">
+                        <div class="col-xl-6 col-lg-6">
+                          <div class="img-reveal"><img class="d-block" src="assets/yc/imgs/page/homepage1/img-video.png" alt="YC"></div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                          <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Business</span>
+                            <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Integrate with over 1,000 project management apps</h3>
+                            <p class="font-md color-white wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div class="col-lg-12 mb-50 item-article mision wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+                <section class="section mision pb-30">
+                  <div class="container">
+                    <div class="bg-brand-1 box-cover-video box-cover-video-revert">
+                      <div class="row align-items-center">
+                        <div class="col-xl-6 col-lg-6">
+                          <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeIn accordion-item" data-wow-delay=".0s">Business</span>
+                            <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeIn accordion-item" data-wow-delay=".1s"> Integrate with over 1,000 project management apps</h3>
+                            <p class="font-md color-white wow animate__animated animate__fadeIn accordion-item" data-wow-delay=".2s"> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
+                           
+                          </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6"><img class="d-block" src="assets/yc/imgs/page/homepage4/img-video.png" alt="YC"></div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+    <section class="section ctnr mt-30 pt-50 pb-50" >
       <div class="container">
         <div class="row align-items-end">
-          <div class="col-lg-8 col-md-8">
-            <p class="font-lg color-gray-500 wow animate__animated animate__fadeInUp mb-3" data-wow-delay=".2s">What We
-              Offer</p>
+          <div class="col-lg-12 text-center">
+            <p class="font-lg wow animate__animated animate__fadeInUp mb-3 " data-wow-delay=".2s">Who We Empower</p>
             <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".s">Empowering the
               NextGen of Startup Leaders</h2>
 
           </div>
-
-          <div class="row mt-50">
+          <section class="section mt-20 pt-30 ctnr pb-15 bg-grey-80">
+        <div class="container ctnr">
+          <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+              <div class="card-guide">
+                <div class="card-image">
+                  <img src="assets/yc/imgs/page/help/icon1.svg" alt="YC">
+                </div>
+                <div class="card-info">
+                  <h5 class="color-brand-1 mb-15">Knowledge Base</h5>
+                  <p class="font-xs color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+              <div class="card-guide">
+                <div class="card-image">
+                  <img src="assets/yc/imgs/page/help/icon2.svg" alt="YC">
+                </div>
+                <div class="card-info">
+                  <h5 class="color-brand-1 mb-15">Community Forums</h5>
+                  <p class="font-xs color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+              <div class="card-guide">
+                <div class="card-image">
+                  <img src="assets/yc/imgs/page/help/icon3.svg" alt="YC">
+                </div>
+                <div class="card-info">
+                  <h5 class="color-brand-1 mb-15">Documentation</h5>
+                  <p class="font-xs color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+              <div class="card-guide">
+                <div class="card-image">
+                  <img src="assets/yc/imgs/page/help/icon1.svg" alt="YC">
+                </div>
+                <div class="card-info">
+                  <h5 class="color-brand-1 mb-15">Knowledge Base</h5>
+                  <p class="font-xs color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+              <div class="card-guide">
+                <div class="card-image">
+                  <img src="assets/yc/imgs/page/help/icon2.svg" alt="YC">
+                </div>
+                <div class="card-info">
+                  <h5 class="color-brand-1 mb-15">Community Forums</h5>
+                  <p class="font-xs color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+              <div class="card-guide">
+                <div class="card-image">
+                  <img src="assets/yc/imgs/page/help/icon3.svg" alt="YC">
+                </div>
+                <div class="card-info">
+                  <h5 class="color-brand-1 mb-15">Documentation</h5>
+                  <p class="font-xs color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+          
+          <!-- <div class="row mt-50">
             <div class="col-xl-2 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
               <div class="card-plan hover-up">
                 <div class="card-image-plan d-flex justify-content-center mb-20">
-                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage1/free.svg')}}" alt="iori">
+                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage1/free.svg')}}" alt="YC">
                   </div>
 
 
@@ -312,7 +580,7 @@
             <div class="col-xl-2 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
               <div class="card-plan hover-up">
                 <div class="card-image-plan d-flex justify-content-center mb-20">
-                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage2/creation.png')}}" alt="iori">
+                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage2/creation.png')}}" alt="YC">
                   </div>
 
 
@@ -334,7 +602,7 @@
             <div class="col-xl-2 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
               <div class="card-plan hover-up">
                 <div class="card-image-plan d-flex justify-content-center mb-20">
-                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}" alt="iori">
+                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}" alt="YC">
                   </div>
 
 
@@ -356,7 +624,7 @@
             <div class="col-xl-2 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
               <div class="card-plan hover-up">
                 <div class="card-image-plan d-flex justify-content-center mb-20">
-                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage2/creation.png')}}" alt="iori">
+                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage2/creation.png')}}" alt="YC">
                   </div>
 
 
@@ -378,7 +646,7 @@
             <div class="col-xl-2 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
               <div class="card-plan hover-up">
                 <div class="card-image-plan d-flex justify-content-center mb-20">
-                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage1/free.svg')}}" alt="iori">
+                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage1/free.svg')}}" alt="YC">
                   </div>
 
 
@@ -400,7 +668,7 @@
             <div class="col-xl-2 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
               <div class="card-plan hover-up">
                 <div class="card-image-plan d-flex justify-content-center mb-20">
-                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}" alt="iori">
+                  <div class="icon-plan "><img src="{{asset('assets/yc/imgs/page/homepage1/standard.svg')}}" alt="YC">
                   </div>
 
 
@@ -419,228 +687,113 @@
                   </a></div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
     </section>
+
+
     <section class="section mt-90">
       <div class="container">
-        <h6 class="color-brand-1 mb-20 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Board members</h6>
-        <h2 class="color-brand-1 mb-50 wow animate__animated animate__fadeIn" data-wow-delay=".2s">Together we are
+        <h6 class="color-brand-1 mb-20 wow animate__animated animate__fadeIn text-center" data-wow-delay=".0s">Board members</h6>
+        <h2 class="color-brand-1 mb-50 wow animate__animated animate__fadeIn text-center" data-wow-delay=".2s">Together we are
           strong</h2>
-        <div class="row">
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-            <div class="card-member">
-              <div class="card-top">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/team/member1.png')}}" alt="iori"></div>
-                <div class="card-info"><span class="font-lg-bold color-brand-1">Darrell Steward</span>
-                  <p class="font-xs color-grey-200">Product Designer</p>
-                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a
-                      class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter"
-                      href="#"></a></div>
+          <div class="mt-80 mb-50 wow animate__animated animate__fadeIn">
+            <div class="container">
+              <div class="row">
+                <div class="col-1-5 mb-4">
+                  <div class="card-member-2">
+                    <div class="card-image"><img src="assets/yc/imgs/page/homepage8/member.png" alt="YC"></div>
+                    <div class="card-info bg-1">
+                      <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
+                      <div class="d-flex align-items-center">
+                        <p class="font-xs color-grey-200">Graphic Designer</p>
+                        <div class="list-socials mt-0">
+                          <a class="icon-socials icon-facebook" href="#"></a>
+                          <a class="icon-socials icon-twitter" href="#"></a>
+                          <a class="icon-socials icon-instagram" href="#"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="card-bottom">
-                <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great
-                  companion.</p>
+                <div class="col-1-5 mb-4">
+                  <div class="card-member-2">
+                    <div class="card-image"><img src="assets/yc/imgs/page/homepage8/member.png" alt="YC"></div>
+                    <div class="card-info bg-1">
+                      <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
+                      <div class="d-flex align-items-center">
+                        <p class="font-xs color-grey-200">Graphic Designer</p>
+                        <div class="list-socials mt-0">
+                          <a class="icon-socials icon-facebook" href="#"></a>
+                          <a class="icon-socials icon-twitter" href="#"></a>
+                          <a class="icon-socials icon-instagram" href="#"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-1-5 mb-4">
+                  <div class="card-member-2">
+                    <div class="card-image"><img src="assets/yc/imgs/page/homepage8/member.png" alt="YC"></div>
+                    <div class="card-info bg-1">
+                      <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
+                      <div class="d-flex align-items-center">
+                        <p class="font-xs color-grey-200">Graphic Designer</p>
+                        <div class="list-socials mt-0">
+                          <a class="icon-socials icon-facebook" href="#"></a>
+                          <a class="icon-socials icon-twitter" href="#"></a>
+                          <a class="icon-socials icon-instagram" href="#"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-1-5 mb-4">
+                  <div class="card-member-2">
+                    <div class="card-image"><img src="assets/yc/imgs/page/homepage8/member.png" alt="YC"></div>
+                    <div class="card-info bg-1">
+                      <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
+                      <div class="d-flex align-items-center">
+                        <p class="font-xs color-grey-200">Graphic Designer</p>
+                        <div class="list-socials mt-0">
+                          <a class="icon-socials icon-facebook" href="#"></a>
+                          <a class="icon-socials icon-twitter" href="#"></a>
+                          <a class="icon-socials icon-instagram" href="#"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-1-5 mb-4">
+                  <div class="card-member-2">
+                    <div class="card-image"><img src="assets/yc/imgs/page/homepage8/member.png" alt="YC"></div>
+                    <div class="card-info bg-1">
+                      <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
+                      <div class="d-flex align-items-center">
+                        <p class="font-xs color-grey-200">Graphic Designer</p>
+                        <div class="list-socials mt-0">
+                          <a class="icon-socials icon-facebook" href="#"></a>
+                          <a class="icon-socials icon-twitter" href="#"></a>
+                          <a class="icon-socials icon-instagram" href="#"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+
+                <!-- Repeat this col-1-5 block for each card -->
               </div>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-            <div class="card-member">
-              <div class="card-top">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/team/member2.png')}}" alt="iori"></div>
-                <div class="card-info"><span class="font-lg-bold color-brand-1">Guy Hawkins</span>
-                  <p class="font-xs color-grey-200">Product Designer</p>
-                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a
-                      class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter"
-                      href="#"></a></div>
-                </div>
-              </div>
-              <div class="card-bottom">
-                <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great
-                  companion.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-            <div class="card-member">
-              <div class="card-top">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/team/member3.png')}}" alt="iori"></div>
-                <div class="card-info"><span class="font-lg-bold color-brand-1">Darlene Robertson</span>
-                  <p class="font-xs color-grey-200">Product Designer</p>
-                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a
-                      class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter"
-                      href="#"></a></div>
-                </div>
-              </div>
-              <div class="card-bottom">
-                <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great
-                  companion.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-            <div class="card-member">
-              <div class="card-top">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/team/member4.png')}}" alt="iori"></div>
-                <div class="card-info"><span class="font-lg-bold color-brand-1">Ronald Richards</span>
-                  <p class="font-xs color-grey-200">Product Designer</p>
-                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a
-                      class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter"
-                      href="#"></a></div>
-                </div>
-              </div>
-              <div class="card-bottom">
-                <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great
-                  companion.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-            <div class="card-member">
-              <div class="card-top">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/team/member5.png')}}" alt="iori"></div>
-                <div class="card-info"><span class="font-lg-bold color-brand-1">Kathryn Murphy</span>
-                  <p class="font-xs color-grey-200">Product Designer</p>
-                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a
-                      class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter"
-                      href="#"></a></div>
-                </div>
-              </div>
-              <div class="card-bottom">
-                <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great
-                  companion.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-            <div class="card-member">
-              <div class="card-top">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/team/member6.png')}}" alt="iori"></div>
-                <div class="card-info"><span class="font-lg-bold color-brand-1">Cameron Williamson</span>
-                  <p class="font-xs color-grey-200">Product Designer</p>
-                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a
-                      class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter"
-                      href="#"></a></div>
-                </div>
-              </div>
-              <div class="card-bottom">
-                <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great
-                  companion.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-            <div class="card-member">
-              <div class="card-top">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/team/member7.png')}}" alt="iori"></div>
-                <div class="card-info"><span class="font-lg-bold color-brand-1">Floyd Miles</span>
-                  <p class="font-xs color-grey-200">Product Designer</p>
-                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a
-                      class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter"
-                      href="#"></a></div>
-                </div>
-              </div>
-              <div class="card-bottom">
-                <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great
-                  companion.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-            <div class="card-member">
-              <div class="card-top">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/team/member8.png')}}" alt="iori"></div>
-                <div class="card-info"><span class="font-lg-bold color-brand-1">Devon Lane</span>
-                  <p class="font-xs color-grey-200">Product Designer</p>
-                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a
-                      class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter"
-                      href="#"></a></div>
-                </div>
-              </div>
-              <div class="card-bottom">
-                <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great
-                  companion.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-            <div class="card-member">
-              <div class="card-top">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/team/member9.png')}}" alt="iori"></div>
-                <div class="card-info"><span class="font-lg-bold color-brand-1">Albert Flores</span>
-                  <p class="font-xs color-grey-200">Product Designer</p>
-                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a
-                      class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter"
-                      href="#"></a></div>
-                </div>
-              </div>
-              <div class="card-bottom">
-                <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great
-                  companion.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-            <div class="card-member">
-              <div class="card-top">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/team/member10.png')}}" alt="iori"></div>
-                <div class="card-info"><span class="font-lg-bold color-brand-1">Jenny Wilson</span>
-                  <p class="font-xs color-grey-200">Product Designer</p>
-                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a
-                      class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter"
-                      href="#"></a></div>
-                </div>
-              </div>
-              <div class="card-bottom">
-                <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great
-                  companion.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-            <div class="card-member">
-              <div class="card-top">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/team/member11.png')}}" alt="iori"></div>
-                <div class="card-info"><span class="font-lg-bold color-brand-1">Arlene McCoy</span>
-                  <p class="font-xs color-grey-200">Product Designer</p>
-                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a
-                      class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter"
-                      href="#"></a></div>
-                </div>
-              </div>
-              <div class="card-bottom">
-                <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great
-                  companion.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-            <div class="card-member">
-              <div class="card-top">
-                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/team/member12.png')}}" alt="iori"></div>
-                <div class="card-info"><span class="font-lg-bold color-brand-1">Theresa Webb</span>
-                  <p class="font-xs color-grey-200">Product Designer</p>
-                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a
-                      class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter"
-                      href="#"></a></div>
-                </div>
-              </div>
-              <div class="card-bottom">
-                <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great
-                  companion.</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
-    <section class="section mt-50 mb-30">
+    <section class="section mt-50 mb-50">
       <div class="container">
         <div class="box-radius-border box-radius-border-help">
           <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-6"><img class="d-block" src="{{asset('assets/yc/imgs/page/help/answer.png')}}"
-                alt="iori"></div>
+            <div class="col-xl-6 col-lg-6"><img class="d-block" src="{{asset('assets/yc/imgs/page/about/Elite circle.jpg')}}"
+                alt="YC" style="width:800px; height:350px;"></div>
             <div class="col-xl-6 col-lg-6">
               <div class="box-info-answer"><span class="btn btn-tag">More help</span>
                 <h2 class="color-brand-1 mt-10 mb-15">Join the Elite Circle</h2>
@@ -663,6 +816,37 @@
   </main>
   @include('layouts.footer')
   @include('layouts.script')
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".button-click");
+    const articles = document.querySelectorAll(".item-article");
+
+    // Show only the first (Vision) on load
+    articles.forEach(article => article.classList.remove("active"));
+    document.querySelector(".item-article.vision").classList.add("active");
+
+    buttons.forEach(button => {
+      button.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        // Remove 'active' from all buttons
+        buttons.forEach(btn => btn.classList.remove("active"));
+        this.classList.add("active");
+
+        // Show corresponding article
+        const type = this.getAttribute("data-type");
+        articles.forEach(article => {
+          if (article.classList.contains(type)) {
+            article.classList.add("active");
+          } else {
+            article.classList.remove("active");
+          }
+        });
+      });
+    });
+  });
+</script>
+
 </body>
 
 </html>
