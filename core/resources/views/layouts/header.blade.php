@@ -11,20 +11,13 @@
                   <ul class="main-menu">
                     <li><a href="{{route('home')}}"><b>Home</b></a></li>
                     <li><a href="{{route('about')}}"><b>About</b></a></li>
+                    <li><a href="{{route('membership')}}"><b>Membership</b></a></li>
+                    <li><a href="{{route('events')}}"><b>Events</b></a></li>
                     <li class="has-children"><a href="#"><b>Program</b></a>
                       <ul class="sub-menu">
                         <li><a href="{{route('learning')}}">Learning</a></li>
                         <li><a href="{{route('outcomes')}}">Outcomes</a></li>
                         <li><a href="{{route('program')}}">Program</a></li>
-                      </ul>
-                    </li>
-                    <li class="has-children"><a href="#"><b>Teams</b></a>
-                      <ul class="sub-menu">
-                        <li><a href="{{route('mentor-team')}}">Mentor Team</a></li>
-                        <li><a href="{{route('advisory-team')}}">Advisory Team</a></li>
-                        <li><a href="{{route('academic-team')}}">Academic Team</a></li>
-                        <li><a href="{{route('vc-team')}}">VC Team</a></li>
-                        <li><a href="{{route('management-team')}}">Management Team</a></li>
                       </ul>
                     </li>
                     <li class="has-children"><a href="#"><b>Chanakya's</b></a>
@@ -35,8 +28,16 @@
                         <li><a href="{{route('fortune500')}}">Fortune 500's</a></li>
                       </ul>
                     </li>
-                    <li><a href="{{route('membership')}}"><b>Membership</b></a></li>
-                    <li><a href="{{route('events')}}"><b>Events</b></a></li>
+                    
+                    <li class="has-children"><a href="#"><b>Teams</b></a>
+                      <ul class="sub-menu">
+                        <li><a href="{{route('mentor-team')}}">Mentor Team</a></li>
+                        <li><a href="{{route('advisory-team')}}">Advisory Team</a></li>
+                        <li><a href="{{route('academic-team')}}">Academic Team</a></li>
+                        <li><a href="{{route('vc-team')}}">VC Team</a></li>
+                        <li><a href="{{route('management-team')}}">Management Team</a></li>
+                      </ul>
+                    </li>
                    
                     {{-- <li class="has-children"><a href="#"><b>Explore</b></a>
                       <ul class="sub-menu">
