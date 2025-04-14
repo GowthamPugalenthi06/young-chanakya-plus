@@ -15,10 +15,32 @@
 
   </head>
   <body>
+  <section class="section mt-50">
+        <div class="container">
+          <div class="box-newsletter box-newsletter-2 wow animate__animated animate__fadeIn">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-md-7 m-auto text-center"><span class="font-lg color-brand-1 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Newsletter</span>
+                <h2 class="color-brand-1 mb-15 mt-5 wow animate__animated animate__fadeIn" data-wow-delay=".1s">Subcribe our newsletter</h2>
+                <p class="font-md color-grey-500 wow animate__animated animate__fadeIn" data-wow-delay=".2s">Do not miss the latest information from us about the trending in the market. By clicking the button, you are agreeing with our Term & Conditions</p>
+                <div class="form-newsletter mt-30 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                  <form action="#">
+                    <input type="text" placeholder="Enter you mail ..">
+                    <button class="btn btn-submit-newsletter" type="submit">
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                      </svg>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
      
-    <footer class="footer" style="background-color:#024430;">
-      <div class="footer-1" style="background-color:#024430;">
-      <div class="container">
+    <footer class="footer" style="background-color:#ffffff;">
+      <div class="footer-1 pt-0" style="background-color:#ffffff;">
+      <!-- <div class="container">
       <div class="container">
           <div class="row">
             <div class="col-lg-4 width-20">
@@ -90,10 +112,10 @@
             </div>
 
           </div> -->
-          <div class="col-lg-4 width-16 mb-30 ml-100">
+         <!-- <div class="col-lg-4 width-16 mb-30 ml-100">
   <h5 class="mb-10 color-white">Contact us</h5>
 
-  <!-- Address (click to open location in Google Maps) -->
+   Address (click to open location in Google Maps) 
   <a href="https://www.google.com/maps?q=West+Car+Street,+Tiruchengode,+Tamil+Nadu,+India"
      target="_blank"
      class="d-flex align-items-start font-md color-white mb-2 text-decoration-none">
@@ -101,52 +123,145 @@
     <span>West Car Street, Tiruchengode,<br class="d-none d-lg-block"> Tamil Nadu, India.</span>
   </a>
 
-  <!-- Phone (click to call) -->
+   Phone (click to call) 
   <a href="tel:+919647555066" class="d-flex align-items-center font-md color-white mb-2 text-decoration-none">
     <i class="bi bi-telephone me-2"></i>
     <span>+91-9647555066</span>
   </a>
 
-  <!-- Email (click to send email) -->
+  Email (click to send email) 
   <a href="mailto:info@younngchanakya.com" class="d-flex align-items-center font-md color-white mb-3 text-decoration-none">
     <i class="bi bi-envelope me-2"></i>
     <span>info@youngchanakya.com</span>
   </a>
 
 
+      </div> -->
+
+      <footer class="footer">
+      <div class="footer-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 width-20">
+              <div class="mb-10"><img src="assets/yc/imgs/template/yc-logo.svg" alt="iori" style="max-width:150px"></div>
+              <!-- <div class="font-md mb-20 color-grey-400"><strong class="font-md-bold">Hours:</strong> 8:00 - 17:00, Mon - Sat</div> -->
+              <h6 class="color-brand-1">Follow Us</h6>
+              <div class="mt-15"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a><a class="icon-socials icon-linkedin" href="#"></a><a class="icon-socials icon-youtube" href="#"></a></div>
+            </div>
+            <div class="col-lg-3 width-16 mb-30">
+              <h5 class="mb-10 color-brand-1">Useful Links</h5>
+              <ul class="menu-footer">
+                <li><a href="{{ route('about') }}">About us</a></li>
+                <li><a href="{{route("about")}}">Founder Talk</a></li>
+                <li><a href="{{ route('membership') }}">Membership</a></li>
+                <li><a href="{{ route('events') }}">Events</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 width-16 mb-30">
+              <h5 class="mb-10 color-brand-1">Discover</h5>
+              <ul class="menu-footer">
+                <li><a href="{{ route('podcast') }}">Podcast</a></li>
+                <li><a href="{{ route('blog') }}">Stories</a></li>
+                <li><a href="{{ route('case-studies') }}">Case Study</a></li>
+                <li><a href="{{ route('video-series') }}">Video Series</a></li>
+                <li><a href="{{ route('video-series') }}">Infographics</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 width-16 mb-30">
+              <h5 class="mb-10 color-brand-1">Community</h5>
+              <ul class="menu-footer">
+                <li><a href="{{ route('about-chanakya') }}">About Chanakya's</a></li>
+                <li><a href="{{route('become-a-chanakya')}}">Become a Chanakya</a></li>
+                <li><a href="{{ route('become-a-sponsor') }}">Become a Sponsor</a></li>
+                <li><a href="{{ route('career') }}">Career &amp; Internships</a></li>
+              </ul>
+            </div>
+            <!-- <div class="col-lg-3 width-23">
+              <h5 class="mb-10 color-brand-1">App &amp; Payment</h5>
+              <div>
+                <p class="font-sm color-grey-400">Download our Apps and get extra 15% Discount on your first Order…!</p>
+                <div class="mt-20"><a class="mr-10" href="#"><img src="assets/yc/imgs/template/appstore.png" alt="iori"></a><a href="#"><img src="assets/yc/imgs/template/google-play.png" alt="iori"></a></div>
+                <p class="font-sm color-grey-400 mt-20 mb-10">Secured Payment Gateways</p><img src="assets/yc/imgs/template/payment-method.png" alt="iori">
+              </div>
+            </div> -->
+            <div class="col-lg-3 width-16 mb-30  ">
+            <ul class="menu-footer">
+              <li><h5 class="mb-10 ">Contact us</h5>
+                <!-- Address (click to open location in Google Maps)  -->
+                <a href="https://www.google.com/maps?q=West+Car+Street,+Tiruchengode,+Tamil+Nadu,+India"
+                  target="_blank"
+                  class="d-flex align-items-start font-md  mb-2 text-decoration-none">
+                <i class="bi bi-geo-alt me-2 mt-1"></i>
+                <span>West Car Street, Tiruchengode,<br class="d-none d-lg-block"> Tamil Nadu, India.</span>
+                </a></li>
+
+                <!-- Phone (click to call)  -->
+                <li><a href="tel:+919647555066" class="d-flex align-items-center font-md mb-2 text-decoration-none">
+                <i class="bi bi-telephone me-2"></i>
+                <span>+91-9647555066</span>
+                </a></li>
+  <!-- 
+                Email (click to send email)  -->
+                <li><a href="mailto:info@younngchanakya.com" class="d-flex align-items-center font-md mb-3 text-decoration-none">
+                <i class="bi bi-envelope me-2"></i>
+                <span>info@youngchanakya.com</span></a></li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
+      
+      <!-- <div class="footer-2">
+        <div class="container">
+          <div class="footer-bottom">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 text-center text-lg-start">
+                <ul class="menu-bottom">
+                  <li><a class="font-sm color-grey-300" href="term-conditions.html">Privacy policy</a></li>
+                  <li><a class="font-sm color-grey-300" href="term-conditions.html">Cookies</a></li>
+                  <li><a class="font-sm color-grey-300" href="term-conditions.html">Terms of service</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 col-md-12 text-center text-lg-end"><span class="color-grey-300 font-md">©Iori Official 2023. All right reversed.</span></div>
+            </div>
+          </div>
+        </div>
+      </div> -->
       <div class="footer-2">
-  <div class="container">
-    <div class="footer-bottom py-4">
-      <div class="row align-items-center text-center text-lg-start">
-        
-        <!-- Column 1: Copyright -->
-        <div class="col-lg-4 col-md-12 mb-3 mb-lg-0">
-          <span class="color-white font-md">Copyright © 2025 Young Chanakya. All rights reserved.</span>
-        </div>
-        
-        <!-- Column 2: Follow Us -->
-        <div class="col-lg-4 col-md-12 text-lg-center">
-          <ul class="menu-bottom list-inline mb-0">
-            <li class="list-inline-item"><a class="font-sm color-white" href="term-conditions.html">Privacy Policy</a></li>
-            <li class="list-inline-item"><a class="font-sm color-white" href="term-conditions.html">Terms of Service</a></li>
-          </ul>
-        </div>
+        <div class="container">
+          <div class="footer-bottom py-4">
+            <div class="row align-items-center text-center text-lg-start">
+              
+              <!-- Column 1: Copyright -->
+              <div class="col-lg-4 col-md-12 mb-3 mb-lg-0">
+                <span class=" font-md">Copyright © 2025 Young Chanakya. All rights reserved.</span>
+              </div>
+              
+              <!-- Column 2: Follow Us -->
+              <div class="col-lg-4 col-md-12 text-lg-center">
+                <ul class="menu-footer list-inline mb-0">
+                  <li class="list-inline-item"><a class="font-md " href="term-conditions.html">Privacy Policy</a></li>
+                  <li class="list-inline-item"><a class="font-md" href="term-conditions.html">Terms of Service</a></li>
+                </ul>
+              </div>
 
 
-        
-        <!-- Column 3: Bottom Links -->
-        <div class="col-lg-4 col-md-12 text-lg-end">
-          <ul class="menu-bottom list-inline mb-0">
-            <li class="list-inline-item"><strong class="font-sm color-white">Partners : </strong></li>
-            <li class="list-inline-item"><ul class="list-inline"><li><a class="font-sm color-white pd" href="https://fintechgie.com/">FintechGie </a></li><li class=" font-sm color-white"> & </li><li><a class="font-sm color-white pd" href="https://wegeni.com/"> WeGeni</a></ul></li></li> 
-          </ul>
-        </div>
+              
+              <!-- Column 3: Bottom Links -->
+              <div class="col-lg-4 col-md-12 text-lg-end">
+                <ul class="menu-bottom list-inline mb-0">
+                  <li class="list-inline-item"><strong class="font-md ">Partners : </strong></li>
+                  <li class="list-inline-item"><ul class="list-inline menu-footer"><li><a class="font-md  pd" href="https://fintechgie.com/">FintechGie </a></li><li class=" font-md "> & </li><li><a class="font-md pd" href="https://wegeni.com/"> WeGeni</a></ul></li></li> 
+                </ul>
+              </div>
 
-      </div>
+            </div>
+          </div>
+        </div>
     </div>
-  </div>
-</div>
+    </footer>
+
 
     </footer>
     
