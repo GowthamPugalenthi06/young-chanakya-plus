@@ -15,9 +15,31 @@
 
   </head>
   <body>
+  <section class="section mt-50">
+        <div class="container">
+          <div class="box-newsletter box-newsletter-2 wow animate__animated animate__fadeIn">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-md-7 m-auto text-center"><span class="font-lg color-brand-1 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Newsletter</span>
+                <h2 class="color-brand-1 mb-15 mt-5 wow animate__animated animate__fadeIn" data-wow-delay=".1s">Subcribe our newsletter</h2>
+                <p class="font-md color-grey-500 wow animate__animated animate__fadeIn" data-wow-delay=".2s">Do not miss the latest information from us about the trending in the market. By clicking the button, you are agreeing with our Term & Conditions</p>
+                <div class="form-newsletter mt-30 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                  <form action="#">
+                    <input type="text" placeholder="Enter you mail ..">
+                    <button class="btn btn-submit-newsletter" type="submit">
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                      </svg>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
      
     <footer class="footer" style="background-color:#ffffff;">
-      <div class="footer-1" style="background-color:#ffffff;">
+      <div class="footer-1 pt-0" style="background-color:#ffffff;">
       <!-- <div class="container">
       <div class="container">
           <div class="row">
@@ -115,6 +137,7 @@
 
 
       </div> -->
+
       <footer class="footer">
       <div class="footer-1">
         <div class="container">
