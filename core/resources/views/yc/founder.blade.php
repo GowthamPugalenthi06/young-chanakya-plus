@@ -69,7 +69,7 @@ At Young Chanakya, we don’t just teach theories. We connect you with real-worl
 
 I’ve always believed that success is not about where you start but how you scale. And for that, you need the right ecosystem, the right people, and the right mindset. If you are someone who dares to dream and is ready to hustle, Young Chanakya is the place for you.
 
-              <div class="mt-40 text-start wow animate__animated animate__fadeInUp"><a class="btn btn-brand-1 hover-up" href="#">Connect with Me</a></div>
+              <div class="mt-40 text-start wow animate__animated animate__fadeInUp"><a class="btn btn-brand-1 hover-up" href="https://www.linkedin.com/in/kishorekumarceo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Connect with Me</a></div>
             </div>
           </div>
         </div>
@@ -192,15 +192,12 @@ I’ve always believed that success is not about where you start but how you sca
             </div>
             <div class="col-xl-6 col-lg-6">
               <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp"
-                  data-wow-delay=".0s">Business</span>
+                  data-wow-delay=".0s">Connect</span>
                 <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
                 Join the Elite Community</h3>
-                <p class="font-md color-white wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Excepteur
-                  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis
-                  lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box"
-                  thinking.</p>
+                <p class="font-md color-white wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Get exclusive insights into our founder’s journey, the challenges faced, and the strategies that have been instrumental in shaping our success. Learn firsthand how perseverance, innovation, and a commitment to excellence have driven our growth and set us apart in the industry.</p>
                   <div class="box-button mt-30">
-                  <a class="btn btn-brand-1 hover-up" href="#">Connect with Us 
+                  <a class="btn btn-brand-1 hover-up" href="https://www.linkedin.com/company/youngchanakya/">Connect with Us 
                     <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
