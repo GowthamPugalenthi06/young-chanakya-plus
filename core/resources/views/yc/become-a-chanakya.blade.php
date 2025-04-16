@@ -469,12 +469,7 @@
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section> --}}
-
-      <section class="section mt-70">
+            </d<section class="section mt-70">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 ">
@@ -538,7 +533,12 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>iv>
+          </div>
+        </div>
+      </section> --}}
+
+      
       <!-- <section class="section mt-50 bg-plan-2 pt-110 pb-110">
         <div class="container">
           <div class="row align-items-center">
