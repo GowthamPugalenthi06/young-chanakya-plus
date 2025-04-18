@@ -1516,3 +1516,7 @@ Route::get('/CXO-membership-form',function(){
 Route::get('/student-membership-form',function(){
   return view('yc.membership-forms.student-member-form');
 })->name('student-membership-form');
+
+Route::get('/clubs-and-activities',function(){
+  return view('yc.clubs&activities');
+})->name('clubs&activities');
