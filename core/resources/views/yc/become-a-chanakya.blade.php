@@ -52,165 +52,218 @@
         </div>
       </section> -->
       <!-- hero banner -->
-      <section class="section">
+      <section class="section pt-90 pb-50" >
         <div class="container">
           <div class="banner-1">
             <div class="row align-items-center">
-              <div class="col-lg-7">
-                <h1 class="color-brand-1 mb-20 text-anim">Lead, Inspire, and Build Tomorrow’s Innovators</h1>
+              <div class="col-lg-6">
+                <h1 class="color-brand-1 mb-30 text-anim">Mentor and inspire like Chanakya</h1>
                 <div class="row">
                   <div class="col-lg-9 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
-                    <p class="font-md color-grey-500 mb-30">Share your passion and expertise with emerging business minds. Mentor, teach, and inspire the next generation of leaders to shape their futures.</p>
+                    <p class="font-md color-grey-500 mb-10">Join an elite tribe of future leaders, visionaries, and entrepreneurs who are driven to create meaningful impact. As a Chanakya, you're not just learning — you're leading.</p>
                   </div>
                 </div>
-                <div class="box-button mt-30 wow animate__animated animate__fadeInUp" data-wow-delay=".4s"><a class="btn btn-brand-1 hover-up" href="#">Become a Chanakya</a><a class="btn btn-default font-sm-bold hover-up" href="#">Learn More
-                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+                <div class="box-button mt-20 wow animate__animated animate__fadeInUp" data-wow-delay=".4s"><a class="btn btn-brand-1 hover-up" href="#">Become a Chanakya</a>
+                </div>
               </div>
-              <div class="col-lg-5 d-none d-lg-block wow animate__animated animate__fadeIn">
-                <object data="assets/yc/imgs/page/homepage1/hero-banner.svg" type="image/svg+xml"></object>
+              <div class="col-lg-6 wow animate__animated animate__fadeIn ">
+                <img class="bd-rd16" src="{{asset('assets/yc/imgs/page/homepage1/become-a-chanakya.jpeg')}}"  alt="YC">
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="section mt-50 mb-50 bg-brand-1 pt-100 pb-100 bg-explore">
-        <div class="container">
-          <div class="text-center">
-            {{-- <span class="font-xl-bold color-white text-uppercase wow animate__animated animate__fadeInUp" data-wow-delay=".0s">explore network</span> --}}
-            <h2 class="color-brand-2 mb-60 mt-15 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Ready to capture every wonderful moment</h2>
-          </div>
-          <div class="mt-30 mb-60">
-            
-            <div class="tab-content wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-              <div class="tab-pane fade active show" id="tab-explore-1" role="tabpanel" aria-labelledby="tab-explore-1">
-                <div class="box-tab-32">
-                  <div class="row align-items-center">
-                    <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/homepage10/img-tab.png" alt="YC"></div>
-                    <div class="col-xl-6 col-lg-7">
-                      <div class="box-business-tab"><span class="btn btn-tag">Business</span>
-                        <h3 class="color-brand-1 mt-10 mb-15">Integrate with over 1,000 project management apps</h3>
-                        <p class="font-md color-grey-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective &quot;outside the box&quot; thinking.</p>
-                        <div class="mt-20">
-                          <ul class="list-ticks">
-                            <li>
-                              <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                              </svg>Task tracking
-                            </li>
-                            <li>
-                              <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                              </svg>Create task dependencies
-                            </li>
-                            <li>
-                              <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                              </svg>Task visualization
-                            </li>
-                            <li>
-                              <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                              </svg>hare files, discuss
-                            </li>
-                            <li>
-                              <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                              </svg>Meet deadlines faster
-                            </li>
-                            <li>
-                              <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                              </svg>Track time spent on each project
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section mt-50">
+      <section class="section section mt-50 mb-50 bg-brand-1 pt-100 pb-100 bg-explore">
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-12 text-center">
-                <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp">Become a Chanakya</h2>
-                <p class="font-lg color-gray-500 wow animate__animated animate__fadeInUp">Pick your plan. Change whenever you want.<br class="d-none d-lg-block">No switching fees between packages</p>
-                
+                <h2 class="color-brand-2 mb-30 mt-15 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Why Become a Chanakya</h2>
+                <p class="font-lg  color-white wow animate__animated animate__fadeInUp">Step into the world of Young Chanakya and become<br class="d-none d-lg-block">a visionary leader</p>
               </div>
             </div> 
           <div class="row align-items-center mt-50">
-            <div class="col-lg-4 mb-30" data-wow-delay=".0s">
-              <div class="card-guide bg-4">
-                <div class="card-image"><img src="assets/imgs/page/homepage7/payment.png" alt="YC"></div>
+            <div class="col-lg-4 mb-10" data-wow-delay=".2s">
+              <div class="card-guide bg-5 d-flex justify-content-center align-items-center">
+                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/money.png')}}" alt="YC"></div>
                 <div class="card-info">
-                  <h5 class="color-brand-1 mb-15">Secure payment</h5>
-                  <p class="font-md color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus</p>
-                
+                  <h5 class="color-brand-1 mb-15">Inspire Future Leaders</h5>
+                  <p class="font-md color-grey-500">Guide young minds and help shape the next generation of changemakers.</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 mb-30" data-wow-delay=".2s">
-              <div class="card-guide bg-5">
-                <div class="card-image"><img src="assets/imgs/page/homepage7/money.png" alt="YC"></div>
+            <div class="col-lg-4 mb-10" data-wow-delay=".2s">
+              <div class="card-guide bg-5 d-flex justify-content-center align-items-center">
+                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/money.png')}}" alt="YC"></div>
                 <div class="card-info">
-                  <h5 class="color-brand-1 mb-15">Save money</h5>
-                  <p class="font-md color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus</p>
-                
+                  <h5 class="color-brand-1 mb-15">Expand Network</h5>
+                  <p class="font-md color-grey-500">Connect with mentors, founders, and driven talents across sectors.</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 mb-30" data-wow-delay=".4s">
-              <div class="card-guide bg-7">
-                <div class="card-image"><img src="assets/imgs/page/homepage7/support.png" alt="YC"></div>
+            <div class="col-lg-4 mb-10" data-wow-delay=".2s">
+              <div class="card-guide bg-5 d-flex justify-content-center align-items-center">
+                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/money.png')}}" alt="YC"></div>
                 <div class="card-info">
-                  <h5 class="color-brand-1 mb-15">Quick support</h5>
-                  <p class="font-md color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus</p>
-                
+                  <h5 class="color-brand-1 mb-15">Grow as Leader</h5>
+                  <p class="font-md color-grey-500">Refine your communication and strategic thinking through mentorship.</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row align-items-center">
-            <div class="col-lg-4 mb-30" data-wow-delay=".0s">
-              <div class="card-guide bg-4">
-                <div class="card-image"><img src="assets/imgs/page/homepage7/payment.png" alt="YC"></div>
+          <div class="row align-items-center mt-20">
+            <div class="col-lg-4 mb-10" data-wow-delay=".2s">
+              <div class="card-guide bg-5 d-flex justify-content-center align-items-center">
+                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/money.png')}}" alt="YC"></div>
                 <div class="card-info">
-                  <h5 class="color-brand-1 mb-15">Secure payment</h5>
-                  <p class="font-md color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus</p>
-                
+                  <h5 class="color-brand-1 mb-15">Join Real Projects</h5>
+                  <p class="font-md color-grey-500">Collaborate on impactful ventures like startups, research, and innovation.</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 mb-30" data-wow-delay=".2s">
-              <div class="card-guide bg-5">
-                <div class="card-image"><img src="assets/imgs/page/homepage7/money.png" alt="YC"></div>
+            <div class="col-lg-4 mb-10" data-wow-delay=".2s">
+              <div class="card-guide bg-5 d-flex justify-content-center align-items-center">
+                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/money.png')}}" alt="YC"></div>
                 <div class="card-info">
-                  <h5 class="color-brand-1 mb-15">Save money</h5>
-                  <p class="font-md color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus</p>
-                
+                  <h5 class="color-brand-1 mb-15">Showcase Expertise</h5>
+                  <p class="font-md color-grey-500">Gain Visibility through Events, Podcasts, and Case Studies</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 mb-30" data-wow-delay=".4s">
-              <div class="card-guide bg-7">
-                <div class="card-image"><img src="assets/imgs/page/homepage7/support.png" alt="YC"></div>
+            <div class="col-lg-4 mb-10" data-wow-delay=".2s">
+              <div class="card-guide bg-5 d-flex justify-content-center align-items-center">
+                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/money.png')}}" alt="YC"></div>
                 <div class="card-info">
-                  <h5 class="color-brand-1 mb-15">Quick support</h5>
-                  <p class="font-md color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus</p>
-                
+                  <h5 class="color-brand-1 mb-15">Discover Opportunities</h5>
+                  <p class="font-md color-grey-500">Mentorship connects you with emerging ideas and talent.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <section class="section mt-70 mb-50 px-20">
+        <div class="container">
+          <div class="row mt-50 align-items-center">
+            <div class="col-lg-6 mb-30">
+              <div class="title-line mb-10 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Visionary leadership</div>
+              <h2 class="color-brand-1 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Who Can Become a Chanakya</h2>
+            </div>
+            <div class="col-lg-6 wow animate__animated animate__fadeIn">
+              <div class="card-offer card-we-do hover-up">
+                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage2/we-do3.png')}}" alt="yc"></div>
+                <div class="card-info">
+                  <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design &amp; technology.">Experienced Entrepreneurs</a></h4>
+                  <p class="font-md color-grey-500 mb-5">Mentor students and entrepreneurs while gaining visibility through YC platforms.</p>
+                  <!-- <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                      <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                      </svg></a></div> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 wow animate__animated animate__fadeIn">
+              <div class="card-offer card-we-do hover-up">
+                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage2/we-do.png')}}" alt="yc"></div>
+                <div class="card-info">
+                  <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="No lag time, no lost effort when priorities change, no email black hole. As team collaboration improves">Experienced Entrepreneurs</a></h4>
+                  <p class="font-md color-grey-500 mb-5">Guide startups on scaling and expansion while growing your own influence.</p>
+                  <!-- <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                      <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                      </svg></a></div> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 wow animate__animated animate__fadeIn">
+              <div class="card-offer card-we-do hover-up">
+                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage2/we-do4.png')}}" alt="yc"></div>
+                <div class="card-info">
+                  <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="Share updates instantly within our project management software, and get the entire team collaborating">Investors & Sponsors</a></h4>
+                  <p class="font-md color-grey-500 mb-5">Support startups with funding and mentorship while boosting your brand reach.</p>
+                  <!-- <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                      <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                      </svg></a></div> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 wow animate__animated animate__fadeIn">
+              <div class="card-offer card-we-do hover-up">
+                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage2/we-do2.png')}}" alt="yc"></div>
+                <div class="card-info">
+                  <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files &amp; CSV files.">Educators & Mentors</a></h4>
+                  <p class="font-md color-grey-500 mb-5">Support the YC community while growing your personal and professional network.</p>
+                  <!-- <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                      <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                      </svg></a></div> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 wow animate__animated animate__fadeIn">
+              <div class="card-offer card-we-do hover-up">
+                <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage2/we-do5.png')}}" alt="Yc"></div>
+                <div class="card-info">
+                  <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design &amp; technology.">Family Business Owners</a></h4>
+                  <p class="font-md color-grey-500 mb-5">Share your journey and help startups scale with practical, proven strategies.</p>
+                  <!-- <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                      <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                      </svg></a></div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="box-button text-center mt-10 wow animate__animated animate__fadeIn"><a class="btn btn-brand-1 hover-up" href="#">Download App</a><a class="btn btn-default font-sm-bold hover-up" href="#">Learn More
+              <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+              </svg></a></div> -->
+        </div>
+      </section>
+      <section class="section mt-50 mb-50 pt-70 pb-70" style="background-color: #CDE2E7;">
+        <div class="container">
+          <div class="wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+            <div class="row align-items-center">
+              <div class="col-xl-6 col-lg-6"><img class="bd-rd16" src="{{asset('assets/yc/imgs/page/homepage1/project1.png')}}" style="height: 380px;" alt="YC"></div>
+              <div class="col-xl-6 col-lg-6">
+                <div class="box-business-tab"><span class="btn btn-tag mb-2" style="color: #FFE7BB; background-color: #024430;">Chanakya's Roles</span>
+                  <h3 class="color-brand-1 mt-10 mb-20">Your Role as a Chanakya</h3>
+                  <p class="font-md color-grey-400">As a Chanakya, you become a driving force in guiding students, startups, and professionals toward success through strategic support, mentorship, and collaboration.</p>
+                  <div class="mt-30">
+                    <ul class="list-ticks">
+                      <li class="d-flex align-items-center mb-3">
+                        <span class="circle-tick-icon"></span>
+                        <span class="ms-3 fs-6">Mentor Future Leaders</span>
+                      </li>
+                      <li class="d-flex align-items-center mb-3">
+                        <span class="circle-tick-icon"></span>
+                        <span class="ms-3 fs-6 ">Support Business Growth</span>
+                      </li>
+                      <li class="d-flex align-items-center mb-3">
+                        <span class="circle-tick-icon"></span>
+                        <span class="ms-3  fs-6">Enable Network Access</span>
+                      </li> 
+                      <li class="d-flex align-items-center mb-3">
+                        <span class="circle-tick-icon"></span>
+                        <span class="ms-3 fs-6">Share Strategic Insights</span>
+                      </li>
+                      <li class="d-flex align-items-center mb-3">
+                        <span class="circle-tick-icon"></span>
+                        <span class="ms-3 fs-6">Enrich Practical Learning</span>
+                      </li>
+                      <li class="d-flex align-items-center mb-3">
+                        <span class="circle-tick-icon"></span>
+                        <span class="ms-3 fs-6">Inspire Visionary Action</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
       <!-- <section class="section mt-100">
         <div class="container">
           <div class="row mt-50 align-items-center">
@@ -779,6 +832,106 @@
           </div>
         </div>
       </section> --}}
+      <!-- <section class="section mt-80 mb-80">
+        <div class="container">
+          <div class="box-newsletter">
+            <div class="row align-items-center">
+              <div class="col-lg-5 col-md-12">
+                <div class="box-image-newsletter">
+                  <div class="wow animate__animated animate__zoomIn" data-wow-delay=".0s"><img class="img-main" src="{{asset('assets/yc/imgs/template/newsletter_img.png')}}" alt="YC"></div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2 class="color-brand-1 mb-15 mt-5 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+                  
+                </h2>
+                
+                <p class="font-md color-grey-500 wow animate__animated animate__fadeIn"  data-wow-delay=".2s">Young Chanakya collaborates with institutions to enhance MBA programs with a structured curriculum, expert-led workshops, and faculty development, ensuring students receive industry-relevant training and practical business knowledge.</p>
+                <div class="form-newsletter mt-30 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                  <form action="#">
+                    <input type="text" placeholder="Enter you mail ..">
+                    <button class="btn btn-submit-newsletter" type="submit">
+                      <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                      </svg>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <section class="section mt-70">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2 class="color-brand-1 mb-15">Become a Chanakya</h2>
+              <p class="font-sm color-grey-500">Shape future leaders and drive tomorrow’s success through your mentorship.</p>
+              
+            </div>
+            <div class="col-lg-6">
+              <div class="box-form-contact wow animate__animated animate__fadeIn" data-wow-delay=".6s">
+                <div class="row">
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="form-group mb-25">
+                      <input class="form-control icon-user" type="text" placeholder="Your name">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="form-group mb-25">
+                      <input class="form-control icon-email" type="text" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="form-group mb-25">
+                      <input class="form-control icon-phone" type="text" placeholder="Phone">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="form-group mb-25">
+                      <input class="form-control icon-company" type="text" placeholder="Profession/Industry">
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group mb-25">
+                      <input class="form-control" type="text" placeholder="LinkedIn URL">
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group mb-25">
+                      <input class="form-control" type="text" placeholder="Areas of Expertise">
+                    </div>
+                  </div>
+                  <!-- <div class="col-lg-12">
+                    <div class="form-group mb-25">
+                    
+                    <select class="form-control select pb-10" id="somethingSelect">
+                    <option value="" disabled selected>Sponsorship Level Selection</option>
+                      <option value="Option One">Title Sponsor</option>
+                      <option value="Option Two">Co-Sponsor</option>
+                      <option value="Option Three">Media Sponsor</option>
+                      <option value="Option Four">Digital Sponsor</option>
+                      <option value="Option Four">Event Sponsor</option>
+                      <option value="Option Four">Technology Sponsor</option>
+                    </select>
+                    </div>
+                  </div> -->
+                  <div class="col-xl-4 col-lg-5 col-md-5 col-sm-6 col-9">
+                    <div class="form-group">
+                      <button class="btn btn-brand-1-full font-sm" type="submit">Submit
+                        <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
       
