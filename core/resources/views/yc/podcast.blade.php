@@ -64,9 +64,9 @@
     <section class="section ml">
       <div class="container">
 
-        <div class="row g-4 justify-content-center">
+        <div class="row g-4  justify-content-center">
           <!-- Card 1 -->
-          <div class="col-md-5">
+          <div class="col-md-5 mr-50">
             <div class="card border-0 rounded-4 shadow-sm d-flex flex-row overflow-hidden" style="height: 200px;">
               <audio id="audio1" src="http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/theme_01.mp3"></audio>
               <div class="d-flex align-items-center justify-content-center p-3 text-white position-relative"
@@ -148,7 +148,7 @@
           </div>
 
           <!-- Card 3 -->
-          <div class="col-md-5">
+          <div class="col-md-5 mr-50">
           <div class="card border-0 rounded-4 shadow-sm d-flex flex-row overflow-hidden" style="height: 200px;">
               <audio id="audio3" src="http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/theme_01.mp3"></audio>
               <div class="d-flex align-items-center justify-content-center p-3 text-white position-relative"

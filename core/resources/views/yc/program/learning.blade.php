@@ -1015,92 +1015,122 @@
                                 <div class="col-xl-3 col-lg-4">
                                     <ul class="list-faqs nav nav-tabs" role="tablist">
                                         <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                                            <a id="tab1-tab" data-bs-toggle="pill" data-bs-target="#tab11" type="button" role="tab">
+                                            <a id="tab1-tab" data-bs-toggle="pill" data-bs-target="#tab11" type="button"
+                                                role="tab">
                                                 <span>
-                                                Power of Brands</span>
-                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                                    Power of Brands</span>
+                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor"
+                                                    viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                                            <a id="tab2-tab" data-bs-toggle="pill" data-bs-target="#tab12" type="button" role="tab">
+                                            <a id="tab2-tab" data-bs-toggle="pill" data-bs-target="#tab12" type="button"
+                                                role="tab">
                                                 <span>
-                                                Business Storytelling</span>
-                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                                    Business Storytelling</span>
+                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor"
+                                                    viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                                            <a id="tab3-tab" data-bs-toggle="pill" data-bs-target="#tab13" type="button" role="tab">
+                                            <a id="tab3-tab" data-bs-toggle="pill" data-bs-target="#tab13" type="button"
+                                                role="tab">
                                                 <span>
-                                                VC Essentials</span>
-                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                                    VC Essentials</span>
+                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor"
+                                                    viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                                            <a id="tab4-tab" data-bs-toggle="pill" data-bs-target="#tab14" type="button" role="tab">
+                                            <a id="tab4-tab" data-bs-toggle="pill" data-bs-target="#tab14" type="button"
+                                                role="tab">
                                                 <span>
-                                                Data-Driven Decision Making</span>
-                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                                    Data-Driven Decision Making</span>
+                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor"
+                                                    viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                                            <a id="tab4-tab" data-bs-toggle="pill" data-bs-target="#tab15" type="button" role="tab">
+                                            <a id="tab4-tab" data-bs-toggle="pill" data-bs-target="#tab15" type="button"
+                                                role="tab">
                                                 <span>
-                                                Sales & Partnerships</span>
-                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                                    Sales & Partnerships</span>
+                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor"
+                                                    viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                                            <a id="tab1-tab" data-bs-toggle="pill" data-bs-target="#tab16" type="button" role="tab">
+                                            <a id="tab1-tab" data-bs-toggle="pill" data-bs-target="#tab16" type="button"
+                                                role="tab">
                                                 <span>
-                                                Operations Management</span>
-                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                                    Operations Management</span>
+                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor"
+                                                    viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                                            <a id="tab2-tab" data-bs-toggle="pill" data-bs-target="#tab17" type="button" role="tab">
+                                            <a id="tab2-tab" data-bs-toggle="pill" data-bs-target="#tab17" type="button"
+                                                role="tab">
                                                 <span>
-                                                Product Management</span>
-                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                                    Product Management</span>
+                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor"
+                                                    viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                                            <a id="tab3-tab" data-bs-toggle="pill" data-bs-target="#tab18" type="button" role="tab">
+                                            <a id="tab3-tab" data-bs-toggle="pill" data-bs-target="#tab18" type="button"
+                                                role="tab">
                                                 <span>
-                                                Pricing Strategies</span>
-                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                                    Pricing Strategies</span>
+                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor"
+                                                    viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                                            <a id="tab4-tab" data-bs-toggle="pill" data-bs-target="#tab19" type="button" role="tab">
+                                            <a id="tab4-tab" data-bs-toggle="pill" data-bs-target="#tab19" type="button"
+                                                role="tab">
                                                 <span>
-                                                Digital Marketing</span>
-                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                                    Digital Marketing</span>
+                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor"
+                                                    viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                                            <a id="tab4-tab" data-bs-toggle="pill" data-bs-target="#tab20" type="button" role="tab">
+                                            <a id="tab4-tab" data-bs-toggle="pill" data-bs-target="#tab20" type="button"
+                                                role="tab">
                                                 <span>
-                                                Gen AI Mastery Course</span>
-                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                                    Gen AI Mastery Course</span>
+                                                <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor"
+                                                    viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                                                 </svg>
                                             </a>
                                         </li>
@@ -1112,933 +1142,1655 @@
                                     <div class="tab-content" id="vc-tabsContent">
                                         <!-- Tab 1 Content -->
                                         <div class="tab-pane fade show active " id="tab11" role="tabpanel">
-                                        <div class="col-lg-12">
-                                            <div class="d-flex gap-2 flex-row  h-100">
-                                            <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                <h5>Harness the Power of Branding</h5>
-                                                <p class="lh-base mt-15">Understand how branding can either elevate or undermine a product, and learn how to build strong customer connections through enhanced brand touchpoints.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
+                                            <div class="col-lg-12">
+                                                <div class="d-flex gap-2 flex-row  h-100">
+                                                    <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+                                                        <h5>Harness the Power of Branding</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand how branding can either
+                                                            elevate or undermine a product, and learn how to build
+                                                            strong customer connections through enhanced brand
+                                                            touchpoints.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Build a strong brand identity that resonates with your
+                                                                target audience.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Craft consistent messaging across all customer
+                                                                touchpoints.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Leverage emotional connection to boost brand loyalty and
+                                                                recognition.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Monitor brand performance and adapt strategies for
+                                                                long-term impact.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Develop a Strategic Brand Portfolio</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Discover best practices in managing a
+                                                            brand portfolio, differentiate between launching a new brand
+                                                            or extending an existing one, and choose the right approach
+                                                            for introducing new products.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Identify and position distinct brands to serve diverse
+                                                                customer segments.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Align each brand’s vision with your overarching business
+                                                                strategy.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Manage brand architecture to avoid overlap and maximize
+                                                                market reach.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Evaluate performance and streamline brands to optimize
+                                                                portfolio impact.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Track and Grow Your Brand</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn to measure brand health, track
+                                                            awareness and market share, and construct strategic plans to
+                                                            defend against competitors and drive growth.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Monitor key brand metrics to assess growth and
+                                                                recognition.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Use customer feedback and sentiment analysis to shape
+                                                                perception.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Adapt branding strategies based on market trends and
+                                                                competitor moves.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Implement growth initiatives to expand brand reach and
+                                                                influence.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                               
-                                                <h5>Develop a Strategic Brand Portfolio</h5>
-                                                <p class="lh-base mt-15">Discover best practices in managing a brand portfolio, differentiate between launching a new brand or extending an existing one, and choose the right approach for introducing new products.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                
-                                                <h5>Track and Grow Your Brand</h5>
-                                                <p class="lh-base mt-15">Learn to measure brand health, track awareness and market share, and construct strategic plans to defend against competitors and drive growth.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            </div>
-                                        </div>
                                         </div>
                                         <!-- Tab 2 Content -->
                                         <div class="tab-pane fade show  " id="tab12" role="tabpanel">
-                                        <div class="col-lg-12">
-                                            <div class="d-flex gap-2 flex-row  h-100">
-                                            <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                <h5>Master Conflict & Change Management through Storytelling</h5>
-                                                <p class="lh-base mt-15">Navigate challenging situations like conflict and change by applying storytelling techniques that build empathy and understanding.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
+                                            <div class="col-lg-12">
+                                                <div class="d-flex gap-2 flex-row  h-100">
+                                                    <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+                                                        <h5>Master Conflict & Change Management through Storytelling
+                                                        </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Navigate challenging situations like
+                                                            conflict and change by applying storytelling techniques that
+                                                            build empathy and understanding.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Leverage neuroscience principles to build emotionally
+                                                                engaging brand stories.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Understand how brain chemistry influences consumer
+                                                                decision-making.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Craft compelling narratives that align with consumer
+                                                                emotions and memory triggers.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Enhance brand messaging using psychological and
+                                                                cognitive storytelling techniques.
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Level-Up Your Communication with Data-Driven Stories</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn to create impactful stories with
+                                                            data visualization, and leverage personal branding to
+                                                            position yourself as an influential communicator.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Use storytelling to navigate organizational conflicts
+                                                                and transitions.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Create shared narratives to unite teams during change or
+                                                                crisis.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Frame challenges as opportunities through reframing and
+                                                                emotional engagement.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Equip yourself with persuasive narratives to influence
+                                                                stakeholders effectively.
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Grasp the Indian VC Landscape and Investment Strategies</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Gain insights into the Indian venture
+                                                            capital ecosystem, understanding how VCs operate, their
+                                                            investment focus areas, and the strategies that drive
+                                                            funding decisions.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Translate complex data into clear, compelling business
+                                                                narratives.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Craft stories that inspire action and align teams around
+                                                                insights.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Build credibility by supporting your message with
+                                                                meaningful metrics.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Master visual storytelling using charts, dashboards, and
+                                                                infographics.
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                               
-                                                <h5>Level-Up Your Communication with Data-Driven Stories</h5>
-                                                <p class="lh-base mt-15">Learn to create impactful stories with data visualization, and leverage personal branding to position yourself as an influential communicator.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                
-                                                <h5>Grasp the Indian VC Landscape and Investment Strategies</h5>
-                                                <p class="lh-base mt-15">Gain insights into the Indian venture capital ecosystem, understanding how VCs operate, their investment focus areas, and the strategies that drive funding decisions.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            </div>
-                                        </div>
                                         </div>
                                         <!-- Tab 3 Content -->
                                         <div class="tab-pane fade show " id="tab13" role="tabpanel">
-                                        <div class="col-lg-12">
-                                            <div class="d-flex gap-2 flex-row  h-100">
-                                            <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                <h5>Craft Business Narratives with Neuroscience Insights:</h5>
-                                                <p class="lh-base mt-15">Use neuroscience-backed storytelling techniques to create powerful narratives that resonate with audiences & influences decision making.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
+                                            <div class="col-lg-12">
+                                                <div class="d-flex gap-2 flex-row  h-100">
+                                                    <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+                                                        <h5>Craft Business Narratives with Neuroscience Insights:</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Use neuroscience-backed storytelling
+                                                            techniques to create powerful narratives that resonate with
+                                                            audiences & influences decision making.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Understand how Indian VCs evaluate startups and market
+                                                                trends.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Learn common VC investment theses and portfolio
+                                                                strategies.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Analyze real VC case studies and deal sourcing
+                                                                techniques.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Explore due diligence processes and risk mitigation
+                                                                frameworks.
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Build Expertise in Pitch Decks and Investor Engagement</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn the key components of creating
+                                                            compelling pitch decks that capture investor attention.
+                                                            Understand how to tailor your pitch to different types of
+                                                            investors and funding stages to maximize your chances of
+                                                            success.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Structure pitch decks that highlight traction, vision,
+                                                                and market opportunity.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Learn to tailor pitches for different investor personas
+                                                                and stages.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Practice live pitching sessions with feedback from real
+                                                                investors.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Master investor Q&A strategies and post-pitch
+                                                                follow-ups.
+                                                            </li>
+                                                        </ul>
+
+
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Develop Advanced Skills in Funding, Valuation, and
+                                                            Investment Terms</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Identify the stages of funding and
+                                                            various types of investors, from angel investors to
+                                                            institutional VCs. Deep dive into startup valuation methods,
+                                                            investment terms, and learn to craft investment strategies
+                                                            that align with market dynamics.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Master advanced funding strategies, including equity and
+                                                                debt financing.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Learn how to accurately value startups and determine
+                                                                equity distribution.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Understand and negotiate critical investment terms such
+                                                                as cap tables, liquidation preferences, and convertible
+                                                                notes.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Analyze real-world funding rounds and understand the
+                                                                implications of different investor types.
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                               
-                                                <h5>Build Expertise in Pitch Decks and Investor Engagement</h5>
-                                                <p class="lh-base mt-15">Learn the key components of creating compelling pitch decks that capture investor attention. Understand how to tailor your pitch to different types of investors and funding stages to maximize your chances of success.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                
-                                                <h5>Develop Advanced Skills in Funding, Valuation, and Investment Terms</h5>
-                                                <p class="lh-base mt-15">Identify the stages of funding and various types of investors, from angel investors to institutional VCs. Deep dive into startup valuation methods, investment terms, and learn to craft investment strategies that align with market dynamics.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            </div>
-                                        </div>
                                         </div>
                                         <!-- Tab 4 Content -->
                                         <div class="tab-pane fade show  " id="tab14" role="tabpanel">
-                                        <div class="col-lg-12">
-                                            <div class="d-flex gap-2 flex-row  h-100">
-                                            <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                <h5>Master Data Trends and Analytical Techniques</h5>
-                                                <p class="lh-base mt-15">Understand core data concepts like trends, variability, and correlation, building a strong foundation in data analysis that’s essential for decision-making.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
+                                            <div class="col-lg-12">
+                                                <div class="d-flex gap-2 flex-row  h-100">
+                                                    <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+                                                        <h5>Master Data Trends and Analytical Techniques</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand core data concepts like
+                                                            trends, variability, and correlation, building a strong
+                                                            foundation in data analysis that’s essential for
+                                                            decision-making.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Analyze current data trends across industries and apply
+                                                                them to business strategy.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Master analytical techniques such as regression
+                                                                analysis, forecasting, and segmentation.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Leverage tools like Python, R, and SQL for data
+                                                                extraction, processing, and visualization.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Implement advanced analytics to drive business decisions
+                                                                and improve performance metrics.
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Apply Data to Real-World Business Challenges</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Leverage data analysis tools such as
+                                                            regression and hypothesis testing to solve real-world
+                                                            problems, driving better business strategy and
+                                                            entrepreneurial decisions.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Translate complex data into actionable insights that
+                                                                solve real-world business problems.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Use predictive analytics to address key operational
+                                                                challenges and forecast trends.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Develop data-driven solutions to improve efficiency,
+                                                                productivity, and profitability.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Collaborate with cross-functional teams to implement
+                                                                data solutions for business success.
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Develop Confidence in Data-Driven Strategy</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn to transform data into actionable
+                                                            insights, using advanced analytical methods to make informed
+                                                            decisions that directly impact business growth and research
+                                                            outcomes.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Build a strong foundation in data analysis to
+                                                                confidently make strategic decisions.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Master key data tools and techniques to draw actionable
+                                                                insights for business strategy.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Gain practical experience in applying data to drive
+                                                                business decisions with confidence.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Present data-backed strategies to stakeholders with
+                                                                clarity and persuasive communication.
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                               
-                                                <h5>Apply Data to Real-World Business Challenges</h5>
-                                                <p class="lh-base mt-15">Leverage data analysis tools such as regression and hypothesis testing to solve real-world problems, driving better business strategy and entrepreneurial decisions.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                
-                                                <h5>Develop Confidence in Data-Driven Strategy</h5>
-                                                <p class="lh-base mt-15">Learn to transform data into actionable insights, using advanced analytical methods to make informed decisions that directly impact business growth and research outcomes.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            </div>
-                                        </div>
                                         </div>
                                         <!-- Tab 5 Content -->
                                         <div class="tab-pane fade show  " id="tab15" role="tabpanel">
-                                        <div class="col-lg-12">
-                                            <div class="d-flex gap-2 flex-row  h-100">
-                                            <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                <h5>Master the Method of Modern Selling</h5>
-                                                <p class="lh-base mt-15">Learn a structured, repeatable sales method designed to help anyone sell tech-based products confidently, regardless of their background..</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
+                                            <div class="col-lg-12">
+                                                <div class="d-flex gap-2 flex-row  h-100">
+                                                    <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+                                                        <h5>Master the Method of Modern Selling</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn a structured, repeatable sales
+                                                            method designed to help anyone sell tech-based products
+                                                            confidently, regardless of their background..</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Learn the fundamentals of modern selling techniques that
+                                                                drive customer engagement.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Understand the psychology of customers to create
+                                                                personalized and persuasive sales strategies.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Develop advanced negotiation skills to close deals
+                                                                effectively and efficiently.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Master CRM tools and sales analytics to track
+                                                                performance and optimize strategies.
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Excel in Customer-Facing Roles</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Build the skills and confidence to
+                                                            thrive in future client-facing roles and navigate the
+                                                            complexities of selling rapidly evolving tech products and
+                                                            services.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Develop a deep understanding of customer needs and
+                                                                expectations in customer-facing roles.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Build long-lasting relationships with clients by
+                                                                offering personalized solutions and support.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Hone communication and active listening skills to
+                                                                address customer concerns and needs.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Drive customer satisfaction and loyalty by ensuring
+                                                                exceptional service at every touchpoint.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Tackle the Complexities of Tech Sales</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand the unique challenges of
+                                                            selling tech-based products, such as explaining non-tangible
+                                                            benefits, handling fast product evolution, and overcoming
+                                                            low brand recall.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Understand the role of tech sales in today's rapidly
+                                                                evolving digital landscape.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Learn how to sell complex technological products through
+                                                                effective demos and client education.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Navigate the challenges of selling to tech-savvy
+                                                                customers and decision-makers.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Develop strong negotiation skills tailored to the tech
+                                                                sales environment.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                               
-                                                <h5>Excel in Customer-Facing Roles</h5>
-                                                <p class="lh-base mt-15">Build the skills and confidence to thrive in future client-facing roles and navigate the complexities of selling rapidly evolving tech products and services.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                
-                                                <h5>Tackle the Complexities of Tech Sales</h5>
-                                                <p class="lh-base mt-15">Understand the unique challenges of selling tech-based products, such as explaining non-tangible benefits, handling fast product evolution, and overcoming low brand recall.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            </div>
-                                        </div>
                                         </div>
                                         <!-- Tab 6 Content -->
                                         <div class="tab-pane fade show " id="tab16" role="tabpanel">
-                                        <div class="col-lg-12">
-                                            <div class="d-flex gap-2 flex-row  h-100">
-                                            <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                <h5>Strategic Importance of Operations</h5>
-                                                <p class="lh-base mt-15">Understand how operational decisions impact a firm’s overall strategy, integrating with key areas like finance, marketing, and product delivery to drive competitive advantage.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
+                                            <div class="col-lg-12">
+                                                <div class="d-flex gap-2 flex-row  h-100">
+                                                    <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+                                                        <h5>Strategic Importance of Operations</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand how operational decisions
+                                                            impact a firm’s overall strategy, integrating with key areas
+                                                            like finance, marketing, and product delivery to drive
+                                                            competitive advantage.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Understand the strategic importance of operations in
+                                                                scaling a business.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Learn how to optimize business operations to maximize
+                                                                efficiency and minimize costs.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Gain insight into key performance indicators (KPIs) for
+                                                                measuring operational success.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Understand the balance between cost reduction and
+                                                                maintaining quality standards.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Master Process Mapping & Flow Management:</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn how to visualize and manage
+                                                            business process flows, identify bottlenecks, and enhance
+                                                            process efficiency to meet organizational goals.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Master process mapping to effectively document and
+                                                                analyze workflows.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Learn flow management techniques to optimize processes
+                                                                and enhance productivity.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Implement continuous improvement systems to increase
+                                                                operational efficiency.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Drive change management processes to ensure seamless
+                                                                business transformations.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Continuous Improvement Systems</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Develop the ability to implement a
+                                                            culture of continuous improvement within operations,
+                                                            ensuring that processes remain responsive, efficient, and
+                                                            adaptable over time.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Learn lean, Six Sigma, and Kaizen principles to
+                                                                boost operational excellence.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Embed a culture of continuous learning and
+                                                                improvement in your teams.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Utilize data to identify inefficiencies and design
+                                                                better systems.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Drive organizational change through iterative,
+                                                                measurable improvements.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                               
-                                                <h5>Master Process Mapping & Flow Management:</h5>
-                                                <p class="lh-base mt-15">Learn how to visualize and manage business process flows, identify bottlenecks, and enhance process efficiency to meet organizational goals.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                
-                                                <h5>Continuous Improvement Systems</h5>
-                                                <p class="lh-base mt-15">Develop the ability to implement a culture of continuous improvement within operations, ensuring that processes remain responsive, efficient, and adaptable over time.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            </div>
-                                        </div>
                                         </div>
                                         <!-- Tab 7 Content -->
                                         <div class="tab-pane fade show  " id="tab17" role="tabpanel">
-                                        <div class="col-lg-12">
-                                            <div class="d-flex gap-2 flex-row  h-100">
-                                            <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                <h5>Navigate the Full Product Lifecycle</h5>
-                                                <p class="lh-base mt-15">Understand the entire product lifecycle, from conceptualization to market launch, and master essential Product Management skills needed to turn ideas into reality.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
+                                            <div class="col-lg-12">
+                                                <div class="d-flex gap-2 flex-row  h-100">
+                                                    <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+                                                        <h5>Navigate the Full Product Lifecycle</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand the entire product
+                                                            lifecycle, from conceptualization to market launch, and
+                                                            master essential Product Management skills needed to turn
+                                                            ideas into reality.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Learn to navigate the entire product lifecycle from
+                                                                ideation to market launch and beyond.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Master techniques to ensure products meet customer needs
+                                                                and drive business growth.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Learn to create customer-centric solutions that solve
+                                                                real-world problems and add value.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Develop skills to efficiently manage cross-functional
+                                                                teams to bring products to market.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Craft Customer-Centric Solutions</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn how to connect deeply with
+                                                            customers, derive insights, develop product strategies, and
+                                                            build MVPs while considering user psychology and design.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Gain hands-on experience with practical product
+                                                                management tools and techniques.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Enhance your ability to prioritize, scope, and deliver
+                                                                on time-critical product goals.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Understand key concepts in setting pricing strategies
+                                                                that drive business success.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Learn to create a competitive pricing strategy that
+                                                                aligns with customer value perceptions.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Master Practical PM Skills</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Gain hands-on experience in building
+                                                            wireframes, managing stakeholders, tracking product metrics,
+                                                            and leveraging data—all while honing interview skills and
+                                                            industry frameworks to succeed as a PM.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Understand the importance of positioning and packaging
+                                                                to attract and retain customers.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Learn to craft compelling brand narratives and
+                                                                differentiate products in the market.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Develop a competitive edge by packaging products with
+                                                                features that meet customer desires.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Build strategies to ensure your products stand out and
+                                                                meet customer expectations.
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                               
-                                                <h5>Craft Customer-Centric Solutions</h5>
-                                                <p class="lh-base mt-15">Learn how to connect deeply with customers, derive insights, develop product strategies, and build MVPs while considering user psychology and design.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                
-                                                <h5>Master Practical PM Skills</h5>
-                                                <p class="lh-base mt-15">Gain hands-on experience in building wireframes, managing stakeholders, tracking product metrics, and leveraging data—all while honing interview skills and industry frameworks to succeed as a PM.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            </div>
-                                        </div>
                                         </div>
                                         <!-- Tab 8 Content -->
                                         <div class="tab-pane fade show  " id="tab18" role="tabpanel">
-                                        <div class="col-lg-12">
-                                            <div class="d-flex gap-2 flex-row  h-100">
-                                            <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                <h5>Master Pricing Strategies for Growth</h5>
-                                                <p class="lh-base mt-15">Learn to overcome monetization mindset barriers and design effective pricing structures to align with business goals and maximize revenue.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
+                                            <div class="col-lg-12">
+                                                <div class="d-flex gap-2 flex-row  h-100">
+                                                    <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+                                                        <h5>Master Pricing Strategies for Growth</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn to overcome monetization mindset
+                                                            barriers and design effective pricing structures to align
+                                                            with business goals and maximize revenue.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Use data to drive decisions on pricing to optimize
+                                                                revenue and profitability.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Learn to analyze customer data and market trends to make
+                                                                informed pricing decisions.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Utilize A/B testing and pricing optimization techniques
+                                                                to continuously improve margins.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>
+                                                                Leverage competitor pricing data and market research to
+                                                                fine-tune your own pricing models.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Positioning and Packaging for Competitive Edge</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand the role of positioning in
+                                                            pricing strategies and develop customer-aligned packaging to
+                                                            enhance product value and market competitiveness.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Define a clear market position that distinguishes
+                                                                your offering.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Create packaging that resonates with customer
+                                                                emotions and needs.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Balance functionality and aesthetics to stand out
+                                                                on the shelf or screen.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Adapt positioning strategies based on changing
+                                                                market dynamics.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Data-Driven Pricing Decisions</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Gain expertise in using pricing
+                                                            research methods and selecting optimal price variables to
+                                                            make informed, profitability-driven decisions.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Use customer insights and purchase data to shape
+                                                                your pricing model.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Test pricing strategies using A/B testing and
+                                                                real-time analytics.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Forecast revenue and profitability with predictive
+                                                                models.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Align pricing decisions with customer value
+                                                                perception and market trends.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                               
-                                                <h5>Positioning and Packaging for Competitive Edge</h5>
-                                                <p class="lh-base mt-15">Understand the role of positioning in pricing strategies and develop customer-aligned packaging to enhance product value and market competitiveness.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                
-                                                <h5>Data-Driven Pricing Decisions</h5>
-                                                <p class="lh-base mt-15">Gain expertise in using pricing research methods and selecting optimal price variables to make informed, profitability-driven decisions.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            </div>
-                                        </div>
                                         </div>
                                         <!-- Tab 9 Content -->
                                         <div class="tab-pane fade show  " id="tab19" role="tabpanel">
-                                        <div class="col-lg-12">
-                                            <div class="d-flex gap-2 flex-row  h-100">
-                                            <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                <h5>Campaign Objectives & Goals</h5>
-                                                <p class="lh-base mt-15">Learn to analyze consumer funnels using the RACE framework (Reach, Act, Convert, Engage). Work with ads from companies like CRED, Epigamia, and Mesa to identify objectives and align campaign goals..</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
+                                            <div class="col-lg-12">
+                                                <div class="d-flex gap-2 flex-row  h-100">
+                                                    <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+                                                        <h5>Campaign Objectives & Goals</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn to analyze consumer funnels using
+                                                            the RACE framework (Reach, Act, Convert, Engage). Work with
+                                                            ads from companies like CRED, Epigamia, and Mesa to identify
+                                                            objectives and align campaign goals..</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Set SMART goals to guide marketing efforts and
+                                                                measure success.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Align campaign objectives with overall business
+                                                                and brand strategy.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Track performance using KPIs such as CAC, CTR, and
+                                                                ROI.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Optimize campaigns in real-time using feedback
+                                                                loops and analytics.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Consumer Journey Mapping</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand ad effectiveness by
+                                                            exploring landing pages, building consumer personas, and
+                                                            plotting the ideal customer journey across platforms.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Visualize the end-to-end customer experience from
+                                                                awareness to advocacy.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Identify key touchpoints and pain points across
+                                                                the buyer’s journey.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Design strategies to improve customer experience
+                                                                at each stage.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Use journey maps to align marketing, sales, and
+                                                                service strategies.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Media Planning & Budgeting</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Master media selection, planning, and
+                                                            budget allocation while linking these decisions to campaign
+                                                            funnels. Includes hands-on exercises for media design,
+                                                            digital metrics, and content strategy.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Select optimal media channels based on audience
+                                                                behavior and cost-effectiveness.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Allocate budgets strategically across paid,
+                                                                earned, and owned media.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Forecast and track media spend ROI with precision.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Optimize campaigns through cross-channel media mix
+                                                                modeling.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                               
-                                                <h5>Consumer Journey Mapping</h5>
-                                                <p class="lh-base mt-15">Understand ad effectiveness by exploring landing pages, building consumer personas, and plotting the ideal customer journey across platforms.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                
-                                                <h5>Media Planning & Budgeting</h5>
-                                                <p class="lh-base mt-15">Master media selection, planning, and budget allocation while linking these decisions to campaign funnels. Includes hands-on exercises for media design, digital metrics, and content strategy.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            </div>
-                                        </div>
                                         </div>
                                         <!-- Tab 10 Content -->
                                         <div class="tab-pane fade show  " id="tab20" role="tabpanel">
-                                        <div class="col-lg-12">
-                                            <div class="d-flex gap-2 flex-row  h-100">
-                                            <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                <h5>Master Advanced Generative AI Techniques & Applications</h5>
-                                                <p class="lh-base mt-15">Dive deep into advanced prompt engineering, model capabilities, sector-specific use cases, and real-world integration challenges. Hands-on exercises will build expertise in tailoring AI solutions across industries.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
+                                            <div class="col-lg-12">
+                                                <div class="d-flex gap-2 flex-row  h-100">
+                                                    <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+                                                        <h5>Master Advanced Generative AI Techniques & Applications</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Dive deep into advanced prompt
+                                                            engineering, model capabilities, sector-specific use cases,
+                                                            and real-world integration challenges. Hands-on exercises
+                                                            will build expertise in tailoring AI solutions across
+                                                            industries.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Understand the core mechanics of models like GPT,
+                                                                DALL·E, and Stable Diffusion.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Explore use cases across content, design, code,
+                                                                and operations.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Implement generative tools to increase
+                                                                productivity and creativity.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Analyze ethical, legal, and societal impacts of
+                                                                generative AI.
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>Custom GPT Development & Enterprise AI Tools</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn to design, develop, and deploy
+                                                            custom GPT models as internal tools, manage the AI
+                                                            development lifecycle, and tackle user acceptance and
+                                                            testing..</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Learn to build, fine-tune, and deploy custom GPT
+                                                                models for business use.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Integrate AI into CRM, analytics, content, and
+                                                                product tools.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Explore APIs, workflows, and plug-ins for custom
+                                                                automation.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Leverage AI tools to streamline enterprise-scale
+                                                                decision-making.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
+                                                        <div class="icon-plan pb-10 pt-10"><img
+                                                                src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
+                                                        </div>
+
+                                                        <h5>AI Strategy & Leadership</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Gain insights into integrating AI into
+                                                            executive decision-making, evaluate AI startups, and lead
+                                                            agile AI initiatives through action sprints, iterative
+                                                            refinement, and strategic planning.</p>
+                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
+                                                        <ul class="mt-15 mb-5">
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Design responsible and scalable AI strategies
+                                                                aligned to business goals.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Lead cross-functional teams in AI adoption and
+                                                                transformation.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Understand AI governance, risk, and compliance
+                                                                frameworks.
+                                                            </li>
+                                                            <li class="mb-1 font-md color-grey-400">
+                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
+                                                                    stroke="green" viewbox="0 0 24 24"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                                </svg>Champion a culture of innovation and ethical AI
+                                                                leadership.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                               
-                                                <h5>Custom GPT Development & Enterprise AI Tools</h5>
-                                                <p class="lh-base mt-15">Learn to design, develop, and deploy custom GPT models as internal tools, manage the AI development lifecycle, and tackle user acceptance and testing..</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
-                                                <div class="icon-plan pb-10 pt-10"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
-                                                
-                                                <h5>AI Strategy & Leadership</h5>
-                                                <p class="lh-base mt-15">Gain insights into integrating AI into executive decision-making, evaluate AI startups, and lead agile AI initiatives through action sprints, iterative refinement, and strategic planning.</p>
-                                                <!-- <h6 class="lh-base mt-15 mb-5 fw-semibold">Points.</h6> -->
-                                                <!--<ul class="mt-15 mb-5">
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hello world hello world</li>
-                                                    <li class="mb-1">
-                                                    <svg class="w-6 h-6 icon-16 me-2" fill="none" stroke="green" viewbox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                        </svg>hwllo world hello world</li>
-                                                </ul>-->
-                                            </div>
-                                            </div>
-                                        </div>
                                         </div>
                                     </div>
                                 </div>
