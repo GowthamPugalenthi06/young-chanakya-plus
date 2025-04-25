@@ -311,192 +311,376 @@
       </div>
     </section>
 
-    <section class="section mt-50">
+     <section class="section mt-50 mb-50 bg-brand-1 pt-100 pb-100 bg-explore">
       <div class="container">
-        <div class="row text-center align-items-end">
-          <div class="col-lg-12 col-md-12">
-            <h2 class="color-brand-1 mb-20">Explore Our Programs</h2>
-            <p class="font-lg color-gray-500">Get industry-ready with our specialized academic offerings. Find your path below.</p>
-          </div>
-          
+        <div class="text-center"><span
+            class="font-xl-bold color-white text-uppercase wow animate__animated animate__fadeInUp"
+            data-wow-delay=".0s">Explore Our Programs</span>
+          <h2 class="color-brand-2 mb-60 mt-15 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Get industry-ready with our specialized academic offerings. Find your path below.</h2>
         </div>
-
-        <div class="row mt-50">
-          <!-- UG Program Card -->
-          <div class="col-lg-6 col-md-6 mb-4">
-          <div class="mx-3 hi">
-                  <div class="card-offer-style-3">
-                    <div class="card-head">
-                      <div class="card-image">
-                        <img src="{{ asset('assets/yc/imgs/page/homepage1/quote.svg') }}" alt="Seed Stage">
+        <div class="mt-30 mb-60">
+          <ul class="list-buttons list-buttons-circle nav nav-tabs" role="tablist">
+            <li class="wow animate__animated animate__fadeIn" data-wow-delay=".0s"><a class="active"
+                href="#tab-explore-1" data-bs-toggle="tab" role="tab" aria-controls="tab-explore-1"
+                aria-selected="true">Idea to Market</a></li>
+            <li class="wow animate__animated animate__fadeIn" data-wow-delay=".2s"><a href="#tab-explore-2"
+                data-bs-toggle="tab" role="tab" aria-controls="tab-explore-2" aria-selected="true">Business in Marketing Psychology</a></li>
+            <li class="wow animate__animated animate__fadeIn" data-wow-delay=".4s"><a href="#tab-explore-3"
+                data-bs-toggle="tab" role="tab" aria-controls="tab-explore-3" aria-selected="true">Family Business & Legacy Management</a></li>
+            <li class="wow animate__animated animate__fadeIn" data-wow-delay=".5s"><a href="#tab-explore-4"
+                data-bs-toggle="tab" role="tab" aria-controls="tab-explore-4" aria-selected="true">Technology in Marketing</a>
+            </li>
+            
+          </ul>
+          <div class="tab-content wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+            <div class="tab-pane fade active show" id="tab-explore-1" role="tabpanel" aria-labelledby="tab-explore-1">
+              <div class="box-tab-32">
+                <div class="row align-items-center">
+                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}"
+                      alt="YC"></div>
+                  <div class="col-xl-6 col-lg-7">
+                    <div class="box-business-tab"><span class="btn btn-tag">UG Program</span>
+                      <h3 class="color-brand-1 mt-10 mb-15">Idea to Market</h3>
+                      <p class="font-md color-grey-400">This course equips aspiring entrepreneurs with the tools to transform ideas into real-world ventures by teaching market research, product design, and launch strategies. Participants will develop business models, validate customer needs, and pitch to investors under expert guidance.</p>
+                      <div class="mt-20">
+                        <ul class="list-ticks">
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Market Research
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Business Model
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Product Strategy
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Customer Validation
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Investor Pitching
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Startup Launch
+                          </li>
+                        </ul>
                       </div>
-                      <div class="carrd-title">
-                        <h4 class="color-brand-1 mb-15">Trees Stage</h4>
-                        <p class="font-sm color-grey-500">Become a Leader</p>
-                      </div>
-                    </div>
-                    <div class="card-info">
-                  
-                      <p class="font-sm color-grey-500 mb-15">
-                        A leader’s journey begins with curiosity — the drive to learn, observe, and grow. With the right
-                        mindset and mentors, they take root.
-                      </p>
                     </div>
                   </div>
                 </div>
-          </div>
-          <div class="col-lg-6 col-md-6 mb-4">
-          <div class="mx-3 hi head-bg-brand-2">
-                  <div class="card-offer-style-3">
-                    <div class="card-head">
-                      <div class="card-image">
-                        <img src="{{asset('assets/yc/imgs/page/homepage1/quote.svg')}}" alt="Sprout Stage">
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-explore-2" role="tabpanel" aria-labelledby="tab-explore-2">
+              <div class="box-tab-32">
+                <div class="row align-items-center">
+                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/yc/imgs/page/blog2/img1.png" alt="YC">
+                  </div>
+                  <div class="col-xl-6 col-lg-7">
+                    <div class="box-business-tab"><span class="btn btn-tag">UG Program</span>
+                      <h3 class="color-brand-1 mt-10 mb-15">Business in Marketing Psychology</h3><p class="font-md color-grey-400" >Dive into the psychology behind marketing to understand how emotions, perception, and decision-making influence consumer behavior. Learn to craft persuasive campaigns that connect deeply and convert effectively using scientifically proven strategies
+                        .</p>
+                      <div class="mt-20">
+                        <ul class="list-ticks">
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Consumer Behavior
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Emotional Branding
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Decision Triggers
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Value Perception
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Message Framing
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Persuasive Design
+                          </li>
+                        </ul>
                       </div>
-                      <div class="carrd-title">
-                        <h4 class="color-brand-1 mb-15">Sprout Stage</h4>
-                        <p class="font-sm color-grey-500">Taking Small Steps</p>
-                      </div>
-                    </div>
-                    <div class="card-info">
-                      <p class="font-sm color-grey-500 mb-15">
-                        Like a sprout pushing through tough soil, leaders face early challenges. Each failure
-                        strengthens their resolve and helps them grow.
-                      </p>
                     </div>
                   </div>
                 </div>
-          </div>
-
-          <!-- PG Program Card -->
-          <div class="col-lg-6 col-md-6 mb-4">
-          <div class="mx-3 hi head-bg-2">
-                  <div class="card-offer-style-3">
-                    <div class="card-head">
-                      <div class="card-image">
-                        <img src="{{asset('assets/yc/imgs/page/homepage1/quote.svg')}}" alt="Sapling Stage">
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-explore-3" role="tabpanel" aria-labelledby="tab-explore-3">
+              <div class="box-tab-32">
+                <div class="row align-items-center">
+                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/yc/imgs/page/homepage10/img-tab.png"
+                      alt="YC"></div>
+                  <div class="col-xl-6 col-lg-7">
+                    <div class="box-business-tab"><span class="btn btn-tag">PG Program</span>
+                      <h3 class="color-brand-1 mt-10 mb-15">Family Business & Legacy Management</h3>
+                      <p class="font-md color-grey-400">Designed for next-gen leaders, this course addresses succession, governance, and innovation in family-run enterprises. It focuses on preserving legacy while adapting to modern challenges and nurturing long-term vision and sustainability.</p>
+                      <div class="mt-20">
+                        <ul class="list-ticks">
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Succession Planning
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Family Governance
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Conflict Management
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Strategic Renewal
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Legacy Building
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Vision Alignment
+                          </li>
+                        </ul>
                       </div>
-                      <div class="carrd-title">
-                        <h4 class="color-brand-1 mb-15">Sapling Stage</h4>
-                        <p class="font-sm color-grey-500">Skills & Strength</p>
-                      </div>
-                    </div>
-                    <div class="card-info">
-                      <p class="font-sm color-grey-500 mb-15">
-                        As roots deepen, a leader builds wisdom and starts inspiring others. Like a sapling, they offer
-                        shade while continuing to grow.
-                      </p>
                     </div>
                   </div>
                 </div>
-          </div>
-          <div class="col-lg-6 col-md-6 mb-4">
-          <div class="mx-3 hi head-bg-5">
-                  <div class="card-offer-style-3">
-                    <div class="card-head">
-                      <div class="card-image">
-                        <img src="{{asset('assets/yc/imgs/page/homepage1/quote.svg')}}" alt="Sapling Stage">
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-explore-4" role="tabpanel" aria-labelledby="tab-explore-4">
+              <div class="box-tab-32">
+                <div class="row align-items-center">
+                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/yc/imgs/page/blog2/img1.png" alt="YC">
+                  </div>
+                  <div class="col-xl-6 col-lg-7">
+                    <div class="box-business-tab"><span class="btn btn-tag">PG Program</span>
+                      <h3 class="color-brand-1 mt-10 mb-15"> Technology in Marketing</h3>
+                      <p class="font-md color-grey-400">Master the integration of modern technologies in marketing through data-driven tools, automation, and personalization. Learn to craft intelligent strategies that enhance brand reach and customer engagement in the digital era.</p>
+                      <div class="mt-20">
+                        <ul class="list-ticks">
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Digital Analytics
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>AI Marketing
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>CRM Strategy
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Content Automation
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>SEO Optimization
+                          </li>
+                          <li>
+                            <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                              </path>
+                            </svg>Tech Integration
+                          </li>
+                        </ul>
                       </div>
-                      <div class="carrd-title">
-                        <h4 class="color-brand-1 mb-15">Sapling Stage</h4>
-                        <p class="font-sm color-grey-500">Skills & Strength</p>
-                      </div>
-                    </div>
-                    <div class="card-info">
-                      <p class="font-sm color-grey-500 mb-15">
-                        As roots deepen, a leader builds wisdom and starts inspiring others. Like a sapling, they offer
-                        shade while continuing to grow.
-                      </p>
                     </div>
                   </div>
                 </div>
-          </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    
     <!-- Application Progress -->
     <section class="section mt-20">
-      <div class="container">
-        <div class="row mt-50 align-items-center card-no-border">
-          <div class="col-lg-6 mb-30">
-            <div class="title-line mb-10 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Application Process</div>
-            <h2 class="color-brand-1 wow animate__animated animate__fadeIn" data-wow-delay=".2s">We facilitate the
-              creation of strategy and design</h2>
-              
-          </div>
-          <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-            <div class="card-offer card-we-do hover-up">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="YC">
+  <div class="container">
+    <div class="row align-items-center card-no-border">
+      <!-- Left Part -->
+      <div class="col-lg-6 mb-30">
+        <div class="title-line mb-10 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+          Application Process
+        </div>
+        <h2 class="color-brand-1 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+          We facilitate the creation of strategy and design
+        </h2>
+        <div class="mt-50">
+          <img class="bd-rd16" style="height:350px; width:600px"src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC">
+        </div>
+      </div>
+      <!-- Right Part -->
+      <div class="col-lg-6 mt-20">
+        <div class="row ">
+          <!-- First Card -->
+          <div class="col-md-12 col-lg-12 mb-10 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+            <div class="card-offer card-we-do hover-up mb-10">
+              <div class="card-image">
+                <img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="YC">
               </div>
               <div class="card-info">
-                <h4 class="color-brand-1 mb-10"><a class="color-brand-1"
-                    href="What makes us different from others? We give holistic solutions with strategy, design &amp; technology.">Employee
-                    Assessments</a></h4>
-                <p class="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner
-                  pages using our ready demos.</p>
-                <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                <h4 class="color-brand-1 mb-10">
+                  <a class="color-brand-1" href="#">Employee Assessments</a>
+                </h4>
+                <p class="font-md color-grey-500 mb-5">
+                  Your site is not complete with only landings. Get essential inner pages using our ready demos.
+                </p>
+                <div class="box-button-offer">
+                  <a class="btn btn-default font-sm-bold pl-0 color-brand-1">
+                    Learn More
+                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-            <div class="mb-20">
-
-
-            </div>
-          </div>
-          <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-            <div class="card-offer card-we-do hover-up">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="YC">
+          <!-- Second Card -->
+          <div class="col-md-12 col-lg-12 mb-10 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-offer card-we-do hover-up mb-10">
+              <div class="card-image">
+                <img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="YC">
               </div>
               <div class="card-info">
-                <h4 class="color-brand-1 mb-10"><a class="color-brand-1"
-                    href="Share updates instantly within our project management software, and get the entire team collaborating">Collaborative
-                    to the core.</a></h4>
-                <p class="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner
-                  pages using our ready demos.</p>
-                <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                <h4 class="color-brand-1 mb-10">
+                  <a class="color-brand-1" href="#">Collaborative to the core</a>
+                </h4>
+                <p class="font-md color-grey-500 mb-5">
+                  Your site is not complete with only landings. Get essential inner pages using our ready demos.
+                </p>
+                <div class="box-button-offer">
+                  <a class="btn btn-default font-sm-bold pl-0 color-brand-1">
+                    Learn More
+                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-            <div>
-
-
-            </div>
-          </div>
-          <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
-            <div class="card-offer card-we-do hover-up">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="YC">
+          <!-- Third Card -->
+          <div class="col-md-12 col-lg-12 mb-1  0 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
+            <div class="card-offer card-we-do hover-up mb-10">
+              <div class="card-image">
+                <img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="YC">
               </div>
               <div class="card-info">
-                <h4 class="color-brand-1 mb-10"><a class="color-brand-1"
-                    href="What makes us different from others? We give holistic solutions with strategy, design &amp; technology.">Unlimited
-                    ways to work</a></h4>
-                <p class="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner
-                  pages using our ready demos.</p>
-                <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                <h4 class="color-brand-1 mb-10">
+                  <a class="color-brand-1" href="#">Unlimited ways to work</a>
+                </h4>
+                <p class="font-md color-grey-500 mb-5">
+                  Your site is not complete with only landings. Get essential inner pages using our ready demos.
+                </p>
+                <div class="box-button-offer">
+                  <a class="btn btn-default font-sm-bold pl-0 color-brand-1">
+                    Learn More
+                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
     <!-- fees Structure -->
     <section class="section mt-100 mb-40">
       <div class="container">
@@ -652,41 +836,66 @@
 
     <!--Form-->
     <section class="section banner-4">
-      <div class="container"><a class="scrollbar shape-1" href="#"></a>
+      <div class="container">
         <div class="banner-1">
           <div class="row align-items-center">
-            <div class="col-lg-7"><span class="title-line line-48 wow animate__animated animate__fadeInUp"
+            <div class="col-lg-6"><span class="title-line line-48 wow animate__animated animate__fadeInUp"
                 data-wow-delay=".0s">Chanakya Connect</span>
               <h3 class="color-brand-1 mb-20 mt-1 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Ready to Begin Your Journey?</h3>
               
             </div>
-            <div class="col-lg-5 text-start position-relative wow animate__animated animate__fadeIn"><span
-                class="arrow-down-banner shape-1"></span><span class="arrow-right-banner shape-2"></span>
-              <div class="box-signup">
-                <h4 class="color-brand-1 mb-30">Sign up for free</h4>
-                <div class="form-group mb-25">
-                  <label class="font-sm color-grey-900 mb-10">Your email *</label>
-                  <input class="form-control" type="text" placeholder="stevenjob@gmail.com">
+            <div class="col-lg-6 text-start position-relative wow animate__animated animate__fadeIn">
+            <form class="box-form-contact bg-white wow animate__animated animate__fadeIn" action="{{ route('Course') }}" method="POST" data-wow-delay=".6s">
+                @csrf
+                <div class="row">
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="form-group mb-25">
+                      <input class="form-control icon-user"  name="name" type="text" placeholder="Your name">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="form-group mb-25">
+                      <input class="form-control icon-email" name="email" type="text" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="form-group mb-25">
+                      <input class="form-control icon-phone"  name="phone" type="text" placeholder="Phone">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="form-group mb-25">
+                      <input class="form-control icon-company" name="college"  type="text" placeholder="College / University">
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group mb-25">
+                      <input class="form-control" type="text" name="linkedin" placeholder="LinkedIn URL">
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group mb-25">
+                    
+                    <select class="form-control select pb-10" name="course" id="somethingSelect">
+                    <option value="" disabled selected>Course Name</option>
+                      <option value="Title Sponsor">Idea to Market Program</option>
+                      <option value="Business in Marketing Psychology">Business in Marketing Psychology</option>
+                      <option value="Family Business & Legacy Management">Family Business & Legacy Management</option>
+                      <option value="Technology in Marketing">Technology in Marketing</option>
+                    </select>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-5 col-md-5 col-sm-6 col-9">
+                    <div class="form-group">
+                      <button class="btn btn-brand-1-full font-sm" type="submit">Submit
+                        <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
                 </div>
-                <div class="form-group mb-25">
-                  <label class="font-sm color-grey-900 mb-10">Your password</label>
-                  <input class="form-control" type="password" placeholder="********">
-                </div>
-                <div class="form-group mb-25">
-                  <label>
-                    <input class="form-cb" type="checkbox">Remeber me
-                  </label>
-                </div>
-                <div class="form-group mb-15">
-                  <button class="btn btn-brand-1-full" type="submit">Sign In</button>
-                </div>
-                <div class="form-group mb-25"><a class="btn btn-border btn-full signin-google" href="#"><img
-                      src="{{ asset('assets/yc/imgs/page/homepage4/google.png') }}" alt="YC">Sign in with Google</a>
-                </div>
-                <div class="text-already text-center"><span class="font-xs color-grey-400">Already have an
-                    account?</span><a class="color-brand-1 font-xs" href="#">Sign in</a><span
-                    class="font-xs color-grey-400">.</span></div>
-              </div>
+              </form>
             </div>
           </div>
         </div>
