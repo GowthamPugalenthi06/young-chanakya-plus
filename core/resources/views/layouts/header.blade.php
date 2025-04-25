@@ -5,14 +5,14 @@
         <div class="container">
           <div class="main-header">
             <div class="header-left">
-              <div class="header-logo mr-100"><a class="d-flex" href="index.html"><img alt="Ecom" src="{{asset('assets/yc/imgs/yc-logo.svg')}}" ></a></div>
+              <div class="header-logo mr-100"><a class="d-flex" href={{ url('/home') }}><img alt="Ecom" src="{{asset('assets/yc/imgs/yc-logo.svg')}}" ></a></div>
               <div class="header-nav ">
                 <nav class="nav-main-menu d-none d-xl-block">
                   <ul class="main-menu">
-                    <li><a href="{{route('home')}}"><b>Home</b></a></li>
+                    <li><a href="{{ url('/home') }}"><b>Home</b></a></li>
                     <li><a href="{{route('about')}}"><b>About</b></a></li>
                     <li><a href="{{route('membership')}}"><b>Membership</b></a></li>
-                    <li><a href="{{route('events')}}"><b>Events</b></a></li>
+                    <li><a href="{{ url('/events') }}"><b>Events</b></a></li>
                     <li class="has-children"><a href="#"><b>Program</b></a>
                       <ul class="sub-menu">
                         <li><a href="{{route('learning')}}">Learning</a></li>
@@ -71,7 +71,7 @@
                   <div class="tab-pane fade active show" id="tab-menu" role="tabpanel" aria-labelledby="tab-menu">
                     <nav class="mt-15">
                        <ul class="mobile-menu font-heading">
-                    <li><a href="{{route('home')}}">Home</a></li>
+                    <li><a href="{{ url('/home') }}">Home</a></li>
                     <li><a href="{{route('about')}}">About</a></li>
                     <li><a href="{{route('membership')}}">Membership</a></li>
                     <li><a href="{{route('program')}}">Program</a></li>
@@ -83,8 +83,8 @@
                         <li><a href="{{route('video-series')}}">Video Series</a></li>
                       </ul>
                     </li>
-                    <li><a href="{{route('events')}}">Events</a></li>
-                    <li><a href="{{route('career')}}">career</a></li>
+                    <li><a href="{{ url('/events') }}">Events</a></li>
+                    <li><a href="{{ url('/career') }}">career</a></li>
                     <li class="has-children"><a href="#">Others</a>
                       <ul class="sub-menu">
                         <li><a href="{{route('about-chanakya')}}">About Chanakya</a></li>

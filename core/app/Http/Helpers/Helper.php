@@ -86,7 +86,7 @@ if (!function_exists('getHref') ) {
         $href = "#";
 
         if ($link["type"] == 'home') {
-            $href = route('front.index');
+            $href = route('home');
         } else if ($link["type"] == 'services' || $link["type"] == 'services-megamenu') {
             $href = route('front.services');
         } else if ($link["type"] == 'packages') {
@@ -96,13 +96,17 @@ if (!function_exists('getHref') ) {
             $href = route('front.portfolios');
         } else if ($link["type"] == 'team') {
             $href = route('front.team');
-        } else if ($link["type"] == 'career') {
-            $href = route('front.career');
-        } else if ($link["type"] == 'courses' || $link["type"] == 'courses-megamenu') {
+        } 
+        // else if ($link["type"] == 'career') {
+        //     $href = route('front.career');
+        // } 
+        else if ($link["type"] == 'courses' || $link["type"] == 'courses-megamenu') {
             $href = route('courses');
-        } else if ($link["type"] == 'events' || $link["type"] == 'events-megamenu') {
-            $href = route('front.events');
-        } else if ($link["type"] == 'causes' || $link["type"] == 'causes-megamenu') {
+        } 
+        // else if ($link["type"] == 'events' || $link["type"] == 'events-megamenu') {
+        //     $href = route('front.events');
+        // } 
+        else if ($link["type"] == 'causes' || $link["type"] == 'causes-megamenu') {
             $href = route('front.causes');
         } else if ($link["type"] == 'knowledgebase') {
             $href = route('front.knowledgebase');

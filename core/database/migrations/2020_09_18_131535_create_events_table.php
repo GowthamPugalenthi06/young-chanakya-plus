@@ -19,16 +19,12 @@ class CreateEventsTable extends Migration
             $table->string('slug')->nullable();
             $table->longText('content')->nullable();
             $table->date('date');
+            $table->date('enddate');
             $table->time('time');
+            $table->time('endtime');
             $table->double('cost');
             $table->integer('available_tickets');
-            $table->string('organizer');
-            $table->string('organizer_email')->nullable();
-            $table->string('organizer_phone')->nullable();
-            $table->text('organizer_website')->nullable();
             $table->longText('venue');
-            $table->longText('venue_location')->nullable();
-            $table->string('venue_phone')->nullable();
             $table->longText('meta_tags')->nullable();
             $table->longText('meta_description')->nullable();
             $table->json('image')->nullable();

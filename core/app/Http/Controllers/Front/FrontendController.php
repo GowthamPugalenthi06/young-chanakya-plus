@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Front;
 use App\Donation;
 use App\DonationDetail;
 use App\Event;
+use App\EventUpload;
 use App\EventCategory;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -354,7 +355,7 @@ class FrontendController extends Controller
         $be = $currentLang->basic_extended;
         $data['bs'] = $currentLang->basic_setting;
         $data['event_categories'] = EventCategory::where('lang_id', $currentLang->id)->where('status', 1)->select('id', 'name')->get();
-        $data['events'] = Event::with('eventCategories')
+        $data['events'] = EventUpload::with('eventCategories')
             ->when($request->title, function ($q) use ($request) {
                 return $q->where('title', 'like', '%' . $request->title . '%');
             })->when($request->location, function ($q) use ($request) {
@@ -363,6 +364,8 @@ class FrontendController extends Controller
                 return $q->where('cat_id', $request->category);
             })->when($request->date, function ($q) use ($request) {
                 return $q->where('date', $request->date);
+            })->when($request->end_date, function ($q) use ($request){
+                return $q->where('end_date',$request->enddate);
             })
             ->where('lang_id', $currentLang->id)
             ->orderBy('id', 'DESC')
@@ -374,7 +377,7 @@ class FrontendController extends Controller
         }
 
         $data['version'] = $version;
-        return view('front.events', $data);
+        return view('yc.events', $data);
     }
     public function eventDetails($slug)
     {
@@ -388,13 +391,13 @@ class FrontendController extends Controller
         $data['currentLang'] = $currentLang;
         $be = $currentLang->basic_extended;
         $version = $be->theme_version;
-        $event = Event::with('eventCategories')->where('slug', $slug)->firstOrFail();
+        $event = EventUpload::with('eventCategories')->where('slug', $slug)->firstOrFail();
         $data['event'] = $event;
         $online = PaymentGateway::where('status', 1)->get();
         $offline = OfflineGateway::where('event_checkout_status', 1)->orderBy('serial_number', 'ASC')->get();
         $data['offline'] = $offline;
         $data['payment_gateways'] = $online->mergeRecursive($offline);
-        $data["moreEvents"] = Event::with('eventCategories')->where(function ($q) use ($event) {
+        $data["moreEvents"] = EventUpload::with('eventCategories')->where(function ($q) use ($event) {
             $q->where('id', '!=', $event->id)->where('cat_id', '=', $event->cat_id);
         })->where('lang_id', $currentLang->id)->take(5)->orderBy('id', 'DESC')->get();
         $version = $be->theme_version;
@@ -407,9 +410,11 @@ class FrontendController extends Controller
         $stripeData = PaymentGateway::whereKeyword('stripe')->first();
         $stripe = $stripeData->convertAutoData();
         $data['stripe_key'] =  $stripe['key'];
-        return view('front.event-details', $data);
+        return view('yc.details', $data);
     }
-
+    public function details(){
+        return view ('yc.details');
+    }
     public function portfolios(Request $request)
     {
         if (session()->has('lang')) {

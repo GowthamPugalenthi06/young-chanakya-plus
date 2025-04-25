@@ -57,7 +57,7 @@
       <p class="font-md color-grey-500 wow animate__animated animate__fadeIn">Become a part of our elite investor network</p>
       <div class="line-register mt-25 mb-50"></div>
 
-      <form id="investorForm">
+      <form id="investorForm" action="{{route('business.store')}}" method="post">
         <!-- Step 1 - Personal Info -->
         <div class="form-step step-1">
           <div class="row">

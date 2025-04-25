@@ -31,7 +31,7 @@
                  </div>
                  <h2>You're lost...</h2>
                  <p>The page you are looking for might have been moved, renamed, or might never existed.</p>
-                 <a href="{{route('front.index')}}" class="go-home-btn">Back Home</a>
+                 <a href="{{route('career')}}" class="go-home-btn">Back Home</a>
               </div>
            </div>
         </div>

@@ -166,7 +166,7 @@ $data = \App\BasicExtra::first();
 @endif
 
 
-@if (empty($admin->role) || (!empty($permissions) && in_array('Pages', $permissions)))
+<!-- @if (empty($admin->role) || (!empty($permissions) && in_array('Pages', $permissions)))
 {{-- Dynamic Pages --}}
 <li class="nav-item
 @if(request()->path() == 'admin/page/create') active
@@ -204,7 +204,52 @@ $data = \App\BasicExtra::first();
 </ul>
 </div>
 </li>
+@endif -->
+
+{{--gg--}}
+@if (empty($admin->role) || (!empty($permissions) && in_array('Pages', $permissions)))
+    {{-- Dynamic Pages --}}
+    <li class="nav-item
+    @if(request()->path() == 'admin/pages/create') active
+    @elseif(request()->path() == 'admin/pages') active
+    @elseif(request()->is('admin/pages/*/edit')) active
+    @endif">
+        <a data-toggle="collapse" href="#pages">
+            <i class="la flaticon-file"></i>
+            <p>Custom Pages(CK) <span class="badge badge-danger p-1 sidenav-badge">Pagebuilder</span></p>
+            <span class="caret"></span>
+        </a>
+        <div class="collapse
+        @if(request()->path() == 'admin/pages/create') show
+        @elseif(request()->path() == 'admin/pages') show
+        @elseif(request()->is('admin/pages/*/edit')) show
+        @endif" id="pages">
+            <ul class="nav nav-collapse">
+                <li class="@if(request()->path() == 'admin/pages') active @endif">
+                    <a href="{{ route('admin.page.index') . '?language=' . $default->code }}">
+                        <span class="sub-item">Pages</span>
+                    </a>
+                </li>
+                <li class="@if(request()->path() == 'admin/pages/create') active @endif">
+                    <a href="{{ route('admin.page.create') . '?language=' . $default->code }}">
+                        <span class="sub-item">Create Page</span>
+                    </a>
+                </li>   
+                <li class="@if(request()->path() == 'admin/media-upload/create') active @endif">
+                    <a href="{{ route('admin.media.upload.create') . '?language=' . $default->code }}">
+                        <span class="sub-item">Image & Video Upload</span>
+                    </a>
+                </li>
+                <li class="@if(request()->path() == 'admin/media-upload/') active @endif">
+                    <a href="{{ route('admin.media.upload.index') . '?language=' . $default->code }}">
+                        <span class="sub-item">Image & Video Pages</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </li>
 @endif
+
 
 @if (empty($admin->role) || (!empty($permissions) && in_array('Event Calendar', $permissions)))
 {{-- Event Calendar --}}
@@ -381,9 +426,10 @@ $data = \App\BasicExtra::first();
 @elseif(request()->path() == 'admin/rejected/quotes') active
 @elseif(request()->path() == 'admin/quote/visibility') active
 @endif">
+{{-- gg --}}
 <a data-toggle="collapse" href="#quote">
     <i class="la flaticon-list"></i>
-    <p>Quote Management</p>
+    <p>Mentor</p>
     <span class="caret"></span>
 </a>
 <div class="collapse
@@ -398,43 +444,34 @@ $data = \App\BasicExtra::first();
 @endif" id="quote">
 <ul class="nav nav-collapse">
     <li class="
-    @if(request()->path() == 'admin/quote/visibility') active
+    @if(request()->path() == 'admin/homes') active
     @endif">
-    <a href="{{route('admin.quote.visibility')}}">
-        <span class="sub-item">Visibility</span>
+    <a href="{{route('admin.homes.index')}}">
+        <span class="sub-item"> Home Mentors</span>
+    </a>
+<li class="@if(request()->path() == 'admin/homes/create') active @endif">
+    <a href="{{route('admin.homes.create')}}">
+        <span class="sub-item">Create Home Mentor</span>
     </a>
 </li>
-<li class="
-@if(request()->path() == 'admin/quote/form') active
-@elseif(request()->is('admin/quote/*/inputEdit')) active
-@endif">
-<a href="{{route('admin.quote.form') . '?language=' . $default->code}}">
-    <span class="sub-item">Form Builder</span>
-</a>
-</li>
-<li class="@if(request()->path() == 'admin/all/quotes') active @endif">
-    <a href="{{route('admin.all.quotes')}}">
-        <span class="sub-item">All Quotes</span>
+<li class="@if(request()->path() == 'admin/mentor_chanakya') active @endif">
+    <a href="{{route('admin.mentor_chanakya.index')}}">
+        <span class="sub-item">Chanakya Mentors</span>
     </a>
 </li>
-<li class="@if(request()->path() == 'admin/pending/quotes') active @endif">
-    <a href="{{route('admin.pending.quotes')}}">
-        <span class="sub-item">Pending Quotes</span>
+<li class="@if(request()->path() == 'admin/mentor_chanakya/create') active @endif">
+    <a href="{{route('admin.mentor_chanakya.create')}}">
+        <span class="sub-item">Create Chanakya Mentor</span>
     </a>
 </li>
-<li class="@if(request()->path() == 'admin/processing/quotes') active @endif">
-    <a href="{{route('admin.processing.quotes')}}">
-        <span class="sub-item">Processing Quotes</span>
+<li class="@if(request()->path() == 'admin/mentor_team') active @endif">
+    <a href="{{route('admin.mentor_team.index')}}">
+        <span class="sub-item">Team Mentors</span>
     </a>
 </li>
-<li class="@if(request()->path() == 'admin/completed/quotes') active @endif">
-    <a href="{{route('admin.completed.quotes')}}">
-        <span class="sub-item">Completed Quotes</span>
-    </a>
-</li>
-<li class="@if(request()->path() == 'admin/rejected/quotes') active @endif">
-    <a href="{{route('admin.rejected.quotes')}}">
-        <span class="sub-item">Rejected Quotes</span>
+<li class="@if(request()->path() == 'admin/mentor_team/create') active @endif">
+    <a href="{{route('admin.mentor_team.create')}}">
+        <span class="sub-item">Create Team Mentor</span>
     </a>
 </li>
 </ul>

@@ -85,7 +85,7 @@
                 <li><a href="{{route('about-chanakya')}}"><p class="color-white">About Chanakya's</p></a></li>
                 <li><a href="{{route('become-a-chanakya')}}"><p class="color-white">Become a Chanakya</p></a></li>
                 <li><a href="{{route('become-a-sponsor')}}"><p class="color-white">Become a Sponsor</p></a></li>
-                <li><a href="{{route('career')}}"><p class="color-white">Career & Internships</p></a></li>
+                <li><a href="{{ url('/career') }}"><p class="color-white">Career & Internships</p></a></li>
               </ul>
             </div>
             <div class="col-lg-2 width-16 mb-30 ml-100">
@@ -154,7 +154,7 @@
                 <li><a href="{{ route('about') }}">About us</a></li>
                 <li><a href="{{route("about")}}">Founder Talk</a></li>
                 <li><a href="{{ route('membership') }}">Membership</a></li>
-                <li><a href="{{ route('events') }}">Events</a></li>
+                <li><a href="{{ url('/events') }}">Events</a></li>
               </ul>
             </div>
             <div class="col-lg-3 width-16 mb-30">
@@ -173,7 +173,7 @@
                 <li><a href="{{ route('about-chanakya') }}">About Chanakya's</a></li>
                 <li><a href="{{route('become-a-chanakya')}}">Become a Chanakya</a></li>
                 <li><a href="{{ route('become-a-sponsor') }}">Become a Sponsor</a></li>
-                <li><a href="{{ route('career') }}">Career &amp; Internships</a></li>
+                <li><a href="{{ url('/career') }}">Career &amp; Internships</a></li>
               </ul>
             </div>
             <!-- <div class="col-lg-3 width-23">

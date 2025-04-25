@@ -57,7 +57,7 @@
       <p class="font-md color-grey-500 wow animate__animated animate__fadeIn">Fill in the form below to get started</p>
       <div class="line-register mt-25 mb-50"></div>
 
-      <form id="founderForm">
+      <form id="founderForm"action="{{route('startup.store')}}"method="post">
         <!-- Step 1 - Personal Info -->
         <div class="form-step step-1">
           <div class="row">

@@ -222,7 +222,7 @@
                         <span>@yield('breadcrumb-title')</span>
                         <h1>@yield('breadcrumb-subtitle')</h1>
                         <ul class="breadcumb">
-                        <li><a href="{{route('front.index')}}">{{__('Home')}}</a></li>
+                        <li><a href="{{route('home')}}">{{__('Home')}}</a></li>
                         <li>@yield('breadcrumb-link')</li>
                         </ul>
                     </div>
@@ -246,7 +246,7 @@
                <div class="row">
                   <div class="col-lg-4 col-md-12">
                      <div class="footer-logo-wrapper">
-                        <a href="{{route('front.index')}}">
+                        <a href="{{route('home')}}">
                         <img class="lazy" data-src="{{asset('assets/front/img/'.$bs->footer_logo)}}" alt="">
                         </a>
                      </div>

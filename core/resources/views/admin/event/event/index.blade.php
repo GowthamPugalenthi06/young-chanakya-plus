@@ -151,27 +151,6 @@ $selLang = \App\Language::where('code', request()->input('language'))->first();
 
             <form id="ajaxForm" class="modal-form" action="{{route('admin.event.store')}}" method="POST">
                @csrf
-
-                {{-- Video Part --}}
-                <div class="form-group">
-                    <label for="">Video ** </label>
-                    <br>
-                    <div class="video-preview" id="videoPreview2">
-                        <video width="320" height="240" controls id="video_src">
-                            <source src="" type="video/mp4">
-                        </video>
-                    </div>
-                    <br>
-
-
-                    <input id="fileInput2" type="hidden" name="video">
-                    <button id="chooseVideo2" class="choose-video btn btn-primary" type="button" data-multiple="false" data-video="true" data-toggle="modal" data-target="#lfmModal2">Choose Video</button>
-
-
-                    <p class="text-warning mb-0">MP4 video is allowed</p>
-                    <p class="em text-danger mb-0" id="errvideo"></p>
-
-                </div>
                 {{-- START: slider Part --}}
                 <div class="row">
                     <div class="col-12">
@@ -223,14 +202,24 @@ $selLang = \App\Language::where('code', request()->input('language'))->first();
                   <p id="errcontent" class="mb-0 text-danger em"></p>
                </div>
                 <div class="form-group">
-                    <label for="">Date **</label>
+                    <label for="">Start Date **</label>
                     <input type="date" class="form-control ltr" name="date" value="" placeholder="Enter Event Date" required>
                     <p id="errdate" class="mb-0 text-danger em"></p>
                 </div>
                 <div class="form-group">
-                    <label for="">Time **</label>
+                    <label for="">End Date **</label>
+                    <input type="date" class="form-control ltr" name="end_date" value="" placeholder="Enter Event Date" required>
+                    <p id="errend_date" class="mb-0 text-danger em"></p>
+                </div>
+                <div class="form-group">
+                    <label for="">Start Time **</label>
                     <input type="time" class="form-control ltr" name="time" value="" placeholder="Enter Event Time" required>
                     <p id="errtime" class="mb-0 text-danger em"></p>
+                </div>
+                <div class="form-group">
+                    <label for="">End Time **</label>
+                    <input type="time" class="form-control ltr" name="end_time" value="" placeholder="Enter Event Time" required>
+                    <p id="errend_time" class="mb-0 text-danger em"></p>
                 </div>
                <div class="form-group">
                   <label for="">Cost (in {{$abx->base_currency_text}}) **</label>
@@ -243,39 +232,9 @@ $selLang = \App\Language::where('code', request()->input('language'))->first();
                     <p id="erravailable_tickets" class="mb-0 text-danger em"></p>
                 </div>
                 <div class="form-group">
-                    <label for="">Organizer **</label>
-                    <input type="text" class="form-control ltr" name="organizer" value="" placeholder="Event Organizer" required>
-                    <p id="errorganizer" class="mb-0 text-danger em"></p>
-                </div>
-                <div class="form-group">
-                    <label for="">Organizer Email</label>
-                    <input type="text" class="form-control ltr" name="organizer_email" value="" placeholder="Organizer Email">
-                    <p id="errorganizer_email" class="mb-0 text-danger em"></p>
-                </div>
-                <div class="form-group">
-                    <label for="">Organizer Phone</label>
-                    <input type="text" class="form-control ltr" name="organizer_phone" value="" placeholder="Organizer Email">
-                    <p id="errorganizer_phone" class="mb-0 text-danger em"></p>
-                </div>
-                <div class="form-group">
-                    <label for="">Organizer Website</label>
-                    <input type="text" class="form-control ltr" name="organizer_website" value="" placeholder="Organizer Website">
-                    <p id="errorganizer_website" class="mb-0 text-danger em"></p>
-                </div>
-                <div class="form-group">
                     <label for="">Venue **</label>
                     <input type="text" class="form-control ltr" name="venue" value="" placeholder="Enter Venue" required>
                     <p id="errvenue" class="mb-0 text-danger em"></p>
-                </div>
-                <div class="form-group">
-                    <label for="">Venue Location</label>
-                    <input type="text" class="form-control ltr" name="venue_location" value="" placeholder="Venue Location">
-                    <p id="errvenue_location" class="mb-0 text-danger em"></p>
-                </div>
-                <div class="form-group">
-                    <label for="">Venue Phone</label>
-                    <input type="text" class="form-control ltr" name="venue_phone" value="" placeholder="Venue Phone">
-                    <p id="errvenue_phone" class="mb-0 text-danger em"></p>
                 </div>
                <div class="form-group">
                   <label for="">Meta Keywords</label>
@@ -307,17 +266,6 @@ $selLang = \App\Language::where('code', request()->input('language'))->first();
     </div>
 </div>
 
-<!-- Video LFM Modal -->
-<div class="modal fade lfm-modal" id="lfmModal2" tabindex="-1" role="dialog" aria-labelledby="lfmModalTitle" aria-hidden="true">
-    <i class="fas fa-times-circle"></i>
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-body p-0">
-                <iframe src="{{url('laravel-filemanager')}}?serial=2" style="width: 100%; height: 500px; overflow: hidden; border: none;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
 @endsection
 @section('scripts')
 <script>

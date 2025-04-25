@@ -1,0 +1,82 @@
+<?php
+namespace App\Http\Controllers\Membership;
+
+use App\Http\Controllers\Controller;
+use App\Startup;
+use App\Volunteer;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
+use Session;
+use Razorpay\Api\Api;
+
+class StartupController extends Controller
+{
+    public function store(Request $request)
+    {
+        // Validation
+        $request->validate([
+            'full_name' => 'required|string|max:255',
+            'gender' => 'required|string',
+            'email' => 'required|email|unique:startups,email',
+            'password' => 'required|min:6|confirmed',
+            'phone_number' => 'required|digits:10',
+            'business_name' => 'required|string',
+            'industry' => 'required|string',
+            'role' => 'required|string',
+            'stage' => 'required|string',
+            'company_website' => 'required|url',
+            'business_address' => 'required|string',
+            'plan' => 'required|string|in:student,volunteer,entrepreneur,startup,executive',
+            'type' => 'required|string|in:monthly,yearly',
+        ]);
+
+        // Create volunteer record in the database
+        $startup = Startup::create([
+            'full_name' => $request->full_name,
+            'gender' => $request->gender,
+            'email' => $request->email,
+            'password' => Hash::make($request->password),
+            'phone_number' => $request->phone_number,
+            'business_name' => $request->business_name,
+            'industry' => $request->industry,
+            'role' => $request->role,
+            'stage' => $request->stage,
+            'company_website' => $request->company_website,
+            'business_address' => $request->business_address,
+            'plan' => $request->plan,
+            'type' => $request->type,
+            'payment_status' => 'pending', 
+        ]);
+
+        // Plan amounts
+        $plans = [
+            'student' => 499,
+            'volunteer' => 699,
+            'entrepreneur' => 4999,
+            'startup' => 899,
+            'executive' => 1999,
+        ];
+    
+        // Get selected plan and amount from request
+        $plan = strtolower($request->plan);
+        
+        // Check if 'type' is set in the request, if not default to 'monthly'
+        $type = $request->type ?? 'monthly';
+    
+        // Set the base amount for the selected plan
+        $amount = $plans[$plan] ?? 0;
+    
+        // If the plan is yearly, multiply the monthly price by 12
+        if ($type == 'yearly') {
+            $amount *= 12;
+        }
+    
+        // Store the selected plan and amount in the session
+        Session::put('selected_plan', $plan);
+        Session::put('selected_amount', $amount);
+        Session::put('selected_type', $type);
+
+        // Redirect to Razorpay payment page
+        return redirect()->route('razorpay.pay', $startup->id); 
+    }
+}

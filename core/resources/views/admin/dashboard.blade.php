@@ -12,7 +12,7 @@ if (!empty($admin->role)) {
 </div>
 <div class="row">
     @if (empty($admin->role) || (!empty($permissions) && in_array('Package Management', $permissions)))
-    <div class="col-sm-6 col-md-3">
+    <!-- <div class="col-sm-6 col-md-3">
         <a href="{{route('admin.package.index') . '?language=' . $default->code}}" class="d-block">
             <div class="card card-stats card-primary card-round">
                 <div class="card-body">
@@ -32,10 +32,10 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </a>
-    </div>
+    </div> -->
 
     @if ($bex->recurring_billing == 1)
-    <div class="col-sm-6 col-md-3">
+    <!-- <div class="col-sm-6 col-md-3">
         <a href="{{route('admin.subscriptions', ['type' => 'active'])}}" class="d-block">
             <div class="card card-stats card-secondary card-round">
                 <div class="card-body">
@@ -55,10 +55,10 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </a>
-    </div>
+    </div> -->
     @endif
     @if ($bex->recurring_billing == 0)
-    <div class="col-sm-6 col-md-3">
+    <!-- <div class="col-sm-6 col-md-3">
         <a href="{{route('admin.all.orders')}}" class="d-block">
             <div class="card card-stats card-secondary card-round">
                 <div class="card-body">
@@ -78,7 +78,7 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </a>
-    </div>
+    </div> -->
     @endif
 
     @endif
@@ -86,7 +86,7 @@ if (!empty($admin->role)) {
 
     @if (empty($admin->role) || (!empty($permissions) && in_array('Shop Management', $permissions)))
     @if ($bex->is_shop == 1)
-    <div class="col-sm-6 col-md-3">
+    <!-- <div class="col-sm-6 col-md-3">
         <a href="{{route('admin.product.index', ['language' => $default->code])}}" class="d-block">
             <div class="card card-stats card-danger card-round">
                 <div class="card-body">
@@ -106,10 +106,10 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </a>
-    </div>
+    </div> -->
     @endif
     @if ($bex->is_shop == 1)
-    <div class="col-sm-6 col-md-3">
+    <!-- <div class="col-sm-6 col-md-3">
         <a href="{{route('admin.all.product.orders')}}" class="d-block">
             <div class="card card-stats card-warning card-round">
                 <div class="card-body">
@@ -129,14 +129,14 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </a>
-    </div>
+    </div> -->
     @endif
     @endif
 
 
     @if (empty($admin->role) || (!empty($permissions) && in_array('Course Management', $permissions)))
     @if ($bex->is_course == 1)
-    <div class="col-sm-6 col-md-3">
+    <!-- <div class="col-sm-6 col-md-3">
         <a href="{{route('admin.course.index', ['language' => $default->code])}}" class="d-block">
             <div class="card card-stats card-success card-round">
                 <div class="card-body">
@@ -156,8 +156,8 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </a>
-    </div>
-    <div class="col-sm-6 col-md-3">
+    </div> -->
+    <!-- <div class="col-sm-6 col-md-3">
         <a href="{{route('admin.course.purchaseLog')}}" class="d-block">
             <div class="card card-stats card-dark card-round">
                 <div class="card-body">
@@ -177,7 +177,7 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </a>
-    </div>
+    </div> -->
     @endif
     @endif
 
@@ -231,7 +231,7 @@ if (!empty($admin->role)) {
 
     @if (empty($admin->role) || (!empty($permissions) && in_array('Donation Management', $permissions)))
     @if ($bex->is_donation == 1)
-    <div class="col-sm-6 col-md-3">
+    <!-- <div class="col-sm-6 col-md-3">
         <a href="{{route('admin.donation.index', ['language' => $default->code])}}" class="d-block">
             <div class="card card-stats card-danger card-round">
                 <div class="card-body ">
@@ -251,8 +251,8 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </a>
-    </div>
-    <div class="col-sm-6 col-md-3">
+    </div> -->
+    <!-- <div class="col-sm-6 col-md-3">
         <a href="{{route('admin.donation.payment.log')}}" class="d-block">
             <div class="card card-stats card-warning card-round">
                 <div class="card-body ">
@@ -272,13 +272,13 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </a>
-    </div>
+    </div> -->
     @endif
     @endif
 
     @if (empty($admin->role) || (!empty($permissions) && in_array('Tickets', $permissions)))
     @if ($bex->is_ticket == 1)
-    <div class="col-sm-6 col-md-3">
+    <!-- <div class="col-sm-6 col-md-3">
         <a href="{{route('admin.tickets.pending')}}" class="d-block">
             <div class="card card-stats card-success card-round">
                 <div class="card-body ">
@@ -298,8 +298,8 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </a>
-    </div>
-    <div class="col-sm-6 col-md-3">
+    </div> -->
+    <!-- <div class="col-sm-6 col-md-3">
         <a href="{{route('admin.tickets.open')}}" class="d-block">
             <div class="card card-stats card-dark card-round">
                 <div class="card-body ">
@@ -319,12 +319,12 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </a>
-    </div>
+    </div> -->
     @endif
     @endif
 
     @if (empty($admin->role) || (!empty($permissions) && in_array('Knowledgebase', $permissions)))
-    <div class="col-sm-6 col-md-3">
+    <!-- <div class="col-sm-6 col-md-3">
         <a href="{{route('admin.article.index', ['language' => $default->code])}}" class="d-block">
             <div class="card card-stats card-secondary card-round">
                 <div class="card-body ">
@@ -344,11 +344,11 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </a>
-    </div>
+    </div> -->
     @endif
 
     @if (empty($admin->role) || (!empty($permissions) && in_array('Content Management', $permissions)))
-    <div class="col-sm-6 col-md-3">
+    <!-- <div class="col-sm-6 col-md-3">
         <a href="{{route('admin.job.index', ['language' => $default->code])}}" class="d-block">
             <div class="card card-stats card-primary card-round">
                 <div class="card-body ">
@@ -368,11 +368,11 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </a>
-    </div>
+    </div> -->
     @endif
 
     @if (empty($admin->role) || (!empty($permissions) && in_array('Quote Management', $permissions)))
-    <div class="col-sm-6 col-md-3">
+    <!-- <div class="col-sm-6 col-md-3">
         <a href="{{route('admin.all.quotes')}}" class="d-block">
             <div class="card card-stats card-danger card-round">
                 <div class="card-body ">
@@ -392,11 +392,11 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </a>
-    </div>
+    </div> -->
     @endif
 
     @if (empty($admin->role) || (!empty($permissions) && in_array('Users Management', $permissions)))
-    <div class="col-sm-6 col-md-3">
+    <!-- <div class="col-sm-6 col-md-3">
         <a href="{{route('admin.subscriber.index')}}" class="d-block">
             <div class="card card-stats card-info card-round">
                 <div class="card-body ">
@@ -416,12 +416,12 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </a>
-    </div>
+    </div> -->
     @endif
 
 
     @if (empty($admin->role) || (!empty($permissions) && in_array('RSS Feeds', $permissions)))
-    <div class="col-sm-6 col-md-3">
+    <!-- <div class="col-sm-6 col-md-3">
         <a href="{{route('admin.rss.feed', ['language' => $default->code])}}" class="d-block">
             <div class="card card-stats card-warning card-round">
                 <div class="card-body ">
@@ -441,11 +441,11 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </a>
-    </div>
+    </div> -->
     @endif
 
     @if (empty($admin->role) || (!empty($permissions) && in_array('Content Management', $permissions)))
-    <div class="col-sm-6 col-md-3">
+    <!-- <div class="col-sm-6 col-md-3">
         <a href="{{route('admin.blog.index', ['language' => $default->code])}}" class="d-block">
             <div class="card card-stats card-dark card-round">
                 <div class="card-body ">
@@ -465,8 +465,8 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </a>
-    </div>
-    <div class="col-sm-6 col-md-3">
+    </div> -->
+    <!-- <div class="col-sm-6 col-md-3">
         <div class="card card-stats card-success card-round">
             <div class="card-body ">
                 <div class="row">
@@ -484,8 +484,8 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </div>
-    </div>
-    <div class="col-sm-6 col-md-3">
+    </div> -->
+    <!-- <div class="col-sm-6 col-md-3">
         <div class="card card-stats card-secondary card-round">
             <div class="card-body ">
                 <div class="row">
@@ -503,11 +503,11 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     @endif
 </div>
 <div class="row">
-    <div class="col-lg-6">
+    <!-- <div class="col-lg-6">
         <div class="row row-card-no-pd">
             <div class="col-md-12">
                 <div class="card">
@@ -570,8 +570,8 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </div>
-    </div>
-    <div class="col-lg-6">
+    </div> -->
+    <!-- <div class="col-lg-6">
         <div class="row row-card-no-pd">
             <div class="col-md-12">
                 <div class="card">
@@ -630,10 +630,10 @@ if (!empty($admin->role)) {
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 <!-- Send Mail Modal -->
-<div class="modal fade" id="mailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<!-- <div class="modal fade" id="mailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -668,5 +668,5 @@ if (!empty($admin->role)) {
             </div>
         </div>
     </div>
-</div>
+</div> -->
 @endsection

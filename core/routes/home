@@ -1,0 +1,198 @@
+<div class="pagebuilder-content">
+    <div id="ivut" class="pb-mb30">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pr-lg-0">
+                    <div class="intro-txt">
+                        <span class="section-title">Who we areu</span>
+                        <h2 class="section-summary">
+                            We keep things simple, putting you in control so you
+                            can make informed choicesu
+                        </h2>
+                        <a
+                            href="https://megasoft.biz/plusagency/services"
+                            target="_blank"
+                            class="intro-btn"
+                            ><span>what we dou</span></a
+                        >
+                    </div>
+                </div>
+                <div class="col-lg-6 pl-lg-0 px-md-3 px-0">
+                    <div id="imj9fe" class="intro-bg">
+                        <a
+                            id="play-video"
+                            href="https://www.youtube.com/watch?v=S7wCAquf9Us"
+                            class="video-play-button"
+                            ><span></span
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="iporl" class="pb-mb30">
+            <div class="container">
+                <div class="service-categories">
+                    <div class="row justify-content-center text-center premade">
+                        <div class="col-lg-6">
+                            <span class="section-title">Our Services</span>
+                            <h2 class="section-summary">
+                                We work with you to achieve your goals
+                            </h2>
+                        </div>
+                    </div>
+                    <service-category-section
+                        >[pagebuilder-service-category][/pagebuilder-service-category]</service-category-section
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="statisticsSection" class="statistics-section pb-mb30 lazy">
+            <div class="statistics-container">
+                <div class="container">
+                    <statistics-section
+                        >[pagebuilder-statistics][/pagebuilder-statistics]</statistics-section
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="iu6l8d" class="case-section pb-mb30">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-6">
+                        <span class="section-title">Our latest projects</span>
+                        <h2 class="section-summary">
+                            A fresh approach to financial services for
+                            entrepreneurs
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <portfolios-section
+                        >[pagebuilder-portfolios][/pagebuilder-portfolios]</portfolios-section
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="itywhx" class="testimonial-section pb-mb30">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-6">
+                        <span class="section-title">Testimonial</span>
+                        <h2 class="section-summary">
+                            What people say about finlance planning
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <testimonial-section
+                            >[pagebuilder-testimonial][/pagebuilder-testimonial]</testimonial-section
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="io49e8" class="team-section section-padding pb-mb30 lazy">
+            <div id="i7qhz9" class="team-content">
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <span class="section-title">Expert Team</span>
+                            <h2 class="section-summary">
+                                Meet our expert finlance executive team
+                            </h2>
+                        </div>
+                    </div>
+                    <team-section
+                        >[pagebuilder-team][/pagebuilder-team]</team-section
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="iltns6" class="pricing-tables pb-mb30">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-6">
+                        <span class="section-title">Packages</span>
+                        <h2 class="section-summary">
+                            Choose a package which suits you best
+                        </h2>
+                    </div>
+                </div>
+                <packages-section
+                    >[pagebuilder-packages][/pagebuilder-packages]</packages-section
+                >
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="irlci1" class="blog-section section-padding pb-mb30">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-6">
+                        <span class="section-title">Latest news</span>
+                        <h2 class="section-summary">
+                            Have a look at the finlance latest News
+                        </h2>
+                    </div>
+                </div>
+                <blogs-section
+                    >[pagebuilder-blogs][/pagebuilder-blogs]</blogs-section
+                >
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="im8rtv" class="cta-section pb-mb30 lazy">
+            <div class="container">
+                <div class="cta-content">
+                    <div class="row">
+                        <div class="col-md-9 col-lg-7">
+                            <h3>Contact us for help with your finances.</h3>
+                        </div>
+                        <div class="col-md-3 col-lg-5 contact-btn-wrapper">
+                            <a
+                                href="http://localhost/plusagency/plusagency_2.5/contact"
+                                class="boxed-btn contact-btn"
+                                ><span>Contact Us</span></a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="partner-section pb-mb30">
+            <div class="container top-border">
+                <div class="row">
+                    <div class="col-md-12">
+                        <partner-section
+                            >[pagebuilder-partner][/pagebuilder-partner]</partner-section
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+* { box-sizing: border-box; } body {margin:
+0;}#i2mqij{display:none;}#statisticsSection{background-image:url({base_url}/assets/front/img/6066a56899910.jpg);background-size:cover;}#io49e8{background-image:url({base_url}/assets/front/img/6062dea7439b1.jpg);background-size:cover;}#ify9hj{text-align:center;}#iog78n{text-align:center;}#idsqxe{text-align:center;}#i5xi0r{text-align:center;}#i4qwvl{text-align:center;}#ivpvos{text-align:center;}#i010mg{text-align:center;}#i66c0k{text-align:center;}#irqpf2{text-align:center;}#ih5pkj{text-align:center;}#iyn9hq{text-align:center;}#ikosp3{text-align:center;}#ilveeu{text-align:center;}#i8fqfw{text-align:center;}#ikhhi4{text-align:center;}#ibjt7z{text-align:center;}#ij45sp{text-align:center;}#ijke6h{text-align:center;}#i54iaj{text-align:center;}#iwn2zz{text-align:center;}#iqw8wk{text-align:center;}#iwb6hg{text-align:center;}#iegxt9{text-align:center;}#izy5ga{text-align:center;}#i270u6{text-align:center;}#i0ps9b{text-align:center;}#i1rnnf{text-align:center;}#imoonm{text-align:center;}#it7o66{text-align:center;}#i54eya{text-align:center;}#ixiftj{text-align:center;}#ic7r0k{text-align:center;}#irkir2{text-align:center;}#ir3xvo{text-align:center;}#io2dqn{text-align:center;}#i3trk5{text-align:center;}#iu2ssm{text-align:center;}#ir1xfw{text-align:center;}#i4xnzl{text-align:center;}#in3uym{text-align:center;}#ihaa9c{text-align:center;}#id6zcs{text-align:center;}#i33wtg{text-align:center;}#iomqsk{text-align:center;}#ihatxl{text-align:center;}#im8rtv{background-image:url({base_url}/assets/front/img/6066a597791b6.jpg);background-size:cover;}#iporl{padding:120px
+0 80px 0;}#iu6l8d{padding:120px 0 120px 0;}#itywhx{padding:0 0 120px
+0;}#i7qhz9{padding:120px 0 120px 0;}#iltns6{padding:120px 0 120px
+0;}#irlci1{padding:0 0 120px
+0;}#imj9fe{background-image:url({base_url}/assets/front/img/606457e1583d3.jpg);background-size:cover;}

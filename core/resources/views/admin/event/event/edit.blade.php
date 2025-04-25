@@ -87,67 +87,12 @@
                     <p class="em text-danger mb-0" id="errimage"></p>
                 </div> --}}
                 {{-- Slider images upload end --}}
-                {{-- <form class="mb-3 dm-uploader modal-form" enctype="multipart/form-data" action="{{route('admin.event.upload')}}" method="POST" id="video-frm">
-                    <div class="form-row px-2">
-                        <div class="col-12 mb-2">
-                            <label for=""><strong>Video</strong></label>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="from-group mb-2">
-                               @if(!is_null($event->video))
-                                    <video width="320" height="240" controls id="video_src">
-                                        <source src="{{ asset("assets/front/img/events/videos/".$event->video)}}" type="video/mp4">
-                                    </video>
-                                @else
-                                   No video uploaded yet
-                                @endif
-                            </div>
-                            <div class="mt-4">
-                                <div role="button" class="btn btn-primary mr-2">
-                                    <i class="fa fa-folder-o fa-fw"></i> Browse Files
-                                    <input type="file" title='Click to add Files' id="upload-video" name="upload-video" />
-                                </div>
-                                <small class="status text-muted">Select a file or drag it over this area..</small>
-                                <p class="em text-danger mb-0" id="errblog"></p>
-                            </div>
-                        </div>
-                    </div>
-                </form> --}}
+                
               <form id="ajaxForm" class="" action="{{route('admin.event.update')}}" method="post">
                 @csrf
                 <input type="hidden" name="event_id" value="{{$event->id}}">
                 <input type="hidden" name="lang_id" value="{{$event->lang_id}}">
                 {{-- Video Part --}}
-                <div class="form-group">
-                    <label for="">Video ** </label>
-                    <br>
-                    <div class="video-preview" id="videoPreview1">
-                        <video width="320" height="240" controls id="video_src">
-                            <source src="{{ asset("assets/front/img/events/videos/".$event->video)}}" type="video/mp4">
-                        </video>
-                    </div>
-                    <br>
-
-
-                    <input id="fileInput1" type="hidden" name="video">
-                    <button id="chooseVideo1" class="choose-video btn btn-primary" type="button" data-multiple="false" data-video="true" data-toggle="modal" data-target="#lfmModal1">Choose Video</button>
-
-
-                    <p class="text-warning mb-0">MP4 video is allowed</p>
-                    <p class="em text-danger mb-0" id="errvideo"></p>
-
-                    <!-- Video LFM Modal -->
-                    <div class="modal fade lfm-modal" id="lfmModal1" tabindex="-1" role="dialog" aria-labelledby="lfmModalTitle" aria-hidden="true">
-                        <i class="fas fa-times-circle"></i>
-                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-body p-0">
-                                    <iframe src="{{url('laravel-filemanager')}}?serial=1" style="width: 100%; height: 500px; overflow: hidden; border: none;"></iframe>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 {{-- START: slider Part --}}
 
                 {{-- START: slider Part --}}

@@ -172,7 +172,7 @@
                 <p class="font-md color-grey-500 wow animate__animated animate__fadeIn">Create an account today and start using our platform</p>
                 <div class="line-register mt-25 mb-50"></div>
 
-                <form id="multiStepForm">
+                <form id="multiStepForm" action="{{route('student.store')}}" method="post">
                   <!-- Step 1 -->
                   <div class="form-step step-1">
                     <div class="row">

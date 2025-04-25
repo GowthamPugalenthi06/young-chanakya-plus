@@ -82,111 +82,29 @@
           <h6 class="color-brand-1 mb-20 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Board members</h6>
           <h2 class="color-brand-1 mb-50 wow animate__animated animate__fadeIn" data-wow-delay=".2s">Together we are strong</h2>
           <div class="row">
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-              <div class="card-member">
+    @foreach($academic_team as $member)
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
+            <div class="card-member">
                 <div class="card-top">
-                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/team/member1.png') }}" alt="iori"></div>
-                  <div class="card-info"><span class="font-lg-bold color-brand-1">Darrell Steward</span>
-                    <p class="font-xs color-grey-200">Product Designer</p>
-                    <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
-                  </div>
+                    <div class="card-image">
+                        <img src="{{ asset($member->image) }}" alt="{{ $member->name }}">
+                    </div>
+                    <div class="card-info">
+                        <span class="font-lg-bold color-brand-1">{{ $member->name }}</span>
+                        <p class="font-xs color-grey-200">{{ $member->description }}</p>
+                        <div class="list-socials">
+                            <a class="icon-socials icon-facebook" href="{{ $member->facebook ?? '#' }}"></a>
+                            <a class="icon-socials icon-linkedin" href="{{ $member->linkedin ?? '#' }}"></a>
+                            <a class="icon-socials icon-twitter" href="{{ $member->twitter ?? '#' }}"></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-bottom">
-                </div>
-              </div>
+                <div class="card-bottom"></div>
             </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-              <div class="card-member">
-                <div class="card-top">
-                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/team/member2.png')}}" alt="iori"></div>
-                  <div class="card-info"><span class="font-lg-bold color-brand-1">Guy Hawkins</span>
-                    <p class="font-xs color-grey-200">Product Designer</p>
-                    <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
-                  </div>
-                </div>
-                <div class="card-bottom">
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-              <div class="card-member">
-                <div class="card-top">
-                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/team/member3.png')}}" alt="iori"></div>
-                  <div class="card-info"><span class="font-lg-bold color-brand-1">Darlene Robertson</span>
-                    <p class="font-xs color-grey-200">Product Designer</p>
-                    <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
-                  </div>
-                </div>
-                <div class="card-bottom">
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-              <div class="card-member">
-                <div class="card-top">
-                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/team/member4.png')}}" alt="iori"></div>
-                  <div class="card-info"><span class="font-lg-bold color-brand-1">Ronald Richards</span>
-                    <p class="font-xs color-grey-200">Product Designer</p>
-                    <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
-                  </div>
-                </div>
-                <div class="card-bottom">
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-              <div class="card-member">
-                <div class="card-top">
-                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/team/member6.png')}}" alt="iori"></div>
-                  <div class="card-info"><span class="font-lg-bold color-brand-1">Kathryn Murphy</span>
-                    <p class="font-xs color-grey-200">Product Designer</p>
-                    <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
-                  </div>
-                </div>
-                <div class="card-bottom">
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-              <div class="card-member">
-                <div class="card-top">
-                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/team/member2.png')}}" alt="iori"></div>
-                  <div class="card-info"><span class="font-lg-bold color-brand-1">Cameron Williamson</span>
-                    <p class="font-xs color-grey-200">Product Designer</p>
-                    <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
-                  </div>
-                </div>
-                <div class="card-bottom">
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-              <div class="card-member">
-                <div class="card-top">
-                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/team/member7.png')}}" alt="iori"></div>
-                  <div class="card-info"><span class="font-lg-bold color-brand-1">Floyd Miles</span>
-                    <p class="font-xs color-grey-200">Product Designer</p>
-                    <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
-                  </div>
-                </div>
-                <div class="card-bottom">
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
-              <div class="card-member">
-                <div class="card-top">
-                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/team/member8.png')}}" alt="iori"></div>
-                  <div class="card-info"><span class="font-lg-bold color-brand-1">Devon Lane</span>
-                    <p class="font-xs color-grey-200">Product Designer</p>
-                    <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
-                  </div>
-                </div>
-                <div class="card-bottom">
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
+    @endforeach
+</div>
+
         </div>
       </section>
         

@@ -1148,198 +1148,28 @@
           </div>
         </div>
         <div class="row align-items-start">
-          <div class="col-6 col-md-2 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-            <div class="card-member-2 mb-30" style="padding:10px;  max-height:250px; overflow:hidden; border-radius:10px;">
-              <div class="card-image">
-                <img src="{{asset('assets/yc/imgs/page/homepage8/member.png')}}" alt="iori" style="height:230px; width:100%; object-fit:cover; border-radius:10px;">
-              </div>
-              <div class="card-info bg-1" style="padding:10px;">
-                <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
-                <div class="d-flex align-items-center">
-                  <p class="font-xs color-grey-200" style="margin-bottom: 0; margin-right: 8px;">Designer</p>
-                  <div class="list-socials mt-0">
-                    <a class="icon-socials icon-linkedin" href="#"></a>
-                  </div>
+        @foreach($mentors as $mentor)
+        <div class="col-6 col-md-2 wow animate__animated animate__fadeIn" data-wow-delay=".s">
+            <div class="card-member-2 mb-30" style="padding:10px; max-height:250px; overflow:hidden; border-radius:10px;">
+                <div class="card-image">
+                    <img src="{{ asset($mentor->image) }}" alt="{{ $mentor->name }}" style="height:230px; width:100%; object-fit:cover; border-radius:10px;">
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-2 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-            <div class="card-member-2 mb-30" style="padding:10px;  max-height:250px; overflow:hidden; border-radius:10px;">
-              <div class="card-image">
-                <img src="{{asset('assets/yc/imgs/page/homepage8/member.png')}}" alt="iori" style="height:230px; width:100%; object-fit:cover; border-radius:10px;">
-              </div>
-              <div class="card-info bg-1" style="padding:10px;">
-                <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
-                <div class="d-flex align-items-center">
-                  <p class="font-xs color-grey-200" style="margin-bottom: 0; margin-right: 8px;">Designer</p>
-                  <div class="list-socials mt-0">
-                    <a class="icon-socials icon-linkedin" href="#"></a>
-                  </div>
+                <div class="card-info bg-1" style="padding:10px;">
+                    <a class="font-lg-bold color-brand-1" href="#">{{ $mentor->name }}</a>
+                    <div class="d-flex align-items-center">
+                        <p class="font-xs color-grey-200" style="margin-bottom: 0; margin-right: 8px;">{{ $mentor->description ?? 'Mentor' }}</p>
+                        <div class="list-socials mt-0">
+                            @if($mentor->linkedin)
+                                <a class="icon-socials icon-linkedin" href="{{ $mentor->linkedin }}" target="_blank"></a>
+                            @endif
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="col-6 col-md-2 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-            <div class="card-member-2 mb-30" style="padding:10px;  max-height:250px; overflow:hidden; border-radius:10px;">
-              <div class="card-image">
-                <img src="{{asset('assets/yc/imgs/page/homepage8/member.png')}}" alt="iori" style="height:230px; width:100%; object-fit:cover; border-radius:10px;">
-              </div>
-              <div class="card-info bg-1" style="padding:10px;">
-                <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
-                <div class="d-flex align-items-center">
-                  <p class="font-xs color-grey-200" style="margin-bottom: 0; margin-right: 8px;">Designer</p>
-                  <div class="list-socials mt-0">
-                    <a class="icon-socials icon-linkedin" href="#"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-2 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-            <div class="card-member-2 mb-30" style="padding:10px;  max-height:250px; overflow:hidden; border-radius:10px;">
-              <div class="card-image">
-                <img src="{{asset('assets/yc/imgs/page/homepage8/member.png')}}" alt="iori" style="height:230px; width:100%; object-fit:cover; border-radius:10px;">
-              </div>
-              <div class="card-info bg-1" style="padding:10px;">
-                <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
-                <div class="d-flex align-items-center">
-                  <p class="font-xs color-grey-200" style="margin-bottom: 0; margin-right: 8px;">Designer</p>
-                  <div class="list-socials mt-0">
-                    <a class="icon-socials icon-linkedin" href="#"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-2 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-            <div class="card-member-2 mb-30" style="padding:10px;  max-height:250px; overflow:hidden; border-radius:10px;">
-              <div class="card-image">
-                <img src="{{asset('assets/yc/imgs/page/homepage8/member.png')}}" alt="iori" style="height:230px; width:100%; object-fit:cover; border-radius:10px;">
-              </div>
-              <div class="card-info bg-1" style="padding:10px;">
-                <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
-                <div class="d-flex align-items-center">
-                  <p class="font-xs color-grey-200" style="margin-bottom: 0; margin-right: 8px;">Designer</p>
-                  <div class="list-socials mt-0">
-                    <a class="icon-socials icon-linkedin" href="#"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-2 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-            <div class="card-member-2 mb-30" style="padding:10px;  max-height:250px; overflow:hidden; border-radius:10px;">
-              <div class="card-image">
-                <img src="{{asset('assets/yc/imgs/page/homepage8/member.png')}}" alt="iori" style="height:230px; width:100%; object-fit:cover; border-radius:10px;">
-              </div>
-              <div class="card-info bg-1" style="padding:10px;">
-                <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
-                <div class="d-flex align-items-center">
-                  <p class="font-xs color-grey-200" style="margin-bottom: 0; margin-right: 8px;">Designer</p>
-                  <div class="list-socials mt-0">
-                    <a class="icon-socials icon-linkedin" href="#"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-2 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-            <div class="card-member-2 mb-30" style="padding:10px;  max-height:250px; overflow:hidden; border-radius:10px;">
-              <div class="card-image">
-                <img src="{{asset('assets/yc/imgs/page/homepage8/member.png')}}" alt="iori" style="height:230px; width:100%; object-fit:cover; border-radius:10px;">
-              </div>
-              <div class="card-info bg-1" style="padding:10px;">
-                <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
-                <div class="d-flex align-items-center">
-                  <p class="font-xs color-grey-200" style="margin-bottom: 0; margin-right: 8px;">Designer</p>
-                  <div class="list-socials mt-0">
-                    <a class="icon-socials icon-linkedin" href="#"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-2 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-            <div class="card-member-2 mb-30" style="padding:10px;  max-height:250px; overflow:hidden; border-radius:10px;">
-              <div class="card-image">
-                <img src="{{asset('assets/yc/imgs/page/homepage8/member.png')}}" alt="iori" style="height:230px; width:100%; object-fit:cover; border-radius:10px;">
-              </div>
-              <div class="card-info bg-1" style="padding:10px;">
-                <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
-                <div class="d-flex align-items-center">
-                  <p class="font-xs color-grey-200" style="margin-bottom: 0; margin-right: 8px;">Designer</p>
-                  <div class="list-socials mt-0">
-                    <a class="icon-socials icon-linkedin" href="#"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-2 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-            <div class="card-member-2 mb-30" style="padding:10px;  max-height:250px; overflow:hidden; border-radius:10px;">
-              <div class="card-image">
-                <img src="{{asset('assets/yc/imgs/page/homepage8/member.png')}}" alt="iori" style="height:230px; width:100%; object-fit:cover; border-radius:10px;">
-              </div>
-              <div class="card-info bg-1" style="padding:10px;">
-                <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
-                <div class="d-flex align-items-center">
-                  <p class="font-xs color-grey-200" style="margin-bottom: 0; margin-right: 8px;">Designer</p>
-                  <div class="list-socials mt-0">
-                    <a class="icon-socials icon-linkedin" href="#"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-2 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-            <div class="card-member-2 mb-30" style="padding:10px;  max-height:250px; overflow:hidden; border-radius:10px;">
-              <div class="card-image">
-                <img src="{{asset('assets/yc/imgs/page/homepage8/member.png')}}" alt="iori" style="height:230px; width:100%; object-fit:cover; border-radius:10px;">
-              </div>
-              <div class="card-info bg-1" style="padding:10px;">
-                <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
-                <div class="d-flex align-items-center">
-                  <p class="font-xs color-grey-200" style="margin-bottom: 0; margin-right: 8px;">Designer</p>
-                  <div class="list-socials mt-0">
-                    <a class="icon-socials icon-linkedin" href="#"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-2 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-            <div class="card-member-2 mb-30" style="padding:10px;  max-height:250px; overflow:hidden; border-radius:10px;">
-              <div class="card-image">
-                <img src="{{asset('assets/yc/imgs/page/homepage8/member.png')}}" alt="iori" style="height:230px; width:100%; object-fit:cover; border-radius:10px;">
-              </div>
-              <div class="card-info bg-1" style="padding:10px;">
-                <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
-                <div class="d-flex align-items-center">
-                  <p class="font-xs color-grey-200" style="margin-bottom: 0; margin-right: 8px;">Designer</p>
-                  <div class="list-socials mt-0">
-                    <a class="icon-socials icon-linkedin" href="#"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-2 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-            <div class="card-member-2 mb-30" style="padding:10px;  max-height:250px; overflow:hidden; border-radius:10px;">
-              <div class="card-image">
-                <img src="{{asset('assets/yc/imgs/page/homepage8/member.png')}}" alt="iori" style="height:230px; width:100%; object-fit:cover; border-radius:10px;">
-              </div>
-              <div class="card-info bg-1" style="padding:10px;">
-                <a class="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
-                <div class="d-flex align-items-center">
-                  <p class="font-xs color-grey-200" style="margin-bottom: 0; margin-right: 8px;">Designer</p>
-                  <div class="list-socials mt-0">
-                    <a class="icon-socials icon-linkedin" href="#"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
+    @endforeach
+          
+         
         </div>
       </div>
       <div class="border-bottom mt-30"></div>

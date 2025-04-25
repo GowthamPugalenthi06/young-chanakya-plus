@@ -6,7 +6,7 @@
     <div class="row">
        <div class="col-lg-2 col-6">
           <div class="logo-wrapper">
-             <a href="{{route('front.index')}}"><img class="lazy" data-src="{{asset('assets/front/img/'.$bs->logo)}}" alt=""></a>
+             <a href="{{route('career')}}"><img class="lazy" data-src="{{asset('assets/front/img/'.$bs->logo)}}" alt=""></a>
           </div>
        </div>
        <div class="col-lg-10 col-6 {{$rtl == 1 ? 'text-left' : 'text-right'}} position-static">

@@ -96,68 +96,26 @@
             </div>
           </div>
           <div class="row align-items-start">
-            <div class="col-lg-2 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-              <div class="card-team mb-30">
-                <div class="card-image"><img src="{{('assets/yc/imgs/page/about/team1.png')}}" alt="YC"></div>
-                <div class="card-info"><a class="font-lg" href="#">Devon Lane</a>
-                  <p class="font-xs color-grey-200 mb-10">CEO</p>
-                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
-
-                </div>
-              </div>
+    @foreach($ceo_mentors as $mentor)
+    <div class="col-lg-2 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
+        <div class="card-team mb-30">
+            <div class="card-image">
+                <img src="{{ asset($mentor->image ?? 'assets/yc/imgs/page/about/default.png') }}" alt="YC">
             </div>
-            <div class="col-lg-2 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-              <div class="card-team mb-30">
-                <div class="card-image"><img src="{{('assets/yc/imgs/page/about/team2.png')}}" alt="YC"></div>
-                <div class="card-info"><a class="font-lg" href="#">Jennie Tho</a>
-                  <p class="font-xs color-grey-200 mb-10">Finance Manager</p>
-                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
-
+            <div class="card-info">
+                <a class="font-lg" href="#">{{ $mentor->name }}</a>
+                <p class="font-xs color-grey-200 mb-10">{{ $mentor->description ?? 'CEO and MD' }}</p>
+                <div class="list-socials">
+                    <a class="icon-socials icon-facebook" href="{{ $mentor->facebook ?? '#' }}"></a>
+                    <a class="icon-socials icon-linkedin" href="{{ $mentor->linkedin ?? '#' }}"></a>
+                    <a class="icon-socials icon-twitter" href="{{ $mentor->twitter ?? '#' }}"></a>
                 </div>
-              </div>
             </div>
-            <div class="col-lg-2 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-              <div class="card-team mb-30">
-                <div class="card-image"><img src="{{('assets/yc/imgs/page/about/team3.png')}}" alt="YC"></div>
-                <div class="card-info"><a class="font-lg" href="#">Symon Lesin</a>
-                  <p class="font-xs color-grey-200 mb-10">Technology Manager</p>
-                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
+        </div>
+    </div>
+    @endforeach
+</div>
 
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-              <div class="card-team mb-30">
-                <div class="card-image"><img src="{{('assets/yc/imgs/page/team/team1.png')}}" alt="YC"></div>
-                <div class="card-info"><a class="font-lg" href="#">Virginia Aguilar</a>
-                  <p class="font-xs color-grey-200 mb-10">Director of People</p>
-                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
-
-
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-                <div class="card-team mb-30">
-                  <div class="card-image"><img src="{{('assets/yc/imgs/page/team/team1.png')}}" alt="YC"></div>
-                  <div class="card-info"><a class="font-lg" href="#">Virginia Aguilar</a>
-                    <p class="font-xs color-grey-200 mb-10">Director of People</p>
-                    <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
-
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-                <div class="card-team mb-30">
-                  <div class="card-image"><img src="{{('assets/yc/imgs/page/team/team1.png')}}" alt="YC"></div>
-                  <div class="card-info"><a class="font-lg" href="#">Virginia Aguilar</a>
-                    <p class="font-xs color-grey-200 mb-10">Director of People</p>
-                    <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
-
-                  </div>
-                </div>
-              </div>
-          </div>
         </div>
       </section> 
   </main>
