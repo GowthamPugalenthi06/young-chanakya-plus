@@ -4,8 +4,11 @@ namespace App\Http\Controllers\Admin;
 
 use App\BasicExtra;
 use App\Event;
+use App\EventUpload;
 use App\EventCategory;
+use Illuminate\Support\Str;
 use App\EventDetail;
+use Illuminate\Support\Facades\Storage;
 use App\Exports\EventBookingExport;
 use App\Language;
 use Illuminate\Http\Request;
@@ -36,7 +39,7 @@ class EventController extends Controller
         $lang_id = $lang->id;
         $data['lang_id'] = $lang_id;
         $data['abx'] = $lang->basic_extra;
-        $data['events'] = Event::where('lang_id', $lang_id)->orderBy('id', 'DESC')->get();
+        $data['events'] = EventUpload::where('lang_id', $lang_id)->orderBy('id', 'DESC')->get();
         $data['event_categories'] = EventCategory::where('lang_id', $lang_id)->where('status', '1')->get();
         return view('admin.event.event.index', $data);
     }
@@ -58,108 +61,156 @@ class EventController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
-        $slug = make_slug($request->title);
-
-        $video = $request->video;
-        $videoExts = array('mp4');
-        $extVideo = pathinfo($video, PATHINFO_EXTENSION);
-        $sliders = !empty($request->slider) ? explode(',', $request->slider) : [];
-        $allowedExts = array('jpg', 'png', 'jpeg');
-
+{
+    try {
+        // Define validation rules
         $rules = [
             'title' => [
                 'required',
                 'max:255',
-                function ($attribute, $value, $fail) use ($slug) {
-                    $events = Event::all();
-                    foreach ($events as $key => $event) {
-                        if (strtolower($slug) == strtolower($event->slug)) {
-                            $fail('The title field must be unique.');
-                        }
-                    }
-                }
+                'unique:event_uploads,slug',
             ],
-            'date' => 'required',
+            'date' => 'required|date',
+            'end_date' => 'required|date|after_or_equal:date',
             'time' => 'required',
-            'cost' => 'required',
-            'available_tickets' => 'required',
-            'organizer' => 'required',
-            'venue' => 'required',
-            'lang_id' => 'required',
-            'cat_id' => 'required',
-            'slider' => 'required',
-            'video' => 'required'
+            'end_time' => 'required',
+            'cost' => 'required|numeric|min:0',
+            'available_tickets' => 'required|integer|min:1',
+            'venue' => 'required|string',
+            'lang_id' => 'required|exists:languages,id',
+            'cat_id' => 'required|exists:event_categories,id',
+            'slider' => 'nullable|string', // Optional, comma-separated URLs or paths
+            'content' => 'nullable|string',
+            'meta_tags' => 'nullable|string',
+            'meta_description' => 'nullable|string',
         ];
-        if ($request->filled('video')) {
-            $rules['video'] = [
-                function ($attribute, $value, $fail) use ($extVideo, $videoExts) {
-                    if (!in_array($extVideo, $videoExts)) {
-                        return $fail("Only mp4 video is allowed");
-                    }
-                }
-            ];
-        }
-
-        if ($request->filled('slider')) {
-            $rules['slider'] = [
-                function ($attribute, $value, $fail) use ($sliders, $allowedExts) {
-                    foreach ($sliders as $key => $slider) {
-                        $extSlider = pathinfo($slider, PATHINFO_EXTENSION);
-                        if (!in_array($extSlider, $allowedExts)) {
-                            return $fail("Only png, jpg, jpeg images are allowed");
-                        }
-                    }
-                }
-            ];
-        }
 
         $messages = [
             'title.required' => 'The title field is required',
+            'title.unique' => 'The title must be unique',
             'date.required' => 'The date field is required',
+            'end_date.after_or_equal' => 'The end date must be on or after the start date',
             'time.required' => 'The time field is required',
+            'end_time.required' => 'The end time field is required',
             'cost.required' => 'The cost field is required',
             'available_tickets.required' => 'Number of tickets field is required',
-            'organizer.required' => 'The organizer name field is required',
             'venue.required' => 'The venue field is required',
             'lang_id.required' => 'The language field is required',
-            'cat_id.required' => 'The category field is required'
+            'lang_id.exists' => 'The selected language is invalid',
+            'cat_id.required' => 'The category field is required',
+            'cat_id.exists' => 'The selected category is invalid',
         ];
 
+        // Validate the request
         $validator = Validator::make($request->all(), $rules, $messages);
         if ($validator->fails()) {
-            $errmsgs = $validator->getMessageBag()->add('error', 'true');
-            return response()->json($validator->errors());
+            return response()->json([
+                'status' => 'error',
+                'errors' => $validator->errors(),
+            ], 422);
         }
 
+        // Process slider images
         $images = [];
-        foreach ($sliders as $key => $slider) {
-            $extSlider = pathinfo($slider, PATHINFO_EXTENSION);
-            $filename = uniqid() .'.'. $extSlider;
+        $allowedExts = ['jpg', 'png', 'jpeg'];
+        if ($request->filled('slider')) {
+            $sliders = array_filter(explode(',', $request->slider)); // Remove empty entries
+            $directory = 'front/img/events/sliders'; // Relative to storage/app/public
 
-            $directory = 'assets/front/img/events/sliders/';
-            @mkdir($directory, 0775, true);
-
-            @copy($slider, $directory . $filename);
-            $images[] = $filename;
+            foreach ($sliders as $slider) {
+                // Convert URL to local path if necessary
+                $sliderPath = str_replace(url('/'), public_path(), trim($slider));
+                if (!file_exists($sliderPath)) {
+                    // If it's a URL, try downloading it
+                    try {
+                        $contents = file_get_contents($slider);
+                        if ($contents === false) {
+                            return response()->json([
+                                'status' => 'error',
+                                'errors' => ['slider' => 'Unable to access image: ' . $slider],
+                            ], 422);
+                        }
+                        $ext = strtolower(pathinfo($slider, PATHINFO_EXTENSION));
+                        if (!in_array($ext, $allowedExts)) {
+                            return response()->json([
+                                'status' => 'error',
+                                'errors' => ['slider' => 'Only jpg, png, jpeg images are allowed'],
+                            ], 422);
+                        }
+                        $filename = uniqid() . '.' . $ext;
+                        Storage::disk('public')->put($directory . '/' . $filename, $contents);
+                    } catch (\Exception $e) {
+                        return response()->json([
+                            'status' => 'error',
+                            'errors' => ['slider' => 'Failed to process image: ' . $slider],
+                        ], 422);
+                    }
+                } else {
+                    // Local file exists, copy it
+                    $ext = strtolower(pathinfo($sliderPath, PATHINFO_EXTENSION));
+                    if (!in_array($ext, $allowedExts)) {
+                        return response()->json([
+                            'status' => 'error',
+                            'errors' => ['slider' => 'Only jpg, png, jpeg images are allowed'],
+                        ], 422);
+                    }
+                    $filename = uniqid() . '.' . $ext;
+                    $destination = $directory . '/' . $filename;
+                    Storage::disk('public')->makeDirectory($directory);
+                    if (!Storage::disk('public')->put($destination, file_get_contents($sliderPath))) {
+                        return response()->json([
+                            'status' => 'error',
+                            'errors' => ['slider' => 'Failed to save slider image: ' . $filename],
+                        ], 500);
+                    }
+                }
+                $images[] = $filename;
+            }
         }
 
-        if ($request->filled('video')) {
-            $videoFile = uniqid() .'.'. $extVideo;
-            $directory = "assets/front/img/events/videos/";
-            @mkdir($directory, 0775, true);
-            @copy($video, $directory . $videoFile);
-        }
+        // Create the event
+        $event = EventUpload::create([
+            'title' => $request->title,
+            'slug' => make_slug($request->title),
+            'content' => $request->content ? Str::replace(
+                url('/') . '/assets/front/img/',
+                '{base_url}/assets/front/img/',
+                $request->content
+            ) : null,
+            'date' => $request->date,
+            'end_date' => $request->end_date,
+            'time' => $request->time,
+            'end_time' => $request->end_time,
+            'cost' => $request->cost,
+            'available_tickets' => $request->available_tickets,
+            'venue' => $request->venue,
+            'meta_tags' => $request->meta_tags,
+            'meta_description' => $request->meta_description,
+            'image' => !empty($images) ? json_encode($images) : null,
+            'lang_id' => $request->lang_id,
+            'cat_id' => $request->cat_id,
+        ]);
 
-        $event = Event::create($request->except('image', 'video', 'content') + [
-                'slug' => $slug,
-                'image' => json_encode($images),
-                'content' => str_replace(url('/') . '/assets/front/img/', "{base_url}/assets/front/img/", $request->content),
-                'video' => $videoFile
-            ]);
+        // Flash success message
         Session::flash('success', 'Event added successfully!');
-        return "success";
+
+        // Return JSON response
+        return response()->json([
+            'status' => 'success',
+            'message' => 'Event added successfully!',
+        ], 200);
+    } catch (\Exception $e) {
+        // Log the error
+        Log::error('Event creation failed: ' . $e->getMessage(), ['exception' => $e]);
+
+        // Return error response
+        return response()->json([
+            'status' => 'error',
+            'message' => 'Failed to create event',
+            'details' => $e->getMessage(),
+        ], 500);
     }
+}
 
     /**
      * Display the specified resource.
@@ -180,7 +231,7 @@ class EventController extends Controller
      */
     public function edit($id)
     {
-        $data['event'] = Event::findOrFail($id);
+        $data['event'] = EventUpload::findOrFail($id);
         $data['event_categories'] = EventCategory::where('lang_id', $data['event']->lang_id)->where('status', '1')->get();
         $data['abx'] = BasicExtra::select('base_currency_text')->where('language_id', $data['event']->lang_id)->first();
         return view('admin.event.event.edit', $data);
@@ -195,24 +246,27 @@ class EventController extends Controller
      */
     public function update(Request $request)
     {
+        // Determine the current language
+        if (session()->has('lang')) {
+            $currentLang = Language::where('code', session()->get('lang'))->first();
+        } else {
+            $currentLang = Language::where('is_default', 1)->first();
+        }
+    
         $slug = make_slug($request->title);
         $eventId = $request->event_id;
-
         $sliders = !empty($request->slider) ? explode(',', $request->slider) : [];
         $allowedExts = array('jpg', 'png', 'jpeg');
-
-        $video = $request->video;
-        $videoExts = array('mp4');
-        $extVideo = pathinfo($video, PATHINFO_EXTENSION);
-
+    
+        // Validation rules
         $rules = [
             'slider' => 'required',
             'title' => [
                 'required',
                 'max:255',
                 function ($attribute, $value, $fail) use ($slug, $eventId) {
-                    $events = Event::all();
-                    foreach ($events as $key => $event) {
+                    $events = EventUpload::all();
+                    foreach ($events as $event) {
                         if ($event->id != $eventId && strtolower($slug) == strtolower($event->slug)) {
                             $fail('The title field must be unique.');
                         }
@@ -223,34 +277,37 @@ class EventController extends Controller
             'time' => 'required',
             'cost' => 'required',
             'available_tickets' => 'required',
-            'organizer' => 'required',
             'venue' => 'required',
-            'cat_id' => 'required',
-        ];
-
-        if ($request->filled('video')) {
-            $rules['video'] = [
-                function ($attribute, $value, $fail) use ($extVideo, $videoExts) {
-                    if (!in_array($extVideo, $videoExts)) {
-                        return $fail("Only mp4 video is allowed");
+            'cat_id' => [
+                'required',
+                function ($attribute, $value, $fail) use ($currentLang) {
+                    // Ensure the selected category belongs to the current language
+                    $category = EventCategory::where('id', $value)
+                        ->where('lang_id', $currentLang->id)
+                        ->where('status', 1)
+                        ->first();
+                    if (!$category) {
+                        $fail('The selected category is invalid or not available for the current language.');
                     }
                 }
-            ];
-        }
-
+            ],
+        ];
+    
+        // Validate slider images
         if ($request->filled('slider')) {
             $rules['slider'] = [
                 function ($attribute, $value, $fail) use ($sliders, $allowedExts) {
-                    foreach ($sliders as $key => $slider) {
+                    foreach ($sliders as $slider) {
                         $extSlider = pathinfo($slider, PATHINFO_EXTENSION);
-                        if (!in_array($extSlider, $allowedExts)) {
+                        if (!in_array(strtolower($extSlider), $allowedExts)) {
                             return $fail("Only png, jpg, jpeg images are allowed");
                         }
                     }
                 }
             ];
         }
-
+    
+        // Custom error messages
         $messages = [
             'title.required' => 'The title field is required',
             'date.required' => 'The date field is required',
@@ -261,51 +318,53 @@ class EventController extends Controller
             'venue.required' => 'The venue field is required',
             'cat_id.required' => 'The category field is required'
         ];
-
+    
+        // Validate the request
         $validator = Validator::make($request->all(), $rules, $messages);
         if ($validator->fails()) {
-            $errmsgs = $validator->getMessageBag()->add('error', 'true');
-            return response()->json($validator->errors());
+            return response()->json($validator->errors()->add('error', 'true'));
         }
-
-        $event = Event::findOrFail($request->event_id);
-        if ($request->filled('video')) {
-            @unlink('assets/front/img/events/videos/' . $event->video);
-            $videoFile = uniqid() .'.'. $extVideo;
-            @copy($video, 'assets/front/img/events/videos/' . $videoFile);
-            $videoFile = $videoFile;
-        } else {
-            $videoFile = $event->video;
+    
+        // Find the event to update
+        $event = EventUpload::findOrFail($request->event_id);
+    
+        // Ensure the event belongs to the current language
+        if ($event->lang_id != $currentLang->id) {
+            return response()->json(['error' => 'true', 'message' => 'This event does not belong to the current language.']);
         }
-        $event->update($request->except('image', 'video', 'content') + [
-                'slug' => $slug,
-                'content' => str_replace(url('/') . '/assets/front/img/', "{base_url}/assets/front/img/", $request->content),
-                'video' => $videoFile
-            ]);
-        $event = Event::findOrFail($request->event_id);
-
-
-        // copy the sliders first
+    
+        // Update event data
+        $event->update($request->except('image', 'slider', 'content') + [
+            'slug' => $slug,
+            'content' => str_replace(url('/') . '/assets/front/img/', "{base_url}/assets/front/img/", $request->content),
+            'lang_id' => $currentLang->id, // Ensure lang_id is set
+        ]);
+    
+        // Handle slider images
         $fileNames = [];
-        foreach ($sliders as $key => $slider) {
+        foreach ($sliders as $slider) {
             $extSlider = pathinfo($slider, PATHINFO_EXTENSION);
-            $filename = uniqid() .'.'. $extSlider;
+            $filename = uniqid() . '.' . $extSlider;
             @copy($slider, 'assets/front/img/events/sliders/' . $filename);
             $fileNames[] = $filename;
         }
-
-        // delete & unlink previous slider images
+    
+        // Delete old slider images
         $preImages = json_decode($event->image, true);
-        foreach ($preImages as $key => $pi) {
-            @unlink('assets/front/img/events/sliders/' . $pi);
+        if (is_array($preImages)) {
+            foreach ($preImages as $pi) {
+                @unlink('assets/front/img/events/sliders/' . $pi);
+            }
         }
-
+    
+        // Save new slider images
         $event->image = json_encode($fileNames);
         $event->save();
-
+    
         Session::flash('success', 'Event updated successfully!');
         return "success";
     }
+
 
     public function uploadUpdate(Request $request, $id)
     {
@@ -318,7 +377,7 @@ class EventController extends Controller
             return response()->json(['errors' => $validator->errors(), 'id' => 'blog']);
         }
         $img = $request->file('file');
-        $event = Event::findOrFail($id);
+        $event = EventUpload::findOrFail($id);
         if ($request->hasFile('file')) {
             $filename = time() . '.' . $img->getClientOriginalExtension();
             $request->file('file')->move('assets/front/img/events/', $filename);
@@ -365,7 +424,7 @@ class EventController extends Controller
 
     public function sliderRemove(Request $request)
     {
-        $event = Event::findOrFail($request->id);
+        $event = EventUpload::findOrFail($request->id);
         $images = json_decode($event->image, true);
         @unlink('assets/front/img/events/sliders/' . $images["$request->key"]);
         unset($images["$request->key"]);
@@ -399,7 +458,7 @@ class EventController extends Controller
 
     public function delete(Request $request)
     {
-        $event = Event::findOrFail($request->event_id);
+        $event = EventUpload::findOrFail($request->event_id);
         $images = json_decode($event->image, true);
         if (count($images) > 0) {
             foreach ($images as $image) {
@@ -438,7 +497,7 @@ class EventController extends Controller
         return DB::transaction(function () use ($request) {
             $ids = $request->ids;
             foreach ($ids as $id) {
-                $event = Event::findOrFail($id);
+                $event = EventUpload::findOrFail($id);
                 $images = json_decode($event->image, true);
                 if (count($images) > 0) {
                     foreach ($images as $image) {
@@ -519,7 +578,7 @@ class EventController extends Controller
             $event_details = EventDetail::query()
                 ->findOrFail($request->id);
             if ($event_details->status == "Rejected") {
-                $event = Event::query()->findOrFail($event_details->event_id);
+                $event = EventUpload::query()->findOrFail($event_details->event_id);
                 $event->available_tickets = $event->available_tickets - $event_details->quantity;
                 $event->save();
             }
@@ -535,7 +594,7 @@ class EventController extends Controller
             $event_details = EventDetail::query()->findOrFail($request->id);
             $event_details->status = "Rejected";
             $event_details->save();
-            $event = Event::query()->findOrFail($event_details->event_id);
+            $event = EventUpload::query()->findOrFail($event_details->event_id);
             $event->available_tickets = $event->available_tickets + $event_details->quantity;
             $event->save();
             Session::flash('success', 'Event payment rejected successfully!');
@@ -611,7 +670,7 @@ class EventController extends Controller
 
     public function images($eventid)
     {
-        $event = Event::find($eventid);
+        $event = EventUpload::find($eventid);
         $images = json_decode($event->image, true);
         $convImages = [];
 

@@ -1,6 +1,6 @@
 @extends('admin.layout')
 
-@if(!empty($event->language) && $event->language->rtl == 1)
+@if(!empty($podcast->language) && $podcast->language->rtl == 1)
 @section('styles')
 <style>
     form input,
@@ -18,7 +18,7 @@
 
 @section('content')
   <div class="page-header">
-    <h4 class="page-title">Edit Event</h4>
+    <h4 class="page-title">Edit Podcast</h4>
     <ul class="breadcrumbs">
       <li class="nav-home">
         <a href="{{route('admin.dashboard')}}">
@@ -29,13 +29,13 @@
         <i class="flaticon-right-arrow"></i>
       </li>
       <li class="nav-item">
-        <a href="#">Event Page</a>
+        <a href="#">Podcast Page</a>
       </li>
       <li class="separator">
         <i class="flaticon-right-arrow"></i>
       </li>
       <li class="nav-item">
-        <a href="#">Edit Event</a>
+        <a href="#">Edit Podcast</a>
       </li>
     </ul>
   </div>
@@ -43,8 +43,8 @@
     <div class="col-md-12">
       <div class="card">
         <div class="card-header">
-          <div class="card-title d-inline-block">Edit Event</div>
-          <a class="btn btn-info btn-sm float-right d-inline-block" href="{{route('admin.event.index') . '?language=' . request()->input('language')}}">
+          <div class="card-title d-inline-block">Edit podcast</div>
+          <a class="btn btn-info btn-sm float-right d-inline-block" href="{{route('admin.podcast.index') . '?language=' . request()->input('language')}}">
             <span class="btn-label">
               <i class="fas fa-backward" style="font-size: 12px;"></i>
             </span>
@@ -60,16 +60,16 @@
                     <div class="row">
                         <div class="col-12">
                             <table class="table table-striped" id="imgtable">
-                                @if (!is_null($event->image))
-                                    @foreach(json_decode($event->image) as $key => $img)
+                                @if (!is_null($podcast->image))
+                                    @foreach(json_decode($podcast->image) as $key => $img)
                                         <tr class="trdb" id="trdb{{$key}}">
                                             <td>
                                                 <div class="thumbnail">
-                                                    <img style="width:150px;" src="{{asset('assets/front/img/events/sliders/'.$img)}}" alt="Ad Image">
+                                                    <img style="width:150px;" src="{{asset('assets/front/img/podcasts/sliders/'.$img)}}" alt="Ad Image">
                                                 </div>
                                             </td>
                                             <td>
-                                                <button type="button" class="btn btn-danger pull-right rmvbtndb" onclick="rmvdbimg({{$key}},{{$event->id}})">
+                                                <button type="button" class="btn btn-danger pull-right rmvbtndb" onclick="rmvdbimg({{$key}},{{$podcast->id}})">
                                                     <i class="fa fa-times"></i>
                                                 </button>
                                             </td>
@@ -88,10 +88,10 @@
                 </div> --}}
                 {{-- Slider images upload end --}}
                 
-              <form id="ajaxForm" class="" action="{{route('admin.event.update')}}" method="post">
+              <form id="ajaxForm" class="" action="{{route('admin.podcast.update')}}" method="post">
                 @csrf
-                <input type="hidden" name="event_id" value="{{$event->id}}">
-                <input type="hidden" name="lang_id" value="{{$event->lang_id}}">
+                <input type="hidden" name="podcast_id" value="{{$podcast->id}}">
+                <input type="hidden" name="lang_id" value="{{$podcast->lang_id}}">
                 {{-- Video Part --}}
                 {{-- START: slider Part --}}
 
@@ -118,7 +118,7 @@
                                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                     <div class="modal-content">
                                         <div class="modal-body p-0">
-                                            <iframe id="lfmIframe2" src="{{url('laravel-filemanager')}}?serial=2&event={{$event->id}}" style="width: 100%; height: 500px; overflow: hidden; border: none;"></iframe>
+                                            <iframe id="lfmIframe2" src="{{url('laravel-filemanager')}}?serial=2&podcast={{$podcast->id}}" style="width: 100%; height: 500px; overflow: hidden; border: none;"></iframe>
                                         </div>
                                     </div>
                                 </div>
@@ -130,67 +130,52 @@
 
                 <div class="form-group">
                   <label for="">Title **</label>
-                  <input type="text" class="form-control" name="title" value="{{$event->title}}" placeholder="Enter title">
+                  <input type="text" class="form-control" name="title" value="{{$podcast->title}}" placeholder="Enter title">
                   <p id="errtitle" class="mb-0 text-danger em"></p>
                 </div>
                 <div class="form-group">
                   <label for="">Category **</label>
                   <select class="form-control" name="cat_id">
                     <option value="" selected disabled>Select a category</option>
-                    @foreach ($event_categories as $key => $event_category)
-                      <option value="{{$event_category->id}}" {{$event_category->id == $event->eventCategories->id ? 'selected' : ''}}>{{$event_category->name}}</option>
+                    @foreach ($podcast_categories as $key => $podcast_category)
+                      <option value="{{$podcast_category->id}}" {{$podcast_category->id == $podcast->podcastCategories->id ? 'selected' : ''}}>{{$podcast_category->name}}</option>
                     @endforeach
                   </select>
                   <p id="errcat_id" class="mb-0 text-danger em"></p>
                 </div>
                 <div class="form-group">
-                  <label for="">Content **</label>
-                  <textarea class="form-control summernote" name="content" data-height="300" placeholder="Enter content">{{replaceBaseUrl($event->content)}}</textarea>
+                  <label for="">Title</label>
+                  <input type="text" class="form-control ltr" name="title" value="{{$podcast->title}}" placeholder="Enter podcast title">
                   <p id="errcontent" class="mb-0 text-danger em"></p>
                 </div>
+                <div class="form-group">
+                  <label for="">Author</label>
+                  <input type="text" class="form-control ltr" name="author" value="{{$podcast->author}}" placeholder="Enter author name">
+                  <p id="errauhtor" class="mb-0 text-danger em"></p>
+                </div>
                   <div class="form-group">
-                      <label for="">Start Date</label>
-                      <input type="date" class="form-control ltr" name="date" value="{{$event->date}}" placeholder="Enter Event Date">
+                      <label for="">Date</label>
+                      <input type="date" class="form-control ltr" name="date" value="{{$podcast->date}}" placeholder="Enter podcast Date">
                       <p id="errdate" class="mb-0 text-danger em"></p>
                   </div>
                   <div class="form-group">
-                    <label for="">End Date</label>
-                    <input type="date" class="form-control ltr" name="end_date" value="" placeholder="Enter Event Date">
-                    <p id="errend_date" class="mb-0 text-danger em"></p>
-                </div>
+                      <label for="">Audio</label>
+                      <input type="file" class="form-control ltr" name="audio" value="{{$podcast->audio}}" placeholder="upload audio">
+                      <p id="erraudio" class="mb-0 text-danger em"accept="audio/mp3,audio/wav,audio/ogg"></p>
+                  </div>
                   <div class="form-group">
-                      <label for="">Start Time</label>
-                      <input type="time" class="form-control ltr" name="time" value="{{\Carbon\Carbon::parse($event->time)->format('H:i:s')}}" placeholder="Enter Event Time">
+                      <label for="">Duration</label>
+                      <input type="time" class="form-control ltr" name="time" value="{{\Carbon\Carbon::parse($podcast->time)->format('H:i:s')}}" placeholder="Enter podcast Time">
                       <p id="errtime" class="mb-0 text-danger em"></p>
-                  </div>
-                  <div class="form-group">
-                    <label for="">End Time</label>
-                    <input type="time" class="form-control ltr" name="end_time" value="" placeholder="Enter Event Time">
-                    <p id="errend_time" class="mb-0 text-danger em"></p>
-                </div>
-                  <div class="form-group">
-                      <label for="">Cost (in {{$abx->base_currency_text}}) **</label>
-                      <input type="number" class="form-control ltr" name="cost" value="{{$event->cost}}" placeholder="Enter Ticket Cost">
-                      <p id="errcost" class="mb-0 text-danger em"></p>
-                  </div>
-                <div class="form-group">
-                  <label for="">Available Tickets **</label>
-                  <input type="number" class="form-control ltr" name="available_tickets" value="{{$event->available_tickets}}" placeholder="Enter Number of available tickets">
-                  <p id="erravailable_tickets" class="mb-0 text-danger em"></p>
-                </div>
-                  <div class="form-group">
-                      <label for="">Venue</label>
-                      <input type="text" class="form-control ltr" name="venue" value="{{$event->venue}}" placeholder="Enter Venue">
-                      <p id="errvenue" class="mb-0 text-danger em"></p>
                   </div>
                 <div class="form-group">
                   <label for="">Meta Keywords</label>
-                  <input type="text" class="form-control" name="meta_tags" value="{{$event->meta_tags}}" data-role="tagsinput">
+                  <input type="text" class="form-control" name="meta_tags" value="{{$podcast->meta_tags}}" data-role="tagsinput">
                   <p id="errmeta_keywords" class="mb-0 text-danger em"></p>
                 </div>
                 <div class="form-group">
                   <label for="">Meta Description</label>
-                  <textarea type="text" class="form-control" name="meta_description" rows="5">{{$event->meta_description}}</textarea>
+                  <textarea type="text" class="form-control" name="meta_description" rows="5">{{$podcast->meta_description}}</textarea>
                   <p id="errmeta_description" class="mb-0 text-danger em"></p>
                 </div>
               </form>
@@ -217,7 +202,7 @@
             $("select[name='lang_id']").on('change', function() {
                 $("#bcategory").removeAttr('disabled');
                 let langid = $(this).val();
-                let url = "{{url('/')}}/admin/event/" + langid + "/get-categories";
+                let url = "{{url('/')}}/admin/podcast/" + langid + "/get-categories";
                 $.get(url, function(data) {
                     console.log(data);
                     let options = `<option value="" disabled selected>Select a category</option>`;
@@ -272,31 +257,6 @@
                 }
             });
 
-            $("#upload-video").on('change',function (event){
-                let formData = new FormData($('#video-frm')[0]);
-                let file = $('input[type=file]')[0].files[0];
-                // formData.append('upload_video', file, file.name);
-                formData.append('upload_video', file);
-                $.ajax({
-                    url: '{{route('admin.event.upload')}}',
-                    headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
-                    type: 'POST',
-                    contentType: false,
-                    processData: false,
-                    cache: false,
-                    data: formData,
-                    success: function(data) {
-                        console.log(data.filename,"edit");
-                        $("#my_video").val(data.filename);
-                        var url = '{{ asset("assets/front/img/events/videos/filename") }}';
-                        url = url.replace('filename', data.filename);
-                        $("#video_src").attr('src',url);
-                    },
-                    error: function(data) {
-                        console.log(data);
-                    }
-                })
-            })
         });
     </script>
 @endsection

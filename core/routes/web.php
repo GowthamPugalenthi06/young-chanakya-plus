@@ -67,12 +67,9 @@ Route::get('/videos',[AdminController::class,'video'])->name('video-series');
 Route::get('/clubs-and-activities',[AdminController::class,'club'])->name('clubs&activities');
 
 //events
-Route::post('/membership/volunteer',[MembershipController::class,'volunteer']);
-Route::get('/events', 'Front\FrontendController@events')->name('front.events');
 Route::get('/events','Front\FrontendController@events')->name('events');
-Route::get('/event-detail','Front\FrontendController@eventDetails')->name('event-detail');
+Route::get('/event-detail/{slug}','Front\FrontendController@eventDetails')->name('event-detail');
 
-Route::get('/details','Front\FrontendController@details')->name('details');
 
 
 Route::get('/mentor-team', [MentorTeamController::class, 'showMentorsTeam'])->name('mentor-team');

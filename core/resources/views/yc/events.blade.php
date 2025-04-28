@@ -33,11 +33,16 @@
                 <div class="row">
                   <div class="col-xl-3 col-lg-4">
                     <ul class="list-faqs nav nav-tabs" role="tablist">
-                      @foreach ($event_categories as $category)
+                      @foreach ($event_categories as $key => $category)
                       <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                        <a id="tab{{ $category->id }}-tab" data-bs-toggle="pill" data-bs-target="#tab{{ $category->id }}" type="button" role="tab">
+                        <a id="tab{{ $category->id }}-tab" 
+                           data-bs-toggle="pill" 
+                           data-bs-target="#tab{{ $category->id }}" 
+                           type="button" 
+                           role="tab" 
+                           class="{{ $key === 0 ? 'active' : '' }}">
                           <span>{{ $category->name }}</span>
-                          <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                           </svg>
                         </a>
@@ -48,8 +53,10 @@
 
                   <div class="col-md-9">
                     <div class="tab-content" id="v-tabsContent">
-                      @foreach ($event_categories as $category)
-                      <div class="tab-pane fade" id="tab{{ $category->id }}" role="tabpanel">
+                      @foreach ($event_categories as $key => $category)
+                      <div class="tab-pane fade {{ $key === 0 ? 'show active' : '' }}" 
+                           id="tab{{ $category->id }}" 
+                           role="tabpanel">
                         <div class="row">
                           @forelse($events->where('cat_id', $category->id) as $event)
                           <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
@@ -69,7 +76,7 @@
                                   <span class="text-sm text-muted">
                                     <i class="fa fa-calendar-alt me-1 text-type-card1-date"></i> {{ date_format(date_create($event->date), "d/m/Y") }}
                                   </span>
-                                  <a href="{{route('details')}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
+                                  <a href="{{route('event-detail',$event->slug)}}" class="btn btn-sm border border-warning text-warning rounded px-3 py-1 hover:bg-warning-subtle fw-semibold">
                                     ATTEND
                                   </a>
                                 </div>
