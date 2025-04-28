@@ -426,9 +426,10 @@
                           <div class="img-reveal"><img class="d-block" src="assets/yc/imgs/page/homepage1/img-video.png" alt="YC"></div>
                         </div>
                         <div class="col-xl-6 col-lg-6">
-                          <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Business</span>
-                            <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Integrate with over 1,000 project management apps</h3>
-                            <p class="font-md color-white wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
+                          <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Vision</span>
+                            <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Our Vision</h3>
+                           <p class="font-md color-white wow animate__animated animate__fadeInUp" data-wow-delay=".2s">To redefine business education by creating leaders who drive innovation, inspire change, and build sustainable solutions for a better tomorrow.
+</p> 
                             
                           </div>
                         </div>
@@ -443,9 +444,9 @@
                     <div class="bg-brand-1 box-cover-video box-cover-video-revert">
                       <div class="row align-items-center">
                         <div class="col-xl-6 col-lg-6">
-                          <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeIn accordion-item" data-wow-delay=".0s">Business</span>
-                            <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeIn accordion-item" data-wow-delay=".1s"> Integrate with over 1,000 project management apps</h3>
-                            <p class="font-md color-white wow animate__animated animate__fadeIn accordion-item" data-wow-delay=".2s"> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
+                          <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeIn accordion-item" data-wow-delay=".0s">Mission</span>
+                            <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeIn accordion-item" data-wow-delay=".1s">Our Mission</h3>
+                            <p class="font-md color-white wow animate__animated animate__fadeIn accordion-item" data-wow-delay=".2s">To provide a comprehensive, real-world business education that empowers students through mentorship, networking, and exposure to the latest industry trends, fostering entrepreneurs and business leaders who are ready to lead and innovate in an ever-changing world.</p>
                            
                           </div>
                         </div>

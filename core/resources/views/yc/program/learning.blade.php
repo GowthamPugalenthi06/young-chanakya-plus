@@ -187,68 +187,83 @@
                                             <div class="col-md-9">
                                                 <div class="tab-content">
                                                     <div class="tab-pane fade show active" id="tab1" role="tabpanel">
-                                                        <h3 class="fw-semibold mb-3">Master Data Skills for Impact</h3>
-                                                        <h6 class="fw-semibold mb-3 text-gray">In today’s digital era, data is omnipresent
-                                                        <span class="text-success">and knowing how to leverage it can be a game-changer.</span></h6>
+                                                        <h3 class="fw-semibold mb-3">Making decisions driven by data                </h3>
+                                                        <h6 class="fw-semibold mb-3 text-gray">In today’s world, intuition alone isn’t enough. Decisions backed by strong data lead to better outcomes, smarter strategies, and faster growth.
+                                                        <span class="text-success"> Learning to navigate, understand, and use data is now a superpower.</span></h6>
                                                         <div class="mb-3 mt-10" style="font-size: 1.2em;" > At Young Chanakya, by the end of the program, you will:</div>
                                                         <ul style="list-style-type: none; padding-left: 20px;">
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Learn to identify key data, extract and analyze datasets, and uncover meaningful insights</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Identify relevant data points to solve real-world problems and unlock insights.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Master the art of visual storytelling to clearly present your findings</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Communicate data stories through clear visuals and compelling narratives.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Use data-driven insights to guide strategic decisions, experiments, and impactful business actions</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Make strategic business decisions backed by data analysis.</span>
                                                             </li>
                                                         </ul>
                                                         <!-- Image Cards -->
-                                                        <div class="row mt-50">
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/certification.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Industry-Standard Tools</h6>
-                                                                        </a>
+                                                        <section class="section ">
+                                                            <div class="">
+                                                            <div class="row align-items-end">
+                                                                <!-- <div class="col-lg-8 col-md-8">
+                                                                <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">From our blog</h2>
+                                                                <p class="font-lg color-gray-500 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Aenean velit nisl, aliquam eget diam eu, rhoncus tristique dolor.<br class="d-none d-lg-block">Aenean vulputate sodales urna ut vestibulum</p>
+                                                                </div> -->
+                                                            </div>
+                                                            <div class="row mt-20">
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news1.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Master tools like Excel, SQL, PowerBI, and Python for real-world applications..</h6></a>
+                                                                   
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Technology</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/conference.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Personalized Mentorship</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Work hands-on with datasets from startups and leading companies.</h6></a>
+                                                                 
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Marketting</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/research.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Hands-on <br>Experience</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage1/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Receive live mentorship and feedback to refine your data-driven thinking.</h6></a>
+                                                                  
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Media</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
+                                                                </div>
+                                                                
                                                             </div>
-                                                        </div>
+                                                            </div>
+                                                        </section>
                                                     </div>
                                                 </div>
                                             </div>
@@ -258,68 +273,83 @@
                                             <div class="col-md-9">
                                                 <div class="tab-content">
                                                     <div class="tab-pane fade show active" id="tab1" role="tabpanel">
-                                                         <h3 class="fw-semibold mb-3">Understand Customers to Build Solutions</h>
-                                                        <h6 class="fw-semibold mb-3 text-gray">One of Amazon’s key leadership principles is deeply understanding your customer—their pain points, motivations, and alternatives—
-                                                        <span class="text-success">as the foundation for building effective solutions.</span></h6>
+                                                         <h3 class="fw-semibold mb-3">Prioritizing customer needs</h>
+                                                        <h6 class="fw-semibold mb-3 text-gray">In any successful business, the customer is at the center.
+                                                        <span class="text-success"> Building a mindset that consistently listens to and acts on customer feedback can transform products, services, and relationships.</span></h6>
                                                         <div class="mb-3 mt-10" style="font-size: 1.2em;" >At Young Chanakya, by the end of the program, you will:</div>
                                                         <ul style="list-style-type: none; padding-left: 20px;">
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Define and communicate clear customer personas for a product or service.</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Learn techniques to deeply understand customer pain points and desires.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Conduct thorough user research, interpret insights, and understand customer messaging.</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Prioritize solutions that create maximum value for the customer.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Use frameworks like JTBD (Job-To-Be-Done), User Stories, and User Quotes to define user requirements</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Build strategies that foster loyalty and long-term growth.</span>
                                                             </li>
                                                         </ul>
                                                         <!-- Image Cards -->
-                                                        <div class="row mt-50">
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/certification.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Learn from Experts</h6>
-                                                                        </a>
+                                                        <section class="section ">
+                                                            <div class="">
+                                                            <div class="row align-items-end">
+                                                                <!-- <div class="col-lg-8 col-md-8">
+                                                                <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">From our blog</h2>
+                                                                <p class="font-lg color-gray-500 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Aenean velit nisl, aliquam eget diam eu, rhoncus tristique dolor.<br class="d-none d-lg-block">Aenean vulputate sodales urna ut vestibulum</p>
+                                                                </div> -->
+                                                            </div>
+                                                            <div class="row mt-20">
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news1.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Use frameworks like Jobs-to-be-Done and Customer Journey Mapping.</h6></a>
+                                                                   
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Technology</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/conference.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Real Customer Interactions</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Analyze real-world case studies to sharpen customer-centric thinking.</h6></a>
+                                                                 
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Marketting</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/research.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Customer Discovery Experience</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage1/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Get direct feedback from industry mentors to refine your approach.</h6></a>
+                                                                  
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Media</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
+                                                                </div>
+                                                                
                                                             </div>
-                                                        </div>
+                                                            </div>
+                                                        </section>
                                                     </div>
                                                 </div>
                                             </div>
@@ -329,68 +359,84 @@
                                             <div class="col-md-9">
                                                 <div class="tab-content">
                                                     <div class="tab-pane fade show active" id="tab1" role="tabpanel">
-                                                         <h3 class="fw-semibold mb-3">Master Communication for Career Growth</h>
-                                                        <h6 class="fw-semibold mb-3 text-gray">Effective communication with team members, senior leadership, and external stakeholders is the most important predictor of career growth
-                                                        <span class="text-success">especially as automation increases. This skill will serve you for life.</span></h6>
+                                                         <h3 class="fw-semibold mb-3">Communicating with impact</h>
+                                                        <h6 class="fw-semibold mb-3 text-gray">Clear, persuasive communication isn't optional — it's a competitive advantage. 
+
+                                                        <span class="text-success">Crafting the right message and delivering it with precision can inspire action, drive decisions, and align teams..</span></h6>
                                                         <div class="mb-3 mt-10" style="font-size: 1.2em;" >At Young Chanakya, by the end of the program, you will:</div>
                                                         <ul style="list-style-type: none; padding-left: 20px;">
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Confidently represent yourself and your ideas with clear and concise articulation.</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Master the art of structuring ideas for clarity and persuasion.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Write compelling, brief, and purpose-driven documents.</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Build visual storytelling skills to make data and ideas memorable.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Influence without authority at the workplace.</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Practice communicating confidently across diverse audiences and formats.</span>
                                                             </li>
                                                         </ul>
                                                         <!-- Image Cards -->
-                                                        <div class="row mt-50">
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/certification.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Business Storytelling</h6>
-                                                                        </a>
+                                                        <section class="section ">
+                                                            <div class="">
+                                                            <div class="row align-items-end">
+                                                                <!-- <div class="col-lg-8 col-md-8">
+                                                                <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">From our blog</h2>
+                                                                <p class="font-lg color-gray-500 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Aenean velit nisl, aliquam eget diam eu, rhoncus tristique dolor.<br class="d-none d-lg-block">Aenean vulputate sodales urna ut vestibulum</p>
+                                                                </div> -->
+                                                            </div>
+                                                            <div class="row mt-20">
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news1.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Learn frameworks for structured communication and storytelling</h6></a>
+                                                                   
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Technology</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/conference.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Public Speaking Practice</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Present real-world projects and receive expert feedback.</h6></a>
+                                                                 
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Marketting</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/research.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">1:1 Coaching on Presence</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage1/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Engage in roleplays, mock pitches, and leadership communication workshops</h6></a>
+                                                                  
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Media</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
+                                                                </div>
+                                                                
                                                             </div>
-                                                        </div>
+                                                            </div>
+                                                        </section>
                                                     </div>
                                                 </div>
                                             </div>
@@ -400,68 +446,83 @@
                                             <div class="col-md-9">
                                                 <div class="tab-content">
                                                     <div class="tab-pane fade show active" id="tab1" role="tabpanel">
-                                                         <h3 class="fw-semibold mb-3">Master the Art of Problem-Solving</h>
-                                                        <h6 class="fw-semibold mb-3 text-gray">This is “the only thing worth mastering.” Understanding problems at their core, identifying key components,
-                                                        <span class="text-success">and building solutions is vital in startups’ ambiguous environments.</span></h6>
+                                                         <h3 class="fw-semibold mb-3">Solving problems from first principles</h>
+                                                        <h6 class="fw-semibold mb-3 text-gray">The best solutions often come from stripping away assumptions and building from the ground up
+                                                        <span class="text-success"> First principles thinking empowers you to redefine challenges and craft original, effective solutions</span></h6>
                                                         <div class="mb-3 mt-10" style="font-size: 1.2em;" >At Young Chanakya, by the end of the program, you will:</div>
                                                         <ul style="list-style-type: none; padding-left: 20px;">
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Deeply understand and communicate core problems</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Break down complex problems into fundamental elements.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Break down problems using frameworks like MECE and 80/20</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Challenge conventional approaches to uncover better alternatives.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Identify key problem-solving levers and prioritize efforts on identified issues</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Develop innovative, structured solutions with confidence.</span>
                                                             </li>
                                                         </ul>
                                                         <!-- Image Cards -->
-                                                        <div class="row mt-50">
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/certification.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">100+ Business Case Breakdowns</h6>
-                                                                        </a>
+                                                        <section class="section ">
+                                                            <div class="">
+                                                            <div class="row align-items-end">
+                                                                <!-- <div class="col-lg-8 col-md-8">
+                                                                <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">From our blog</h2>
+                                                                <p class="font-lg color-gray-500 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Aenean velit nisl, aliquam eget diam eu, rhoncus tristique dolor.<br class="d-none d-lg-block">Aenean vulputate sodales urna ut vestibulum</p>
+                                                                </div> -->
+                                                            </div>
+                                                            <div class="row mt-20">
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news1.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Learn first principles frameworks used by top innovators and leaders.</h6></a>
+                                                                   
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Technology</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/conference.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">50+ Hours of Problem-Solving Workshops</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Apply thinking models to real-world startup and business challenges.</h6></a>
+                                                                 
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Marketting</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/research.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Group Discussions on Business Trends</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage1/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Engage in case studies, live simulations, and problem-solving sprints.</h6></a>
+                                                                  
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Media</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
+                                                                </div>
+                                                                
                                                             </div>
-                                                        </div>
+                                                            </div>
+                                                        </section>
                                                     </div>
                                                 </div>
                                             </div>
@@ -471,68 +532,83 @@
                                             <div class="col-md-9">
                                                 <div class="tab-content">
                                                     <div class="tab-pane fade show active" id="tab1" role="tabpanel">
-                                                         <h3 class="fw-semibold mb-3">Master Core Business Thinking</h>
-                                                        <h6 class="fw-semibold mb-3 text-gray">“What will it really take for this business to be successful?” is a nuanced question,
-                                                        <span class="text-success">the answer to which lies at the intersection of core business domains</span></h6>
+                                                         <h3 class="fw-semibold mb-3">Developing strong business judgment</h>
+                                                        <h6 class="fw-semibold mb-3 text-gray">Strong business judgment isn't built overnight — it’s shaped through practice, pattern recognition, and understanding what truly matters in different situations.
+                                                        <span class="text-success">It’s about seeing opportunities, avoiding pitfalls, and making decisions that move businesses forward.</span></h6>
                                                         <div class="mb-3 mt-10" style="font-size: 1.2em;" >At Young Chanakya, by the end of the program, you will:</div>
                                                         <ul style="list-style-type: none; padding-left: 20px;">
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Grasp and apply essential business frameworks and concepts</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Strengthen your ability to weigh risks and rewards.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Understand core business models, metrics, and flywheels</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Understand the nuances behind smart business decisions.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Analyze revenue, cost, LTV, CAC, and other levers that move the needle</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Build instincts that align short-term actions with long-term success.</span>
                                                             </li>
                                                         </ul>
                                                         <!-- Image Cards -->
-                                                        <div class="row mt-50">
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/certification.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">500+ Hours of Expert Lectures</h6>
-                                                                        </a>
+                                                        <section class="section ">
+                                                            <div class="">
+                                                            <div class="row align-items-end">
+                                                                <!-- <div class="col-lg-8 col-md-8">
+                                                                <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">From our blog</h2>
+                                                                <p class="font-lg color-gray-500 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Aenean velit nisl, aliquam eget diam eu, rhoncus tristique dolor.<br class="d-none d-lg-block">Aenean vulputate sodales urna ut vestibulum</p>
+                                                                </div> -->
+                                                            </div>
+                                                            <div class="row mt-20">
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news1.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Study real-world case studies across industries and sectors</h6></a>
+                                                                   
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Technology</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/conference.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Live Startup Projects with Founders</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Develop frameworks for making high-stakes decisions.</h6></a>
+                                                                 
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Marketting</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/research.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">100+ Business Case Studies in Teams</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage1/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Learn directly from leaders who have navigated complex business </h6></a>
+                                                                  
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Media</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
+                                                                </div>
+                                                                
                                                             </div>
-                                                        </div>
+                                                            </div>
+                                                        </section>
                                                     </div>
                                                 </div>
                                             </div>
@@ -542,68 +618,83 @@
                                             <div class="col-md-9">
                                                 <div class="tab-content">
                                                     <div class="tab-pane fade show active" id="tab1" role="tabpanel">
-                                                         <h3 class="fw-semibold mb-3">Build & Launch Like a Startup</h>
-                                                        <h6 class="fw-semibold mb-3 text-gray">To succeed in high-growth startups, the key is to launch fast, fail fast, listen to customers, and continuously iterate on your product. 
-                                                        <span class="text-success">This agile approach contrasts with traditional methods but is fundamental to the success of every major tech startup.</span></h6>
+                                                         <h3 class="fw-semibold mb-3">Thinking with an agile product mindset</h3>
+                                                        <h6 class="fw-semibold mb-3 text-gray">TIn a fast-changing world, the ability to think like a product leader is vital. An agile mindset means adapting quickly, learning from feedback,. 
+                                                        <span class="text-success">Tand always focusing on creating real value for users and businesses.</span></h6>
                                                         <div class="mb-3 mt-10" style="font-size: 1.2em;" >At Young Chanakya, by the end of the program, you will:</div>
                                                         <ul style="list-style-type: none; padding-left: 20px;">
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Define hypotheses, launch experiments, and build solutions based on customer needs</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Develop a sharp focus on user needs and experiences.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Develop a Minimum Viable Product (MVP) and craft a GTM strategy to secure your first 100 customers</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Learn how to build, test, and refine ideas with speed.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Create clear success metrics, track them, and iterate solutions based on feedback</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Make smart choices about when to pivot, persevere, or rethink.</span>
                                                             </li>
                                                         </ul>
                                                         <!-- Image Cards -->
-                                                        <div class="row mt-50">
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/certification.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">40+ Hours of PM Coursework</h6>
-                                                                        </a>
+                                                        <section class="section ">
+                                                            <div class="">
+                                                            <div class="row align-items-end">
+                                                                <!-- <div class="col-lg-8 col-md-8">
+                                                                <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">From our blog</h2>
+                                                                <p class="font-lg color-gray-500 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Aenean velit nisl, aliquam eget diam eu, rhoncus tristique dolor.<br class="d-none d-lg-block">Aenean vulputate sodales urna ut vestibulum</p>
+                                                                </div> -->
+                                                            </div>
+                                                            <div class="row mt-20">
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news1.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Practice rapid experimentation and decision-making</h6></a>
+                                                                   
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Technology</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/conference.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Launch Real Products with YC Startup Lab</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Build products that solve meaningful problems/h6></a>
+                                                                 
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Marketting</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/research.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Agile Scrum Certification Included</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage1/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Work with mentors who’ve led agile teams across industries.</h6></a>
+                                                                  
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Media</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
+                                                                </div>
+                                                                
                                                             </div>
-                                                        </div>
+                                                            </div>
+                                                        </section>
                                                     </div>
                                                 </div>
                                             </div>
@@ -613,68 +704,84 @@
                                             <div class="col-md-9">
                                                 <div class="tab-content">
                                                     <div class="tab-pane fade show active" id="tab1" role="tabpanel">
-                                                         <h3 class="fw-semibold mb-3">Master the Science of Selling</h>
-                                                        <h6 class="fw-semibold mb-3 text-gray">Learn how to sell confidently in both B2C and B2B contexts, using practical strategies that drive results.
-                                                        <span class="text-success">From building funnels to real-world revenue generation, this module prepares you for any sales challenge..</span></h6>
+                                                         <h3 class="fw-semibold mb-3">Mastering sales</h>
+                                                        <h6 class="fw-semibold mb-3 text-gray">Sales is not just about closing deals; it's about understanding people, solving their problems, and building lasting trust. 
+                                                        <span class="text-success"> Strong sales skills are at the core of any successful leader’s journey.
+                                                        </span></h6>
                                                         <div class="mb-3 mt-10" style="font-size: 1.2em;" >At Young Chanakya, by the end of the program, you will:</div>
                                                         <ul style="list-style-type: none; padding-left: 20px;">
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Understand the sales process across both B2C and B2B landscapes</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Learn how to identify customer needs and offer real solutions</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Build effective sales funnels by working backwards from the audience and product</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Build confidence in presenting and negotiating.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Design a practical sales strategy to acquire the first 100 customers</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Understand the strategies that drive long-term client relationships.</span>
                                                             </li>
                                                         </ul>
                                                         <!-- Image Cards -->
-                                                        <div class="row mt-50">
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/certification.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">40+ Hours of Sales Coursework</h6>
-                                                                        </a>
+                                                        <section class="section ">
+                                                            <div class="">
+                                                            <div class="row align-items-end">
+                                                                <!-- <div class="col-lg-8 col-md-8">
+                                                                <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">From our blog</h2>
+                                                                <p class="font-lg color-gray-500 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Aenean velit nisl, aliquam eget diam eu, rhoncus tristique dolor.<br class="d-none d-lg-block">Aenean vulputate sodales urna ut vestibulum</p>
+                                                                </div> -->
+                                                            </div>
+                                                            <div class="row mt-20">
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news1.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Practice real-world selling techniques.</h6></a>
+                                                                   
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Technology</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/conference.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">1-Day Sales Challenges with Top Brands</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Learn from top sales leaders and business builders.</h6></a>
+                                                                 
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Marketting</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/research.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Earn 5L+ Through Dropshipping Challenge</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage1/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Understand how to sell ideas, products, and yourself.</h6></a>
+                                                                  
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Media</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
+                                                                </div>
+                                                                
                                                             </div>
-                                                        </div>
+                                                            </div>
+                                                        </section>
                                                     </div>
                                                 </div>
                                             </div>
@@ -684,68 +791,83 @@
                                             <div class="col-md-9">
                                                 <div class="tab-content">
                                                     <div class="tab-pane fade show active" id="tab1" role="tabpanel">
-                                                         <h3 class="fw-semibold mb-3">Master End-to-End Execution</h>
-                                                        <h6 class="fw-semibold mb-3 text-gray">Startups thrive on action-takers—those who plan, own, and deliver outcomes.
-                                                        <span class="text-success">Learn to build and manage business processes from scratch and become truly indispensable at the workplace.</span></h6>
+                                                         <h3 class="fw-semibold mb-3">Managing processes efficiently</h>
+                                                        <h6 class="fw-semibold mb-3 text-gray">A strong foundation in managing systems and workflows ensures that goals are achieved on time without losing focus on quality.
+                                                        <span class="text-success">Efficient processes allow leaders to handle complexity with clarity.</span></h6>
                                                         <div class="mb-3 mt-10" style="font-size: 1.2em;" >At Young Chanakya, by the end of the program, you will:</div>
                                                         <ul style="list-style-type: none; padding-left: 20px;">
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Understand how to set up and manage business processes independently</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Learn to design, optimize, and monitor key business processes.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Break down customer journeys and define interventions at each conversion stage</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Understand how to delegate tasks effectively and track progress.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Build trackers, success metrics, and task flows for smooth execution</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Build habits that drive consistency and long-term performance.</span>
                                                             </li>
                                                         </ul>
                                                         <!-- Image Cards -->
-                                                        <div class="row mt-50">
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/certification.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">25+ Hours of Process Management Workshops</h6>
-                                                                        </a>
+                                                        <section class="section ">
+                                                            <div class="">
+                                                            <div class="row align-items-end">
+                                                                <!-- <div class="col-lg-8 col-md-8">
+                                                                <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">From our blog</h2>
+                                                                <p class="font-lg color-gray-500 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Aenean velit nisl, aliquam eget diam eu, rhoncus tristique dolor.<br class="d-none d-lg-block">Aenean vulputate sodales urna ut vestibulum</p>
+                                                                </div> -->
+                                                            </div>
+                                                            <div class="row mt-20">
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news1.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Create workflows that deliver results</h6></a>
+                                                                   
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Technology</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/conference.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Internship Opportunities Owning Real Startup Processes</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Learn tools to organize and lead projects.</h6></a>
+                                                                 
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Marketting</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/research.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Manage Live Business Processes in Term 1</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage1/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Develop the discipline to scale operations smoothly</h6></a>
+                                                                  
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Media</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
+                                                                </div>
+                                                                
                                                             </div>
-                                                        </div>
+                                                            </div>
+                                                        </section>
                                                     </div>
                                                 </div>
                                             </div>
@@ -755,68 +877,83 @@
                                             <div class="col-md-9">
                                                 <div class="tab-content">
                                                     <div class="tab-pane fade show active" id="tab1" role="tabpanel">
-                                                         <h3 class="fw-semibold mb-3">Master Sector-Specific Insights.</h>
-                                                        <h6 class="fw-semibold mb-3 text-gray">To thrive as a founder or startup leader, understanding how sectors operate, 
-                                                        <span class="text-success">including business models and key levers, is essential for building successful ventures.</span></h6>
+                                                         <h3 class="fw-semibold mb-3">Gaining deep sector knowledge</h>
+                                                        <h6 class="fw-semibold mb-3 text-gray">Understanding the nuances of an industry builds confidence and sharpens decision-making. 
+                                                        <span class="text-success">Deep sector knowledge helps you identify patterns, predict shifts, and lead with authority.</span></h6>
                                                         <div class="mb-3 mt-10" style="font-size: 1.2em;" >At Young Chanakya, by the end of the program, you will:</div>
                                                         <ul style="list-style-type: none; padding-left: 20px;">
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Grasp major business drivers and levers across sectors</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Develop a strong grip on industry structures, challenges, and opportunities.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Explore leading business models within specific industries</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Learn how to research, map, and analyze sectors thoroughly.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Learn how to evaluate a startup’s potential for success in a sector</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Gain insights that help you spot trends and move ahead faster.</span>
                                                             </li>
                                                         </ul>
                                                         <!-- Image Cards -->
-                                                        <div class="row mt-50">
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/certification.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Sector Thesis Writing with Top VC Partners</h6>
-                                                                        </a>
+                                                        <section class="section ">
+                                                            <div class="">
+                                                            <div class="row align-items-end">
+                                                                <!-- <div class="col-lg-8 col-md-8">
+                                                                <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">From our blog</h2>
+                                                                <p class="font-lg color-gray-500 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Aenean velit nisl, aliquam eget diam eu, rhoncus tristique dolor.<br class="d-none d-lg-block">Aenean vulputate sodales urna ut vestibulum</p>
+                                                                </div> -->
+                                                            </div>
+                                                            <div class="row mt-20">
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news1.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Move beyond surface-level understanding and dive deep into your industry</h6></a>
+                                                                   
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Technology</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/conference.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Student-Led Sector-Specific Business Clubs</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Master the drivers, challenges, and trends that shape the future</h6></a>
+                                                                 
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Marketting</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/research.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">including business models and key levers, is essential for building successful ventures.</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage1/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Be the person who knows what’s next</h6></a>
+                                                                  
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Media</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
+                                                                </div>
+                                                                
                                                             </div>
-                                                        </div>
+                                                            </div>
+                                                        </section>
                                                     </div>
                                                 </div>
                                             </div>
@@ -826,68 +963,83 @@
                                             <div class="col-md-9">
                                                 <div class="tab-content">
                                                     <div class="tab-pane fade show active" id="tab1" role="tabpanel">
-                                                         <h3 class="fw-semibold mb-3">Embrace the Power of AI</h>
-                                                        <h6 class="fw-semibold mb-3 text-gray">Artificial Intelligence is transforming industries and shaping the future.
-                                                        <span class="text-success"> Stay ahead by mastering core AI concepts and their real-world applications.</span></h6>
+                                                         <h3 class="fw-semibold mb-3"> Getting hands-on with emerging technologies</h>
+                                                        <h6 class="fw-semibold mb-3 text-gray">Today’s leaders don’t just understand technology — they work with it directly
+                                                        <span class="text-success"> First-hand experience brings clarity, improves decision-making, and drives innovation.</span></h6>
                                                         <div class="mb-3 mt-10" style="font-size: 1.2em;" >At Young Chanakya, by the end of the program, you will:</div>
                                                         <ul style="list-style-type: none; padding-left: 20px;">
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Grasp the foundational principles behind AI technologies</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Build comfort with fast-changing technologies across industries.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Analyze real-world use cases and their impact</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Learn how to evaluate and apply new tools for real-world impact.</span>
                                                             </li>
                                                             <li style="font-size: 1.2em; margin-bottom: 10px; position: relative; padding-left: 30px;">
-                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Build and launch prototypes for micro-SaaS AI products</span>
+                                                                <span class="lh-sm"><span style="position: absolute; left: 0; top: 0; font-size: 1.2em; color: green;" class="mr-3">&#10003;</span>Stay prepared for the future by constantly adapting and experimenting.</span>
                                                             </li>
                                                         </ul>
                                                         <!-- Image Cards -->
-                                                        <div class="row mt-50">
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/certification.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Participate in AI-Focused Hackathons</h6>
-                                                                        </a>
+                                                        <section class="section ">
+                                                            <div class="">
+                                                            <div class="row align-items-end">
+                                                                <!-- <div class="col-lg-8 col-md-8">
+                                                                <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">From our blog</h2>
+                                                                <p class="font-lg color-gray-500 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Aenean velit nisl, aliquam eget diam eu, rhoncus tristique dolor.<br class="d-none d-lg-block">Aenean vulputate sodales urna ut vestibulum</p>
+                                                                </div> -->
+                                                            </div>
+                                                            <div class="row mt-20">
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news1.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Work with technology directly, not from the sidelines.</h6></a>
+                                                                   
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Technology</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/conference.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Develop Gen AI Products at the Mesa AI Lab</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Experiment, build, and stay ahead of the curve</h6></a>
+                                                                 
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Marketting</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                                                <div class="card-small">
-                                                                    <div class="card-image">
-                                                                        <a href="#">
-                                                                            <div class="box-image"><img src="assets/yc/imgs/page/homepage3/research.png" alt="iori"></div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="card-info">
-                                                                        <a href="#">
-                                                                            <h6 class="color-brand-1 icon-up">Network with Leading AI Experts from India’s Startup Ecosystem</h6>
-                                                                        </a>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+                                                                <div class="card-blog-grid card-blog-grid-2 hover-up">
+                                                                    <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage1/news2.png" alt="iori"></a></div>
+                                                                    <div class="card-info"><a href="blog-detail.html">
+                                                                        <h6 class="color-brand-1">Turn new tech into real-world advantages</h6></a>
+                                                                  
+                                                                    <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Media</a><span class="date-post font-xs color-grey-300 mr-15">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                                                        </svg>29 May 2022</span><span class="time-read font-xs color-grey-300">
+                                                                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                        </svg>3 mins read</span></div> -->
                                                                     </div>
                                                                 </div>
+                                                                </div>
+                                                                
                                                             </div>
-                                                        </div>
+                                                            </div>
+                                                        </section>
                                                     </div>
                                                 </div>
                                             </div>
@@ -927,8 +1079,8 @@
                     <div class="card-image"><img src="assets/yc/imgs/page/homepage1/cross.png" alt="iori"></div>
                     <div class="card-info">
                     <h4 class="color-brand-1 mb-15">Business Fundamentals</h4>
-                    <p class="font-md color-grey-500 mb-15">Gain in-depth knowledge of marketing, finance, and accounting—core principles essential for establishing a strong foundation.</p>
-                    <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                    <p class="font-md color-grey-500 mb-15">Build a strong foundation across strategy, marketing, operations, finance, and accounting, guided by experienced educators.</p>
+                    <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1" href="#section1">Learn More
                         <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg></a></div>
@@ -939,9 +1091,9 @@
                 <div class="card-offer hover-up">
                     <div class="card-image"><img src="assets/yc/imgs/page/homepage1/cross2.png" alt="iori"></div>
                     <div class="card-info">
-                    <h4 class="color-brand-1 mb-15">Hands-on Startup Experience</h4>
-                    <p class="font-md color-grey-500 mb-15">Work closely with founders and business leaders to gain insight into real-world decision-making processes..</p>
-                    <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                    <h4 class="color-brand-1 mb-15">Startup <br>Exposure</h4>
+                    <p class="font-md color-grey-500 mb-15">Learn directly from founders and industry leaders by diving into real-world challenges and decision-making.</p>
+                    <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1" href="#section2">Learn More
                         <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg></a></div>
@@ -953,8 +1105,8 @@
                     <div class="card-image"><img src="assets/yc/imgs/page/homepage1/cross3.png" alt="iori"></div>
                     <div class="card-info">
                     <h4 class="color-brand-1 mb-15">Create and Grow Real Businesses</h4>
-                    <p class="font-md color-grey-500 mb-15">The best learning comes from direct experience. Build, operate, and scale businesses at Young Chanakya.</p>
-                    <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                    <p class="font-md color-grey-500 mb-15">Learn by launching, operating, and growing your own business from the ground up.  And Create your own Empire</p>
+                    <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1" href="#section3">Learn More
                         <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg></a></div>
@@ -966,8 +1118,8 @@
                     <div class="card-image"><img src="assets/yc/imgs/page/homepage1/cross4.png" alt="iori"></div>
                     <div class="card-info">
                     <h4 class="color-brand-1 mb-15">Sector-Specific & Functional Expertise</h4>
-                    <p class="font-md color-grey-500 mb-15">Explore distinct industries and functions through specialized workshops, boot camps, and practical challenges.</p>
-                    <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                    <p class="font-md color-grey-500 mb-15">Gain deeper insights into industries and functions through focused workshops, challenges, and masterclasses.</p>
+                    <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1 " href="#section4">Learn More
                         <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg></a></div>
@@ -978,7 +1130,7 @@
             </div>
       </section>
       <!-- section - 1 -->
-      <section class="section mt-50 pt-50 pb-50" style="background-color:#024430">
+      <section class="section mt-50 pt-50 pb-50" style="background-color:#024430" id="section1">
         <div class="container">
           <div class="bg-brand-1">
             <div class="row align-items-center">
@@ -1143,166 +1295,47 @@
                                         <!-- Tab 1 Content -->
                                         <div class="tab-pane fade show active " id="tab11" role="tabpanel">
                                             <div class="col-lg-12">
+                                                <div class="container my-4">
+                                                    <div class="row align-items-center border rounded p-3">
+                                                        <div class="col-3">
+                                                        <img src="assets\yc\imgs\page\about\img1.png" alt="Image" class="img-fluid rounded" style='height:150px'>
+                                                        </div>
+                                                        <div class="col-9">
+                                                        <h5 class="mb-1">Power of Brands</h5>
+                                                        <p class="mb-0 text-muted">This is a short descriptiUnderstanding the importance of brand recognition and identity in today’s competitive market. Learn how brands influence customer perception and build long-term loyalty.on on the second line.</p>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                      
                                                 <div class="d-flex gap-2 flex-row  h-100">
                                                     <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
-                                                        <h5>Harness the Power of Branding</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand how branding can either
-                                                            elevate or undermine a product, and learn how to build
-                                                            strong customer connections through enhanced brand
-                                                            touchpoints.</p>
+                                                        <h5>Understanding the Psychology of Branding</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn how consumers emotionally connect with brands through subconscious signals like colors, logos, and storytelling. Understand why strong brands can influence purchasing behavior beyond product features.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Build a strong brand identity that resonates with your
-                                                                target audience.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Craft consistent messaging across all customer
-                                                                touchpoints.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Leverage emotional connection to boost brand loyalty and
-                                                                recognition.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Monitor brand performance and adapt strategies for
-                                                                long-term impact.
-                                                            </li>
-                                                        </ul>
+                                                        
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Develop a Strategic Brand Portfolio</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Discover best practices in managing a
-                                                            brand portfolio, differentiate between launching a new brand
-                                                            or extending an existing one, and choose the right approach
-                                                            for introducing new products.</p>
+                                                        <h5> Strategies for Brand Differentiation  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Explore how to position your brand uniquely in a competitive market. You'll learn the elements that make a brand stand out, including visual identity, brand voice, and customer experience.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Identify and position distinct brands to serve diverse
-                                                                customer segments.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Align each brand’s vision with your overarching business
-                                                                strategy.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Manage brand architecture to avoid overlap and maximize
-                                                                market reach.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Evaluate performance and streamline brands to optimize
-                                                                portfolio impact.
-                                                            </li>
-                                                        </ul>
+                                                       
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Track and Grow Your Brand</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn to measure brand health, track
-                                                            awareness and market share, and construct strategic plans to
-                                                            defend against competitors and drive growth.</p>
+                                                        <h5> Leveraging Brand Loyalty and Trust  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Master how to build consistent and trustworthy experiences that foster loyalty. Understand techniques for customer retention through emotional connection and reward programs.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Monitor key brand metrics to assess growth and
-                                                                recognition.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Use customer feedback and sentiment analysis to shape
-                                                                perception.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Adapt branding strategies based on market trends and
-                                                                competitor moves.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Implement growth initiatives to expand brand reach and
-                                                                influence.
-                                                            </li>
-                                                        </ul>
+                                                      
                                                     </div>
                                                 </div>
                                             </div>
@@ -1310,59 +1343,27 @@
                                         <!-- Tab 2 Content -->
                                         <div class="tab-pane fade show  " id="tab12" role="tabpanel">
                                             <div class="col-lg-12">
+                                                <div class="container my-4">
+                                                    <div class="row align-items-center border rounded p-3">
+                                                        <div class="col-3">
+                                                        <img src="assets\yc\imgs\page\about\img1.png" alt="Image" class="img-fluid rounded" style='height:150px'>
+                                                        </div>
+                                                        <div class="col-9">
+                                                        <h5 class="mb-1">Business StoryTelling</h5>
+                                                        <p class="mb-0 text-muted">Learn how to craft compelling business stories that engage and inspire audiences, helping to drive decisions and build relationships</p>
+                                                        </div>
+                                                    </div>
+                                                    </div>
                                                 <div class="d-flex gap-2 flex-row  h-100">
                                                     <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
-                                                        <h5>Master Conflict & Change Management through Storytelling
+                                                        <h5>Building a Story That Resonates With Your Audience  
                                                         </h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Navigate challenging situations like
-                                                            conflict and change by applying storytelling techniques that
-                                                            build empathy and understanding.</p>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn how to structure narratives that create emotional resonance. Discover techniques to align stories with customer pain points and aspirations, making your brand more relatable.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Leverage neuroscience principles to build emotionally
-                                                                engaging brand stories.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Understand how brain chemistry influences consumer
-                                                                decision-making.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Craft compelling narratives that align with consumer
-                                                                emotions and memory triggers.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Enhance brand messaging using psychological and
-                                                                cognitive storytelling techniques.
-                                                            </li>
-                                                        </ul>
+                                                      
 
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
@@ -1370,53 +1371,10 @@
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Level-Up Your Communication with Data-Driven Stories</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn to create impactful stories with
-                                                            data visualization, and leverage personal branding to
-                                                            position yourself as an influential communicator.</p>
+                                                        <h5>Storytelling for Marketing and Leadership </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Explore how storytelling can be used to inspire teams, persuade stakeholders, and craft marketing campaigns that drive engagement and conversions.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Use storytelling to navigate organizational conflicts
-                                                                and transitions.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Create shared narratives to unite teams during change or
-                                                                crisis.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Frame challenges as opportunities through reframing and
-                                                                emotional engagement.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Equip yourself with persuasive narratives to influence
-                                                                stakeholders effectively.
-                                                            </li>
-                                                        </ul>
+                                                      
 
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
@@ -1424,54 +1382,9 @@
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Grasp the Indian VC Landscape and Investment Strategies</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Gain insights into the Indian venture
-                                                            capital ecosystem, understanding how VCs operate, their
-                                                            investment focus areas, and the strategies that drive
-                                                            funding decisions.</p>
-                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Translate complex data into clear, compelling business
-                                                                narratives.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Craft stories that inspire action and align teams around
-                                                                insights.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Build credibility by supporting your message with
-                                                                meaningful metrics.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Master visual storytelling using charts, dashboards, and
-                                                                infographics.
-                                                            </li>
-                                                        </ul>
+                                                        <h5>Using Emotional Appeal in Business Communications  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand the psychology behind emotional triggers. Learn how to craft communications that spark empathy, trust, and lasting customer relationships.</p>
+                                                    
 
                                                     </div>
                                                 </div>
@@ -1480,115 +1393,37 @@
                                         <!-- Tab 3 Content -->
                                         <div class="tab-pane fade show " id="tab13" role="tabpanel">
                                             <div class="col-lg-12">
+                                                <div class="container my-4">
+                                                    <div class="row align-items-center border rounded p-3">
+                                                        <div class="col-3">
+                                                        <img src="assets\yc\imgs\page\about\img1.png" alt="Image" class="img-fluid rounded" style='height:150px'>
+                                                        </div>
+                                                        <div class="col-9">
+                                                        <h5 class="mb-1">VC Essentials </h5>
+                                                        <p class="mb-0 text-muted">Dive into the essentials of venture capital, focusing on funding, pitching, and managing investments to help grow startups successfully.
+                                                        </p>
+                                                        </div>
+                                                    </div>
+                                                    </div>
                                                 <div class="d-flex gap-2 flex-row  h-100">
                                                     <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
-                                                        <h5>Craft Business Narratives with Neuroscience Insights:</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Use neuroscience-backed storytelling
-                                                            techniques to create powerful narratives that resonate with
-                                                            audiences & influences decision making.</p>
+                                                        <h5>Stages of Venture Capital Funding </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Gain clarity on seed funding, Series A, B, and beyond. Understand how funding stages align with business growth and what milestones investors expect at each round.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Understand how Indian VCs evaluate startups and market
-                                                                trends.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Learn common VC investment theses and portfolio
-                                                                strategies.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Analyze real VC case studies and deal sourcing
-                                                                techniques.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Explore due diligence processes and risk mitigation
-                                                                frameworks.
-                                                            </li>
-                                                        </ul>
-
+                                                     
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Build Expertise in Pitch Decks and Investor Engagement</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn the key components of creating
-                                                            compelling pitch decks that capture investor attention.
-                                                            Understand how to tailor your pitch to different types of
-                                                            investors and funding stages to maximize your chances of
-                                                            success.</p>
+                                                        <h5>Key Factors That Influence Investor Decisions </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Explore what venture capitalists look for: scalable business models, strong founding teams, market size, and traction. Learn how to present your business in the most compelling way.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Structure pitch decks that highlight traction, vision,
-                                                                and market opportunity.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Learn to tailor pitches for different investor personas
-                                                                and stages.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Practice live pitching sessions with feedback from real
-                                                                investors.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Master investor Q&A strategies and post-pitch
-                                                                follow-ups.
-                                                            </li>
-                                                        </ul>
-
+                                                       
 
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
@@ -1596,57 +1431,11 @@
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Develop Advanced Skills in Funding, Valuation, and
-                                                            Investment Terms</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Identify the stages of funding and
-                                                            various types of investors, from angel investors to
-                                                            institutional VCs. Deep dive into startup valuation methods,
-                                                            investment terms, and learn to craft investment strategies
-                                                            that align with market dynamics.</p>
+                                                        <h5>Developing a Pitch That Attracts Investors  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Master the art of storytelling in pitching. Learn to communicate your vision, market opportunity, competitive advantage, and financial projections clearly and persuasively.
+                                                        </p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Master advanced funding strategies, including equity and
-                                                                debt financing.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Learn how to accurately value startups and determine
-                                                                equity distribution.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Understand and negotiate critical investment terms such
-                                                                as cap tables, liquidation preferences, and convertible
-                                                                notes.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Analyze real-world funding rounds and understand the
-                                                                implications of different investor types.
-                                                            </li>
-                                                        </ul>
+                                                        
 
                                                     </div>
                                                 </div>
@@ -1655,59 +1444,26 @@
                                         <!-- Tab 4 Content -->
                                         <div class="tab-pane fade show  " id="tab14" role="tabpanel">
                                             <div class="col-lg-12">
+                                                <div class="container my-4">
+                                                    <div class="row align-items-center border rounded p-3">
+                                                        <div class="col-3">
+                                                        <img src="assets\yc\imgs\page\about\img1.png" alt="Image" class="img-fluid rounded" style='height:150px'>
+                                                        </div>
+                                                        <div class="col-9">
+                                                        <h5 class="mb-1">Data-Driven Decision Making
+                                                        </h5>
+                                                        <p class="mb-0 text-muted">Learn how to leverage data to make informed business decisions, enhancing strategy, performance, and operational efficiency.</p>
+                                                        </div>
+                                                    </div>
+                                                    </div>
                                                 <div class="d-flex gap-2 flex-row  h-100">
                                                     <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
-                                                        <h5>Master Data Trends and Analytical Techniques</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand core data concepts like
-                                                            trends, variability, and correlation, building a strong
-                                                            foundation in data analysis that’s essential for
-                                                            decision-making.</p>
-                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Analyze current data trends across industries and apply
-                                                                them to business strategy.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Master analytical techniques such as regression
-                                                                analysis, forecasting, and segmentation.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Leverage tools like Python, R, and SQL for data
-                                                                extraction, processing, and visualization.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Implement advanced analytics to drive business decisions
-                                                                and improve performance metrics.
-                                                            </li>
-                                                        </ul>
+                                                        <h5> Data Collection and Analysis Methods  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand different types of data (qualitative vs quantitative) and how to gather it through surveys, interviews, analytics tools, and customer behavior tracking.</p>
+                                                   
 
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
@@ -1715,54 +1471,10 @@
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Apply Data to Real-World Business Challenges</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Leverage data analysis tools such as
-                                                            regression and hypothesis testing to solve real-world
-                                                            problems, driving better business strategy and
-                                                            entrepreneurial decisions.</p>
+                                                        <h5>Creating Visualizations That Communicate Insights  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn how to transform complex datasets into understandable visuals like dashboards, graphs, and charts to support strategic business conversations.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Translate complex data into actionable insights that
-                                                                solve real-world business problems.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Use predictive analytics to address key operational
-                                                                challenges and forecast trends.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Develop data-driven solutions to improve efficiency,
-                                                                productivity, and profitability.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Collaborate with cross-functional teams to implement
-                                                                data solutions for business success.
-                                                            </li>
-                                                        </ul>
+                                                        
 
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
@@ -1770,54 +1482,10 @@
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Develop Confidence in Data-Driven Strategy</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn to transform data into actionable
-                                                            insights, using advanced analytical methods to make informed
-                                                            decisions that directly impact business growth and research
-                                                            outcomes.</p>
+                                                        <h5>Aligning Business Decisions With Data-Driven Insights  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Master how to interpret patterns, trends, and metrics to make smarter business decisions, reduce risks, and identify growth opportunities.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Build a strong foundation in data analysis to
-                                                                confidently make strategic decisions.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Master key data tools and techniques to draw actionable
-                                                                insights for business strategy.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Gain practical experience in applying data to drive
-                                                                business decisions with confidence.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Present data-backed strategies to stakeholders with
-                                                                clarity and persuasive communication.
-                                                            </li>
-                                                        </ul>
+                                                       
 
                                                     </div>
                                                 </div>
@@ -1826,58 +1494,26 @@
                                         <!-- Tab 5 Content -->
                                         <div class="tab-pane fade show  " id="tab15" role="tabpanel">
                                             <div class="col-lg-12">
+                                                <div class="container my-4">
+                                                    <div class="row align-items-center border rounded p-3">
+                                                        <div class="col-3">
+                                                        <img src="assets\yc\imgs\page\about\img1.png" alt="Image" class="img-fluid rounded" style='height:150px'>
+                                                        </div>
+                                                        <div class="col-9">
+                                                        <h5 class="mb-1">Sales & Partnerships</h5>
+                                                        <p class="mb-0 text-muted"> Focus on building effective sales strategies and forming partnerships that can drive business growth and open new markets.</p>
+                                                        </div>
+                                                    </div>
+                                                    </div>
                                                 <div class="d-flex gap-2 flex-row  h-100">
                                                     <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
-                                                        <h5>Master the Method of Modern Selling</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn a structured, repeatable sales
-                                                            method designed to help anyone sell tech-based products
-                                                            confidently, regardless of their background..</p>
+                                                        <h5>Creating a Sales Pipeline and Closing Deals  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand the sales funnel, from prospecting and nurturing leads to closing deals effectively. Learn techniques to manage your pipeline and prioritize high-value opportunities..</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Learn the fundamentals of modern selling techniques that
-                                                                drive customer engagement.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Understand the psychology of customers to create
-                                                                personalized and persuasive sales strategies.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Develop advanced negotiation skills to close deals
-                                                                effectively and efficiently.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Master CRM tools and sales analytics to track
-                                                                performance and optimize strategies.
-                                                            </li>
-                                                        </ul>
+                                                   
 
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
@@ -1885,109 +1521,21 @@
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Excel in Customer-Facing Roles</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Build the skills and confidence to
-                                                            thrive in future client-facing roles and navigate the
-                                                            complexities of selling rapidly evolving tech products and
-                                                            services.</p>
+                                                        <h5>Negotiation Techniques and Managing Client Relationships  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Develop your negotiation skills to create win-win situations. Also, learn the art of maintaining long-term relationships that result in repeat business and referrals.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Develop a deep understanding of customer needs and
-                                                                expectations in customer-facing roles.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Build long-lasting relationships with clients by
-                                                                offering personalized solutions and support.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Hone communication and active listening skills to
-                                                                address customer concerns and needs.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Drive customer satisfaction and loyalty by ensuring
-                                                                exceptional service at every touchpoint.
-                                                            </li>
-                                                        </ul>
+                                                       
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Tackle the Complexities of Tech Sales</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand the unique challenges of
-                                                            selling tech-based products, such as explaining non-tangible
-                                                            benefits, handling fast product evolution, and overcoming
-                                                            low brand recall.</p>
+                                                        <h5>Building Strategic Partnerships for Growth  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn how to identify potential partners, negotiate terms, and maintain collaborations that can open up new markets and increase revenue streams.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
 
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Understand the role of tech sales in today's rapidly
-                                                                evolving digital landscape.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Learn how to sell complex technological products through
-                                                                effective demos and client education.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Navigate the challenges of selling to tech-savvy
-                                                                customers and decision-makers.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Develop strong negotiation skills tailored to the tech
-                                                                sales environment.
-                                                            </li>
-                                                        </ul>
+                                                       
                                                     </div>
                                                 </div>
                                             </div>
@@ -1995,162 +1543,47 @@
                                         <!-- Tab 6 Content -->
                                         <div class="tab-pane fade show " id="tab16" role="tabpanel">
                                             <div class="col-lg-12">
+                                                <div class="container my-4">
+                                                    <div class="row align-items-center border rounded p-3">
+                                                        <div class="col-3">
+                                                        <img src="assets\yc\imgs\page\about\img1.png" alt="Image" class="img-fluid rounded" style='height:150px'>
+                                                        </div>
+                                                        <div class="col-9">
+                                                        <h5 class="mb-1">Operations Management
+                                                        </h5>
+                                                        <p class="mb-0 text-muted">Learn the fundamentals of managing business operations to ensure efficiency, quality, and cost-effectiveness in delivering products and services.</p>
+                                                        </div>
+                                                    </div>
+                                                    </div>
                                                 <div class="d-flex gap-2 flex-row  h-100">
                                                     <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
-                                                        <h5>Strategic Importance of Operations</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand how operational decisions
-                                                            impact a firm’s overall strategy, integrating with key areas
-                                                            like finance, marketing, and product delivery to drive
-                                                            competitive advantage.</p>
+                                                        <h5>Process Optimization and Workflow Management</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn methods like Lean, Six Sigma, and Agile to streamline processes. Understand how to identify inefficiencies and improve operational productivity.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Understand the strategic importance of operations in
-                                                                scaling a business.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Learn how to optimize business operations to maximize
-                                                                efficiency and minimize costs.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Gain insight into key performance indicators (KPIs) for
-                                                                measuring operational success.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Understand the balance between cost reduction and
-                                                                maintaining quality standards.
-                                                            </li>
-                                                        </ul>
+                                                        
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Master Process Mapping & Flow Management:</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn how to visualize and manage
-                                                            business process flows, identify bottlenecks, and enhance
-                                                            process efficiency to meet organizational goals.</p>
+                                                        <h5> Managing Supply Chains and Inventory  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Master the essentials of managing vendors, logistics, and inventory to ensure timely delivery of products while minimizing costs and wastage.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Master process mapping to effectively document and
-                                                                analyze workflows.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Learn flow management techniques to optimize processes
-                                                                and enhance productivity.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Implement continuous improvement systems to increase
-                                                                operational efficiency.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Drive change management processes to ensure seamless
-                                                                business transformations.
-                                                            </li>
-                                                        </ul>
+                                                        
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Continuous Improvement Systems</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Develop the ability to implement a
-                                                            culture of continuous improvement within operations,
-                                                            ensuring that processes remain responsive, efficient, and
-                                                            adaptable over time.</p>
+                                                        <h5>Implementing Lean Management Principles  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Explore the principles of eliminating waste, optimizing resources, and creating value from a customer’s perspective to boost organizational performance..</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Learn lean, Six Sigma, and Kaizen principles to
-                                                                boost operational excellence.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Embed a culture of continuous learning and
-                                                                improvement in your teams.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Utilize data to identify inefficiencies and design
-                                                                better systems.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Drive organizational change through iterative,
-                                                                measurable improvements.
-                                                            </li>
-                                                        </ul>
+                                                      
                                                     </div>
                                                 </div>
                                             </div>
@@ -2158,166 +1591,46 @@
                                         <!-- Tab 7 Content -->
                                         <div class="tab-pane fade show  " id="tab17" role="tabpanel">
                                             <div class="col-lg-12">
+                                                <div class="container my-4">
+                                                    <div class="row align-items-center border rounded p-3">
+                                                        <div class="col-3">
+                                                        <img src="assets\yc\imgs\page\about\img1.png" alt="Image" class="img-fluid rounded" style='height:150px'>
+                                                        </div>
+                                                        <div class="col-9">
+                                                        <h5 class="mb-1">Product Management</h5>
+                                                        <p class="mb-0 text-muted"> Master the art of product management, from ideation to launch, ensuring your products meet market needs and deliver exceptional value.
+                                                        </p>
+                                                        </div>
+                                                    </div>
+                                                    </div>
                                                 <div class="d-flex gap-2 flex-row  h-100">
                                                     <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
-                                                        <h5>Navigate the Full Product Lifecycle</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand the entire product
-                                                            lifecycle, from conceptualization to market launch, and
-                                                            master essential Product Management skills needed to turn
-                                                            ideas into reality.</p>
-                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Learn to navigate the entire product lifecycle from
-                                                                ideation to market launch and beyond.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Master techniques to ensure products meet customer needs
-                                                                and drive business growth.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Learn to create customer-centric solutions that solve
-                                                                real-world problems and add value.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Develop skills to efficiently manage cross-functional
-                                                                teams to bring products to market.
-                                                            </li>
-                                                        </ul>
+                                                        <h5> Developing and Managing the Product Lifecycle </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand the phases of a product from ideation to decline. Learn how to plan product roadmaps, manage iterations, and extend product lifespans.</p>
+                                                   
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Craft Customer-Centric Solutions</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn how to connect deeply with
-                                                            customers, derive insights, develop product strategies, and
-                                                            build MVPs while considering user psychology and design.</p>
+                                                        <h5> Product-Market Fit and Customer Feedback Loops  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn how to assess if your product meets market needs. Use continuous feedback from users to refine offerings and achieve better product-market alignment.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Gain hands-on experience with practical product
-                                                                management tools and techniques.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Enhance your ability to prioritize, scope, and deliver
-                                                                on time-critical product goals.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Understand key concepts in setting pricing strategies
-                                                                that drive business success.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Learn to create a competitive pricing strategy that
-                                                                aligns with customer value perceptions.
-                                                            </li>
-                                                        </ul>
+                                                      
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Master Practical PM Skills</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Gain hands-on experience in building
-                                                            wireframes, managing stakeholders, tracking product metrics,
-                                                            and leveraging data—all while honing interview skills and
-                                                            industry frameworks to succeed as a PM.</p>
+                                                        <h5>Prioritizing Features and Enhancements</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Master techniques like MoSCoW and RICE frameworks to prioritize feature development based on customer needs, business goals, and technical feasibility.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Understand the importance of positioning and packaging
-                                                                to attract and retain customers.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Learn to craft compelling brand narratives and
-                                                                differentiate products in the market.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Develop a competitive edge by packaging products with
-                                                                features that meet customer desires.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Build strategies to ensure your products stand out and
-                                                                meet customer expectations.
-                                                            </li>
-                                                        </ul>
+                                                      
 
                                                     </div>
                                                 </div>
@@ -2326,156 +1639,48 @@
                                         <!-- Tab 8 Content -->
                                         <div class="tab-pane fade show  " id="tab18" role="tabpanel">
                                             <div class="col-lg-12">
+                                                <div class="container my-4">
+                                                    <div class="row align-items-center border rounded p-3">
+                                                        <div class="col-3">
+                                                        <img src="assets\yc\imgs\page\about\img1.png" alt="Image" class="img-fluid rounded" style='height:150px'>
+                                                        </div>
+                                                        <div class="col-9">
+                                                        <h5 class="mb-1">Pricing Strategies
+                                                        </h5>
+                                                        <p class="mb-0 text-muted">Explore effective pricing strategies that drive profitability, customer satisfaction, and competitive advantage in the marketplace.</p>
+                                                        </div>
+                                                    </div>
+                                                    </div>
                                                 <div class="d-flex gap-2 flex-row  h-100">
                                                     <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
-                                                        <h5>Master Pricing Strategies for Growth</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn to overcome monetization mindset
-                                                            barriers and design effective pricing structures to align
-                                                            with business goals and maximize revenue.</p>
+                                                        <h5>Setting Optimal Pricing Based on Market Conditions  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn how to analyze competitors, customer expectations, and costs to develop pricing models that drive profitability without losing competitiveness.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Use data to drive decisions on pricing to optimize
-                                                                revenue and profitability.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Learn to analyze customer data and market trends to make
-                                                                informed pricing decisions.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Utilize A/B testing and pricing optimization techniques
-                                                                to continuously improve margins.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>
-                                                                Leverage competitor pricing data and market research to
-                                                                fine-tune your own pricing models.
-                                                            </li>
-                                                        </ul>
+                                                   
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Positioning and Packaging for Competitive Edge</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand the role of positioning in
-                                                            pricing strategies and develop customer-aligned packaging to
-                                                            enhance product value and market competitiveness.</p>
+                                                        <h5>Dynamic Pricing Strategies and Customer Segmentation</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand how to implement flexible pricing strategies that adapt to demand, seasons, or different customer segments to maximize revenues.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Define a clear market position that distinguishes
-                                                                your offering.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Create packaging that resonates with customer
-                                                                emotions and needs.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Balance functionality and aesthetics to stand out
-                                                                on the shelf or screen.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Adapt positioning strategies based on changing
-                                                                market dynamics.
-                                                            </li>
-                                                        </ul>
+                                                      
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Data-Driven Pricing Decisions</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Gain expertise in using pricing
-                                                            research methods and selecting optimal price variables to
-                                                            make informed, profitability-driven decisions.</p>
+                                                        <h5>Measuring the Impact of Pricing Decisions on Profitability  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Explore how changes in pricing affect revenue streams, customer perception, and profitability metrics using real-world data and A/B testing.
+                                                        </p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Use customer insights and purchase data to shape
-                                                                your pricing model.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Test pricing strategies using A/B testing and
-                                                                real-time analytics.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Forecast revenue and profitability with predictive
-                                                                models.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Align pricing decisions with customer value
-                                                                perception and market trends.
-                                                            </li>
-                                                        </ul>
+                                                      
                                                     </div>
                                                 </div>
                                             </div>
@@ -2483,153 +1688,46 @@
                                         <!-- Tab 9 Content -->
                                         <div class="tab-pane fade show  " id="tab19" role="tabpanel">
                                             <div class="col-lg-12">
+                                                <div class="container my-4">
+                                                    <div class="row align-items-center border rounded p-3">
+                                                        <div class="col-3">
+                                                        <img src="assets\yc\imgs\page\about\img1.png" alt="Image" class="img-fluid rounded" style='height:150px'>
+                                                        </div>
+                                                        <div class="col-9">
+                                                        <h5 class="mb-1">Digital Marketing</h5>
+                                                        <p class="mb-0 text-muted"> Get hands-on with the latest digital marketing strategies and tools to effectively promote your brand in the digital era.
+                                                        </p>
+                                                        </div>
+                                                    </div>
+                                                    </div>
                                                 <div class="d-flex gap-2 flex-row  h-100">
                                                     <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
-                                                        <h5>Campaign Objectives & Goals</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn to analyze consumer funnels using
-                                                            the RACE framework (Reach, Act, Convert, Engage). Work with
-                                                            ads from companies like CRED, Epigamia, and Mesa to identify
-                                                            objectives and align campaign goals..</p>
+                                                        <h5>Developing a Comprehensive Digital Marketing Plan  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn how to create end-to-end marketing strategies across platforms like Google, Facebook, LinkedIn, and Instagram to generate awareness and conversions.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Set SMART goals to guide marketing efforts and
-                                                                measure success.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Align campaign objectives with overall business
-                                                                and brand strategy.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Track performance using KPIs such as CAC, CTR, and
-                                                                ROI.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Optimize campaigns in real-time using feedback
-                                                                loops and analytics.
-                                                            </li>
-                                                        </ul>
+                                                        
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Consumer Journey Mapping</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand ad effectiveness by
-                                                            exploring landing pages, building consumer personas, and
-                                                            plotting the ideal customer journey across platforms.</p>
-                                                        <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Visualize the end-to-end customer experience from
-                                                                awareness to advocacy.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Identify key touchpoints and pain points across
-                                                                the buyer’s journey.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Design strategies to improve customer experience
-                                                                at each stage.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Use journey maps to align marketing, sales, and
-                                                                service strategies.
-                                                            </li>
-                                                        </ul>
+                                                        <h5>Leveraging SEO, Content, and Social Media Strategies  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand how to drive organic traffic with SEO, build thought leadership with content marketing, and engage audiences through social media campaigns.</p>
+                                                    
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Media Planning & Budgeting</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Master media selection, planning, and
-                                                            budget allocation while linking these decisions to campaign
-                                                            funnels. Includes hands-on exercises for media design,
-                                                            digital metrics, and content strategy.</p>
+                                                        <h5>Tracking and Optimizing Campaign Performance </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn to measure digital marketing success using KPIs like CTR, CAC, and ROI. Master tools like Google Analytics and A/B testing to refine your strategies.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Select optimal media channels based on audience
-                                                                behavior and cost-effectiveness.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Allocate budgets strategically across paid,
-                                                                earned, and owned media.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Forecast and track media spend ROI with precision.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Optimize campaigns through cross-channel media mix
-                                                                modeling.
-                                                            </li>
-                                                        </ul>
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -2637,56 +1735,26 @@
                                         <!-- Tab 10 Content -->
                                         <div class="tab-pane fade show  " id="tab20" role="tabpanel">
                                             <div class="col-lg-12">
+                                                <div class="container my-4">
+                                                    <div class="row align-items-center border rounded p-3">
+                                                        <div class="col-3">
+                                                        <img src="assets\yc\imgs\page\about\img1.png" alt="Image" class="img-fluid rounded" style='height:150px'>
+                                                        </div>
+                                                        <div class="col-9">
+                                                        <h5 class="mb-1">Gen AI Mastery Course</h5>
+                                                        <p class="mb-0 text-muted"> A comprehensive course on generative AI, focusing on its applications, tools, and strategies for business growth and innovation.</p>
+                                                        </div>
+                                                    </div>
+                                                    </div>
                                                 <div class="d-flex gap-2 flex-row  h-100">
                                                     <div class="flex-fill cards-bg col-lg-4  blue-bg p-4 rounded ">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
-                                                        <h5>Master Advanced Generative AI Techniques & Applications</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Dive deep into advanced prompt
-                                                            engineering, model capabilities, sector-specific use cases,
-                                                            and real-world integration challenges. Hands-on exercises
-                                                            will build expertise in tailoring AI solutions across
-                                                            industries.</p>
+                                                        <h5>Basics of Generative AI and Its Applications  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Get introduced to the fundamentals of Generative AI, including language models, image generation, and real-world applications across industries.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Understand the core mechanics of models like GPT,
-                                                                DALL·E, and Stable Diffusion.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Explore use cases across content, design, code,
-                                                                and operations.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Implement generative tools to increase
-                                                                productivity and creativity.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Analyze ethical, legal, and societal impacts of
-                                                                generative AI.
-                                                            </li>
-                                                        </ul>
+                                                       
 
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  v-bg p-4 rounded">
@@ -2694,100 +1762,20 @@
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>Custom GPT Development & Enterprise AI Tools</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn to design, develop, and deploy
-                                                            custom GPT models as internal tools, manage the AI
-                                                            development lifecycle, and tackle user acceptance and
-                                                            testing..</p>
+                                                        <h5>Using AI Tools for Creative and Business Tasks  </h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Learn to practically use AI platforms like ChatGPT, Midjourney, and DALL-E to enhance marketing, design, customer support, and even content creation.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Learn to build, fine-tune, and deploy custom GPT
-                                                                models for business use.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Integrate AI into CRM, analytics, content, and
-                                                                product tools.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Explore APIs, workflows, and plug-ins for custom
-                                                                automation.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Leverage AI tools to streamline enterprise-scale
-                                                                decision-making.
-                                                            </li>
-                                                        </ul>
+                                                        
                                                     </div>
                                                     <div class="flex-fill cards-bg col-lg-4  o-bg p-4 rounded">
                                                         <div class="icon-plan pb-10 pt-10"><img
                                                                 src="assets/yc/imgs/page/homepage1/free.svg" alt="iori">
                                                         </div>
 
-                                                        <h5>AI Strategy & Leadership</h5>
-                                                        <p class="lh-base mt-15 font-md color-grey-400">Gain insights into integrating AI into
-                                                            executive decision-making, evaluate AI startups, and lead
-                                                            agile AI initiatives through action sprints, iterative
-                                                            refinement, and strategic planning.</p>
+                                                        <h5>Integrating AI Into Existing Business Models for Innovation</h5>
+                                                        <p class="lh-base mt-15 font-md color-grey-400">Understand how to embed AI into your workflows, from automating mundane tasks to personalizing customer experiences, thus driving innovation and efficiency.</p>
                                                         <!-- <h6 class="lh-base mt-15 font-md color-grey-400 mb-5 fw-semibold">Points.</h6> -->
-                                                        <ul class="mt-15 mb-5">
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Design responsible and scalable AI strategies
-                                                                aligned to business goals.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Lead cross-functional teams in AI adoption and
-                                                                transformation.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Understand AI governance, risk, and compliance
-                                                                frameworks.
-                                                            </li>
-                                                            <li class="mb-1 font-md color-grey-400">
-                                                                <svg class="w-6 h-6 icon-16 me-2" fill="none"
-                                                                    stroke="green" viewbox="0 0 24 24"
-                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                                        stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                                </svg>Champion a culture of innovation and ethical AI
-                                                                leadership.
-                                                            </li>
-                                                        </ul>
+                                                
                                                     </div>
                                                 </div>
                                             </div>
@@ -2801,14 +1789,14 @@
             </section>
         </div>
       <!-- section-2 -->
-      <section class="section mt-50 mb-50 pt-50 pb-50" style="background-color:#024430">
+      <section class="section mt-50 mb-50 pt-50 pb-50" style="background-color:#024430" id="section2">
         <div class="container">
           <div class="bg-brand-1 ">
             <div class="row align-items-center">  
               <div class="col-xl-6 col-lg-6">
-                <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Hands-on Startup Experience</span>
-                  <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Collaborate with founders and startup leaders</h3>
-                  <p class="font-md color-white wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Gain direct exposure to the dynamic world of startups. Through hands-on experience, interact with entrepreneurs and senior leaders, immersing yourself in real decision-making processes. Build a strong understanding of the challenges faced by startups and how to tackle them with innovative solutions.</p>
+                <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Startup Exposure</span>
+                  <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Business fundamentals taught by those who built from scratch</h3>
+                  <p class="font-md color-white wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Learn the principles of building, scaling, and sustaining businesses directly from leaders who have navigated every stage from inception to market leadership</p>
 
                 </div>
               </div>
@@ -2834,11 +1822,11 @@
                   <div class="card-image-plan">
                     <div class="icon-plan"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
                     <div class="info-plan">
-                      <h4 class="color-brand-1">Startup Case on Campus</h4>
-                      <p class="font-md color-grey-400">Real Startup<br> Sprint</p>
+                      <h4 class="color-brand-1">Solve Operational Challenges</h4>
+                     
                     </div>
                   </div>
-                  <div class="box-day-trial"><span class="font-md color-grey-500">Work hands-on with a real-world case handed to you by a startup leader. Over four days, brainstorm with your team, build strategic solutions, present to the founder, and refine your ideas based on live feedback—all in a dynamic classroom setup.</span></div>
+                  <div class="box-day-trial"><span class="font-md color-grey-500">Work hands-on with real startup operations by identifying unmet market needs, designing scalable and efficient business models, optimizing internal workflows, managing limited resources, and crafting actionable growth roadmaps that respond to dynamic business environments.</span></div>
                 </div>
               </div>
             </div>
@@ -2848,11 +1836,11 @@
                   <div class="card-image-plan">
                     <div class="icon-plan"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
                     <div class="info-plan">
-                      <h4 class="color-brand-1">Business Strategy Lab</h4>
-                      <p class="font-md color-grey-400">Strategic Thinking Mastery</p>
+                      <h4 class="color-brand-1">Access Strategic Mentorship</h4>
+                  
                     </div>
                   </div>
-                  <div class="box-day-trial"><span class="font-md color-grey-500">Tackle an actual business challenge from a startup CXO over four weeks. Research deeply, collaborate with mentors, and craft a strategy that you’ll present to the startup team—sharpening your problem-solving and strategic thinking in the process.</span></div>
+                  <div class="box-day-trial"><span class="font-md color-grey-500">Gain direct access to seasoned founders, startup operators, and business mentors who’ve faced the ups and downs of entrepreneur. Learn how to navigate strategic inflection points, make high-impact decisions under pressure, and build businesses with long-term resilience and clarity of purpose.</span></div>
                 </div>
               </div>
             </div>
@@ -2862,11 +1850,11 @@
                   <div class="card-image-plan">
                     <div class="icon-plan"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
                     <div class="info-plan">
-                      <h4 class="color-brand-1">VC Analyst Practicum</h4>
-                      <p class="font-md color-grey-400">Investor Mindset Training</p>
+                      <h4 class="color-brand-1">Build Core Startup Capabilities</h4>
+                   
                     </div>
                   </div>
-                  <div class="box-day-trial"><span class="font-md color-grey-500">Step into the shoes of a venture capitalist by selecting a pre-seed startup and building a solid investment thesis. With mentorship from a real VC, you’ll present your case to investors and gain valuable critique through immersive feedback sessions.</span></div>
+                  <div class="box-day-trial"><span class="font-md color-grey-500">Deepen your expertise in critical startup functions including iterative product development, customer discovery and validation, lean revenue generation strategies, systems-driven operational excellence, and high-performance leadership to take ventures from concept to scale.</span></div>
                 </div>
               </div>
             </div>
@@ -2876,11 +1864,11 @@
                   <div class="card-image-plan">
                     <div class="icon-plan"><img src="assets/yc/imgs/page/homepage1/free.svg" alt="iori"></div>
                     <div class="info-plan">
-                      <h4 class="color-brand-1">Mesa Startup Lab</h4>
-                      <p class="font-md color-grey-400">Build &<br> Launch</p>
+                      <h4 class="color-brand-1">Network & Industry Practitioners</h4>
+                      
                     </div>
                   </div>
-                  <div class="box-day-trial"><span class="font-md color-grey-500">Launch a real business from scratch, define a GTM strategy, and acquire your first users. With mentorship, resources, and a structured approach, you’ll get hands-on experience in ideating, building, launching, and scaling your very own venture.</span></div>
+                  <div class="box-day-trial"><span class="font-md color-grey-500">Engage with a dynamic community of startup founders, venture capitalists, ecosystem mentors, and experienced operators. Build meaningful connections, gain cross-sector insights, explore collaboration opportunities, and stay at the forefront of emerging trends and startup innovation.</span></div>
                 </div>
               </div>
             </div>
@@ -2889,7 +1877,7 @@
       </section>
 
       <!-- section-3 -->
-      <section class="section mt-50 mb-50 pb-50 pt-50" style="background-color:#024430">
+      <section class="section mt-50 mb-50 pb-50 pt-50" style="background-color:#024430" id="section3">
         <div class="container">
           <div class="bg-brand-1">
             <div class="row align-items-center">
@@ -2898,7 +1886,7 @@
               </div>
               <div class="col-xl-6 col-lg-6">
                 <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Create and Grow Real Businesses</span>
-                  <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Develop, manage, and scale your own businesses</h3>
+                  <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Start Your Business From the Ground Up</h3>
                   <p class="font-md color-white wow animate__animated animate__fadeInUp" data-wow-delay=".2s">True learning happens through action. At Young Chanakya, you will get the chance to create and manage real businesses. Apply the concepts you learn to overcome real business challenges and scale up your entrepreneurial ventures with practical insights and hands-on experience.</p>
 
                 </div>
@@ -2920,8 +1908,8 @@
               <div class="card-blog-grid card-blog-grid-2 hover-up">
                 <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news1.png" alt="iori"></a></div>
                 <div class="card-info"><a href="blog-detail.html">
-                    <h6 class="color-brand-1">Identify Market Opportunities & Customer Pain Points</h6></a>
-                  <p class="font-sm color-grey-500 mt-20">Develop a keen eye for spotting market gaps and understanding real customer pain points. Learn to leverage these insights to create solutions that resonate with your target audience./p>
+                    <h6 class="color-brand-1">Discover Markets & Needs</h6></a>
+                  <p class="font-sm color-grey-500 mt-20">Analyze industry trends, assess competitive landscapes, and identify underserved market segments by interviewing real customers, mapping pain points, and uncovering high-impact problems worth solving in today's dynamic business environment.</p>
                   <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Technology</a><span class="date-post font-xs color-grey-300 mr-15">
                       <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
@@ -2936,8 +1924,8 @@
               <div class="card-blog-grid card-blog-grid-2 hover-up">
                 <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news2.png" alt="iori"></a></div>
                 <div class="card-info"><a href="blog-detail.html">
-                    <h6 class="color-brand-1">Secure Supply & Funding</h6></a>
-                  <p class="font-sm color-grey-500 mt-20">Apply your skills in a high-stakes environment, aiming for a ₹5 lakh revenue target. Gain hands-on sales experience at our annual flea market, where you’ll pitch directly to customers, sharpen your sales tactics, and navigate real-world challenges.</p>
+                    <h6 class="color-brand-1">Secure Resources & Capital</h6></a>
+                    <p class="font-sm color-grey-500 mt-20">Formulate a go-to-market plan, build reliable supply partnerships, and structure smart funding strategies through early-stage financial modeling, lean resource planning, and hands-on experience with real-world sourcing and operational constraints.</p>
                   <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Marketting</a><span class="date-post font-xs color-grey-300 mr-15">
                       <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
@@ -2952,8 +1940,8 @@
               <div class="card-blog-grid card-blog-grid-2 hover-up">
                 <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage1/news2.png" alt="iori"></a></div>
                 <div class="card-info"><a href="blog-detail.html">
-                    <h6 class="color-brand-1">Workshops for Business Fundamentals</h6></a>
-                  <p class="font-sm color-grey-500 mt-20">Strengthen your core business knowledge through interactive workshops covering marketing, content strategy, and sales. These sessions will equip you with actionable strategies to drive success. </p>
+                    <h6 class="color-brand-1">Master Business Essentials</h6></a>
+                    <p class="font-sm color-grey-500 mt-20">Participate in expert-led workshops focused on essential startup foundations, from revenue modeling and pricing strategies to customer acquisition, operations planning, key metrics, and managing key growth metrics. </p>
                   <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">Media</a><span class="date-post font-xs color-grey-300 mr-15">
                       <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
@@ -2968,8 +1956,8 @@
               <div class="card-blog-grid card-blog-grid-2 hover-up">
                 <div class="card-image img-reveal"><a href="blog-detail.html"><img src="assets/yc/imgs/page/homepage2/news3.png" alt="iori"></a></div>
                 <div class="card-info"><a href="blog-detail.html">
-                    <h6 class="color-brand-1">Pitch to Investors & Unlock Milestone-Based Funding</h6></a>
-                  <p class="font-sm color-grey-500 mt-20">Learn to pitch like a pro by presenting your ideas to an Investment Committee. Unlock milestone-based funding and practice communicating your vision clearly and confidently.</p>
+                    <h6 class="color-brand-1">Pitch & Raise Capital</h6></a>
+                  <p class="font-sm color-grey-500 mt-20">Present your venture to real investors, receive strategic feedback from seasoned industry experts, and unlock milestone-based funding tied to execution, traction, and your ability to demonstrate market demand and business viability.</p>
                   <!-- <div class="mt-20 d-flex align-items-center border-top pt-20"><a class="btn btn-border-brand-1 mr-15" href="blog.html">SEO</a><span class="date-post font-xs color-grey-300 mr-15">
                       <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
@@ -2984,14 +1972,14 @@
         </div>
       </section>
       <!-- section-4 -->
-      <section class="section mt-50 mb-50 pt-50 pb-50" style="background-color:#024430">
+      <section class="section mt-50 mb-50 pt-50 pb-50" style="background-color:#024430" id="section4">
         <div class="container">
           <div class="bg-brand-1 ">
             <div class="row align-items-center">  
               <div class="col-xl-6 col-lg-6">
                 <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Sector-Specific & Functional Expertise</span>
-                  <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Deep dive into specialized industries and functions</h3>
-                  <p class="font-md color-white wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Expand your expertise by engaging in workshops, boot camps, and challenges tailored to specific sectors and business functions. Gain sector-specific knowledge and apply these insights to drive impactful business strategies, positioning yourself as a leader in your chosen field.</p>
+                  <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Become an Expert in Tomorrow’s Leading Sectors</h3>
+                  <p class="font-md color-white wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Deepen your expertise in high-demand sectors with action-packed boot camps, real-world challenges, and skill-building workshops.</p>
 
                 </div>
               </div>
@@ -3020,11 +2008,11 @@
                     <div class="card-head" style="border-radius:8px">
                     <div class="card-image"><img src="assets/yc/imgs/page/homepage1/cross.png" alt="iori"></div>
                     <div class="carrd-title">
-                        <h4 class="color-brand-1">Sector-specific immersions</h4>
+                        <h4 class="color-brand-1">Sector-focused Mastery </h4>
                     </div>
                     </div>
                     <div class="card-info">
-                    <p class="font-sm color-grey-500 mb-15">stay ahead of the curve by accessing new-age tech, from building AI chatbots to leveraging Generative AI, to mastering tools like Tableau.</p>
+                    <p class="font-sm color-grey-500 mb-15">Gain hands-on expertise in vital areas like product metrics, financial modeling, retail operations, and retention marketing to set yourself apart in any sector.</p>
                     
                     </div>
                 </div>
@@ -3034,11 +2022,11 @@
                     <div class="card-head" style="border-radius:8px">
                     <div class="card-image"><img src="assets/yc/imgs/page/homepage1/cross2.png" alt="iori"></div>
                     <div class="carrd-title">
-                        <h4 class="color-brand-1">Cutting-edge tools & concepts</h4>
+                        <h4 class="color-brand-1">Lead with Future Technologies</h4>
                     </div>
                     </div>
                     <div class="card-info">
-                    <p class="font-sm color-grey-500 mb-15">stay ahead of the curve by accessing new-age tech, from building AI chatbots to leveraging Generative AI, to mastering tools like Tableau.</p>
+                    <p class="font-sm color-grey-500 mb-15">Gain hands-on expertise in vital areas like product metrics, financial modeling, retail operations, and retention marketing to set yourself apart in any sector.</p>
                    
                     </div>
                 </div>
@@ -3048,11 +2036,11 @@
                     <div class="card-head" style="border-radius:8px">
                     <div class="card-image"><img src="assets/yc/imgs/page/homepage1/business.svg" alt="iori"></div>
                     <div class="carrd-title">
-                        <h4 class="color-brand-1">Real-world sales challenges</h4>
+                        <h4 class="color-brand-1"> Winning Sales Experiences</h4>
                     </div>
                     </div>
                     <div class="card-info">
-                    <p class="font-sm color-grey-500 mb-15">get hands-on experience by taking a product into the market and learning how to sell to real customers making real revenue.</p>
+                    <p class="font-sm color-grey-500 mb-15">Take a product to market, engage with real buyers, and refine your ability to sell, pitch, and close deals while navigating the fast-paced challenges of real-world commerce.</p>
                   
                     </div>
                 </div>
@@ -3062,11 +2050,11 @@
                     <div class="card-head" style="border-radius:8px">
                     <div class="card-image"><img src="assets/yc/imgs/page/homepage1/cross4.png" alt="iori"></div>
                     <div class="carrd-title">
-                        <h4 class="color-brand-1">Industry-focused hackathons</h4>
+                        <h4 class="color-brand-1">Industry-Focused Events</h4>
                     </div>
                     </div>
                     <div class="card-info">
-                    <p class="font-sm color-grey-500 mb-15">these 36+ hour immersions offer deep sector insights, pushing you to innovate & deliver solutions while building expertise in high-demand fields.</p>
+                    <p class="font-sm color-grey-500 mb-15">Attend sector-specific events, panel discussions, and expert-led sessions that offer deep insights into industries such as fintech, e-commerce, health, etc., helping you grow in your domain.</p>
                    
                     </div>
                 </div>
