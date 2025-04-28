@@ -17,6 +17,9 @@ use App\Http\Controllers\MembershipController;
 use App\Http\Controllers\Membership\StudentController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Admin\HeroSectionController;
+use App\Http\Controllers\ChanakyaFormController;
+use App\Http\Controllers\SponsorFormController;
+use App\Http\Controllers\CourseController;
 use App\Http\Controllers\PageController;
 Route::get('/admin/hero-section', [HeroSectionController::class, 'edit'])->name('home.hero.edit');
 Route::post('/admin/hero-section', [HeroSectionController::class, 'update'])->name('home.hero.update');
@@ -1591,3 +1594,7 @@ Route::group(['middleware' => 'setlang'], function () {
   Route::get('/{slug}', 'Front\FrontendController@dynamicPage')->name('front.dynamicPage');
 });
 
+Route::post('/chanakya-form', [ChanakyaFormController::class, 'store'])->name('chanakya.store');
+
+Route::post('/become-a-sponsor', [SponsorFormController::class, 'store'])->name("sponsor");
+Route::post('/course-enroll', [CourseController::class, 'store'])->name('Course');

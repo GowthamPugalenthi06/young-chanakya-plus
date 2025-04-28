@@ -23,8 +23,9 @@
         <div class="container">
           <div class="row mt-50">
             <div class="col-xl-5 col-lg-12 mb-40">
-              <h2 class="color-brand-1 mt-10 mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Business can also be simple</h2>
-              <p class="font-md color-grey-500 wow animate__animated animate__fadeIn" data-wow-delay=".1s">Access advanced order types including limit, market, stop limit and dollar cost averaging. Track your total asset holdings, values and equity over time. Monitor markets, manage your portfolio, and trade crypto on the go.</p>
+            <span class="title-line line-48 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Leading from the Front </span>
+              <h2 class="color-brand-1 mt-10 mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">CEO and MD's</h2>
+              <p class="font-md color-grey-500 wow animate__animated animate__fadeIn" data-wow-delay=".1s">The CEO & Managing Directors are masterminds who transform vision into reality. With deep experience in guiding companies through growth and change, they offer practical insights into strategic decision-making and leadership. Their mentorship provides valuable lessons on leading from the front and shaping organizations for long-term success.</p>
               
               <div class="mt-30 text-start wow animate__animated animate__fadeIn" data-wow-delay=".3s"><a class="btn btn-brand-1 hover-up" href="#">Learn More
                   <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -52,10 +53,8 @@
                 <div class="card-guide">
                   <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/help/icon1.svg') }}" alt="YC"></div>
                   <div class="card-info">
-                    <h5 class="color-brand-1 mb-15">Knowledge Base</h5>
-                    <p class="font-xs color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                      primis a libero tempus</p>
-                    
+                    <h5 class="color-brand-1 mb-15">Built to Lead</h5>
+                    <p class="font-xs color-grey-500">Lessons from those who shaped industries and built cultures of growth.</p>
                   </div>
                 </div>
               </div>
@@ -63,9 +62,8 @@
                 <div class="card-guide">
                   <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/help/icon2.svg') }}" alt="YC"></div>
                   <div class="card-info">
-                    <h5 class="color-brand-1 mb-15">Community Forums</h5>
-                    <p class="font-xs color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                      primis a libero tempus</p>
+                    <h5 class="color-brand-1 mb-15">Decisions That Matter</h5>
+                    <p class="font-xs color-grey-500">Walk through real-life turning points that defined billion-dollar journeys.</p>
                     
                   </div>
                 </div>
@@ -74,9 +72,8 @@
                 <div class="card-guide">
                   <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/help/icon3.svg') }}" alt="YC"></div>
                   <div class="card-info">
-                    <h5 class="color-brand-1 mb-15">Documentation</h5>
-                    <p class="font-xs color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor
-                      primis a libero tempus</p>
+                    <h5 class="color-brand-1 mb-15">Inside the Boardroom</h5>
+                    <p class="font-xs color-grey-500">How strategy, people, and vision come together at the top.</p>
                     
                   </div>
                 </div>
@@ -96,26 +93,68 @@
             </div>
           </div>
           <div class="row align-items-start">
-    @foreach($ceo_mentors as $mentor)
-    <div class="col-lg-2 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-        <div class="card-team mb-30">
-            <div class="card-image">
-                <img src="{{ asset($mentor->image ?? 'assets/yc/imgs/page/about/default.png') }}" alt="YC">
-            </div>
-            <div class="card-info">
-                <a class="font-lg" href="#">{{ $mentor->name }}</a>
-                <p class="font-xs color-grey-200 mb-10">{{ $mentor->description ?? 'CEO and MD' }}</p>
-                <div class="list-socials">
-                    <a class="icon-socials icon-facebook" href="{{ $mentor->facebook ?? '#' }}"></a>
-                    <a class="icon-socials icon-linkedin" href="{{ $mentor->linkedin ?? '#' }}"></a>
-                    <a class="icon-socials icon-twitter" href="{{ $mentor->twitter ?? '#' }}"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    @endforeach
-</div>
+            <div class="col-lg-2 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
+              <div class="card-team mb-30">
+                <div class="card-image"><img src="{{('assets/yc/imgs/page/about/team1.png')}}" alt="YC"></div>
+                <div class="card-info"><a class="font-lg" href="#">Devon Lane</a>
+                  <p class="font-xs color-grey-200 mb-10">CEO</p>
+                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
 
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
+              <div class="card-team mb-30">
+                <div class="card-image"><img src="{{('assets/yc/imgs/page/about/team2.png')}}" alt="YC"></div>
+                <div class="card-info"><a class="font-lg" href="#">Jennie Tho</a>
+                  <p class="font-xs color-grey-200 mb-10">Finance Manager</p>
+                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
+              <div class="card-team mb-30">
+                <div class="card-image"><img src="{{('assets/yc/imgs/page/about/team3.png')}}" alt="YC"></div>
+                <div class="card-info"><a class="font-lg" href="#">Symon Lesin</a>
+                  <p class="font-xs color-grey-200 mb-10">Technology Manager</p>
+                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
+              <div class="card-team mb-30">
+                <div class="card-image"><img src="{{('assets/yc/imgs/page/team/team1.png')}}" alt="YC"></div>
+                <div class="card-info"><a class="font-lg" href="#">Virginia Aguilar</a>
+                  <p class="font-xs color-grey-200 mb-10">Director of People</p>
+                  <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
+
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
+                <div class="card-team mb-30">
+                  <div class="card-image"><img src="{{('assets/yc/imgs/page/team/team1.png')}}" alt="YC"></div>
+                  <div class="card-info"><a class="font-lg" href="#">Virginia Aguilar</a>
+                    <p class="font-xs color-grey-200 mb-10">Director of People</p>
+                    <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
+                <div class="card-team mb-30">
+                  <div class="card-image"><img src="{{('assets/yc/imgs/page/team/team1.png')}}" alt="YC"></div>
+                  <div class="card-info"><a class="font-lg" href="#">Virginia Aguilar</a>
+                    <p class="font-xs color-grey-200 mb-10">Director of People</p>
+                    <div class="list-socials"><a class="icon-socials icon-facebook" href="#"></a><a class="icon-socials icon-instagram" href="#"></a><a class="icon-socials icon-twitter" href="#"></a></div>
+
+                  </div>
+                </div>
+              </div>
+          </div>
         </div>
       </section> 
   </main>
