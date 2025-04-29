@@ -238,13 +238,13 @@
                 <span class=" font-md">Copyright © 2025 Young Chanakya. All rights reserved.</span>
               </div>
               
-              <!-- Column 2: Follow Us -->
               <div class="col-lg-4 col-md-12 text-lg-center">
                 <ul class="menu-footer list-inline mb-0">
-                  <li class="list-inline-item"><a class="font-md " href="term-conditions.html">Privacy Policy</a></li>
-                  <li class="list-inline-item"><a class="font-md" href="term-conditions.html">Terms of Service</a></li>
+                  <li class="list-inline-item"><a class="font-md " href="{{ route('privacy-policy') }}">Privacy Policy</a></li>
+                  <li class="list-inline-item"><a class="font-md" href="{{ route('terms-and-condition') }}">Terms of Service</a></li>
                 </ul>
               </div>
+
 
 
               

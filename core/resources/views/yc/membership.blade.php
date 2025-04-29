@@ -44,13 +44,10 @@
           <div class="row align-items-center">
             <div class="col-lg-7"><span class="title-line line-48 wow animate__animated animate__fadeInUp"
                 data-wow-delay=".0s">Get Started</span>
-              <h1 class="color-brand-1 mb-20 mt-1 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Start
-                for free<br class="d-none d-lg-block">Pay as you Grow</h1>
+              <h1 class="color-brand-1 mb-20 mt-1 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Step Into a Community of Builders, Doers & Leaders</h1>
               <div class="row">
                 <div class="col-lg-9 wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
-                  <p class="font-md color-grey-500">Collaborate, plan projects and manage resources with powerful
-                    features that your whole team can use. The latest news, tips and advice to help you run your
-                    business with less fuss.</p>
+                  <p class="font-md color-grey-500"> Gain access to structured growth paths, strategic networks, leadership programs, and exclusive opportunities built for emerging and established changemakers</p>
                 </div>
               </div>
 

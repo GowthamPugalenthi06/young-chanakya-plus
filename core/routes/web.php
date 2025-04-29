@@ -129,6 +129,15 @@ Route::get('/admin/homes/{id}/edit', [HomesController::class, 'edit'])->name('ad
 Route::put('/admin/homes/{id}', [HomesController::class, 'update'])->name('admin.homes.update');
 Route::delete('/admin/homes/{id}', [HomesController::class, 'destroy'])->name('admin.homes.destroy');
 
+
+Route::get('/career-detail',function(){
+    return view('yc.career-detail');
+})->name('career-detail');
+
+Route::get('/careers',function(){
+    return view('yc.careers');
+})->name('careers');
+
 Route::get('/admin/mentor-chanakya', [MentorChanakyaController::class, 'index'])->name('admin.mentor_chanakya.index');
 Route::get('/admin/mentor-chanakya/create', [MentorChanakyaController::class, 'create'])->name('admin.mentor_chanakya.create');
 Route::post('/admin/mentor-chanakya/store', [MentorChanakyaController::class, 'store'])->name('admin.mentor_chanakya.store');

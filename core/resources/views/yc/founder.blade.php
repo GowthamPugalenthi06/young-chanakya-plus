@@ -105,8 +105,7 @@ I’ve always believed that success is not about where you start but how you sca
                     </div>
                     <div class="card-info">
                       <p class="font-sm color-grey-500 mb-15">
-                        A leader’s journey begins with curiosity — the drive to learn, observe, and grow. With the right
-                        mindset and mentors, they take root.
+                      A leader begins with curiosity—the hunger to learn, observe, and absorb knowledge. Like a seed needs soil, a leader needs the *right mindset, mentors, and a thirst for growth* to take root.  
                       </p>
                     </div>
                   </div>
@@ -126,8 +125,7 @@ I’ve always believed that success is not about where you start but how you sca
                     </div>
                     <div class="card-info">
                       <p class="font-sm color-grey-500 mb-15">
-                        Like a sprout pushing through tough soil, leaders face early challenges. Each failure
-                        strengthens their resolve and helps them grow.
+                      As the seed sprouts, it faces challenges—weather, soil conditions, and external forces. Similarly, a leader starts by *taking small risks, stepping out of comfort zones, and learning from failures.* Every mistake is like sunlight—helping them grow stronger.  
                       </p>
                     </div>
                   </div>
@@ -147,8 +145,7 @@ I’ve always believed that success is not about where you start but how you sca
                     </div>
                     <div class="card-info">
                       <p class="font-sm color-grey-500 mb-15">
-                        As roots deepen, a leader builds wisdom and starts inspiring others. Like a sapling, they offer
-                        shade while continuing to grow.
+                      A sapling isn’t a full-grown tree yet, but its foundation is getting stronger. This is where a leader *gains experience, builds networks, and hones their problem-solving skills.* They start influencing others, much like a sapling providing shade to small plants.  
                       </p>
                     </div>
                   </div>
@@ -168,8 +165,7 @@ I’ve always believed that success is not about where you start but how you sca
                     </div>
                     <div class="card-info">
                       <p class="font-sm color-grey-500 mb-15">
-                        A leader’s journey begins with curiosity — the drive to learn, observe, and grow. With the right
-                        mindset and mentors, they take root.
+                      A fully grown tree *provides shade, fruits, and shelter—just like a great leader **empowers others, builds businesses, and creates lasting impact.* Their success is not just about their own growth but about how many lives they can uplift.  
                       </p>
                     </div>
                   </div>
