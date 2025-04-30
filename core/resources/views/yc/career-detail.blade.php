@@ -278,7 +278,7 @@
       <h3 class="color-brand-1 mb-10 mt-0 text-center mb-20">Submit Your Application</h3>
       <div class="container d-flex justify-content-center">
     <div class="col-lg-10">
-              <form class="box-form-contact bg-white wow animate__animated animate__fadeIn" action="{{ route('chanakya.store') }}" method="POST" data-wow-delay=".6s">
+              <form class="box-form-contact bg-white wow animate__animated animate__fadeIn" action="{{ route('job.apply') }}" method="POST" data-wow-delay=".6s">
                 @csrf
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
@@ -313,7 +313,7 @@
                   </div>
                   <div class="col-lg-6">
                     <div class="form-group mb-25">
-                      <input class="form-control" type="text" name="Position" placeholder="Applying For (Job Position)">
+                      <input class="form-control" type="text" name="Position" placeholder="Applying For (Position)">
                     </div>
                   </div>
                  

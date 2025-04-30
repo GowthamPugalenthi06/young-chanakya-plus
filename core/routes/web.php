@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\JobApplicationController;
 use App\Http\Controllers\Admin\HomeController;
 use App\Http\Controllers\Admin\HomesController;
 use App\Http\Controllers\Admin\MediaUploadController;
@@ -137,6 +137,23 @@ Route::get('/career-detail',function(){
 Route::get('/careers',function(){
     return view('yc.careers');
 })->name('careers');
+
+Route::get('/clubs-and-activities',function(){
+    return view('yc.clubs&activities');
+  })->name('clubs-and-activities');
+  
+  Route::get('/cookie-policy',function(){
+    return view('yc.cookie_policy');
+  })->name('cookie-policy');
+  
+  Route::get('/community-ethics',function(){
+    return view('yc.community-ethics');
+  })->name('community-ethics');
+  
+  Route::get('/code-of-conduct',function(){
+    return view('yc.code-of-conduct');
+  })->name('code-of-conduct');
+  
 
 Route::get('/admin/mentor-chanakya', [MentorChanakyaController::class, 'index'])->name('admin.mentor_chanakya.index');
 Route::get('/admin/mentor-chanakya/create', [MentorChanakyaController::class, 'create'])->name('admin.mentor_chanakya.create');
@@ -1604,3 +1621,4 @@ Route::post('/chanakya-form', [ChanakyaFormController::class, 'store'])->name('c
 
 Route::post('/become-a-sponsor', [SponsorFormController::class, 'store'])->name("sponsor");
 Route::post('/course-enroll', [CourseController::class, 'store'])->name('Course');
+Route::post('/job-application', [JobApplicationController::class, 'store'])->name('job.apply');

@@ -34,7 +34,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                   </svg></a></div>
             </div>
-            <div class="col-lg-7 text-center position-relative mb-30"><img src="{{ asset('assets/yc/imgs/page/homepage7/img-2.png') }}" alt="iori">              
+            <div class="col-lg-7 text-center position-relative mb-30"><img src="{{ asset('assets/yc/imgs/page/team/academic-team.png') }}" alt="iori">              
             </div>
           </div>
         </div>

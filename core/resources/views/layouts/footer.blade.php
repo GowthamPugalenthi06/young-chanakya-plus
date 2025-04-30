@@ -173,7 +173,8 @@
                 <li><a href="{{ route('about-chanakya') }}">About Chanakya's</a></li>
                 <li><a href="{{route('become-a-chanakya')}}">Become a Chanakya</a></li>
                 <li><a href="{{ route('become-a-sponsor') }}">Become a Sponsor</a></li>
-                <li><a href="{{ url('/career') }}">Career &amp; Internships</a></li>
+                <li><a href="{{ url('/careers') }}">Career &amp; Internships</a></li>
+                <li><a href="{{ route('clubs-and-activities') }}">Clubs-and-activities</a></li>
               </ul>
             </div>
             <!-- <div class="col-lg-3 width-23">

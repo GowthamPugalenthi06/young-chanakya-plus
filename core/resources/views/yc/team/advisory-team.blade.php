@@ -40,7 +40,7 @@
                 </svg></a></div>
           </div>
           <div class="col-lg-7 text-center position-relative mb-30"><img
-              src="{{ asset('assets/yc/imgs/page/homepage7/img-2.png') }}" alt="iori">
+              src="{{ asset('assets/yc/imgs/page/team/advisory-team.png') }}" alt="iori">
           </div>
         </div>
       </div>
