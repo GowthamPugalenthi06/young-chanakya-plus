@@ -21,9 +21,10 @@ class ChanakyaFormController extends Controller
         'name' => $request->name,
         'email' => $request->email,
         'phone' => $request->phone,
-        'college' => $request->college,
+        'organisation' => $request->college,
         'linkedin' => $request->linkedin,
         'interest' => $request->interest,
+        'thoughts' => $request->thoughts,
     ]);
 
     // dd("Inserted:", $entry); // For testing DB insert

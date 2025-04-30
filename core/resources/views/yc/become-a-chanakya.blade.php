@@ -965,20 +965,24 @@
                   </div>
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group mb-25">
-                      <input class="form-control icon-company" name="college" type="text" placeholder="College / University">
+                      <input class="form-control icon-company" name="college" type="text" placeholder="Organisation">
                     </div>
                   </div>
-                  <div class="col-lg-12">
+                  <div class="col-lg-6">
                     <div class="form-group mb-25">
                       <input class="form-control" type="text" name="linkedin" placeholder="LinkedIn URL">
                     </div>
                   </div>
-                  <div class="col-lg-12">
+                  <div class="col-lg-6">
                     <div class="form-group mb-25">
-                      <input class="form-control" type="text" name="'interest" placeholder="Area of Interest">
+                      <input class="form-control" type="text" name="interest" placeholder="Specialisation">
                     </div>
                   </div>
-               
+                  <div class="col-lg-12">
+                    <div class="form-group mb-25">
+                      <textarea class="form-control" type="text" name="thoughts" placeholder="Describe Yourself"></textarea>
+                    </div>
+                  </div>
                   <div class="col-xl-4 col-lg-5 col-md-5 col-sm-6 col-9">
                     <div class="form-group">
                       <button class="btn btn-brand-1-full font-sm" type="submit">Submit

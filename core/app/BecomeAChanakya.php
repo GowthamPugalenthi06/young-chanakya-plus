@@ -9,6 +9,6 @@ class BecomeAChanakya extends Model
     protected $table = 'become_a_chanakya';
 
     protected $fillable = [
-        'name', 'email', 'phone', 'college', 'linkedin', 'interest',
+        'name', 'email', 'phone', 'organisation', 'linkedin', 'interest','thoughts',
     ];
 }
