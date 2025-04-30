@@ -152,9 +152,10 @@
               <h5 class="mb-10 color-brand-1">Useful Links</h5>
               <ul class="menu-footer">
                 <li><a href="{{ route('about') }}">About us</a></li>
-                <li><a href="{{route('founder')}}">Founder Talk</a></li>
+                <li><a href="{{route("about")}}">Founder Talk</a></li>
                 <li><a href="{{ route('membership') }}">Membership</a></li>
                 <li><a href="{{ url('/events') }}">Events</a></li>
+                <li><a href="{{ route('code-of-conduct') }}">Code of Conduct</a></li>
               </ul>
             </div>
             <div class="col-lg-3 width-16 mb-30">
@@ -164,7 +165,7 @@
                 <li><a href="{{ route('blog') }}">Stories</a></li>
                 <li><a href="{{ route('case-studies') }}">Case Study</a></li>
                 <li><a href="{{ route('video-series') }}">Video Series</a></li>
-                <li><a href="{{ route('video-series') }}">Infographics</a></li>
+                <!-- <li><a href="{{ route('video-series') }}">Infographics</a></li> -->
               </ul>
             </div>
             <div class="col-lg-3 width-16 mb-30">

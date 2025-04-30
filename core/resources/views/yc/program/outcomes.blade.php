@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -42,7 +43,7 @@
     }
 </style>
 <body>
-    @include('layouts.preload')
+    <!-- @include('layouts.preload') -->
     @include('layouts.header')
     <main>
         <!-- hero -->
@@ -57,10 +58,10 @@
                 </div>
                 <div class="col-xl-6">
                 <div class="box-banner-right-home6"><span class="title-line line-48 wow animate__animated animate__fadeIn" data-wow-delay=".s">Innovation. Leadership. Startups.</span>
-                    <h1 class="color-brand-1 mb-20 mt-5 wow animate__animated animate__fadeIn" data-wow-delay=".1s">Empowering Entrepreneurs, Shaping Startup Leaders</h1>
+                    <h1 class="color-brand-1 mb-20 mt-5 wow animate__animated animate__fadeIn" data-wow-delay=".1s">Shaping the Next Generation of Leaders</h1>
                     <div class="row">
                     <div class="col-lg-10">
-                        <p class="font-md color-grey-500 mb-30 wow animate__animated animate__fadeIn" data-wow-delay=".2s">Young Chanakya nurtures entrepreneurial talent, empowering individuals to launch their own ventures or lead with impact in top startups.</p>
+                        <p class="font-md color-grey-500 mb-30 wow animate__animated animate__fadeIn" data-wow-delay=".2s">Young Chanakya builds entrepreneurial talent, equipping future founders and leaders to launch successful ventures or lead key initiatives at top-tier startups. </p>
                     </div>
                     </div>
                 </div>
@@ -73,42 +74,59 @@
             <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5"><span class="btn btn-tag wow animate__animated animate__fadeIn" data-wow-delay=".0s"> Our Vision of Success</span>
-                <h3 class="color-brand-1 mt-10 mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Shaping Leaders for Global Impact</h3>
-                <p class="font-md color-grey-400 wow animate__animated animate__fadeIn" data-wow-delay=".0s">We envision a future where innovation drives lasting impact across industries and communities.
-By empowering minds with purpose, we foster leadership rooted in integrity and vision.
-Our commitment to excellence blends academic insight with real-world experience.
-Together, we shape global leaders prepared to create meaningful change.</p>
+                <h3 class="color-brand-1 mt-10 mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s"> Building Bold Thinkers for a Changing World</h3>
+                <p class="font-md color-grey-400 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Young Chanakya blends real-world execution with modern business thinking to prepare future leaders and founders to lead, scale, and innovate in dynamic markets, going far beyond the limits of traditional education.</p>
                 <div class="mt-40 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
                     <ul class="list-ticks">
                     <li>
                         <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>Strategic Global Thinking
+                        </svg>Empowering leadership
+                    </li>
+                    <li>  
+                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>Real-world experience
                     </li>
                     <li>
                         <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>Ethical Leadership Development
+                        </svg>Growth mindset
                     </li>
                     <li>
                         <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>Innovation-Driven Learning
+                        </svg>Cross-industry exposure
                     </li>
                     <li>
                         <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>Industry-Relevant Skill
+                        </svg>Community building
                     </li>
                     <li>
                         <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>Inclusive Growth Mindset
+                        </svg>Cutting-edge technology
                     </li>
                     <li>
                         <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>Lifelong Learning Culture
+                        </svg>Strong networking
+                    </li>
+                    <li>
+                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>Data-driven decisions
+                    </li>
+                    <li>
+                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>Data-driven decisions
+                    </li>
+                    <li>
+                        <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>Future-ready skills
                     </li>
                     </ul>
                 </div>
@@ -127,8 +145,8 @@ Together, we shape global leaders prepared to create meaningful change.</p>
             <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center mt-50">
-                <h2 class="text-white mb-20 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Journey</h2>
-                <p class="font-lg text-white wow animate__animated animate__fadeIn" data-wow-delay=".2s">What makes us different from others? We give holistic solutions<br class="d-none d-lg-block">with strategy, design & technology.</p>
+                <h2 class="text-white mb-20 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Your Roadmap to Startup Success</h2>
+                <p class="font-lg text-white wow animate__animated animate__fadeIn" data-wow-delay=".2s">Our step-by-step journey will guide you from ideation to scaling your startup, ensuring you have all the tools and <br class="d-none d-lg-block">guidance necessary for every stage of your business development</p>
                 </div>
             </div>
             
@@ -136,105 +154,71 @@ Together, we shape global leaders prepared to create meaningful change.</p>
     <div class="card-row">
         <!-- Card 1 -->
         <div class="card-column wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-            <div class="card-offer card-offer-2 hover-up" style="background-color:#ffffff">
+            <div class="card-offer card-offer-2 p-3 hover-up" style="background-color:#ffffff">
                 <div class="card-image-bottom mb-35">
                     <img class="w-100 bd-rd16" src="assets/yc/imgs/page/homepage11/img2.png" alt="yc">
                 </div>
                 <div class="card-info">
                     <h4 class="color-brand-1 mb-15">Ideation</h4>
-                    <p class="font-sm color-grey-500 mb-15">Identify impactful startup ideas. Work through core questions, brainstorm with mentors, and align on problems worth solving.</p>
-                    <div class="box-button-offer">
-                        <a class="btn btn-default font-sm-bold pl-0 color-grey-900">Contact Us
-                            <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                      d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                            </svg>
-                        </a>
-                    </div>
+                    <p class="font-sm color-grey-500 mb-15">Learn to identify viable startup ideas and evaluate them against critical criteria. Ask the essential questions every startup founder should consider and refine your problem-solving approach with the help of experienced mentors and grow your ideas </p>
+                     
                 </div>
             </div>
         </div>
 
         <!-- Card 2 -->
         <div class="card-column wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-            <div class="card-offer card-offer-2 hover-up" style="background-color:#ffffff">
+            <div class="card-offer card-offer-2 p-3 hover-up" style="background-color:#ffffff">
                 <div class="card-image-bottom mb-35">
                     <img class="w-100 bd-rd16" src="assets/yc/imgs/page/homepage11/img2.png" alt="yc">
                 </div>
                 <div class="card-info">
-                    <h4 class="color-brand-1 mb-15">Prototyping</h4>
-                    <p class="font-sm color-grey-500 mb-15">Build and validate your MVP. Present your solution to early users, collect feedback, and refine with tools, templates, and mentor support.</p>
-                    <div class="box-button-offer">
-                        <a class="btn btn-default font-sm-bold pl-0 color-grey-900">Contact Us
-                            <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                      d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                            </svg>
-                        </a>
-                    </div>
+                    <h4 class="color-brand-1 mb-15">Market Research</h4>
+                    <p class="font-sm color-grey-500 mb-15">Dive deep into understanding your target market, customer needs, and competitive landscape. Analyze trends, gather insights, and assess the potential demand for your solution to ensure you’re building something that truly resonates with your audience.</p>
+                     
                 </div>
             </div>
         </div>
 
         <!-- Card 3 -->
         <div class="card-column wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-            <div class="card-offer card-offer-2 hover-up" style="background-color:#ffffff">
+            <div class="card-offer card-offer-2 p-3 hover-up" style="background-color:#ffffff">
                 <div class="card-image-bottom mb-35">
                     <img class="w-100 bd-rd16" src="assets/yc/imgs/page/homepage11/img2.png" alt="yc">
                 </div>
                 <div class="card-info">
-                    <h4 class="color-brand-1 mb-15">Go-to-Market</h4>
-                    <p class="font-sm color-grey-500 mb-15">Gain your first users. Learn to leverage social media, peer groups, and offline strategies, while refining your go-to-market tactics with mentors.</p>
-                    <div class="box-button-offer">
-                        <a class="btn btn-default font-sm-bold pl-0 color-grey-900">Contact Us
-                            <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                      d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                            </svg>
-                        </a>
-                    </div>
+                    <h4 class="color-brand-1 mb-15">Prototyping</h4>
+                    <p class="font-sm color-grey-500 mb-15">Develop your MVP (Minimum Viable Product) and validate your idea through user feedback. We provide the tools, guidance, and resources you need to create a solution that addresses real-world problems and can evolve based on feedback.</p>
+                     
                 </div>
             </div>
         </div>
 
         <!-- Card 4 -->
         <div class="card-column wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-            <div class="card-offer card-offer-2 hover-up" style="background-color:#ffffff">
+            <div class="card-offer card-offer-2 p-3 hover-up" style="background-color:#ffffff">
                 <div class="card-image-bottom mb-35">
                     <img class="w-100 bd-rd16" src="assets/yc/imgs/page/homepage11/img2.png" alt="yc">
                 </div>
                 <div class="card-info">
-                    <h4 class="color-brand-1 mb-15">Growth</h4>
-                    <p class="font-sm color-grey-500 mb-15">Pinpoint growth opportunities and double down on channels that work. Shape customer journeys and build repeatable, scalable funnels.</p>
-                    <div class="box-button-offer">
-                        <a class="btn btn-default font-sm-bold pl-0 color-grey-900">Contact Us
-                            <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                      d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                            </svg>
-                        </a>
-                    </div>
+                    <h4 class="color-brand-1 mb-15">Go-to-Market</h4>
+                    <p class="font-sm color-grey-500 mb-15">Acquire your first customers through a combination of digital and offline channels such as social media, performance marketing, and direct sales. Benefit from personalized mentors to refine your strategy, optimize outreach, & ensure customer engagement.
+                    </p>
+                     
                 </div>
             </div>
         </div>
 
         <!-- Card 5 -->
         <div class="card-column wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-            <div class="card-offer card-offer-2 hover-up" style="background-color:#ffffff">
+            <div class="card-offer card-offer-2 p-3 hover-up" style="background-color:#ffffff">
                 <div class="card-image-bottom mb-35">
                     <img class="w-100 bd-rd16" src="assets/yc/imgs/page/homepage11/img2.png" alt="yc">
                 </div>
                 <div class="card-info">
-                    <h4 class="color-brand-1 mb-15">Fundraising</h4>
-                    <p class="font-sm color-grey-500 mb-15">Pitch to top investors and VCs. Showcase your progress on demo day and unlock funding opportunities with our curated capital partners.</p>
-                    <div class="box-button-offer">
-                        <a class="btn btn-default font-sm-bold pl-0 color-grey-900">Contact Us
-                            <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                      d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                            </svg>
-                        </a>
-                    </div>
+                    <h4 class="color-brand-1 mb-15">Growth</h4>
+                    <p class="font-sm color-grey-500 mb-15">Focus on scaling by identifying the most effective growth channels and optimizing your customer acquisition process. Hone your understanding of customer personas and build optimized sales funnels to accelerate growth.</p>
+                     
                 </div>
             </div>
         </div>
@@ -257,8 +241,8 @@ Together, we shape global leaders prepared to create meaningful change.</p>
                 <div class="card-offer card-we-do hover-up">
                   <div class="card-image"><img src="assets/yc/imgs/page/homepage2/we-do3.png" alt="yc"></div>
                   <div class="card-info">
-                    <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="#">Strategic Thinking</a></h4>
-                    <p class="font-md color-grey-500 mb-5">Learn to analyze complex business environments, craft competitive strategies, and drive sustainable growth in dynamic markets.</p>
+                    <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="#">Business Fundamentals Mastery</a></h4>
+                    <p class="font-md color-grey-500 mb-5">Gain a solid foundation in essential business concepts, from branding to financial management, and learn how to apply them to your startup.</p>
                     <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                       <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -272,8 +256,8 @@ Together, we shape global leaders prepared to create meaningful change.</p>
                 <div class="card-offer card-we-do hover-up">
                   <div class="card-image"><img src="assets/yc/imgs/page/homepage2/we-do.png" alt="yc"></div>
                   <div class="card-info">
-                    <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="#">Innovation & Design Thinking</a></h4>
-                    <p class="font-md color-grey-500 mb-5">Master the tools of innovation. Solve real-world problems using creative frameworks, rapid prototyping, and customer-first thinking.</p>
+                    <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="#">Customer-Centric Thinking</a></h4>
+                    <p class="font-md color-grey-500 mb-5">Develop a customer-first mindset by understanding market needs, identifying target customers, and adapting your product to solve real pain points.</p>
                     <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                       <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -287,8 +271,8 @@ Together, we shape global leaders prepared to create meaningful change.</p>
                 <div class="card-offer card-we-do hover-up">
                   <div class="card-image"><img src="assets/yc/imgs/page/homepage2/we-do4.png" alt="yc"></div>
                   <div class="card-info">
-                    <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="#">Leadership & Team Dynamics</a></h4>
-                    <p class="font-md color-grey-500 mb-5">Develop strong leadership presence, emotional intelligence, and the ability to manage diverse teams toward common business goals.</p>
+                    <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="#">Data-Driven Strategy</a></h4>
+                    <p class="font-md color-grey-500 mb-5">Learn how to make informed decisions using data, optimize your product offerings, and measure business performance for sustained growth.</p>
                     <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                       <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -302,8 +286,8 @@ Together, we shape global leaders prepared to create meaningful change.</p>
                 <div class="card-offer card-we-do hover-up">
                   <div class="card-image"><img src="assets/yc/imgs/page/homepage2/we-do2.png" alt="yc"></div>
                   <div class="card-info">
-                    <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="#">Financial Acumen</a></h4>
-                    <p class="font-md color-grey-500 mb-5">Gain practical skills in budgeting, forecasting, and financial analysis to make data-driven business decisions with confidence.</p>
+                    <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="#">Strategic Networking</a></h4>
+                    <p class="font-md color-grey-500 mb-5">Build a powerful network of mentors, peers, and investors to support your business journey, exchange ideas, and unlock opportunities.</p>
                     <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                       <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -317,8 +301,8 @@ Together, we shape global leaders prepared to create meaningful change.</p>
                 <div class="card-offer card-we-do hover-up">
                   <div class="card-image"><img src="assets/yc/imgs/page/homepage2/we-do5.png" alt="yc"></div>
                   <div class="card-info">
-                    <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="#">Career Outcomes</a></h4>
-                    <p class="font-md color-grey-500 mb-5">Graduate with a competitive edge: internship experience, startup project exposure, global case study learnings, and job market readiness.</p>
+                    <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="#">Operational Excellence</a></h4>
+                    <p class="font-md color-grey-500 mb-5">Master operational skills such as resource management, scaling processes, and navigating challenges to keep your startup on track.</p>
                     <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                       <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -568,8 +552,8 @@ Together, we shape global leaders prepared to create meaningful change.</p>
                       <div class="item-number hover-up">
                         <div class="num-ele">1</div>
                         <div class="info-num">
-                          <h5 class="color-brand-1 mb-5"> Discover Your Passion</h5>
-                          <p class="font-md color-grey-500">At Young Chanakya, we help you identify impactful ideas by aligning your strengths, interests, and values with real-world challenges..</p>
+                          <h5 class="color-brand-1 mb-5">Complete Startup Journey</h5>
+                          <p class="font-md color-grey-500">Get hands-on experience through a structured learning path that covers every aspect of running a startup—from idea generation to fundraising.</p>
                         </div>
                       </div>
                     </div>
@@ -577,8 +561,8 @@ Together, we shape global leaders prepared to create meaningful change.</p>
                       <div class="item-number hover-up">
                         <div class="num-ele">2</div>
                         <div class="info-num">
-                          <h5 class="color-brand-1 mb-5"> Build Your Dream Team</h5>
-                          <p class="font-md color-grey-500">Surround yourself with like-minded changemakers. We connect you with mentors, collaborators, and future co-founders to bring your vision to life..</p>
+                          <h5 class="color-brand-1 mb-5">Expert-Led Guidance</h5>
+                          <p class="font-md color-grey-500">Leverage the expertise of industry leaders and experienced mentors who provide invaluable insights and advice for your entrepreneurial growth.</p>
                         </div>
                       </div>
                     </div>
@@ -586,8 +570,8 @@ Together, we shape global leaders prepared to create meaningful change.</p>
                       <div class="item-number hover-up">
                         <div class="num-ele">3</div>
                         <div class="info-num">
-                          <h5 class="color-brand-1 mb-5"> Launch and Lead</h5>
-                          <p class="font-md color-grey-500">Transform ideas into ventures. With expert guidance, real-world exposure, and strategic support, we help you launch, grow, and lead with confidence.</p>
+                          <h5 class="color-brand-1 mb-5"> Access to Capital</h5>
+                          <p class="font-md color-grey-500">Access exclusive funding channels, connect with high-profile investors, and leverage capital to fuel the growth of your startup.</p>
                         </div>
                       </div>
                     </div>
@@ -608,10 +592,12 @@ Together, we shape global leaders prepared to create meaningful change.</p>
               </div>
               <div class="col-xl-6 col-lg-6">
                 <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Community</span>
-                  <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Our Growing Community</h3>
-                  <p class="font-md color-white wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Young Chanakya is more than a platform—it's a thriving community of changemakers, innovators, and future leaders.
-We foster collaboration, encourage mentorship, and celebrate every milestone, big or small.
-Together, we’re creating a powerful network that grows stronger every day.</p>
+                  <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Ready to Transform Your Future?</h3>
+                  <p class="font-md color-white wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Join the Young Chanakya community today and start your journey towards becoming a leader in the world of business.</p>
+                  <div class="box-button mt-30 mb-60 wow animate__animated animate__fadeIn" data-wow-delay=".2s"><a class="btn btn-brand-1 hover-up bg-white text-dark" href="#">Become a Chanakya</a><a class="btn btn-default font-sm-bold hover-up text-white" href="#">Explore the Chanakya Program
+                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="white" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg></a></div>     
                 </div>
               </div>
             </div>
@@ -620,9 +606,7 @@ Together, we’re creating a powerful network that grows stronger every day.</p>
       </section>
     </main>
 
-    @include('layouts.footer')
+    @include('layouts.footer') 
     @include('layouts.script')
 
 </body>
-
-</html>

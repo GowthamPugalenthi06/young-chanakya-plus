@@ -1625,7 +1625,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Participate in hands-on business simulations and workshops  
+                                    </svg>Participate in hands-on business simulations and workshops  
 
                                   </li>
                                   <li>
@@ -1634,7 +1634,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Collaborate with professionals in cross-functional teams  
+                                    </svg>Collaborate with professionals in cross-functional teams  
 
                                   </li>
                                   <li>
@@ -1643,7 +1643,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Learn industry-relevant tools and problem-solving approaches  
+                                    </svg>Learn industry-relevant tools and problem-solving approaches  
 
                                   </li>
                                   <li>
@@ -1652,7 +1652,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Access mentorship from entrepreneurs and CXOs  
+                                    </svg>Access mentorship from entrepreneurs and CXOs  
 
                                   </li>
                                 </ul>
@@ -1681,7 +1681,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Take ownership of event planning, outreach, or content streams  
+                                    </svg>Take ownership of event planning, outreach, or content streams  
 
                                   </li>
                                   <li>
@@ -1690,7 +1690,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Gain visibility while representing YC across platforms  
+                                    </svg>Gain visibility while representing YC across platforms  
 
                                   </li>
                                   <li>
@@ -1699,7 +1699,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Develop operational, communication, and problem-solving skills  
+                                    </svg>Develop operational, communication, and problem-solving skills  
 
                                   </li>
                                   <li>
@@ -1708,7 +1708,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Collaborate with a mission-driven, high-performance team  
+                                    </svg>Collaborate with a mission-driven, high-performance team  
 
                                   </li>
                                   
@@ -1738,7 +1738,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Pitch at exclusive YC startup showcases and investor meets  
+                                    </svg>Pitch at exclusive YC startup showcases and investor meets  
 
                                   </li>
                                   <li>
@@ -1747,7 +1747,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Access mentorship from growth-stage founders and VCs  
+                                    </svg>Access mentorship from growth-stage founders and VCs  
 
                                   </li>
                                   <li>
@@ -1756,7 +1756,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Join product, GTM, and branding sprint sessions  
+                                    </svg>Join product, GTM, and branding sprint sessions  
 
                                   </li>
                                   <li>
@@ -1765,7 +1765,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Join product, GTM, and branding sprint sessions  
+                                    </svg>Join product, GTM, and branding sprint sessions  
 
                                   </li>
                                   
@@ -1796,7 +1796,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Join peer boards for founder-to-founder learning  
+                                    </svg>Join peer boards for founder-to-founder learning  
 
                                   </li>
                                   <li>
@@ -1805,7 +1805,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Access curated insights on operations, capital, and growth  
+                                    </svg>Access curated insights on operations, capital, and growth  
 
                                   </li>
                                   <li>
@@ -1814,7 +1814,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Explore new partnerships, pilots, and customer pathways  
+                                    </svg>Explore new partnerships, pilots, and customer pathways  
 
                                   </li>
                                   <li>
@@ -1823,7 +1823,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Get early access to YC summits, expos, and panels  
+                                    </svg>Get early access to YC summits, expos, and panels  
 
                                   </li>
                                   
@@ -1852,7 +1852,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Be part of exclusive executive cohorts and masterclasses  
+                                    </svg>Be part of exclusive executive cohorts and masterclasses  
 
                                   </li>
                                   <li>
@@ -1861,7 +1861,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Learn directly from thought leaders, founders, and mentors  
+                                    </svg>Learn directly from thought leaders, founders, and mentors  
 
                                   </li>
                                   <li>
@@ -1870,7 +1870,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Get insights into emerging technologies and generational shifts  
+                                    </svg>Get insights into emerging technologies and generational shifts  
 
                                   </li>
                                   <li>
@@ -1879,7 +1879,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>- Contribute to real-world case discussions and advisory councils  
+                                    </svg>Contribute to real-world case discussions and advisory councils  
 
                                   </li>
                                   
