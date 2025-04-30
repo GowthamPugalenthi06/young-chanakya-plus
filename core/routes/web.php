@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\JobApplicationController;
 use App\Http\Controllers\Admin\HomeController;
 use App\Http\Controllers\Admin\HomesController;
 use App\Http\Controllers\Admin\MediaUploadController;
@@ -1621,3 +1621,4 @@ Route::post('/chanakya-form', [ChanakyaFormController::class, 'store'])->name('c
 
 Route::post('/become-a-sponsor', [SponsorFormController::class, 'store'])->name("sponsor");
 Route::post('/course-enroll', [CourseController::class, 'store'])->name('Course');
+Route::post('/job-application', [JobApplicationController::class, 'store'])->name('job.apply');
