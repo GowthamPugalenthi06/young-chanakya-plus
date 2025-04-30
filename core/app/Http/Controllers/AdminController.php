@@ -132,7 +132,7 @@ class AdminController extends Controller
 
     
     public function terms(){
-        return view('yc.terms-and-conditions');
+        return view('yc.team.terms-and-conditions');
     }
 
     

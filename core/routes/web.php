@@ -138,6 +138,23 @@ Route::get('/careers',function(){
     return view('yc.careers');
 })->name('careers');
 
+Route::get('/clubs-and-activities',function(){
+    return view('yc.clubs&activities');
+  })->name('clubs-and-activities');
+  
+  Route::get('/cookie-policy',function(){
+    return view('yc.cookie_policy');
+  })->name('cookie-policy');
+  
+  Route::get('/community-ethics',function(){
+    return view('yc.community-ethics');
+  })->name('community-ethics');
+  
+  Route::get('/code-of-conduct',function(){
+    return view('yc.code-of-conduct');
+  })->name('code-of-conduct');
+  
+
 Route::get('/admin/mentor-chanakya', [MentorChanakyaController::class, 'index'])->name('admin.mentor_chanakya.index');
 Route::get('/admin/mentor-chanakya/create', [MentorChanakyaController::class, 'create'])->name('admin.mentor_chanakya.create');
 Route::post('/admin/mentor-chanakya/store', [MentorChanakyaController::class, 'store'])->name('admin.mentor_chanakya.store');
