@@ -313,7 +313,7 @@
                   </div>
                   <div class="col-lg-6">
                     <div class="form-group mb-25">
-                      <input class="form-control" type="text" name="Position" placeholder="Applying For (Job Position)">
+                      <input class="form-control" type="text" name="Position" placeholder="Applying For (Position)">
                     </div>
                   </div>
                  
