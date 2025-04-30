@@ -54,7 +54,7 @@ Route::get('/unicorn-founders',[AdminController::class,'unicornFounders'])->name
 Route::get('/about-chanakya',[AdminController::class,'aboutChanakya'])->name('about-chanakya');
 Route::get('/become-a-chanakya',[AdminController::class,'becomeChanakya'])->name('become-a-chanakya');
 Route::get('/become-a-sponsor',[AdminController::class,'becomeSponsor'])->name('become-a-sponsor');
-Route::get('/blog',[AdminController::class,'blog'])->name('blog');
+Route::get('/stories',[AdminController::class,'blog'])->name('blog');
 Route::get('/career',[AdminController::class,'career'])->name('career');
 Route::get('/case-studies',[AdminController::class,'caseStudies'])->name('case-studies');
 Route::get('/founder',[AdminController::class,'founder'])->name('founder');

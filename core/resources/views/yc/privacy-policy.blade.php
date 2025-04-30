@@ -28,9 +28,9 @@
           </div>
           <div class="content-main mt-50">
             <div class="text-center">
-              <h2 class="color-brand-1 mb-10">Privacy and Policy</h2>
-              <div class="font-lg color-grey-500">WEGENI IT SERVICES AND CONSULTING (OPC) PRIVATE LIMITED (“WeGeni”) operates, controls, and manages the Services (as defined below) provided from its registered office at 13/9, Marappa Gounder Plaza, 2nd Floor, HDFC Bank Upstairs, West Car Street, Tiruchengode, Tamil Nadu – 637211 (“Registered Office”).
-              </div>
+              <h2 class="color-brand-1 mb-10">Privacy Policy</h2>
+              <center><div class=" color-grey-500" style="width:80%">WEGENI IT SERVICES AND CONSULTING (OPC) PRIVATE LIMITED (“WeGeni”) operates, controls, and manages the Services (as defined below) provided from its registered office at 13/9, Marappa Gounder Plaza, 2nd Floor, HDFC Bank Upstairs, West Car Street, Tiruchengode, Tamil Nadu – 637211 (“Registered Office”).
+              </div></center>
               <div class="box-image-head mt-50 mb-50"> <img class="bd-rd8" src="assets/yc/imgs/page/term/img.png" alt="iori"></div>
             </div>
             <div class="row mt-70"> 

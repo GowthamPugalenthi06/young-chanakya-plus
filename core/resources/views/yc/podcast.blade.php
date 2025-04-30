@@ -20,7 +20,7 @@
   @include('layouts.header')
   @include('layouts.preload')
   <main class="main">
-    <section class="section banner-service position-relative mt-120 mb-50">
+    <section class="section banner-service position-relative mt-120 mb-150">
       <div class="box-banner-abs">
         <div class="container">
           <div class="row align-items-center">
@@ -64,7 +64,7 @@
     <section class="section ml">
       <div class="container">
 
-        <div class="row g-4  justify-content-center">
+        <div class="row g-4 gap-5  justify-content-center">
           <!-- Card 1 -->
           <div class="col-md-5 mr-50">
             <div class="card border-0 rounded-4 shadow-sm d-flex flex-row overflow-hidden" style="height: 200px;">
@@ -84,7 +84,7 @@
                   <ul class="list-unstyled small text-muted mb-3">
                     <li class="mb-1"><i class="bi bi-mic-fill me-2 text-warning"></i> Kishorekumar</li>
                     <li class="mb-1"><i class="bi bi-calendar3 me-2 text-warning"></i> 20 Mar 2025</li>
-                    <li class="mb-1"><i class="bi bi-list-task me-2 text-warning"></i> List Item #1</li>
+                    <li class="mb-1"><i class="bi bi-list-task me-2 text-warning"></i>duration</li>
                   </ul>
                 </div>
                 <div style="background-color: #024430;">
@@ -125,7 +125,7 @@
                   <ul class="list-unstyled small text-muted mb-3">
                     <li class="mb-1"><i class="bi bi-mic-fill me-2 text-warning"></i> Kishorekumar</li>
                     <li class="mb-1"><i class="bi bi-calendar3 me-2 text-warning"></i> 20 Mar 2025</li>
-                    <li class="mb-1"><i class="bi bi-list-task me-2 text-warning"></i> List Item #1</li>
+                    <li class="mb-1"><i class="bi bi-list-task me-2 text-warning"></i>duration</li>
                   </ul>
                 </div>
                 <div style="background-color: #024430;">
@@ -166,7 +166,7 @@
                   <ul class="list-unstyled small text-muted mb-3">
                     <li class="mb-1"><i class="bi bi-mic-fill me-2 text-warning"></i> Kishorekumar</li>
                     <li class="mb-1"><i class="bi bi-calendar3 me-2 text-warning"></i> 20 Mar 2025</li>
-                    <li class="mb-1"><i class="bi bi-list-task me-2 text-warning"></i> List Item #1</li>
+                    <li class="mb-1"><i class="bi bi-list-task me-2 text-warning"></i>duration</li>
                   </ul>
                 </div>
                 <div style="background-color: #024430;">
@@ -207,7 +207,7 @@
                   <ul class="list-unstyled small text-muted mb-3">
                     <li class="mb-1"><i class="bi bi-mic-fill me-2 text-warning"></i> Kishorekumar</li>
                     <li class="mb-1"><i class="bi bi-calendar3 me-2 text-warning"></i> 20 Mar 2025</li>
-                    <li class="mb-1"><i class="bi bi-list-task me-2 text-warning"></i> List Item #1</li>
+                    <li class="mb-1"><i class="bi bi-list-task me-2 text-warning"></i>duration</li>
                   </ul>
                 </div>
                 <div style="background-color: #024430;">

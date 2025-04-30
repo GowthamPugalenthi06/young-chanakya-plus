@@ -205,12 +205,7 @@
                 <h4 class="color-brand-1 mb-15">Real-World Learning</h4>
                 <p class="font-md color-grey-500 mb-15">At Young Chanakya, we bridge the gap between theory and practical application. 
                   Our hands-on approach ensures you master the tools to tackle real-world challenges with confidence and skill.</p>
-                <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+              
               </div>
             </div>
           </div>
@@ -223,12 +218,7 @@
                 <p class="font-md color-grey-500 mb-15">Our learning ecosystem is designed to encourage innovative problem solving. 
                   Engage with complex scenarios that require creative, 
                   out-of-the-box thinking — and learn to thrive in a dynamic business environment.</p>
-                <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+              
               </div>
             </div>
           </div>
@@ -241,12 +231,7 @@
                 <p class="font-md color-grey-500 mb-15">At YC, leadership isn’t just a trait, it’s a learned skill. 
                   Our curriculum is tailored to nurture visionary leaders who can inspire and lead successful teams, 
                   adapt to change, and make critical decisions.</p>
-                <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+              
               </div>
             </div>
           </div>
@@ -259,12 +244,7 @@
                 <p class="font-md color-grey-500 mb-15">Learn from industry experts who’ve been at the forefront of innovation. 
                   Our courses feature insights and teachings from seasoned professionals 
                   who bring their invaluable knowledge to the classroom.</p>
-                <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+              
               </div>
             </div>
           </div>
@@ -276,13 +256,8 @@
                 <h4 class="color-brand-1 mb-15">Cutting-Edge Technologies</h4>
                 <p class="font-md color-grey-500 mb-15">Stay ahead of the curve with our focus on emerging technologies. At YC, 
                   you’ll gain hands-on experience with tools and 
-                  platforms that are shaping the future of business and technology..</p>
-                <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+                  platforms that are shaping the future of business and technology.</p>
+              
               </div>
             </div>
           </div>
@@ -294,12 +269,7 @@
                 <h4 class="color-brand-1 mb-15">Global Networking Opportunities</h4>
                 <p class="font-md color-grey-500 mb-15">Join a community of like-minded professionals and entrepreneurs. Our diverse network provides endless opportunities to collaborate, 
                   share ideas, and expand your influence in the global marketplace.</p>
-                <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+              
               </div>
             </div>
           </div>
@@ -427,12 +397,7 @@
                 <h4 class="color-brand-1 mb-10"><a class="color-brand-1"
                     href="What makes us different from others? We give holistic solutions with strategy, design &amp; technology.">Complete the Online Form</a></h4>
                 <p class="font-md color-grey-500 mb-5">YFill out our user-friendly application form with your personal and academic details to get started.</p>
-                <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+              
               </div>
             </div>
           </div>
@@ -449,13 +414,8 @@
               <div class="card-info">
                 <h4 class="color-brand-1 mb-10"><a class="color-brand-1"
                     href="Share updates instantly within our project management software, and get the entire team collaborating">Submit Required Documents</a></h4>
-                <p class="font-md color-grey-500 mb-5">Upload scanned copies of your ID, transcripts, and other required documents to support your application..</p>
-                <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+                <p class="font-md color-grey-500 mb-5">Upload scanned copies of your ID, transcripts, and other required documents to support your application.</p>
+              
               </div>
             </div>
           </div>
@@ -473,12 +433,7 @@
                 <h4 class="color-brand-1 mb-10"><a class="color-brand-1"
                     href="What makes us different from others? We give holistic solutions with strategy, design &amp; technology.">Await Confirmation & Next Steps</a></h4>
                 <p class="font-md color-grey-500 mb-5">Once reviewed, you’ll receive a confirmation email with further instructions and key dates.</p>
-                <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg></a></div>
+              
               </div>
             </div>
           </div>
@@ -651,31 +606,57 @@
             </div>
             <div class="col-lg-5 text-start position-relative wow animate__animated animate__fadeIn"><span
                 class="arrow-down-banner shape-1"></span><span class="arrow-right-banner shape-2"></span>
-              <div class="box-signup">
-                <h4 class="color-brand-1 mb-30">Sign up for free</h4>
-                <div class="form-group mb-25">
-                  <label class="font-sm color-grey-900 mb-10">Your email *</label>
-                  <input class="form-control" type="text" placeholder="stevenjob@gmail.com">
+                <form class="box-form-contact bg-white wow animate__animated animate__fadeIn" action="{{ route('Course') }}" method="POST" data-wow-delay=".6s">
+                @csrf
+                <div class="row">
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="form-group mb-25">
+                      <input class="form-control icon-user"  name="name" type="text" placeholder="Your name">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="form-group mb-25">
+                      <input class="form-control icon-email" name="email" type="text" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="form-group mb-25">
+                      <input class="form-control icon-phone"  name="phone" type="text" placeholder="Phone">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="form-group mb-25">
+                      <input class="form-control icon-company" name="college"  type="text" placeholder="College / University">
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group mb-25">
+                      <input class="form-control" type="text" name="linkedin" placeholder="LinkedIn URL">
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group mb-25">
+                    
+                    <select class="form-control select pb-10" name="course" id="somethingSelect">
+                    <option value="" disabled selected>Course Name</option>
+                      <option value="Title Sponsor">Idea to Market Program</option>
+                      <option value="Business in Marketing Psychology">Business in Marketing Psychology</option>
+                      <option value="Family Business & Legacy Management">Family Business & Legacy Management</option>
+                      <option value="Technology in Marketing">Technology in Marketing</option>
+                    </select>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-5 col-md-5 col-sm-6 col-9">
+                    <div class="form-group">
+                      <button class="btn btn-brand-1-full font-sm" type="submit">Submit
+                        <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
                 </div>
-                <div class="form-group mb-25">
-                  <label class="font-sm color-grey-900 mb-10">Your password</label>
-                  <input class="form-control" type="password" placeholder="********">
-                </div>
-                <div class="form-group mb-25">
-                  <label>
-                    <input class="form-cb" type="checkbox">Remeber me
-                  </label>
-                </div>
-                <div class="form-group mb-15">
-                  <button class="btn btn-brand-1-full" type="submit">Sign In</button>
-                </div>
-                <div class="form-group mb-25"><a class="btn btn-border btn-full signin-google" href="#"><img
-                      src="{{ asset('assets/yc/imgs/page/homepage4/google.png') }}" alt="YC">Sign in with Google</a>
-                </div>
-                <div class="text-already text-center"><span class="font-xs color-grey-400">Already have an
-                    account?</span><a class="color-brand-1 font-xs" href="#">Sign in</a><span
-                    class="font-xs color-grey-400">.</span></div>
-              </div>
+              </form>
             </div>
           </div>
         </div>
