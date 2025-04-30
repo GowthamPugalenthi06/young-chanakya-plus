@@ -1130,17 +1130,17 @@
             </div>
       </section>
       <!-- section - 1 -->
-      <section class="section mt-50 pt-50 pb-50" style="background-color:#024430" id="section1">
+      <section class="section mt-50 pt-50 pb-50" style="background-color:#fdffd4" id="section1">
         <div class="container">
-          <div class="bg-brand-1">
+          <div class="v-bg">
             <div class="row align-items-center">
               <div class="col-xl-6 col-lg-6">
-                <div class="img-reveal"><img class="d-block" src="assets/yc/imgs/page/homepage1/img-video.png" alt="iori" style=" width: auto;"></div>
+                <div class="img-reveal"><img class="d-block" src="assets/yc/imgs/page/homepage1/img-video.png" alt="iori"  style="height:350px; width: 100%"></div>
               </div>
               <div class="col-xl-6 col-lg-6">
-                <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Business Fundamentals</span>
-                  <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Integrate with strategy, marketing, operations, finance, and accounting</h3>
-                  <p class="font-md color-white wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Dive deep into the essentials that lay the groundwork for successful ventures. Learn to combine core business principles with real-world insights. Empower yourself with the tools to navigate complex business landscapes while making data-backed decisions that drive success.</p>
+                <div class="box-info-video"><span class="btn btn-tag color-brand-1 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Business Fundamentals</span>
+                  <h3 class="color-brand-1 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Integrate with strategy, marketing, operations, finance, and accounting</h3>
+                  <p class="font-md  wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Dive deep into the essentials that lay the groundwork for successful ventures. Learn to combine core business principles with real-world insights. Empower yourself with the tools to navigate complex business landscapes while making data-backed decisions that drive success.</p>
 
                 </div>
               </div>
@@ -1789,19 +1789,19 @@
             </section>
         </div>
       <!-- section-2 -->
-      <section class="section mt-50 mb-50 pt-50 pb-50" style="background-color:#024430" id="section2">
+      <section class="section mt-50 mb-50 blue-bg pt-50 pb-50"  id="section2">
         <div class="container">
-          <div class="bg-brand-1 ">
+          <div class="blue-bg">
             <div class="row align-items-center">  
               <div class="col-xl-6 col-lg-6">
                 <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Startup Exposure</span>
-                  <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Business fundamentals taught by those who built from scratch</h3>
-                  <p class="font-md color-white wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Learn the principles of building, scaling, and sustaining businesses directly from leaders who have navigated every stage from inception to market leadership</p>
+                  <h3 class="color-brand-1 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Business fundamentals taught by those who built from scratch</h3>
+                  <p class="font-md  wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Learn the principles of building, scaling, and sustaining businesses directly from leaders who have navigated every stage from inception to market leadership</p>
 
                 </div>
               </div>
               <div class="col-xl-6 col-lg-6">
-                <div class="img-reveal"><img class="d-block" src="assets/yc/imgs/page/homepage1/img-video.png" alt="iori" style=" width: auto;"></div>
+                <div class="img-reveal"><img class="d-block" src="assets/yc/imgs/page/homepage1/img-video.png" alt="iori"  style="height:350px; width: 100%"></div>
               </div>
             </div>
           </div>
@@ -1877,17 +1877,17 @@
       </section>
 
       <!-- section-3 -->
-      <section class="section mt-50 mb-50 pb-50 pt-50" style="background-color:#024430" id="section3">
+      <section class="section mt-50 mb-50 bg-1 pb-50 pt-50" id="section3">
         <div class="container">
-          <div class="bg-brand-1">
+          <div class="bg-1">
             <div class="row align-items-center">
               <div class="col-xl-6 col-lg-6">
-                <div class="img-reveal"><img class="d-block" src="assets/yc/imgs/page/homepage1/img-video.png" alt="iori" style=" width: auto;"></div>
+                <div class="img-reveal"><img class="d-block" src="assets/yc/imgs/page/homepage1/img-video.png" alt="iori" style="height:350px; width: 100%"></div>
               </div>
               <div class="col-xl-6 col-lg-6">
                 <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Create and Grow Real Businesses</span>
-                  <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Start Your Business From the Ground Up</h3>
-                  <p class="font-md color-white wow animate__animated animate__fadeInUp" data-wow-delay=".2s">True learning happens through action. At Young Chanakya, you will get the chance to create and manage real businesses. Apply the concepts you learn to overcome real business challenges and scale up your entrepreneurial ventures with practical insights and hands-on experience.</p>
+                  <h3 class="color-brand-1 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Start Your Business From the Ground Up</h3>
+                  <p class="font-md wow animate__animated animate__fadeInUp" data-wow-delay=".2s">True learning happens through action. At Young Chanakya, you will get the chance to create and manage real businesses. Apply the concepts you learn to overcome real business challenges and scale up your entrepreneurial ventures with practical insights and hands-on experience.</p>
 
                 </div>
               </div>
@@ -1984,7 +1984,7 @@
                 </div>
               </div>
               <div class="col-xl-6 col-lg-6">
-                <div class="img-reveal"><img class="d-block" src="assets/yc/imgs/page/homepage1/img-video.png" alt="iori" style=" width: auto;"></div>
+                <div class="img-reveal"><img class="d-block" src="assets/yc/imgs/page/homepage1/img-video.png" alt="iori"  style="height:350px; width: 100%"></div>
               </div>
             </div>
           </div>
