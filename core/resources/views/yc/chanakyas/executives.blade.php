@@ -44,46 +44,52 @@
           </div>
         </div>
       </section>
-      <section class="section mt-40 pt-50 pb-40" style="background-color: #024430;">
+
+    <section class="section mt-40 pt-60 mb-40 pb-60" style="background-color: #024430;">
       <div class="container">
-        <div class="">
-          <div class="">
-            <div class="swiper-wrapper">
-              <div class="hi-slide ml-20">
+        <!-- First Row of Cards -->
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="card-guide">
-                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/help/icon1.svg') }}" alt="YC"></div>
-                  <div class="card-info">
-                    <h5 class="color-brand-1 mb-15">From Spark to Scale</h5>
-                    <p class="font-xs color-grey-500">Discover how bold thinking turned startups into category-defining brands.</p>
-                    
-                  </div>
+                    <div class="card-image">
+                        <img src="{{ asset('assets/yc/imgs/page/help/icon1.svg') }}" alt="YC" class="img-fluid">
+                    </div>
+                    <div class="card-info">
+                        <h5 class="color-brand-1 mb-15">From Spark to Scale</h5>
+                        <p class="font-xs color-grey-500">Discover how bold thinking turned startups into category-defining brands.</p>
+                    </div>
                 </div>
-              </div>
-              <div class="hi-slide ml-20">
-                <div class="card-guide">
-                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/help/icon2.svg') }}" alt="YC"></div>
-                  <div class="card-info">
-                    <h5 class="color-brand-1 mb-15">Founder Playbook</h5>
-                    <p class="font-xs color-grey-500">Hear what they wish they knew—then, and what still drives them today.</p>
-                    
-                  </div>
-                </div>
-              </div>
-              <div class="hi-slide ml-20">
-                <div class="card-guide">
-                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/help/icon3.svg') }}" alt="YC"></div>
-                  <div class="card-info">
-                    <h5 class="color-brand-1 mb-15">Behind the Scenes</h5>
-                    <p class="font-xs color-grey-500">Go deeper into their day-to-day mindset, habits, and moves.</p>
-                    
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
+
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card-guide">
+                    <div class="card-image">
+                        <img src="{{ asset('assets/yc/imgs/page/help/icon2.svg') }}" alt="YC" class="img-fluid">
+                    </div>
+                    <div class="card-info">
+                        <h5 class="color-brand-1 mb-15">Founder Playbook</h5>
+                        <p class="font-xs color-grey-500">Hear what they wish they knew—then, and what still drives them today.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card-guide">
+                    <div class="card-image">
+                        <img src="{{ asset('assets/yc/imgs/page/help/icon3.svg') }}" alt="YC" class="img-fluid">
+                    </div>
+                    <div class="card-info">
+                        <h5 class="color-brand-1 mb-15"> Behind the Scenes</h5>
+                        <p class="font-xs color-grey-500">Go deeper into their day-to-day mindset, habits, and moves.</p>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
-    </section>
+</section>
       
       <section class="section mt-90 mb-90">
         <div class="container">

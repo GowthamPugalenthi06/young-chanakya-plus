@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <body>
+  
     <header class="header sticky-bar">
         <div class="container">
           <div class="main-header">
             <div class="header-left">
-              <div class="header-logo mr-100"><a class="d-flex" href={{ url('/home') }}><img alt="Ecom" src="{{asset('assets/yc/imgs/yc-logo.svg')}}" ></a></div>
+              <div class="header-logo mr-100"><a class="d-flex" href="{{ url('/home') }}"><img alt="Ecom" src="{{asset('assets/yc/imgs/yc-logo.svg')}}" ></a></div>
               <div class="header-nav ">
                 <nav class="nav-main-menu d-none d-xl-block">
                   <ul class="main-menu">

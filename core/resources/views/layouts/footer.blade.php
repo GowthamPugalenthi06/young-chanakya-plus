@@ -152,7 +152,7 @@
               <h5 class="mb-10 color-brand-1">Useful Links</h5>
               <ul class="menu-footer">
                 <li><a href="{{ route('about') }}">About us</a></li>
-                <li><a href="{{route("about")}}">Founder Talk</a></li>
+                <li><a href="{{route('founder')}}">Founder Talk</a></li>
                 <li><a href="{{ route('membership') }}">Membership</a></li>
                 <li><a href="{{ url('/events') }}">Events</a></li>
               </ul>

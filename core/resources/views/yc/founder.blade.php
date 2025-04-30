@@ -53,7 +53,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-7">
-              <div class="mw-80"><img class="img-round-top" src="{{asset('assets/yc/imgs/page/about/kishore-yc.jpg')}}" alt="iori" style="width:700px; height:650px">
+              <div class="mw-80"><img class="img-round-top" src="{{asset('assets/yc/imgs/page/about/founder.png')}}" alt="iori" style="width:700px; height:650px">
               </div>
             </div>
             <div class="col-lg-5"><span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s"> Founder’s Message</span>
@@ -75,108 +75,7 @@ I’ve always believed that success is not about where you start but how you sca
         </div>
       </section>
    
-    <section class="section mt-80">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeIn" data-wow-delay=".0s">The Growth of a
-              True Leader</h2>
-            <p class="font-lg color-gray-500 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-              Every great leader begins as a seed – full of potential but needing the right support to grow.
-            </p>
-          </div>
-        </div>
-        <div class="mt-50 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-          <div class="box-swiper">
-            <div class="swiper-container swiper-group-4">
-              <div class="swiper-wrapper">
-
-                <!-- Seed Stage -->
-                <div class="mx-3 hi">
-                  <div class="card-offer-style-3">
-                    <div class="card-head">
-                      <div class="card-image">
-                        <img src="{{asset('assets/yc/imgs/page/homepage1/quote.svg')}}" alt="Seed Stage">
-                      </div>
-                      <div class="carrd-title">
-                        <h4 class="color-brand-1 mb-15">Seed Stage</h4>
-                        <p class="font-sm color-grey-500">Curiosity & Learning</p>
-                      </div>
-                    </div>
-                    <div class="card-info">
-                      <p class="font-sm color-grey-500 mb-15">
-                      A leader begins with curiosity—the hunger to learn, observe, and absorb knowledge. Like a seed needs soil, a leader needs the *right mindset, mentors, and a thirst for growth* to take root.  
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Sprout Stage -->
-                <div class="mx-3 hi head-bg-brand-2">
-                  <div class="card-offer-style-3">
-                    <div class="card-head">
-                      <div class="card-image">
-                        <img src="{{asset('assets/yc/imgs/page/homepage1/quote.svg')}}" alt="Sprout Stage">
-                      </div>
-                      <div class="carrd-title">
-                        <h4 class="color-brand-1 mb-15">Sprout Stage</h4>
-                        <p class="font-sm color-grey-500">Taking Small Steps</p>
-                      </div>
-                    </div>
-                    <div class="card-info">
-                      <p class="font-sm color-grey-500 mb-15">
-                      As the seed sprouts, it faces challenges—weather, soil conditions, and external forces. Similarly, a leader starts by *taking small risks, stepping out of comfort zones, and learning from failures.* Every mistake is like sunlight—helping them grow stronger.  
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Sapling Stage -->
-                <div class="mx-3 hi head-bg-2">
-                  <div class="card-offer-style-3">
-                    <div class="card-head">
-                      <div class="card-image">
-                        <img src="{{asset('assets/yc/imgs/page/homepage1/quote.svg')}}" alt="Sapling Stage">
-                      </div>
-                      <div class="carrd-title">
-                        <h4 class="color-brand-1 mb-15">Sapling Stage</h4>
-                        <p class="font-sm color-grey-500">Skills & Strength</p>
-                      </div>
-                    </div>
-                    <div class="card-info">
-                      <p class="font-sm color-grey-500 mb-15">
-                      A sapling isn’t a full-grown tree yet, but its foundation is getting stronger. This is where a leader *gains experience, builds networks, and hones their problem-solving skills.* They start influencing others, much like a sapling providing shade to small plants.  
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Tree Stage -->
-                <div class="mx-3 hi">
-                  <div class="card-offer-style-3">
-                    <div class="card-head">
-                      <div class="card-image">
-                        <img src="{{asset('assets/yc/imgs/page/homepage1/quote.svg')}}" alt="Seed Stage">
-                      </div>
-                      <div class="carrd-title">
-                        <h4 class="color-brand-1 mb-15">Trees Stage</h4>
-                        <p class="font-sm color-grey-500">Become a Leader</p>
-                      </div>
-                    </div>
-                    <div class="card-info">
-                      <p class="font-sm color-grey-500 mb-15">
-                      A fully grown tree *provides shade, fruits, and shelter—just like a great leader **empowers others, builds businesses, and creates lasting impact.* Their success is not just about their own growth but about how many lives they can uplift.  
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-              </div> <!-- swiper-wrapper -->
-            </div> <!-- swiper-container -->
-          </div> <!-- box-swiper -->
-        </div> <!-- mt-50 -->
-      </div> <!-- container -->
-    </section>
+    
 
     <section class="section mt-50 pt-50 pb-90">
       <div class="container">

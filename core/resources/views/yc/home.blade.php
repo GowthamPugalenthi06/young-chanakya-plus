@@ -94,9 +94,9 @@
     <section class="home-hero-section position-relative overflow-hidden">
       <div class="hero-bg-carousel swiper-container">
         <div class="swiper-wrapper">
-          <div class="swiper-slide bg-slide" style="background-image: url('assets/yc/imgs/page/homepage1/hero-banner-1.png');"></div>
-          <div class="swiper-slide bg-slide" style="background-image: url('assets/yc/imgs/page/homepage1/hero-banner-2.png'); "></div>
-          <div class="swiper-slide bg-slide" style="background-image: url('assets/yc/imgs/page/homepage1/hero-banner-3.png'); "></div>
+          <div class="swiper-slide bg-slide" style="background-image: url('assets/yc/imgs/page/homepage1/home-herobanner-1.png');"></div>
+          <div class="swiper-slide bg-slide" style="background-image: url('assets/yc/imgs/page/homepage1/home-herobanner-2.png'); "></div>
+          <div class="swiper-slide bg-slide" style="background-image: url('assets/yc/imgs/page/homepage1/home-herobanner-3.png'); "></div>
         </div>
       </div>
       <div class="container  content-layer ">

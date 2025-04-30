@@ -57,10 +57,10 @@
           <div class="banner-1">
             <div class="row align-items-center">
               <div class="col-lg-6">
-                <h1 class="color-brand-1 mb-30 text-anim">Mentor and inspire like Chanakya</h1>
+                <h1 class="color-brand-1 mb-30 text-anim">Lead, Inspire and Build NextGen leaders </h1>
                 <div class="row">
                   <div class="col-lg-9 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
-                    <p class="font-md color-grey-500 mb-10">Join an elite tribe of future leaders, visionaries, and entrepreneurs who are driven to create meaningful impact. As a Chanakya, you're not just learning — you're leading.</p>
+                    <p class="font-md color-grey-500 mb-10">Join a network of experienced minds shaping the next generation of business builders through insight, experience, and strategic thinking.</p>
                   </div>
                 </div>
                 <div class="box-button mt-20 wow animate__animated animate__fadeInUp" data-wow-delay=".4s"><a class="btn btn-brand-1 hover-up" href="#">Become a Chanakya</a>
@@ -86,8 +86,8 @@
               <div class="card-guide bg-5 d-flex justify-content-center align-items-center">
                 <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/money.png')}}" alt="YC"></div>
                 <div class="card-info">
-                  <h5 class="color-brand-1 mb-15">Inspire Future Leaders</h5>
-                  <p class="font-md color-grey-500">Guide young minds and help shape the next generation of changemakers.</p>
+                  <h5 class="color-brand-1 mb-15">Meaningful Impact</h5>
+                  <p class="font-md color-grey-500">Guide individuals as they navigate business, leadership, and decision-making challenges.</p>
                 </div>
               </div>
             </div>
@@ -95,8 +95,8 @@
               <div class="card-guide bg-5 d-flex justify-content-center align-items-center">
                 <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/money.png')}}" alt="YC"></div>
                 <div class="card-info">
-                  <h5 class="color-brand-1 mb-15">Expand Network</h5>
-                  <p class="font-md color-grey-500">Connect with mentors, founders, and driven talents across sectors.</p>
+                  <h5 class="color-brand-1 mb-15">Thought Leadership</h5>
+                  <p class="font-md color-grey-500">Establish your presence as a respected voice in the startup and business ecosystem.</p>
                 </div>
               </div>
             </div>
@@ -104,8 +104,8 @@
               <div class="card-guide bg-5 d-flex justify-content-center align-items-center">
                 <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/money.png')}}" alt="YC"></div>
                 <div class="card-info">
-                  <h5 class="color-brand-1 mb-15">Grow as Leader</h5>
-                  <p class="font-md color-grey-500">Refine your communication and strategic thinking through mentorship.</p>
+                  <h5 class="color-brand-1 mb-15">Engage with Talent</h5>
+                  <p class="font-md color-grey-500">Interact with diverse, high-potential minds across industries and growth stages.</p>
                 </div>
               </div>
             </div>
@@ -115,8 +115,8 @@
               <div class="card-guide bg-5 d-flex justify-content-center align-items-center">
                 <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/money.png')}}" alt="YC"></div>
                 <div class="card-info">
-                  <h5 class="color-brand-1 mb-15">Join Real Projects</h5>
-                  <p class="font-md color-grey-500">Collaborate on impactful ventures like startups, research, and innovation.</p>
+                  <h5 class="color-brand-1 mb-15">Expand Your Network</h5>
+                  <p class="font-md color-grey-500">Connect with fellow mentors, founders, investors, and innovators nationwide.</p>
                 </div>
               </div>
             </div>
@@ -124,8 +124,8 @@
               <div class="card-guide bg-5 d-flex justify-content-center align-items-center">
                 <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/money.png')}}" alt="YC"></div>
                 <div class="card-info">
-                  <h5 class="color-brand-1 mb-15">Showcase Expertise</h5>
-                  <p class="font-md color-grey-500">Gain Visibility through Events, Podcasts, and Case Studies</p>
+                  <h5 class="color-brand-1 mb-15">Stay Sharp</h5>
+                  <p class="font-md color-grey-500">Mentoring keeps you current—on trends, ideas, and evolving challenges.</p>
                 </div>
               </div>
             </div>
@@ -133,8 +133,8 @@
               <div class="card-guide bg-5 d-flex justify-content-center align-items-center">
                 <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage7/money.png')}}" alt="YC"></div>
                 <div class="card-info">
-                  <h5 class="color-brand-1 mb-15">Discover Opportunities</h5>
-                  <p class="font-md color-grey-500">Mentorship connects you with emerging ideas and talent.</p>
+                  <h5 class="color-brand-1 mb-15">Create Legacy</h5>
+                  <p class="font-md color-grey-500">Be remembered not just for what you built, but for who you helped build.</p>
                 </div>
               </div>
             </div>
@@ -152,8 +152,8 @@
               <div class="card-offer card-we-do hover-up">
                 <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage2/we-do3.png')}}" alt="yc"></div>
                 <div class="card-info">
-                  <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design &amp; technology.">Experienced Entrepreneurs</a></h4>
-                  <p class="font-md color-grey-500 mb-5">Mentor students and entrepreneurs while gaining visibility through YC platforms.</p>
+                  <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design &amp; technology.">CXOs & Senior Leaders</a></h4>
+                  <p class="font-md color-grey-500 mb-5">With a track record of driving business outcomes.</p>
                   <!-- <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                       <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -165,8 +165,8 @@
               <div class="card-offer card-we-do hover-up">
                 <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage2/we-do.png')}}" alt="yc"></div>
                 <div class="card-info">
-                  <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="No lag time, no lost effort when priorities change, no email black hole. As team collaboration improves">Experienced Entrepreneurs</a></h4>
-                  <p class="font-md color-grey-500 mb-5">Guide startups on scaling and expansion while growing your own influence.</p>
+                  <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="No lag time, no lost effort when priorities change, no email black hole. As team collaboration improves">Entrepreneurs & Founders</a></h4>
+                  <p class="font-md color-grey-500 mb-5">Who’ve built or scaled ventures with real-world experience.</p>
                   <!-- <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                       <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -178,8 +178,8 @@
               <div class="card-offer card-we-do hover-up">
                 <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage2/we-do4.png')}}" alt="yc"></div>
                 <div class="card-info">
-                  <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="Share updates instantly within our project management software, and get the entire team collaborating">Investors & Sponsors</a></h4>
-                  <p class="font-md color-grey-500 mb-5">Support startups with funding and mentorship while boosting your brand reach.</p>
+                  <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="Share updates instantly within our project management software, and get the entire team collaborating">Domain Experts</a></h4>
+                  <p class="font-md color-grey-500 mb-5">Specialists in tech, product, finance, strategy, or operations.</p>
                   <!-- <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                       <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -191,8 +191,8 @@
               <div class="card-offer card-we-do hover-up">
                 <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage2/we-do2.png')}}" alt="yc"></div>
                 <div class="card-info">
-                  <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files &amp; CSV files.">Educators & Mentors</a></h4>
-                  <p class="font-md color-grey-500 mb-5">Support the YC community while growing your personal and professional network.</p>
+                  <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files &amp; CSV files.">Investors & Advisors</a></h4>
+                  <p class="font-md color-grey-500 mb-5">Those who support early-stage ideas and leadership growth.</p>
                   <!-- <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                       <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -204,8 +204,8 @@
               <div class="card-offer card-we-do hover-up">
                 <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage2/we-do5.png')}}" alt="Yc"></div>
                 <div class="card-info">
-                  <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design &amp; technology.">Family Business Owners</a></h4>
-                  <p class="font-md color-grey-500 mb-5">Share your journey and help startups scale with practical, proven strategies.</p>
+                  <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design &amp; technology.">Academics with Industry Exposure</a></h4>
+                  <p class="font-md color-grey-500 mb-5">Educators who bridge business theory and practice.</p>
                   <!-- <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                       <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -233,27 +233,27 @@
                     <ul class="list-ticks">
                       <li class="d-flex align-items-center mb-3">
                         <span class="circle-tick-icon"></span>
-                        <span class="ms-3 fs-6">Mentor Future Leaders</span>
+                        <span class="ms-3 fs-6">Provide domain-specific mentorship</span>
                       </li>
                       <li class="d-flex align-items-center mb-3">
                         <span class="circle-tick-icon"></span>
-                        <span class="ms-3 fs-6 ">Support Business Growth</span>
+                        <span class="ms-3 fs-6 ">Support scalable business models</span>
                       </li>
                       <li class="d-flex align-items-center mb-3">
                         <span class="circle-tick-icon"></span>
-                        <span class="ms-3  fs-6">Enable Network Access</span>
+                        <span class="ms-3  fs-6">Facilitate strategic introductions</span>
                       </li> 
                       <li class="d-flex align-items-center mb-3">
                         <span class="circle-tick-icon"></span>
-                        <span class="ms-3 fs-6">Share Strategic Insights</span>
+                        <span class="ms-3 fs-6">Share decision-making frameworks</span>
                       </li>
                       <li class="d-flex align-items-center mb-3">
                         <span class="circle-tick-icon"></span>
-                        <span class="ms-3 fs-6">Enrich Practical Learning</span>
+                        <span class="ms-3 fs-6">Strengthen execution capabilities</span>
                       </li>
                       <li class="d-flex align-items-center mb-3">
                         <span class="circle-tick-icon"></span>
-                        <span class="ms-3 fs-6">Inspire Visionary Action</span>
+                        <span class="ms-3 fs-6">Guide long-term vision planning</span>
                       </li>
                     </ul>
                   </div>

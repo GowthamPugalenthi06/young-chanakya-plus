@@ -44,48 +44,51 @@
           </div>
         </div>
       </section>
-      <section class="section mt-40 pt-50 pb-40" style="background-color: #024430;">
+    <section class="section mt-40 pt-60 mb-40 pb-60" style="background-color: #024430;">
       <div class="container">
-        <div class="">
-          <div class="">
-            <div class="swiper-wrapper">
-              <div class="hi-slide ml-20">
+        <!-- First Row of Cards -->
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="card-guide">
-                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/help/icon1.svg') }}" alt="YC"></div>
-                  <div class="card-info">
-                    <h5 class="color-brand-1 mb-15">Execution Edge</h5>
-                    <p class="font-xs color-grey-500">Insights from leaders who manage teams, numbers, and outcomes every day.
-                    </p>
-                    
-                  </div>
+                    <div class="card-image">
+                        <img src="{{ asset('assets/yc/imgs/page/help/icon1.svg') }}" alt="YC" class="img-fluid">
+                    </div>
+                    <div class="card-info">
+                        <h5 class="color-brand-1 mb-15">Execution Edge</h5>
+                        <p class="font-xs color-grey-500">Insights from leaders who manage teams, numbers, and outcomes every day.</p>
+                    </div>
                 </div>
-              </div>
-              <div class="hi-slide ml-20">
-                <div class="card-guide">
-                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/help/icon2.svg') }}" alt="YC"></div>
-                  <div class="card-info">
-                    <h5 class="color-brand-1 mb-15">People First</h5>
-                    <p class="font-xs color-grey-500">Learn how top executives lead with empathy, clarity, and accountability.</p>
-                    
-                  </div>
-                </div>
-              </div>
-              <div class="hi-slide ml-20">
-                <div class="card-guide">
-                  <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/help/icon3.svg') }}" alt="YC"></div>
-                  <div class="card-info">
-                    <h5 class="color-brand-1 mb-15">Systems That Scale</h5>
-                    <p class="font-xs color-grey-500">Explore how operations, finance, marketing, and tech align under strong leadership.</p>
-                    
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
+
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card-guide">
+                    <div class="card-image">
+                        <img src="{{ asset('assets/yc/imgs/page/help/icon2.svg') }}" alt="YC" class="img-fluid">
+                    </div>
+                    <div class="card-info">
+                        <h5 class="color-brand-1 mb-15">People First</h5>
+                        <p class="font-xs color-grey-500">Learn how top executives lead with empathy, clarity, and accountability.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card-guide">
+                    <div class="card-image">
+                        <img src="{{ asset('assets/yc/imgs/page/help/icon3.svg') }}" alt="YC" class="img-fluid">
+                    </div>
+                    <div class="card-info">
+                        <h5 class="color-brand-1 mb-15">Systems That Scale</h5>
+                        <p class="font-xs color-grey-500">Explore how operations, finance, marketing, and tech align under strong leadership.</p>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
-    </section>
-      
+</section>
       <section class="section mt-90 mb-90">
         <div class="container">
           <div class="row align-items-start">
