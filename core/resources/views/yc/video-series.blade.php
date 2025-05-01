@@ -245,6 +245,27 @@
     videoPlayer.pause();
     videoPlayer.currentTime = 0;
   });
+  const videoModal = document.getElementById('videoModal2');
+  const videoPlayer = document.getElementById('videoPlayer2');
+
+  videoModal.addEventListener('hidden.bs.modal', function () {
+    videoPlayer.pause();
+    videoPlayer.currentTime = 0;
+  });
+  const videoModal = document.getElementById('videoModal3');
+  const videoPlayer = document.getElementById('videoPlayer3');
+
+  videoModal.addEventListener('hidden.bs.modal', function () {
+    videoPlayer.pause();
+    videoPlayer.currentTime = 0;
+  });
+  const videoModal = document.getElementById('videoModal4');
+  const videoPlayer = document.getElementById('videoPlayer4');
+
+  videoModal.addEventListener('hidden.bs.modal', function () {
+    videoPlayer.pause();
+    videoPlayer.currentTime = 0;
+  });
 </script>
 
 
