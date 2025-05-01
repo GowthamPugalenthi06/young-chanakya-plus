@@ -71,7 +71,7 @@
         <div class="text-center">
           <h6 class="color-grey-500 mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Take a look at our
             current openings</h6>
-          <h2 class="color-brand-1 wow animate__animated animate__fadeIn" data-wow-delay=".2s">Build the Future with Young Chanakya<br class="d-none d-lg-block"></h2>
+          <h2 class="color-brand-1 wow animate__animated animate__fadeIn" data-wow-delay=".2s">Start Your Growth Journey with Young Chanakya</h2>
         </div>
         <div class="box-video mt-70"><img src="{{asset('assets/yc/imgs/page/career/img-video.png')}}" alt="YC">
           <div class="image-1 shape-1"><img src="{{asset('assets/yc/imgs/page/career/certify.png')}}" alt="YC"></div>
