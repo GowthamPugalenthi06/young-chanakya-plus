@@ -14,6 +14,13 @@
   <link href="{{asset('assets/yc/css/style.css?v=5.0.0')}}" rel="stylesheet">
   <title>Career</title>
   <style>
+.why-work-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
 .features-row {
   display: flex;
   flex-wrap: wrap;
@@ -71,14 +78,13 @@
         </div>
       </div>
     </section>
-    <section class="section mt-100 why-work-section">
+    <section class="section mt-100 internship-benefits-section">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Why Work With Us</h2>
+        <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeIn" data-wow-delay=".0s">What You Gain from Our Internship</h2>
         <p class="font-lg color-gray-500 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-          We're lively, not corporate. We have the energy and boldness of a startup and<br class="d-none d-lg-block">
-          the expertise and pragmatism of a scale-up. All in one place.
+          Experience a hands-on internship that blends real-world challenges with guided mentorship.
         </p>
       </div>
     </div>
@@ -86,41 +92,42 @@
     <div class="row mt-65 justify-content-center features-row">
       <!-- Item 1 -->
       <div class="feature-item wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-        <img src="{{asset('assets/yc/imgs/page/homepage1/free.svg')}}" alt="Growth" class="mb-15" width="50">
-        <h6 class="color-brand-1 mb-10">Growth-Driven Culture</h6>
-        <p class="font-xs color-grey-500 text-center">Opportunities to expand your skill set and take ownership from day one</p>
+        <img src="{{asset('assets/yc/imgs/page/career/persuasion.png')}}" alt="Practical Learning" class="mb-15" width="50">
+        <h6 class="color-brand-1 mb-10">Practical Learning</h6>
+        <p class="font-xs color-grey-500 text-center">Work on live business initiatives that go beyond classroom theory.</p>
       </div>
 
       <!-- Item 2 -->
       <div class="feature-item wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-        <img src="{{asset('assets/yc/imgs/page/homepage1/cross.png')}}" alt="Collaboration" class="mb-15" width="50">
-        <h6 class="color-brand-1 mb-10">Collaborative Environment</h6>
-        <p class="font-xs color-grey-500 text-center">Work alongside domain experts, strategists, and changemakers.</p>
+        <img src="{{asset('assets/yc/imgs/page/career/persuasion.png')}}" alt="Mentorship" class="mb-15" width="50">
+        <h6 class="color-brand-1 mb-10">Mentored by Experts</h6>
+        <p class="font-xs color-grey-500 text-center">Gain direction from experienced professionals across multiple domains.</p>
       </div>
 
       <!-- Item 3 -->
       <div class="feature-item wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-        <img src="{{asset('assets/yc/imgs/page/homepage2/identity.png')}}" alt="Impact" class="mb-15" width="50">
-        <h6 class="color-brand-1 mb-10">Impact-Driven Roles</h6>
-        <p class="font-xs color-grey-500 text-center">Be part of initiatives that create visible value in the business ecosystem</p>
+        <img src="{{asset('assets/yc/imgs/page/career/persuasion.png')}}" alt="Portfolio" class="mb-15" width="50">
+        <h6 class="color-brand-1 mb-10">Portfolio Development</h6>
+        <p class="font-xs color-grey-500 text-center">Build meaningful work samples and case contributions you can showcase.</p>
       </div>
 
       <!-- Item 4 -->
       <div class="feature-item wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-        <img src="{{asset('assets/yc/imgs/page/career/persuasion.png')}}" alt="Execution" class="mb-15" width="50">
-        <h6 class="color-brand-1 mb-10">Idea to Execution</h6>
-        <p class="font-xs color-grey-500 text-center">Work on high-agenda initiatives where your inputs shape actual results</p>
+        <img src="{{asset('assets/yc/imgs/page/career/persuasion.png')}}" alt="Collaboration" class="mb-15" width="50">
+        <h6 class="color-brand-1 mb-10">Collaborative Experience</h6>
+        <p class="font-xs color-grey-500 text-center">Work in cross-functional teams, solve challenges, and deliver results.</p>
       </div>
 
       <!-- Item 5 -->
       <div class="feature-item wow animate__animated animate__fadeIn" data-wow-delay=".4s">
-        <img src="{{asset('assets/yc/imgs/page/career/persuasion.png')}}" alt="Learning" class="mb-15" width="50">
-        <h6 class="color-brand-1 mb-10">Continuous Learning</h6>
-        <p class="font-xs color-grey-500 text-center">Access to mentorship, workshops, and resources that foster personal and professional growth.</p>
+        <img src="{{asset('assets/yc/imgs/page/career/persuasion.png')}}" alt="Certification" class="mb-15" width="50">
+        <h6 class="color-brand-1 mb-10">Certification & Recognition</h6>
+        <p class="font-xs color-grey-500 text-center">Receive verified certificates and public appreciation for contributions.</p>
       </div>
     </div>
   </div>
 </section>
+
 
 <!-- 
      <section class="section pt-50 pb-100">
@@ -271,7 +278,7 @@
               </div>
               <div class="col-lg-6 col-md-12">
                 <h2 class="color-brand-1 mb-15 mt-5 wow animate__animated animate__fadeIn" data-wow-delay=".1s">Life at Young Chanakya </h2>
-                <p class="font-md color-grey-500 wow animate__animated animate__fadeIn" data-wow-delay=".2s">At YoungChanakya, we’re a team of driven creators, strategic thinkers, and passionate builders committed to shaping the future of business and leadership. We work with intent, build with clarity, and believe in empowering those who strive to make a real impact.</p>
+                <p class="font-md color-grey-500 wow animate__animated animate__fadeIn" data-wow-delay=".2s">As an intern, you’re part of our core project flow — not on the sidelines. You’ll experience fast learning, real responsibility, and open collaboration with professionals across business, tech, and creative roles. If you're driven and outcome-oriented, this is your space to prove and grow.</p>
                 <!-- <div class="form-newsletter mt-30 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                   <form action="#">
                     <input type="text" placeholder="Enter you mail ..">

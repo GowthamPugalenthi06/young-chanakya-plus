@@ -209,78 +209,8 @@
         </div>
       </div> 
     </section>
-    <section class="section pt-0 pb-50 bg-core-value bg-7 mb-40 mt-100">
-        <div class="container">
-          <div class="row box-list-core-value">
-            <div class="col-lg-4 mb-70">
-              <div class="box-core-value pl-0">
-                <h1 class="color-brand-1 mb-25 wow animate__animated animate__fadeIn" data-wow-delay=".0s"> Our Core Values</h1>
-                <p class="font-md color-grey-400 wow animate__animated animate__fadeIn pe-2 text-justify" data-wow-delay=".2s">Young Chanakya empowers ethical, bold leaders through values like integrity, innovation, and continuous learning. It promotes action, resilience, and community-driven impact for the startup ecosystem.</p>
-                <div class="mt-30 wow animate__animated animate__fadeIn" data-wow-delay=".4s"><a class="btn btn-white-circle font-sm-bold border-brand" href="#">JOIN OUR TEAM TODAY</a></div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <ul class="list-core-value list-core-value-white">
-                <li class="wow animate__animated animate__fadeIn" data-wow-delay=".0s"><span class="ticked"></span>
-                  <h5 class="color-brand-1 mb-5">Leadership with Integrity</h5>
-                  <div class="box-border-dashed">
-                    <p class="font-md color-grey-500 mb-20 ">We believe leadership is not just about influence, but about staying true to one’s values, being accountable and leading.</p>
-                  </div>
-                </li>
-                <li class="wow animate__animated animate__fadeIn" data-wow-delay=".2s"><span class="ticked"></span>
-                  <h5 class="color-brand-1 mb-5">Entrepreneurial Boldness</h5>
-                  <div class="box-border-dashed">
-                    <p class="font-md color-grey-500 mb-20">We encourage innovation and challenging the status quo to unlock breakthrough ideas and disruptive startups.</p>
-                  </div>
-                </li>
-                <li class="wow animate__animated animate__fadeIn" data-wow-delay=".4s"><span class="ticked"></span>
-                  <h5 class="color-brand-1 mb-5">Learn, Unlearn, Relearn</h5>
-                  <div class="box-border-dashed">
-                    <p class="font-md color-grey-500 mb-20">Adaptability is the foundation of modern leadership. We promote learning and evolving with the startup landscape.</p>
-                  </div>
-                </li>
-                <li class="wow animate__animated animate__fadeIn" data-wow-delay=".4s"><span class="ticked"></span>
-                  <h5 class="color-brand-1 mb-5">Execution is Everything</h5>
-                  <div class="box-border-dashed">
-                    <p class="font-md color-grey-500 mb-20">Ideas are nothing without action. We instill the discipline and grit needed to move fast and build results.</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-4">
-              <ul class="list-core-value list-core-value-white">
-                <li class="wow animate__animated animate__fadeIn" data-wow-delay=".0s"><span class="ticked"></span>
-                  <h5 class="color-brand-1 mb-5">Value Creation First</h5>
-                  <div class="box-border-dashed">
-                    <p class="font-md color-grey-500 mb-20">Every idea and initiative should begin with a commitment to create real impact — for people, society, and the planet.</p>
-                  </div>
-                </li>
-                <li class="wow animate__animated animate__fadeIn" data-wow-delay=".2s"><span class="ticked"></span>
-                  <h5 class="color-brand-1 mb-5">Collaboration over Competition</h5>
-                  <div class="box-border-dashed">
-                    <p class="font-md color-grey-500 mb-20">We foster a culture of peer-to-peer growth, co-creation, and partnerships that empower everyone to succeed.
-                    </p>
-                  </div>
-                </li>
-                <li class="wow animate__animated animate__fadeIn" data-wow-delay=".2s"><span class="ticked"></span>
-                  <h5 class="color-brand-1 mb-5">Community-First Impact</h5>
-                  <div class="box-border-dashed">
-                    <p class="font-md color-grey-500 mb-20">We nurture leaders who build not just businesses, but ecosystems — with a heart for community and shared progress.
-                    </p>
-                  </div>
-                </li>
-                <li class="wow animate__animated animate__fadeIn" data-wow-delay=".4s"><span class="ticked"></span>
-                  <h5 class="color-brand-1 mb-5">Vision-Driven Mindset</h5>
-                  <div class="box-border-dashed">
-                    <p class="font-md color-grey-500 mb-20">Our students are trained to think 10x with long-term clarity and ambition to lead at national and global levels.</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-    <section class="section mt-50">
+    
+    <section class="section mt-30">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
@@ -432,7 +362,7 @@
             </ul>
             <div class="tab-content wow animate__animated animate__fadeIn" data-wow-delay=".0s">
               <div class="tab-pane fade active show d-flex justify-content-center" id="tab-explore-1" role="tabpanel" aria-labelledby="tab-explore-1">
-                <div class="box-tab-33">
+                <div class="box-tab-32">
                   <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-5"><img class="bd-rd16" style="width: 600px; height:450px;" src="{{asset('assets/yc/imgs/page/homepage10/img-tab.png')}}" alt="yc"></div>
                     <div class="col-xl-6 col-lg-7">
@@ -637,24 +567,280 @@
       </section>
     </section> -->
     
-<section class="section mt-50 mb-50 bg-brand-1 pt-50 pb-50 bg-explore">
+  <!-- program -->
+  <section class="section mt-50">
+      <div class="container">
+        <div class="row align-items-end">
+          <div class="col-lg-8 col-md-8">
+            <h2 class="color-brand-1 mb-20">Explore Our Programs</h2>
+            <p class="font-lg color-gray-500">Get industry-ready with our specialized academic offerings.<br
+                class="d-none d-lg-block">Find your path below.</p>
+          </div>
+          <div class="col-lg-4 col-md-4 text-md-end text-start">
+                      <div class="box-button mt-30"> <a class="btn btn-brand-1 hover-up" href="{{route('learning')}}">What You'll Learn</a></div>
+
+          </div>
+        </div>
+
+        <div class="row mt-50">
+          <!-- UG Program Card -->
+          <div class="col-lg-6 col-md-6 mb-4">
+            <div class="card-offer hover-up p-4" style="min-height: 360px;">
+              <div class="card-image mb-3">
+                <img src="{{asset('assets/yc/imgs/page/job-detail/senior.png')}}" alt="UG Program">
+              </div>
+              <div class="card-info">
+                <h4 class="color-brand-1 mb-15">Undergraduate Programme</h4>
+                <p class="font-md color-grey-500 mb-15">
+                  A 6 months UG degree built to shape the next-gen business leaders. Combines modern management
+                  fundamentals with practical entrepreneurship exposure, helping students turn ideas into action.
+                </p>
+                <div class="box-button-offer">
+                  <a class="btn btn-default font-sm-bold pl-0 color-brand-1" href="{{route('program')}}">Learn More
+                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PG Program Card -->
+          <div class="col-lg-6 col-md-6 mb-4">
+            <div class="card-offer hover-up p-4" style="min-height: 360px;">
+              <div class="card-image mb-3">
+                <img src="{{asset('assets/yc/imgs/page/job-detail/senior.png')}}" alt="PG Program">
+              </div>
+              <div class="card-info">
+                <h4 class="color-brand-1 mb-15">Postgraduate Programme</h4>
+                <p class="font-md color-grey-500 mb-15">
+                  A 6 months MBA programme focused on innovation, leadership, and startup thinking. Designed for aspiring
+                  entrepreneurs and professionals aiming for high-impact business careers.
+                </p>
+                <div class="box-button-offer">
+                  <a class="btn btn-default font-sm-bold pl-0 color-brand-1" href="{{route('program')}}">Learn More
+                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section mt-40 pt-60 mb-40 pb-60" style="background-color: #024430;">
+    <div class="container">
+        <div class="text-center mb-60">
+            <span class="font-xl-bold color-white wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Impact of NextGen Leaders</span>
+            <h2 class="color-brand-2 mt-15 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Shaping the Future of Business and Leadership</h2>
+        </div>
+
+        <!-- First Row of Cards -->
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card-guide">
+                    <div class="card-image">
+                        <img src="{{ asset('assets/yc/imgs/page/help/icon1.svg') }}" alt="YC" class="img-fluid">
+                    </div>
+                    <div class="card-info">
+                        <h5 class="color-brand-1 mb-15">Startup Innovators</h5>
+                        <p class="font-xs color-grey-500">Transforming concepts into viable businesses, driving innovation, and creating market opportunities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card-guide">
+                    <div class="card-image">
+                        <img src="{{ asset('assets/yc/imgs/page/help/icon2.svg') }}" alt="YC" class="img-fluid">
+                    </div>
+                    <div class="card-info">
+                        <h5 class="color-brand-1 mb-15">Ecosystem Builders</h5>
+                        <p class="font-xs color-grey-500">Creating robust networks that support long-term growth, enhance industry connections, and expanding market reach.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card-guide">
+                    <div class="card-image">
+                        <img src="{{ asset('assets/yc/imgs/page/help/icon2.svg') }}" alt="YC" class="img-fluid">
+                    </div>
+                    <div class="card-info">
+                        <h5 class="color-brand-1 mb-15"> Global <br>Visionaries</h5>
+                        <p class="font-xs color-grey-500">Leading ventures that have international relevance, prepared to scale in global markets.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card-guide">
+                    <div class="card-image">
+                        <img src="{{ asset('assets/yc/imgs/page/help/icon3.svg') }}" alt="YC" class="img-fluid">
+                    </div>
+                    <div class="card-info">
+                        <h5 class="color-brand-1 mb-15">Purpose-Driven Innovators</h5>
+                        <p class="font-xs color-grey-500">Developing businesses that address real-world challenges across sectors, from sustainability to social impact.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Row of Cards -->
+        <div class="row">
+            <!-- Card 5 -->
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card-guide">
+                    <div class="card-image">
+                        <img src="{{ asset('assets/yc/imgs/page/help/icon1.svg') }}" alt="YC" class="img-fluid">
+                    </div>
+                    <div class="card-info">
+                        <h5 class="color-brand-1 mb-15">Thought<br> Leaders</h5>
+                        <p class="font-xs color-grey-500">Using strategic communication and leadership to shape key discussions in business and entrepreneurship.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card-guide">
+                    <div class="card-image">
+                        <img src="{{ asset('assets/yc/imgs/page/help/icon2.svg') }}" alt="YC" class="img-fluid">
+                    </div>
+                    <div class="card-info">
+                        <h5 class="color-brand-1 mb-15">Resilient Entrepreneurs</h5>
+                        <p class="font-xs color-grey-500">Navigating challenges with resilience, adapting quickly, and creating sustainable solutions for complex problems</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card-guide">
+                    <div class="card-image">
+                        <img src="{{ asset('assets/yc/imgs/page/help/icon2.svg') }}" alt="YC" class="img-fluid">
+                    </div>
+                    <div class="card-info">
+                        <h5 class="color-brand-1 mb-15">Strategic Collaborators</h5>
+                        <p class="font-xs color-grey-500">Identifying and forming key strategic partnerships to accelerate business success and expansion.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card-guide">
+                    <div class="card-image">
+                        <img src="{{ asset('assets/yc/imgs/page/help/icon3.svg') }}" alt="YC" class="img-fluid">
+                    </div>
+                    <div class="card-info">
+                        <h5 class="color-brand-1 mb-15">Legacy <br> Makers</h5>
+                        <p class="font-xs color-grey-500">Building businesses designed for long-term success, focusing on sustainability and creating lasting impact.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="section pt-0 pb-50 bg-core-value bg-7 mb-40 mt-30">
+        <div class="container">
+          <div class="row box-list-core-value">
+            <div class="col-lg-4 mb-70">
+              <div class="box-core-value pl-0">
+                <h1 class="color-brand-1 mb-25 wow animate__animated animate__fadeIn" data-wow-delay=".0s"> Our Core Values</h1>
+                <p class="font-md color-grey-400 wow animate__animated animate__fadeIn pe-2 text-justify" data-wow-delay=".2s">Young Chanakya empowers ethical, bold leaders through values like integrity, innovation, and continuous learning. It promotes action, resilience, and community-driven impact for the startup ecosystem.</p>
+                <div class="mt-30 wow animate__animated animate__fadeIn" data-wow-delay=".4s"><a class="btn btn-white-circle font-sm-bold border-brand" href="#">JOIN OUR TEAM TODAY</a></div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <ul class="list-core-value list-core-value-white">
+                <li class="wow animate__animated animate__fadeIn" data-wow-delay=".0s"><span class="ticked"></span>
+                  <h5 class="color-brand-1 mb-5">Leadership with Integrity</h5>
+                  <div class="box-border-dashed">
+                    <p class="font-md color-grey-500 mb-20 ">We believe leadership is not just about influence, but about staying true to one’s values, being accountable and leading.</p>
+                  </div>
+                </li>
+                <li class="wow animate__animated animate__fadeIn" data-wow-delay=".2s"><span class="ticked"></span>
+                  <h5 class="color-brand-1 mb-5">Entrepreneurial Boldness</h5>
+                  <div class="box-border-dashed">
+                    <p class="font-md color-grey-500 mb-20">We encourage innovation and challenging the status quo to unlock breakthrough ideas and disruptive startups.</p>
+                  </div>
+                </li>
+                <li class="wow animate__animated animate__fadeIn" data-wow-delay=".4s"><span class="ticked"></span>
+                  <h5 class="color-brand-1 mb-5">Learn, Unlearn, Relearn</h5>
+                  <div class="box-border-dashed">
+                    <p class="font-md color-grey-500 mb-20">Adaptability is the foundation of modern leadership. We promote learning and evolving with the startup landscape.</p>
+                  </div>
+                </li>
+                <li class="wow animate__animated animate__fadeIn" data-wow-delay=".4s"><span class="ticked"></span>
+                  <h5 class="color-brand-1 mb-5">Execution is Everything</h5>
+                  <div class="box-border-dashed">
+                    <p class="font-md color-grey-500 mb-20">Ideas are nothing without action. We instill the discipline and grit needed to move fast and build results.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <ul class="list-core-value list-core-value-white">
+                <li class="wow animate__animated animate__fadeIn" data-wow-delay=".0s"><span class="ticked"></span>
+                  <h5 class="color-brand-1 mb-5">Value Creation First</h5>
+                  <div class="box-border-dashed">
+                    <p class="font-md color-grey-500 mb-20">Every idea and initiative should begin with a commitment to create real impact — for people, society, and the planet.</p>
+                  </div>
+                </li>
+                <li class="wow animate__animated animate__fadeIn" data-wow-delay=".2s"><span class="ticked"></span>
+                  <h5 class="color-brand-1 mb-5">Collaboration over Competition</h5>
+                  <div class="box-border-dashed">
+                    <p class="font-md color-grey-500 mb-20">We foster a culture of peer-to-peer growth, co-creation, and partnerships that empower everyone to succeed.
+                    </p>
+                  </div>
+                </li>
+                <li class="wow animate__animated animate__fadeIn" data-wow-delay=".2s"><span class="ticked"></span>
+                  <h5 class="color-brand-1 mb-5">Community-First Impact</h5>
+                  <div class="box-border-dashed">
+                    <p class="font-md color-grey-500 mb-20">We nurture leaders who build not just businesses, but ecosystems — with a heart for community and shared progress.
+                    </p>
+                  </div>
+                </li>
+                <li class="wow animate__animated animate__fadeIn" data-wow-delay=".4s"><span class="ticked"></span>
+                  <h5 class="color-brand-1 mb-5">Vision-Driven Mindset</h5>
+                  <div class="box-border-dashed">
+                    <p class="font-md color-grey-500 mb-20">Our students are trained to think 10x with long-term clarity and ambition to lead at national and global levels.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="section mt-50 mb-50 bg-brand-1 pt-50 pb-50 bg-explore">
         <div class="container">
           <div class="text-center">
             <h2 class="color-brand-2 mb-60 mt-15 wow animate__ animate__fadeInUp animated" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Membership Plans</h2>
           </div>
           <div class="mt-30 mb-60">
             <ul class="list-buttons list-buttons-circle nav nav-tabs" role="tablist">
-              <li class="wow animate__ animate__fadeIn animated acive" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;"><a class="" href="#tab-explore-1" data-bs-toggle="tab" role="tab" aria-controls="tab-explore-1" aria-selected="true">Student/Volunteer</a></li>
+              <li class="wow animate__ animate__fadeIn animated acive" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;"><a class="active" href="#tab-explore-1" data-bs-toggle="tab" role="tab" aria-controls="tab-explore-1" aria-selected="true">Student/Volunteer</a></li>
               <li class="wow animate__ animate__fadeIn animated" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><a href="#tab-explore-2" data-bs-toggle="tab" role="tab" aria-controls="tab-explore-2" aria-selected="false">Startup</a></li>
               <li class="wow animate__ animate__fadeIn animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;"><a href="#tab-explore-3" data-bs-toggle="tab" role="tab" aria-controls="tab-explore-3" aria-selected="false" >Entreprenuer</a></li>
               <li class="wow animate__ animate__fadeIn animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;"><a href="#tab-explore-4" data-bs-toggle="tab" role="tab" aria-controls="tab-explore-4" aria-selected="false">Executive</a></li>
              
             </ul>
             <div class="tab-content wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
-              <div class="tab-pane fade" id="tab-explore-1" role="tabpanel" aria-labelledby="tab-explore-1">
+              <div class="tab-pane fade active show" id="tab-explore-1" role="tabpanel" aria-labelledby="tab-explore-1">
                 <div class="box-tab-32">
                   <div class="row align-items-center">
-                    <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="https://youngchanakya.com/assets/yc/imgs/page/homepage10/img-tab.png" alt="yc"></div>
+                    <div class="col-xl-6 col-lg-5"><img class="bd-rd16" style="width: 600px; height:450px;" src="https://youngchanakya.com/assets/yc/imgs/page/homepage10/img-tab.png" alt="yc"></div>
                     <div class="col-xl-6 col-lg-7">
                       <div class="box-business-tab"><span class="btn btn-tag">Learn Beyond Classrooms</span>
                         <h3 class="color-brand-1 mt-10 mb-15">Grow Strong with the Right Circle</h3>
@@ -689,10 +875,12 @@
                             <li>
                               <svg class="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                              </svg>vent volunteer opportunities
+                              </svg>Event volunteer opportunities
                             </li>
                           </ul>
                         </div>
+                        <div class="box-button mt-20"><a class="btn btn-brand-1 hover-up" href="{{route('membership')}}">Build Your Strong Foundation<svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -701,7 +889,7 @@
               <div class="tab-pane fade" id="tab-explore-2" role="tabpanel" aria-labelledby="tab-explore-2">
                 <div class="box-tab-32">
                   <div class="row align-items-center">
-                    <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="https://youngchanakya.com/assets/yc/imgs/page/blog2/img1.png" alt="yc"></div>
+                    <div class="col-xl-6 col-lg-5"><img class="bd-rd16" style="width: 600px; height:450px;" src="https://youngchanakya.com/assets/yc/imgs/page/blog2/img1.png" alt="yc"></div>
                     <div class="col-xl-6 col-lg-7">
                       <div class="box-business-tab"><span class="btn btn-tag">Scale Your Business</span>
                         <h3 class="color-brand-1 mt-10 mb-15">Accelerate Your Startup Journey</h3>
@@ -740,6 +928,8 @@
                             </li>
                           </ul>
                         </div>
+                        <div class="box-button mt-20"><a class="btn btn-brand-1 hover-up" href="{{route('membership')}}">Take Your Idea to Market<svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -748,7 +938,7 @@
               <div class="tab-pane fade" id="tab-explore-3" role="tabpanel" aria-labelledby="tab-explore-3">
                 <div class="box-tab-32">
                   <div class="row align-items-center">
-                    <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="https://youngchanakya.com/assets/yc/imgs/page/homepage10/img-tab.png" alt="yc"></div>
+                    <div class="col-xl-6 col-lg-5"><img class="bd-rd16" style="width: 600px; height:450px;" src="https://youngchanakya.com/assets/yc/imgs/page/homepage10/img-tab.png" alt="yc"></div>
                     <div class="col-xl-6 col-lg-7">
                       <div class="box-business-tab"><span class="btn btn-tag">Grow Your Venture</span>
                         <h3 class="color-brand-1 mt-10 mb-15">Take Your Business to the Next Level</h3>
@@ -787,15 +977,17 @@
                             </li>
                           </ul>
                         </div>
+                        <div class="box-button mt-20"><a class="btn btn-brand-1 hover-up" href="{{route('membership')}}">Empower Your Next Move<svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg></a></div> 
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="tab-pane fade active show" id="tab-explore-4" role="tabpanel" aria-labelledby="tab-explore-4">
+              <div class="tab-pane fade" id="tab-explore-4" role="tabpanel" aria-labelledby="tab-explore-4">
                 <div class="box-tab-32">
                   <div class="row align-items-center">
-                    <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="https://youngchanakya.com/assets/yc/imgs/page/blog2/img1.png" alt="yc"></div>
+                    <div class="col-xl-6 col-lg-5"><img class="bd-rd16" style="width: 600px; height:450px;" src="https://youngchanakya.com/assets/yc/imgs/page/blog2/img1.png" alt="yc"></div>
                     <div class="col-xl-6 col-lg-7">
                       <div class="box-business-tab"><span class="btn btn-tag">Inspire Young Minds</span>
                         <h3 class="color-brand-1 mt-10 mb-15">Lead the NextGen of Leaders</h3>
@@ -834,6 +1026,8 @@
                             </li>
                           </ul>
                         </div>
+                        <div class="box-button mt-20"><a class="btn btn-brand-1 hover-up" href="{{route('membership')}}">Be the Voice of Vision<svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg></a></div>
                       </div>
                     </div>
                   </div>
@@ -844,14 +1038,14 @@
           </div>
         </div>
       </section> 
-  
+      
 
     <section class="section mt-20">
         <div class="container">
           <div class="row align-items-center mt-50">
             <div class="col-lg-4 col-md-12 col-sm-12 mb-30"><span class="title-line line-48 wow animate__animated animate__fadeIn" data-wow-delay=".0s">How it work</span>
               <h2 class="color-brand-1 mt-10 mb-20 wow animate__animated animate__fadeIn" data-wow-delay=".2s">Level Up with YC Events</h2>
-              <p class="color-grey-500 font-sm wow animate__animated animate__fadeIn" data-wow-delay=".4s">From practical workshops to high-impact summits, Young Chanakya organizes events that empower you with the right tools, mindset, and network. Whether you're a student, entrepreneur, or corporate leader, our community-led events ensure you're always one step ahead.</p>
+              <p class="color-grey-500 font-sm wow animate__animated animate__fadeIn" data-wow-delay=".4s">Gain practical exposure through focused, high-impact sessions that sharpen how you think, lead, and build. From strategic frameworks to real-time decision-making, each event helps you develop stronger business judgment, better execution skills, and lasting industry relationships that drive long-term outcomes</p>
               <div class="mt-30 wow animate__animated animate__fadeIn" data-wow-delay=".6s"><a class="btn btn-brand-1 hover-up" href="#">Explore Our Events
                   <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -863,8 +1057,8 @@
                   <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage1/cross2.png')}}" alt="yc"></div>
                   <div class="card-info">
                     <h4 class="color-brand-1 mb-15">Summit & Expo</h4>
-                    <p class="font-md color-grey-500 mb-15">Join summits and expos to explore innovation, connect with experts, and gain startup insights.</p>
-                    <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1" href="{{url('/fevents')}}">Learn More
+                    <p class="font-md color-grey-500 mb-15">Gain strategic insights, explore innovation trends, and connect with key decision-makers driving industry growth</p>
+                    <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1" href="{{url('/events')}}">Learn More
                         <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg></a></div>
@@ -941,21 +1135,21 @@
         </div>
       </section>
     
-    <section class="section mt-50 mb-50 pt-60 pb-50 bg-7">
+      <section class="section mt-50 mb-50 pt-60 pb-50 bg-7" id="something">
       <div class="container">
         <div class="row align-items-center mb-3 pb-3">
           <div class="col-lg-12 text-center">
             <ul class="tabs-plan  list-buttons" role="tablist">
-              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".0s"><a class="active" href="#"
+              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".0s"><a  class="tab-link active" href="#"
                   data-type="workshop">Upcoming Workshops</a></li>
-              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".1s"><a href="#"
-                  data-type="webinars">Upcoming Webinars</a></li>
-              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".1s"><a href="#"
-                  data-type="conclaves">Upcoming Conclaves</a></li>
+              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".1s"><a  class="tab-link " href="#"
+                  data-type="webinar">Upcoming Webinars</a></li>
+              <li class="wow animate__animated animate__fadeIn" data-wow-delay=".1s"><a  class="tab-link " href="#"
+                  data-type="conclave">Upcoming Conclaves</a></li>
             </ul>
           </div>
         </div>
-        <div class="row">
+        <div class="row tab-content" data-category="workshop">
           <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
             <div class="card-plan-style-2 hover-up">
               <div class="card-plan">
@@ -988,8 +1182,269 @@
 
             </div>
           </div>
-        
+      
+          <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
 
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card-title">
+                  From Bootstrapping to VC Funding
+                </h5>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
+
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card-title">
+                  From Bootstrapping to VC Funding
+                </h5>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
+
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card-title">
+                  From Bootstrapping to VC Funding
+                </h5>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="row tab-content d-none "data-category="webinar">
+          <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
+
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card1-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card1-title">
+                  From Bootstrapping to VC Funding
+                </h5>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card1-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      
+          <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
+
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card-title">
+                  From Bootstrapping to VC Funding
+                </h5>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
+
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card-title">
+                  From Bootstrapping to VC Funding
+                </h5>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
+
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card-title">
+                  From Bootstrapping to VC Funding
+                </h5>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="row tab-content d-none" data-category="conclave">
+          <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-plan-style-2 hover-up">
+              <div class="card-plan">
+                <!-- Event Image -->
+                <img src="{{  asset('assets/yc/imgs/page/homepage1/event-09.jpg')}}"
+                  alt="From Bootstrapping to VC Funding" class="rounded-lg w-100 mb-3">
+
+                <!-- Event Location -->
+                <p class="text-sm text-orange-500 font-medium mb-1">
+                  <i class="fa fa-map-marker-alt mr-1 text-price-card1-location"></i> Coimbatore
+                </p>
+
+                <!-- Event Title -->
+                <h5 class="font-bold text-gray-800 mb-2 text-type-card1-title">
+                  From Bootstrapping to VC Funding
+                </h5>
+
+                <!-- Event Date and Button -->
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <span class="text-sm text-gray-600">
+                    <i class="fa fa-calendar-alt mr-1  text-type-card1-date"></i> October 16, 2027
+                  </span>
+                  <a href="#"
+                    class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
+                    style="font-size: 0.875rem;">
+                    ATTEND
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      
           <div class="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
             <div class="card-plan-style-2 hover-up">
               <div class="card-plan">
@@ -1305,71 +1760,6 @@
         </div>
       </div>
     </section>
-
-
-     <!-- program -->
-     <section class="section mt-50">
-      <div class="container">
-        <div class="row align-items-end">
-          <div class="col-lg-8 col-md-8">
-            <h2 class="color-brand-1 mb-20">Explore Our Programs</h2>
-            <p class="font-lg color-gray-500">Get industry-ready with our specialized academic offerings.<br
-                class="d-none d-lg-block">Find your path below.</p>
-          </div>
-         
-        </div>
-
-        <div class="row mt-50">
-          <!-- UG Program Card -->
-          <div class="col-lg-6 col-md-6 mb-4">
-            <div class="card-offer hover-up p-4" style="min-height: 360px;">
-              <div class="card-image mb-3">
-                <img src="{{asset('assets/yc/imgs/page/job-detail/senior.png')}}" alt="UG Program">
-              </div>
-              <div class="card-info">
-                <h4 class="color-brand-1 mb-15">Undergraduate Programme</h4>
-                <p class="font-md color-grey-500 mb-15">
-                  A 6 months UG degree built to shape the next-gen business leaders. Combines modern management
-                  fundamentals with practical entrepreneurship exposure, helping students turn ideas into action.
-                </p>
-                <div class="box-button-offer">
-                  <a class="btn btn-default font-sm-bold pl-0 color-brand-1" href="{{route('program')}}">Learn More
-                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- PG Program Card -->
-          <div class="col-lg-6 col-md-6 mb-4">
-            <div class="card-offer hover-up p-4" style="min-height: 360px;">
-              <div class="card-image mb-3">
-                <img src="{{asset('assets/yc/imgs/page/job-detail/senior.png')}}" alt="PG Program">
-              </div>
-              <div class="card-info">
-                <h4 class="color-brand-1 mb-15">Postgraduate Programme</h4>
-                <p class="font-md color-grey-500 mb-15">
-                  A 6 months MBA programme focused on innovation, leadership, and startup thinking. Designed for aspiring
-                  entrepreneurs and professionals aiming for high-impact business careers.
-                </p>
-                <div class="box-button-offer">
-                  <a class="btn btn-default font-sm-bold pl-0 color-brand-1" href="{{route('program')}}">Learn More
-                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     
     <!-- <section class="section mt-100">
         <div class="container">
@@ -1419,125 +1809,7 @@
           </div>
         </div>
       </section> -->
-      <section class="section mt-40 pt-60 mb-40 pb-60" style="background-color: #024430;">
-    <div class="container">
-        <div class="text-center mb-60">
-            <span class="font-xl-bold color-white text-uppercase wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Impact of NextGen Leaders</span>
-            <h2 class="color-brand-2 mt-15 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Shaping the future of business and leadership.</h2>
-        </div>
-
-        <!-- First Row of Cards -->
-        <div class="row">
-            <!-- Card 1 -->
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="card-guide">
-                    <div class="card-image">
-                        <img src="{{ asset('assets/yc/imgs/page/help/icon1.svg') }}" alt="YC" class="img-fluid">
-                    </div>
-                    <div class="card-info">
-                        <h5 class="color-brand-1 mb-15">Startup Innovators</h5>
-                        <p class="font-xs color-grey-500">Transforming concepts into viable businesses, driving innovation, and creating market opportunities.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="card-guide">
-                    <div class="card-image">
-                        <img src="{{ asset('assets/yc/imgs/page/help/icon2.svg') }}" alt="YC" class="img-fluid">
-                    </div>
-                    <div class="card-info">
-                        <h5 class="color-brand-1 mb-15">Ecosystem Builders</h5>
-                        <p class="font-xs color-grey-500">Creating robust networks that support long-term growth, enhance industry connections, and expanding market reach.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="card-guide">
-                    <div class="card-image">
-                        <img src="{{ asset('assets/yc/imgs/page/help/icon2.svg') }}" alt="YC" class="img-fluid">
-                    </div>
-                    <div class="card-info">
-                        <h5 class="color-brand-1 mb-15"> Global <br>Visionaries</h5>
-                        <p class="font-xs color-grey-500">Leading ventures that have international relevance, prepared to scale in global markets.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="card-guide">
-                    <div class="card-image">
-                        <img src="{{ asset('assets/yc/imgs/page/help/icon3.svg') }}" alt="YC" class="img-fluid">
-                    </div>
-                    <div class="card-info">
-                        <h5 class="color-brand-1 mb-15">Purpose-Driven Innovators</h5>
-                        <p class="font-xs color-grey-500">Developing businesses that address real-world challenges across sectors, from sustainability to social impact.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Second Row of Cards -->
-        <div class="row">
-            <!-- Card 5 -->
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="card-guide">
-                    <div class="card-image">
-                        <img src="{{ asset('assets/yc/imgs/page/help/icon1.svg') }}" alt="YC" class="img-fluid">
-                    </div>
-                    <div class="card-info">
-                        <h5 class="color-brand-1 mb-15">Thought<br> Leaders</h5>
-                        <p class="font-xs color-grey-500">Using strategic communication and leadership to shape key discussions in business and entrepreneurship.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 6 -->
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="card-guide">
-                    <div class="card-image">
-                        <img src="{{ asset('assets/yc/imgs/page/help/icon2.svg') }}" alt="YC" class="img-fluid">
-                    </div>
-                    <div class="card-info">
-                        <h5 class="color-brand-1 mb-15">Resilient Entrepreneurs</h5>
-                        <p class="font-xs color-grey-500">Navigating challenges with resilience, adapting quickly, and creating sustainable solutions for complex problems</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 7 -->
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="card-guide">
-                    <div class="card-image">
-                        <img src="{{ asset('assets/yc/imgs/page/help/icon2.svg') }}" alt="YC" class="img-fluid">
-                    </div>
-                    <div class="card-info">
-                        <h5 class="color-brand-1 mb-15">Strategic Collaborators</h5>
-                        <p class="font-xs color-grey-500">Identifying and forming key strategic partnerships to accelerate business success and expansion.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 8 -->
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="card-guide">
-                    <div class="card-image">
-                        <img src="{{ asset('assets/yc/imgs/page/help/icon3.svg') }}" alt="YC" class="img-fluid">
-                    </div>
-                    <div class="card-info">
-                        <h5 class="color-brand-1 mb-15">Legacy <br> Makers</h5>
-                        <p class="font-xs color-grey-500">Building businesses designed for long-term success, focusing on sustainability and creating lasting impact.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
+      
 
     <section class="section mt-50">
         <div class="container">
@@ -1564,7 +1836,7 @@
                             d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg></a></li>
                     <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s"><a id="tab2-tab"
-                        data-bs-toggle="pill" data-bs-target="#tab2" type="button" role="tab"><span>Entrepreneur</span>
+                        data-bs-toggle="pill" data-bs-target="#tab2" type="button" role="tab"><span>Volunteer</span>
                         <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                           xmlns="http://www.w3.org/2000/svg">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -1578,14 +1850,14 @@
                             d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg></a></li>
                     <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s"><a id="tab4-tab"
-                        data-bs-toggle="pill" data-bs-target="#tab4" type="button" role="tab"><span>Volunteer</span>
+                        data-bs-toggle="pill" data-bs-target="#tab4" type="button" role="tab"><span>Entrepreneur</span>
                         <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                           xmlns="http://www.w3.org/2000/svg">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg></a></li>
                     <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s"><a id="tab5-tab"
-                        data-bs-toggle="pill" data-bs-target="#tab5" type="button" role="tab"><span>Business Professional</span>
+                        data-bs-toggle="pill" data-bs-target="#tab5" type="button" role="tab"><span>Executives</span>
                         <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                           xmlns="http://www.w3.org/2000/svg">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -1609,11 +1881,11 @@
                     <div class="tab-pane fade show active" id="tab1" role="tabpanel">
                       <div class="row">
                         <div class="row align-items-center">
-                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
+                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16" style="width: 600px; height:350px;"
                               src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}"  alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
-                            <div class="box-business-tab"><span class="btn btn-tag"> Explore. Evolve. Excel.</span>
-                              <h3 class="color-brand-1 mt-10 mb-15">Building Your Foundation for the Future
+                            <div class="box-business-tab"><span class="btn btn-tag"> Explore. Learn. Grow</span>
+                              <h3 class="color-brand-1 mt-10 mb-15">Building Your Foundation 
                                 
                               </h3>
                               <p class="font-md color-grey-400">Discover the building blocks of leadership and business through practical learning, mentorship, and exposure that sets you apart from the very beginning.</p>
@@ -1666,10 +1938,10 @@
                     <div class="tab-pane fade" id="tab2" role="tabpanel">
                       <div class="row">
                         <div class="row align-items-center">
-                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
+                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16" style="width: 600px; height:350px;"
                               src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
-                            <div class="box-business-tab"><span class="btn btn-tag">Lead with Purpose</span>
+                            <div class="box-business-tab"><span class="btn btn-tag">Make an Impact</span>
                               <h3 class="color-brand-1 mt-10 mb-15"> Learn by Leading
                               </h3>
                               <p class="font-md color-grey-400">Shape initiatives, drive impact, and grow into a strategic contributor while gaining hands-on experience in events, community, and operations.</p>
@@ -1723,11 +1995,11 @@
                     <div class="tab-pane fade" id="tab3" role="tabpanel">
                       <div class="row">
                         <div class="row align-items-center">
-                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
+                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16" style="width: 600px; height:350px;"
                               src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
                             <div class="box-business-tab"><span class="btn btn-tag">Fuel for Your Venture  </span>
-                              <h3 class="color-brand-1 mt-10 mb-15">A Community-Built Launchpad for Founders
+                              <h3 class="color-brand-1 mt-10 mb-15">Community Launchpad for Founders
                               </h3>
                               <p class="font-md color-grey-400"> From early traction to ecosystem connections, get tailored support to test, validate, and grow your startup inside a vibrant innovation hub.</p>
                               <div class="mt-20">
@@ -1780,10 +2052,10 @@
                     <div class="tab-pane fade" id="tab4" role="tabpanel">
                       <div class="row">
                         <div class="row align-items-center">
-                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
+                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16" style="width: 600px; height:350px;"
                               src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
-                            <div class="box-business-tab"><span class="btn btn-tag">Reinvent. Reconnect. Rise. </span>
+                            <div class="box-business-tab"><span class="btn btn-tag">Transform Your Business </span>
                               <h3 class="color-brand-1 mt-10 mb-15">Evolve What You’ve Built
                               </h3>
                               <p class="font-md color-grey-400">Designed for builders who’ve moved beyond the starting line, YC helps you sharpen your direction, expand your reach, and evolve into your next phase of growth
@@ -1837,10 +2109,10 @@
                     <div class="tab-pane fade" id="tab5" role="tabpanel">
                       <div class="row">
                         <div class="row align-items-center">
-                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
+                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16" style="width: 600px; height:350px;"
                               src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
-                            <div class="box-business-tab"><span class="btn btn-tag">Stay Ahead of the Curve  </span>
+                            <div class="box-business-tab"><span class="btn btn-tag">Evolve Your Leadership  </span>
                               <h3 class="color-brand-1 mt-10 mb-15">Redefine Your Edge
                               </h3>
                               <p class="font-md color-grey-400">Stay sharp and future-ready through curated learning, fresh perspectives, and meaningful connections across emerging domains and dynamic markets.</p>
@@ -1861,7 +2133,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Learn directly from thought leaders, founders, and mentors  
+                                    </svg>Grow visibility through interviews, podcasts and panels 
 
                                   </li>
                                   <li>
@@ -1890,10 +2162,10 @@
                         </div>
                       </div>
                     </div>
-                    <div class="tab-pane fade" id="tab6" role="tabpanel">
+                    <!-- <div class="tab-pane fade" id="tab6" role="tabpanel">
                       <div class="row">
                         <div class="row align-items-center">
-                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
+                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16" style="width: 600px; height:350px;"
                               src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
                             <div class="box-business-tab"><span class="btn btn-tag">Business</span>
@@ -1948,7 +2220,7 @@
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                     <!-- tab content -5 -->
                     
                   </div>
@@ -2536,7 +2808,7 @@
         <div class="row align-items-end">
             <div class="col-12 text-center">
                 <b>
-                    <p class="color-brand-1 mb-20"> Community</p>
+                    <p class="color-brand-1 mb-20">Built to Rise Together</p>
                 </b>
                 <h3 class="color-brand-1 mb-40 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
                 Mindset of Community</h3>
@@ -2551,7 +2823,7 @@
                         <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage1/cross2.png')}}" alt="yc" class="img-fluid"></div>
                         <div class="card-info">
                             <h4 class="color-brand-1 mb-15">Collaboration Over Competition</h4>
-                            <p class="font-md color-grey-500 mb-15">We prioritize teamwork and mutual support. In our community, members collaborate, share ideas, and help each other grow. This creates an environment where everyone can thrive and reach their full potential.</p>
+                            <p class="font-md color-grey-500 mb-15">In our community, members collaborate, share ideas, and help each other grow, creating an environment where everyone can thrive and reach full potential</p>
                         </div>
                     </div>
                 </div>
@@ -2564,7 +2836,7 @@
                         <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage1/cross3.png')}}" alt="yc" class="img-fluid"></div>
                         <div class="card-info">
                             <h4 class="color-brand-1 mb-15">Driven by<br>Innovation</h4>
-                            <p class="font-md color-grey-500 mb-15">Innovation is at the heart of everything we do. We encourage our members to think outside the box, challenge traditional ideas, and create solutions that drive real-world impact. This mindset keeps us ahead of the curve in a rapidly changing business landscape.</p>
+                            <p class="font-md color-grey-500 mb-15">Innovation is key to our work. We encourage thinking outside the box, challenging traditional ideas, and creating solutions that make a real-world impact</p>
                         </div>
                     </div>
                 </div>
@@ -2577,7 +2849,7 @@
                         <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage1/cross5.png')}}" alt="yc" class="img-fluid"></div>
                         <div class="card-info">
                             <h4 class="color-brand-1 mb-15"> Committed to Continuous Learning</h4>
-                            <p class="font-md color-grey-500 mb-15">In an ever-evolving world, learning never stops. Our community is dedicated to staying curious, embracing new challenges, and growing professionally. By prioritizing continuous learning, we equip our members with the tools to succeed in any situation.</p>
+                            <p class="font-md color-grey-500 mb-15">In an ever-evolving world, learning never stops. We stay curious, embrace challenges, and grow professionally, equipping members to succeed in any situation</p>
                         </div>
                     </div>
                 </div>
@@ -2589,7 +2861,7 @@
                         <div class="card-image"><img src="{{asset('assets/yc/imgs/page/homepage1/cross4.png')}}" alt="yc" class="img-fluid"></div>
                         <div class="card-info">
                             <h4 class="color-brand-1 mb-15">Building a Supportive Network</h4>
-                            <p class="font-md color-grey-500 mb-15">Through strong connections and meaningful mentorship, our community is a hub of resources, advice, and guidance. Members are empowered to lead with confidence and take their ideas to the next level with the support of a like-minded network</p>
+                            <p class="font-md color-grey-500 mb-15">Our community is a hub of strong connections, mentorship, and resources, empowering members to lead with confidence and elevate their ideas with support</p>
                         </div>
                     </div>
                 </div>
@@ -2923,7 +3195,7 @@
                 alt="yc">
             </div>
             <div class="col-xl-6 col-lg-6" >
-              <div class="box-info-answer"><span class="btn btn-tag">More help</span>
+              <!-- <div class="box-info-answer"><span class="btn btn-tag">More help</span> -->
                 <h2 class="color-brand-1 mt-10 mb-15">Join the Elite Circle</h2>
                 <p class="color-grey-500 font-md">Connect with leaders, entrepreneurs and innovators.</p>
                 <p class="color-grey-500 font-md">Create opportunities, drive growth, and shape the future.</p>
@@ -2957,6 +3229,25 @@
       speed: 1000,
     });
   </script>
+  <script>
+  document.querySelectorAll('.tab-link').forEach(tab => {
+    tab.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      // Remove active class from all tabs
+      document.querySelectorAll('.tab-link').forEach(t => t.classList.remove('active'));
+      this.classList.add('active');
+
+      // Hide all tab content
+      document.querySelectorAll('.tab-content').forEach(content => content.classList.add('d-none'));
+
+      // Show selected content
+      const selectedType = this.getAttribute('data-type');
+      const activeContent = document.querySelector(`.tab-content[data-category="${selectedType}"]`);
+      if (activeContent) activeContent.classList.remove('d-none');
+    });
+  });
+</script>
 </body>
 
 

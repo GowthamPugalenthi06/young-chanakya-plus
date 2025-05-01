@@ -153,6 +153,13 @@ Route::get('/clubs-and-activities',function(){
   Route::get('/code-of-conduct',function(){
     return view('yc.code-of-conduct');
   })->name('code-of-conduct');
+  Route::get('/contact-us',function(){
+    return view('yc.contact');
+  })->name('contact');
+  Route::get('/internship',function(){
+    return view('yc.internship');
+  })->name('internship');
+  
   
 
 Route::get('/admin/mentor-chanakya', [MentorChanakyaController::class, 'index'])->name('admin.mentor_chanakya.index');

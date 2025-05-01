@@ -99,7 +99,7 @@
         </div>
       </div>
     </section> -->
-    <section class="section banner-team pt-50 pb-30">
+    <section class="section pt-50 pb-30">
         <div class="container">
           <div class="banner-1">
             <div class="row align-items-center">
@@ -198,16 +198,16 @@
         <div class="mt-20 mb-20">
           <div class="tab-content wow animate__animated animate__fadeIn" data-wow-delay=".0s">
             <div class="tab-pane fade active show d-flex justify-content-center" id="tab-explore-1" role="tabpanel" aria-labelledby="tab-explore-1">
-              <div class="box-tab-34">
+              <div class="box-tab-32">
                 <div class="row align-items-center">
-                  <div class="col-xl-4 col-lg-4"><img class="bd-rd16" src="{{asset('assets/yc/imgs/page/about/kishore-yc.jpg')}}" alt="YC" style="height:260px; width:400px; background-size: cover;"></div>
+                  <div class="col-xl-4 col-lg-4"><img class="bd-rd16" src="{{asset('assets/yc/imgs/page/about/kishorekumar.png')}}" alt="YC" style="height:260px; width:400px; background-size: cover;"></div>
                   <div class="col-xl- col-lg-8">
                     <div class="box-business-tab"><span class="btn btn-tag">Founder Talk</span>
                       <h3 class="color-brand-1 mt-10 mb-15"> Meet the Mind Behind Young Chanakya</h3>
                       <p class="font-md color-grey-400">Learn about the inspiring journey, mission, and leadership vision of our founder – the individual who created the vision and established the foundation for shaping and empowering the leaders of tomorrow.
                       </p>
                       <div class="box-button mt-30 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                        <a class="btn btn-brand-1 hover-up" href="#">Meet the Founder
+                        <a class="btn btn-brand-1 hover-up" href="{{route('founder')}}">Meet the Founder
                           <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                           </svg>
@@ -438,14 +438,14 @@
               <div class="col-lg-12 mb-50 item-article vision wow animate__animated animate__fadeIn" data-wow-delay=".0s">
                 <section class="section pb-30">
                   <div class="container">
-                    <div class="bg-brand-1 box-cover-video">
+                    <div class="bg-brand-1">
                       <div class="row align-items-center">
                         <div class="col-xl-6 col-lg-6">
                           <div class="img-reveal"><img class="d-block" src="{{asset('assets/yc/imgs/page/homepage4/img-video.png')}}" style="height: 400px;" alt="YC"></div>
                         </div>
                         <div class="col-xl-6 col-lg-6">
                           <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Our Vision</span>
-                            <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Bridging Learning and Entrepreneurship</h3>
+                            <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Empowering changemakers to redefine the future of business</h3>
                             <p class="font-md color-white wow animate__animated animate__fadeInUp" data-wow-delay=".2s">To create a global forest of innovative, purpose-driven startup  leaders by 2030, transforming entrepreneurial potential into lasting impact.</p>
                             
                           </div>
@@ -458,11 +458,11 @@
               <div class="col-lg-12 mb-50 item-article mision wow animate__animated animate__fadeIn" data-wow-delay=".0s">
                 <section class="section mision pb-30">
                   <div class="container">
-                    <div class="bg-brand-1 box-cover-video box-cover-video-revert">
+                    <div class="bg-brand-1 box-cover-video-revert">
                       <div class="row align-items-center">
                         <div class="col-xl-6 col-lg-6">
                           <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeIn accordion-item" data-wow-delay=".0s">Our Mission</span>
-                            <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeIn accordion-item" data-wow-delay=".1s">Entrepreneurial Education for Future Leaders</h3>
+                            <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeIn accordion-item" data-wow-delay=".1s">Real-world business education for future-ready leaders</h3>
                             <p class="font-md color-white wow animate__animated animate__fadeIn accordion-item" data-wow-delay=".2s"> To revolutionize entrepreneurial  education by bridging the gap between ambition and execution, empowering the next generation with practical skills, real-world mentorship, and a thriving community.</p>
                           </div>
                         </div>
@@ -484,7 +484,7 @@
       <div class="container">
         <div class="row align-items-end">
           <div class="col-lg-12 text-center">
-            <p class="font-lg wow animate__animated animate__fadeInUp mb-3 " data-wow-delay=".2s">Our Offerings</p>
+            <p class="font-lg wow animate__animated animate__fadeInUp mb-3 " data-wow-delay=".2s">What We Do</p>
             <h3 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".s">Your Pathway to Entrepreneurial Success</h3>
           </div>
           <section class="section mt-20 pt-30 ctnr pb-15 bg-grey-80">
@@ -794,11 +794,12 @@
           </div>
       </div>
     </section>
-    <section class="section pt-100 pb-100" style="background-color:#ffefd1;">
+    <section class="section pt-100 pb-100">
       <div class="container">
         <div class="row align-items-end mb-4">
           <div class="col-lg-8 col-md-8">
-            <h3 class="color-brand-1 mb-10 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Our Unique Selling Points</h3>
+          <h6 class="color-brand-1 mb-20 wow animate__animated animate__fadeIn text-center" data-wow-delay=".0s">Our USP</h6>
+        <h2 class="color-brand-1 mb-50 wow animate__animated animate__fadeIn text-center" data-wow-delay=".2s">What Makes Us Unique</h2>
           </div>
           <!-- <div class="col-lg-4 col-md-4 text-md-end text-start">
             <a class="btn btn-default font-sm-bold pl-0 wow animate__animated animate__fadeInUp" data-wow-delay=".04s">Join Now
@@ -887,14 +888,143 @@
       </div>
     </section>
 
+    <!-- <section class="section mt-50">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+              <div class="card-support">
+                <div class="card-image">
+                  <div class="box-circle-img">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="card-info">
+                  <h4 class="color-brand-1 mb-15">Daily Updates</h4>
+                  <p class="font-md color-grey-500 mb-15">Share updates instantly within our project management software, and get the entire team collaborating</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 wow animate__ animate__fadeIn animated" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+              <div class="card-support">
+                <div class="card-image">
+                  <div class="box-circle-img">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="card-info">
+                  <h4 class="color-brand-1 mb-15">24/7 Support</h4>
+                  <p class="font-md color-grey-500 mb-15">Share updates instantly within our project management software, and get the entire team collaborating</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 wow animate__ animate__fadeIn animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
+              <div class="card-support">
+                <div class="card-image">
+                  <div class="box-circle-img">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="card-info">
+                  <h4 class="color-brand-1 mb-15">Weekly Reports</h4>
+                  <p class="font-md color-grey-500 mb-15">Share updates instantly within our project management software, and get the entire team collaborating</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 wow animate__ animate__fadeIn animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
+              <div class="card-support">
+                <div class="card-image">
+                  <div class="box-circle-img">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="card-info">
+                  <h4 class="color-brand-1 mb-15">Weekly Reports</h4>
+                  <p class="font-md color-grey-500 mb-15">Share updates instantly within our project management software, and get the entire team collaborating</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+              <div class="card-support">
+                <div class="card-image">
+                  <div class="box-circle-img">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="card-info">
+                  <h4 class="color-brand-1 mb-15">Daily Updates</h4>
+                  <p class="font-md color-grey-500 mb-15">Share updates instantly within our project management software, and get the entire team collaborating</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 wow animate__ animate__fadeIn animated" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+              <div class="card-support">
+                <div class="card-image">
+                  <div class="box-circle-img">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="card-info">
+                  <h4 class="color-brand-1 mb-15">24/7 Support</h4>
+                  <p class="font-md color-grey-500 mb-15">Share updates instantly within our project management software, and get the entire team collaborating</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 wow animate__ animate__fadeIn animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
+              <div class="card-support">
+                <div class="card-image">
+                  <div class="box-circle-img">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="card-info">
+                  <h4 class="color-brand-1 mb-15">Weekly Reports</h4>
+                  <p class="font-md color-grey-500 mb-15">Share updates instantly within our project management software, and get the entire team collaborating</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 wow animate__ animate__fadeIn animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
+              <div class="card-support">
+                <div class="card-image">
+                  <div class="box-circle-img">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="card-info">
+                  <h4 class="color-brand-1 mb-15">Weekly Reports</h4>
+                  <p class="font-md color-grey-500 mb-15">Share updates instantly within our project management software, and get the entire team collaborating</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
     <section class="section mt-50 mb-50">
       <div class="container">
         <div class="box-radius-border box-radius-border-help">
           <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-6"><img class="d-block" src="{{asset('assets/yc/imgs/page/about/Elite-Circle.png')}}"
+            <div class="col-xl-6 col-lg-6"><img class="d-block" src="{{asset('assets/yc/imgs/page/about/team2.png')}}"
                 alt="YC" style="width:800px; height:350px;"></div>
             <div class="col-xl-6 col-lg-6">
-              <div class="box-info-answer"><span class="btn btn-tag mb-10">More help</span>
+              <!-- <div class="box-info-answer"><span class="btn btn-tag mb-10">More help</span> -->
                 <h2 class="color-brand-1 mt-10 mb-15">Join the Elite Circle</h2>
                 <p class="color-grey-500 font-md">Connect with leaders, entrepreneurs and innovators.</p>
                 <p class="color-grey-500 font-md">Create opportunities, drive growth, and shape the future.</p>
