@@ -9,7 +9,7 @@
     <meta name="description" content="Index page">
     <meta name="keywords" content="index, page">
     <meta name="author" content="">
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/yc/imgs/template/favicon.svg')}}">
+   <link rel="icon" type="image/svg+xml" href="{{ asset('assets/yc/imgs/template/favicon.svg') }}">
     <link href="{{asset('assets/yc/css/style.css?v=5.0.0')}}" rel="stylesheet">
     <title>Become a Sponsor</title>
   </head>
@@ -30,7 +30,7 @@
                   </div>
                 </div>
                 
-                <div class="box-button mt-20"><a class="btn btn-brand-1 hover-up" href="#">Become a Sponsor</a>
+                <div class="box-button mt-20"><a class="btn btn-brand-1 hover-up" href="#sponsor-form">Become a Sponsor</a>
                     </a></div>
               </div>
               <div class="col-lg-5 d-none d-lg-block">
@@ -557,7 +557,7 @@
           </div>
         </div>
       </section> -->
-      <section class="section banner-4">
+      <section class="section banner-4" id="sponsor-form">
   <div class="container">
     <div class="banner-1">
       <div class="row align-items-center">

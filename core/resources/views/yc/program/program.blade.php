@@ -10,7 +10,7 @@
   <meta name="description" content="Index page">
   <meta name="keywords" content="index, page">
   <meta name="author" content="">
-  <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/yc/imgs/template/favicon.svg')}}">
+ <link rel="icon" type="image/svg+xml" href="{{ asset('assets/yc/imgs/template/favicon.svg') }}">
   <link href="{{asset('assets/yc/css/style.css?v=5.0.0')}}" rel="stylesheet">
   <title>Program</title>
 </head>
@@ -382,65 +382,85 @@
     </section>
     <!-- Application Progress -->
     <section class="section mt-20">
-      <div class="container">
-        <div class="row mt-50 align-items-center card-no-border">
-          <div class="col-lg-6 mb-30">
-            <div class="title-line mb-10 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Application Process</div>
-            <h2 class="color-brand-1 wow animate__animated animate__fadeIn" data-wow-delay=".2s">Application Process Made Simple</h2>
-              
-          </div>
-          <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-            <div class="card-offer card-we-do hover-up">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="YC">
+  <div class="container">
+    <div class="row align-items-center card-no-border">
+      <!-- Left Part -->
+      <div class="col-lg-6 mb-30">
+        <div class="title-line mb-10 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+          Application Process
+        </div>
+        <h2 class="color-brand-1 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+          We facilitate the creation of strategy and design
+        </h2>
+        <div class="mt-50">
+          <img class="bd-rd16" style="height:350px; width:600px"src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC">
+        </div>
+      </div>
+      <!-- Right Part -->
+      <div class="col-lg-6 mt-20">
+        <div class="row ">
+          <!-- First Card -->
+          <div class="col-md-12 col-lg-12 mb-10 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+            <div class="card-offer card-we-do hover-up mb-10">
+              <div class="card-image">
+                <img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="YC">
               </div>
               <div class="card-info">
-                <h4 class="color-brand-1 mb-10"><a class="color-brand-1"
-                    href="What makes us different from others? We give holistic solutions with strategy, design &amp; technology.">Complete the Online Form</a></h4>
-                <p class="font-md color-grey-500 mb-5">YFill out our user-friendly application form with your personal and academic details to get started.</p>
-              
+                <h4 class="color-brand-1 mb-10">
+                  <a class="color-brand-1" href="#">Employee Assessments</a>
+                </h4>
+                <p class="font-md color-grey-500 mb-5">
+                  Your site is not complete with only landings. Get essential inner pages using our ready demos.
+                </p>
+                <div class="box-button-offer">
+                 
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-            <div class="mb-20">
-
-
-            </div>
-          </div>
-          <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-            <div class="card-offer card-we-do hover-up">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="YC">
-              </div>
-              <div class="card-info">
-                <h4 class="color-brand-1 mb-10"><a class="color-brand-1"
-                    href="Share updates instantly within our project management software, and get the entire team collaborating">Submit Required Documents</a></h4>
-                <p class="font-md color-grey-500 mb-5">Upload scanned copies of your ID, transcripts, and other required documents to support your application.</p>
-              
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-            <div>
-
-
-            </div>
-          </div>
-          <div class="col-lg-6 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
-            <div class="card-offer card-we-do hover-up">
-              <div class="card-image"><img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="YC">
+          <!-- Second Card -->
+          <div class="col-md-12 col-lg-12 mb-10 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+            <div class="card-offer card-we-do hover-up mb-10">
+              <div class="card-image">
+                <img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="YC">
               </div>
               <div class="card-info">
-                <h4 class="color-brand-1 mb-10"><a class="color-brand-1"
-                    href="What makes us different from others? We give holistic solutions with strategy, design &amp; technology.">Await Confirmation & Next Steps</a></h4>
-                <p class="font-md color-grey-500 mb-5">Once reviewed, you’ll receive a confirmation email with further instructions and key dates.</p>
-              
+                <h4 class="color-brand-1 mb-10">
+                  <a class="color-brand-1" href="#">Collaborative to the core</a>
+                </h4>
+                <p class="font-md color-grey-500 mb-5">
+                  Your site is not complete with only landings. Get essential inner pages using our ready demos.
+                </p>
+                <div class="box-button-offer">
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Third Card -->
+          <div class="col-md-12 col-lg-12 mb-1  0 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
+            <div class="card-offer card-we-do hover-up mb-10">
+              <div class="card-image">
+                <img src="{{ asset('assets/yc/imgs/page/homepage2/we-do3.png') }}" alt="YC">
+              </div>
+              <div class="card-info">
+                <h4 class="color-brand-1 mb-10">
+                  <a class="color-brand-1" href="#">Unlimited ways to work</a>
+                </h4>
+                <p class="font-md color-grey-500 mb-5">
+                  Your site is not complete with only landings. Get essential inner pages using our ready demos.
+                </p>
+                <div class="box-button-offer">
+                 
+                </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
-    </section>
+    </div>
+  </div>
+</section>
     <!-- fees Structure -->
     <section class="section mt-100 mb-40">
       <div class="container">
@@ -677,8 +697,8 @@
                 <p class="color-grey-500 font-md">Unlock exclusive learning access, community benefits, and insider
                   events by joining our membership program today.</p>
                 <div class="box-button mt-30">
-                  <a class="btn btn-brand-1 hover-up" href="#">Join Now</a>
-                  <a class="btn btn-default font-sm-bold hover-up" href="#">
+                  <a class="btn btn-brand-1 hover-up" href="{{ route('membership') }}">Join Now</a>
+                  <a class="btn btn-default font-sm-bold hover-up" href="{{ route('membership') }}">
                     View Plans
                     <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">

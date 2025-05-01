@@ -10,9 +10,9 @@
   <meta name="description" content="Index page">
   <meta name="keywords" content="index, page">
   <meta name="author" content="">
-  <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/yc/imgs/template/favicon.svg')}}">
+ <link rel="icon" type="image/svg+xml" href="{{ asset('assets/yc/imgs/template/favicon.svg') }}">
   <link href="{{asset('assets/yc/css/style.css?v=5.0.0')}}" rel="stylesheet">
-  <title>Blog</title>
+  <title>Stories</title>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
           <div class="row align-items-center">
             <div class="col-xxl-6 col-xl-7 col-lg-12">
               <div class="box-banner-service p-0">
-                <h2 class="color-brand-1 mb-20 wow animate_animated animate_fadeInUp mb-30" data-wow-delay=".0s">Voice of
+                <h2 class="color-brand-1 mb-20 wow animate_animated animate_fadeInUp mb-30" data-wow-delay=".0s">Words of
                   Chanakya</h2>
                 <div class="row">
                   <div class="col-lg-12 wow animate_animated animate_fadeInUp mt-10 mb-20" data-wow-delay=".3s">
@@ -80,7 +80,7 @@
             <div class="row mt-55"> 
               <div class="col-lg-4 col-md-6 mb-30 item-article featured wow animate_animated animate_fadeIn" data-wow-delay=".0s">
                 <div class="card-blog-grid card-blog-grid-3 hover-up">
-                  <div class="card-image"><a href="blog-detail.html"><img src="assets/imgs/page/blog/img6.png" alt="YC"></a>
+                  <div class="card-image"><a href="blog-detail.html"><img src="assets/yc/imgs/page/blog/img6.png" alt="YC"></a>
                     <label class="lbl-border">Writing</label>
                   </div>
                   <div class="card-info"><a href="blog-detail.html">
@@ -92,7 +92,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-30 item-article featured wow animate_animated animate_fadeIn" data-wow-delay=".0s">
                 <div class="card-blog-grid card-blog-grid-3 hover-up">
-                  <div class="card-image"><a href="blog-detail.html"><img src="assets/imgs/page/blog/img7.png" alt="YC"></a>
+                  <div class="card-image"><a href="blog-detail.html"><img src="assets/yc/imgs/page/blog/img7.png" alt="YC"></a>
                     <label class="lbl-border">Blogging</label>
                   </div>
                   <div class="card-info"><a href="blog-detail.html">
@@ -104,7 +104,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-30 item-article other wow animate_animated animate_fadeIn" data-wow-delay=".0s">
                 <div class="card-blog-grid card-blog-grid-3 hover-up">
-                  <div class="card-image"><a href="blog-detail.html"><img src="assets/imgs/page/blog/img8.png" alt="YC"></a>
+                  <div class="card-image"><a href="blog-detail.html"><img src="assets/yc/imgs/page/blog/img8.png" alt="YC"></a>
                     <label class="lbl-border">Marketting</label>
                   </div>
                   <div class="card-info"><a href="blog-detail.html">
@@ -116,7 +116,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-30 item-article other wow animate_animated animate_fadeIn" data-wow-delay=".0s">
                 <div class="card-blog-grid card-blog-grid-3 hover-up">
-                  <div class="card-image"><a href="blog-detail.html"><img src="assets/imgs/page/blog/img9.png" alt="YC"></a>
+                  <div class="card-image"><a href="blog-detail.html"><img src="assets/yc/imgs/page/blog/img9.png" alt="YC"></a>
                     <label class="lbl-border">Business</label>
                   </div>
                   <div class="card-info"><a href="blog-detail.html">
@@ -128,7 +128,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-30 item-article other wow animate_animated animate_fadeIn" data-wow-delay=".0s">
                 <div class="card-blog-grid card-blog-grid-3 hover-up">
-                  <div class="card-image"><a href="blog-detail.html"><img src="assets/imgs/page/blog/img10.png" alt="YC"></a>
+                  <div class="card-image"><a href="blog-detail.html"><img src="assets/yc/imgs/page/blog/img10.png" alt="YC"></a>
                     <label class="lbl-border">Marketting</label>
                   </div>
                   <div class="card-info"><a href="blog-detail.html">
@@ -140,7 +140,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-30 item-article other wow animate_animated animate_fadeIn" data-wow-delay=".0s">
                 <div class="card-blog-grid card-blog-grid-3 hover-up">
-                  <div class="card-image"><a href="blog-detail.html"><img src="assets/imgs/page/blog/img11.png" alt="YC"></a>
+                  <div class="card-image"><a href="blog-detail.html"><img src="assets/yc/imgs/page/blog/img11.png" alt="YC"></a>
                     <label class="lbl-border">Blogging</label>
                   </div>
                   <div class="card-info"><a href="blog-detail.html">
@@ -152,7 +152,7 @@
               </div>
             </div>
             
-            <div class="mt-20 mb-30 text-center wow animate_animated animate_fadeIn" data-wow-delay=".0s"><a class="btn btn-brand-1 font-sm-bold" href="#">Load More...</a></div>
+           
           </div>
         </div>
       </section>

@@ -10,7 +10,7 @@
   <meta name="description" content="Index page">
   <meta name="keywords" content="index, page">
   <meta name="author" content="">
-  <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/yc/imgs/template/favicon.svg')}}">
+ <link rel="icon" type="image/svg+xml" href="{{ asset('assets/yc/imgs/template/favicon.svg') }}">
   <link href="{{asset('assets/yc/css/style.css?v=5.0.0')}}" rel="stylesheet">
   <title>Management Intern Team</title>
 </head>
@@ -31,7 +31,7 @@
               managing experiences, and supporting strategic operations across teams.</p>
 
             <div class="mt-40 text-start wow animate__animated animate__fadeInUp"><a class="btn btn-brand-1 hover-up"
-                href="#">Learn More
+                href="#section1">Learn More
                 <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
@@ -44,12 +44,12 @@
         </div>
       </div>
     </section>
-    <section class="section mt-100">
+    <section class="section mt-100" id="section1">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
             <div class="card-guide bg-4">
-              <div class="card-image"><img src="assets/imgs/page/homepage7/payment.png" alt="iori"></div>
+              <div class="card-image"><img src="assets/yc/imgs/page/homepage7/payment.png" alt="iori"></div>
               <div class="card-info">
                 <h5 class="color-brand-1 mb-15">Operational Ownership</h5>
                 <p class="font-md color-grey-500"> Hands-on experience in managing programs, events, and internal ops
@@ -60,7 +60,7 @@
           </div>
           <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
             <div class="card-guide bg-5">
-              <div class="card-image"><img src="assets/imgs/page/homepage7/money.png" alt="iori"></div>
+              <div class="card-image"><img src="assets/yc/imgs/page/homepage7/money.png" alt="iori"></div>
               <div class="card-info">
                 <h5 class="color-brand-1 mb-15">Leadership-in-Training</h5>
                 <p class="font-md color-grey-500"> Develop essential startup leadership skills through real project
@@ -71,7 +71,7 @@
           </div>
           <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
             <div class="card-guide bg-7">
-              <div class="card-image"><img src="assets/imgs/page/homepage7/support.png" alt="iori"></div>
+              <div class="card-image"><img src="assets/yc/imgs/page/homepage7/support.png" alt="iori"></div>
               <div class="card-info">
                 <h5 class="color-brand-1 mb-15">Collaboration Hub</h5>
                 <p class="font-md color-grey-500"> Bridge across mentor, academic, and student teams to keep the engine

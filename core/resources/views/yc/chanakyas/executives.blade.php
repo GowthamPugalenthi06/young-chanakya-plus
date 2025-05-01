@@ -10,7 +10,7 @@
   <meta name="description" content="Index page">
   <meta name="keywords" content="index, page">
   <meta name="author" content="">
-  <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/yc/imgs/template/favicon.svg')}}">
+ <link rel="icon" type="image/svg+xml" href="{{ asset('assets/yc/imgs/template/favicon.svg') }}">
   <link href="{{asset('assets/yc/css/style.css?v=5.0.0')}}" rel="stylesheet">
   <title>Executives</title>
 </head>
@@ -27,7 +27,7 @@
               <h2 class="color-brand-1 mt-10 mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Executives</h2>
               <p class="font-md color-grey-500 wow animate__animated animate__fadeIn" data-wow-delay=".1s">Meet the experts who turn ideas into results and strategies into streamlined systems for success. They bring expertise in managing teams, operations, and resources to drive growth and build strong company cultures. Through their guidance, students learn how to execute ideas effectively, lead with clarity, and establish systems for long-term success.</p>
               
-              <div class="mt-30 text-start wow animate__animated animate__fadeIn" data-wow-delay=".3s"><a class="btn btn-brand-1 hover-up" href="#">Learn More
+              <div class="mt-30 text-start wow animate__animated animate__fadeIn" data-wow-delay=".3s"><a class="btn btn-brand-1 hover-up" href="#section1">Learn More
                   <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                   </svg></a></div>
@@ -45,7 +45,7 @@
         </div>
       </section>
 
-    <section class="section mt-40 pt-60 mb-40 pb-60" style="background-color: #024430;">
+    <section class="section mt-40 pt-60 mb-40 pb-60" style="background-color: #024430;" id="section1">
       <div class="container">
         <!-- First Row of Cards -->
         <div class="row">

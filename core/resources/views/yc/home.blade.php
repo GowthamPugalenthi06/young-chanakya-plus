@@ -10,7 +10,7 @@
   <meta name="description" content="Index page">
   <meta name="keywords" content="index, page">
   <meta name="author" content="">
-  <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/yc/imgs/template/favicon.svg')}}">
+  <link rel="icon" type="image/svg+xml" href="{{ asset('assets/yc/imgs/template/favicon.svg') }}">
   <link href="{{asset('assets/yc/css/style.css?v=5.0.0')}}" rel="stylesheet">
   <title>Young Chanakya - India's Elite Startup Business Leadership Launchpad</title>
   <style>
@@ -113,7 +113,7 @@
               </div>
               <div class="d-flex justify-content-start gap-3 flex-wrap">
                 <div class="box-button mt-30 wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
-                  <a class="btn btn-brand-1 hover-up" href="{{ route('about') }}" style="backgroung-color:#fff;">
+                  <a class="btn btn-brand-1 hover-up" href="{{ route('membership') }}" style="backgroung-color:#fff;">
                     Become a Member
                     <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
@@ -759,7 +759,7 @@
               <div class="box-core-value pl-0">
                 <h1 class="color-brand-1 mb-25 wow animate__animated animate__fadeIn" data-wow-delay=".0s"> Our Core Values</h1>
                 <p class="font-md color-grey-400 wow animate__animated animate__fadeIn pe-2 text-justify" data-wow-delay=".2s">Young Chanakya empowers ethical, bold leaders through values like integrity, innovation, and continuous learning. It promotes action, resilience, and community-driven impact for the startup ecosystem.</p>
-                <div class="mt-30 wow animate__animated animate__fadeIn" data-wow-delay=".4s"><a class="btn btn-white-circle font-sm-bold border-brand" href="#">JOIN OUR TEAM TODAY</a></div>
+                <div class="mt-30 wow animate__animated animate__fadeIn" data-wow-delay=".4s"><a class="btn btn-white-circle font-sm-bold border-brand" href="{{ url('/careers') }}">JOIN OUR TEAM TODAY</a></div>
               </div>
             </div>
             <div class="col-lg-4">
@@ -1046,7 +1046,7 @@
             <div class="col-lg-4 col-md-12 col-sm-12 mb-30"><span class="title-line line-48 wow animate__animated animate__fadeIn" data-wow-delay=".0s">How it work</span>
               <h2 class="color-brand-1 mt-10 mb-20 wow animate__animated animate__fadeIn" data-wow-delay=".2s">Level Up with YC Events</h2>
               <p class="color-grey-500 font-sm wow animate__animated animate__fadeIn" data-wow-delay=".4s">Gain practical exposure through focused, high-impact sessions that sharpen how you think, lead, and build. From strategic frameworks to real-time decision-making, each event helps you develop stronger business judgment, better execution skills, and lasting industry relationships that drive long-term outcomes</p>
-              <div class="mt-30 wow animate__animated animate__fadeIn" data-wow-delay=".6s"><a class="btn btn-brand-1 hover-up" href="#">Explore Our Events
+              <div class="mt-30 wow animate__animated animate__fadeIn" data-wow-delay=".6s"><a class="btn btn-brand-1 hover-up" href="{{ url('/events') }}">Explore Our Events
                   <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                   </svg></a></div>
@@ -1172,7 +1172,7 @@
                   <span class="text-sm text-gray-600">
                     <i class="fa fa-calendar-alt mr-1  text-type-card1-date"></i> October 16, 2027
                   </span>
-                  <a href="#"
+                  <a href="{{url('/events')}}"
                     class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
                     style="font-size: 0.875rem;">
                     ATTEND
@@ -1205,7 +1205,7 @@
                   <span class="text-sm text-gray-600">
                     <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
                   </span>
-                  <a href="#"
+                  <a href="{{url('/events')}}"
                     class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
                     style="font-size: 0.875rem;">
                     ATTEND
@@ -1237,7 +1237,7 @@
                   <span class="text-sm text-gray-600">
                     <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
                   </span>
-                  <a href="#"
+                  <a href="{{url('/events')}}"
                     class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
                     style="font-size: 0.875rem;">
                     ATTEND
@@ -1269,7 +1269,7 @@
                   <span class="text-sm text-gray-600">
                     <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
                   </span>
-                  <a href="#"
+                  <a href="{{url('/events')}}"
                     class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
                     style="font-size: 0.875rem;">
                     ATTEND
@@ -1303,7 +1303,7 @@
                   <span class="text-sm text-gray-600">
                     <i class="fa fa-calendar-alt mr-1  text-type-card1-date"></i> October 16, 2027
                   </span>
-                  <a href="#"
+                  <a href="{{url('/events')}}"
                     class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
                     style="font-size: 0.875rem;">
                     ATTEND
@@ -1336,7 +1336,7 @@
                   <span class="text-sm text-gray-600">
                     <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
                   </span>
-                  <a href="#"
+                  <a href="{{url('/events')}}"
                     class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
                     style="font-size: 0.875rem;">
                     ATTEND
@@ -1368,7 +1368,7 @@
                   <span class="text-sm text-gray-600">
                     <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
                   </span>
-                  <a href="#"
+                  <a href="{{url('/events')}}"
                     class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
                     style="font-size: 0.875rem;">
                     ATTEND
@@ -1400,7 +1400,7 @@
                   <span class="text-sm text-gray-600">
                     <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
                   </span>
-                  <a href="#"
+                  <a href="{{url('/events')}}"
                     class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
                     style="font-size: 0.875rem;">
                     ATTEND
@@ -1434,7 +1434,7 @@
                   <span class="text-sm text-gray-600">
                     <i class="fa fa-calendar-alt mr-1  text-type-card1-date"></i> October 16, 2027
                   </span>
-                  <a href="#"
+                  <a href="{{url('/events')}}"
                     class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
                     style="font-size: 0.875rem;">
                     ATTEND
@@ -1467,7 +1467,7 @@
                   <span class="text-sm text-gray-600">
                     <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
                   </span>
-                  <a href="#"
+                  <a href="{{url('/events')}}"
                     class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
                     style="font-size: 0.875rem;">
                     ATTEND
@@ -1499,7 +1499,7 @@
                   <span class="text-sm text-gray-600">
                     <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
                   </span>
-                  <a href="#"
+                  <a href="{{url('/events')}}"
                     class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
                     style="font-size: 0.875rem;">
                     ATTEND
@@ -1531,7 +1531,7 @@
                   <span class="text-sm text-gray-600">
                     <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
                   </span>
-                  <a href="#"
+                  <a href="{{url('/events')}}"
                     class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
                     style="font-size: 0.875rem;">
                     ATTEND
@@ -1776,7 +1776,7 @@
             </div>
             <div class="col-lg-3 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
               <div class="card-guide bg-5">
-                <div class="card-image"><img src="assets/imgs/page/homepage7/money.png" alt="iori"></div>
+                <div class="card-image"><img src="assets/yc/imgs/page/homepage7/money.png" alt="iori"></div>
                 <div class="card-info">
                   <h5 class="color-brand-1 mb-15">Live Masterclasses</h5>
                   <p class="font-md color-grey-500"> Actionable insights shared through real-time sessions and workshops</p>
@@ -1786,7 +1786,7 @@
             </div>
             <div class="col-lg-3 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
               <div class="card-guide bg-7">
-                <div class="card-image"><img src="assets/imgs/page/homepage7/support.png" alt="iori"></div>
+                <div class="card-image"><img src="assets/yc/imgs/page/homepage7/support.png" alt="iori"></div>
                 <div class="card-info">
                   <h5 class="color-brand-1 mb-15">Growth Hacking Guidance</h5>
                   <p class="font-md color-grey-500">  Proven strategies to build, scale, and sustain high-growth ventures
@@ -1797,7 +1797,7 @@
             </div>
             <div class="col-lg-3 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
               <div class="card-guide bg-7">
-                <div class="card-image"><img src="assets/imgs/page/homepage7/support.png" alt="iori"></div>
+                <div class="card-image"><img src="assets/yc/imgs/page/homepage7/support.png" alt="iori"></div>
                 <div class="card-info">
                   <h5 class="color-brand-1 mb-15">Growth Hacking Guidance</h5>
                   <p class="font-md color-grey-500">  Proven strategies to build, scale, and sustain high-growth ventures
@@ -1811,7 +1811,7 @@
       </section> -->
       
 
-    <section class="section mt-50">
+      <section class="section mt-50">
         <div class="container">
           <div class="row align-items-end">
             <div class="col-lg-8 col-md-8">
@@ -1836,7 +1836,7 @@
                             d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg></a></li>
                     <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s"><a id="tab2-tab"
-                        data-bs-toggle="pill" data-bs-target="#tab2" type="button" role="tab"><span>Volunteer</span>
+                        data-bs-toggle="pill" data-bs-target="#tab2" type="button" role="tab"><span>Entrepreneur</span>
                         <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                           xmlns="http://www.w3.org/2000/svg">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -1850,14 +1850,14 @@
                             d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg></a></li>
                     <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s"><a id="tab4-tab"
-                        data-bs-toggle="pill" data-bs-target="#tab4" type="button" role="tab"><span>Entrepreneur</span>
+                        data-bs-toggle="pill" data-bs-target="#tab4" type="button" role="tab"><span>Volunteer</span>
                         <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                           xmlns="http://www.w3.org/2000/svg">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg></a></li>
                     <li class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s"><a id="tab5-tab"
-                        data-bs-toggle="pill" data-bs-target="#tab5" type="button" role="tab"><span>Executives</span>
+                        data-bs-toggle="pill" data-bs-target="#tab5" type="button" role="tab"><span>Business Professional</span>
                         <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                           xmlns="http://www.w3.org/2000/svg">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -1881,11 +1881,11 @@
                     <div class="tab-pane fade show active" id="tab1" role="tabpanel">
                       <div class="row">
                         <div class="row align-items-center">
-                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16" style="width: 600px; height:350px;"
+                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
                               src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}"  alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
-                            <div class="box-business-tab"><span class="btn btn-tag"> Explore. Learn. Grow</span>
-                              <h3 class="color-brand-1 mt-10 mb-15">Building Your Foundation 
+                            <div class="box-business-tab"><span class="btn btn-tag"> Explore. Evolve. Excel.</span>
+                              <h3 class="color-brand-1 mt-10 mb-15">Building Your Foundation for the Future
                                 
                               </h3>
                               <p class="font-md color-grey-400">Discover the building blocks of leadership and business through practical learning, mentorship, and exposure that sets you apart from the very beginning.</p>
@@ -1897,7 +1897,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Participate in hands-on business simulations and workshops  
+                                    </svg> Participate in hands-on business simulations and workshops  
 
                                   </li>
                                   <li>
@@ -1906,7 +1906,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Collaborate with professionals in cross-functional teams  
+                                    </svg> Collaborate with professionals in cross-functional teams  
 
                                   </li>
                                   <li>
@@ -1915,7 +1915,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Learn industry-relevant tools and problem-solving approaches  
+                                    </svg> Learn industry-relevant tools and problem-solving approaches  
 
                                   </li>
                                   <li>
@@ -1924,7 +1924,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Access mentorship from entrepreneurs and CXOs  
+                                    </svg> Access mentorship from entrepreneurs and CXOs  
 
                                   </li>
                                 </ul>
@@ -1938,10 +1938,10 @@
                     <div class="tab-pane fade" id="tab2" role="tabpanel">
                       <div class="row">
                         <div class="row align-items-center">
-                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16" style="width: 600px; height:350px;"
+                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
                               src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
-                            <div class="box-business-tab"><span class="btn btn-tag">Make an Impact</span>
+                            <div class="box-business-tab"><span class="btn btn-tag">Lead with Purpose</span>
                               <h3 class="color-brand-1 mt-10 mb-15"> Learn by Leading
                               </h3>
                               <p class="font-md color-grey-400">Shape initiatives, drive impact, and grow into a strategic contributor while gaining hands-on experience in events, community, and operations.</p>
@@ -1953,7 +1953,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Take ownership of event planning, outreach, or content streams  
+                                    </svg> Take ownership of event planning, outreach, or content streams  
 
                                   </li>
                                   <li>
@@ -1962,7 +1962,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Gain visibility while representing YC across platforms  
+                                    </svg> Gain visibility while representing YC across platforms  
 
                                   </li>
                                   <li>
@@ -1971,7 +1971,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Develop operational, communication, and problem-solving skills  
+                                    </svg> Develop operational, communication, and problem-solving skills  
 
                                   </li>
                                   <li>
@@ -1980,7 +1980,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Collaborate with a mission-driven, high-performance team  
+                                    </svg> Collaborate with a mission-driven, high-performance team  
 
                                   </li>
                                   
@@ -1995,11 +1995,11 @@
                     <div class="tab-pane fade" id="tab3" role="tabpanel">
                       <div class="row">
                         <div class="row align-items-center">
-                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16" style="width: 600px; height:350px;"
+                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
                               src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
                             <div class="box-business-tab"><span class="btn btn-tag">Fuel for Your Venture  </span>
-                              <h3 class="color-brand-1 mt-10 mb-15">Community Launchpad for Founders
+                              <h3 class="color-brand-1 mt-10 mb-15">A Community-Built Launchpad for Founders
                               </h3>
                               <p class="font-md color-grey-400"> From early traction to ecosystem connections, get tailored support to test, validate, and grow your startup inside a vibrant innovation hub.</p>
                               <div class="mt-20">
@@ -2010,7 +2010,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Pitch at exclusive YC startup showcases and investor meets  
+                                    </svg> Pitch at exclusive YC startup showcases and investor meets  
 
                                   </li>
                                   <li>
@@ -2019,7 +2019,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Access mentorship from growth-stage founders and VCs  
+                                    </svg> Access mentorship from growth-stage founders and VCs  
 
                                   </li>
                                   <li>
@@ -2028,7 +2028,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Join product, GTM, and branding sprint sessions  
+                                    </svg> Join product, GTM, and branding sprint sessions  
 
                                   </li>
                                   <li>
@@ -2037,7 +2037,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Join product, GTM, and branding sprint sessions  
+                                    </svg> Join product, GTM, and branding sprint sessions  
 
                                   </li>
                                   
@@ -2052,10 +2052,10 @@
                     <div class="tab-pane fade" id="tab4" role="tabpanel">
                       <div class="row">
                         <div class="row align-items-center">
-                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16" style="width: 600px; height:350px;"
+                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
                               src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
-                            <div class="box-business-tab"><span class="btn btn-tag">Transform Your Business </span>
+                            <div class="box-business-tab"><span class="btn btn-tag">Reinvent. Reconnect. Rise. </span>
                               <h3 class="color-brand-1 mt-10 mb-15">Evolve What You’ve Built
                               </h3>
                               <p class="font-md color-grey-400">Designed for builders who’ve moved beyond the starting line, YC helps you sharpen your direction, expand your reach, and evolve into your next phase of growth
@@ -2068,7 +2068,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Join peer boards for founder-to-founder learning  
+                                    </svg> Join peer boards for founder-to-founder learning  
 
                                   </li>
                                   <li>
@@ -2077,7 +2077,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Access curated insights on operations, capital, and growth  
+                                    </svg> Access curated insights on operations, capital, and growth  
 
                                   </li>
                                   <li>
@@ -2086,7 +2086,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Explore new partnerships, pilots, and customer pathways  
+                                    </svg> Explore new partnerships, pilots, and customer pathways  
 
                                   </li>
                                   <li>
@@ -2095,7 +2095,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Get early access to YC summits, expos, and panels  
+                                    </svg> Get early access to YC summits, expos, and panels  
 
                                   </li>
                                   
@@ -2109,10 +2109,10 @@
                     <div class="tab-pane fade" id="tab5" role="tabpanel">
                       <div class="row">
                         <div class="row align-items-center">
-                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16" style="width: 600px; height:350px;"
+                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
                               src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
-                            <div class="box-business-tab"><span class="btn btn-tag">Evolve Your Leadership  </span>
+                            <div class="box-business-tab"><span class="btn btn-tag">Stay Ahead of the Curve  </span>
                               <h3 class="color-brand-1 mt-10 mb-15">Redefine Your Edge
                               </h3>
                               <p class="font-md color-grey-400">Stay sharp and future-ready through curated learning, fresh perspectives, and meaningful connections across emerging domains and dynamic markets.</p>
@@ -2124,7 +2124,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Be part of exclusive executive cohorts and masterclasses  
+                                    </svg> Be part of exclusive executive cohorts and masterclasses  
 
                                   </li>
                                   <li>
@@ -2133,7 +2133,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Grow visibility through interviews, podcasts and panels 
+                                    </svg> Learn directly from thought leaders, founders, and mentors  
 
                                   </li>
                                   <li>
@@ -2142,7 +2142,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Get insights into emerging technologies and generational shifts  
+                                    </svg> Get insights into emerging technologies and generational shifts  
 
                                   </li>
                                   <li>
@@ -2151,7 +2151,7 @@
                                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M5 13l4 4L19 7">
                                       </path>
-                                    </svg>Contribute to real-world case discussions and advisory councils  
+                                    </svg> Contribute to real-world case discussions and advisory councils  
 
                                   </li>
                                   
@@ -2162,10 +2162,10 @@
                         </div>
                       </div>
                     </div>
-                    <!-- <div class="tab-pane fade" id="tab6" role="tabpanel">
+                    <div class="tab-pane fade" id="tab6" role="tabpanel">
                       <div class="row">
                         <div class="row align-items-center">
-                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16" style="width: 600px; height:350px;"
+                          <div class="col-xl-6 col-lg-5"><img class="bd-rd16"
                               src="{{ asset('assets/yc/imgs/page/homepage10/img-tab.png') }}" alt="YC"></div>
                           <div class="col-xl-6 col-lg-7">
                             <div class="box-business-tab"><span class="btn btn-tag">Business</span>
@@ -2220,7 +2220,7 @@
                           </div>
                         </div>
                       </div>
-                    </div> -->
+                    </div>
                     <!-- tab content -5 -->
                     
                   </div>
@@ -2955,7 +2955,7 @@
                   <span class="text-sm text-gray-600">
                     <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
                   </span>
-                  <a href="#"
+                  <a href="{{url('/events')}}"
                     class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
                     style="font-size: 0.875rem;">
                     ATTEND
@@ -2987,7 +2987,7 @@
                   <span class="text-sm text-gray-600">
                     <i class="fa fa-calendar-alt mr-1  text-type-card-date"></i> October 16, 2027
                   </span>
-                  <a href="#"
+                  <a href="{{url('/events')}}"
                     class="btn btn-sm border border-orange-400 text-orange-500 rounded-lg px-3 py-1 hover:bg-orange-50 font-semibold"
                     style="font-size: 0.875rem;">
                     ATTEND
@@ -3199,8 +3199,8 @@
                 <h2 class="color-brand-1 mt-10 mb-15">Join the Elite Circle</h2>
                 <p class="color-grey-500 font-md">Connect with leaders, entrepreneurs and innovators.</p>
                 <p class="color-grey-500 font-md">Create opportunities, drive growth, and shape the future.</p>
-                <div class="box-button mt-30"> <a class="btn btn-brand-1 hover-up" href="#">Become a Member</a><a
-                    class="btn btn-default font-sm-bold hover-up" href="#">
+                <div class="box-button mt-30"> <a class="btn btn-brand-1 hover-up" href="{{ route('membership') }}">Become a Member</a><a
+                    class="btn btn-default font-sm-bold hover-up" href="{{ route('become-a-sponsor') }}">
                     Become a Sponsor
                     <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">

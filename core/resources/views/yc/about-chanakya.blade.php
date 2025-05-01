@@ -10,7 +10,7 @@
   <meta name="description" content="Index page">
   <meta name="keywords" content="index, page">
   <meta name="author" content="">
-  <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/yc/imgs/template/favicon.svg')}}')}}">
+  <link rel="icon" type="image/svg+xml" href="{{ asset('assets/yc/imgs/template/favicon.svg') }}">
   <link href="{{asset('assets/yc/css/style.css?v=5.0.0')}}" rel="stylesheet">
   <title>About Chanakya</title>
   <style>
@@ -138,7 +138,7 @@
             <div class="tab-pane fade" id="tab-explore-2" role="tabpanel" aria-labelledby="tab-explore-2">
               <div class="box-tab-32">
                 <div class="row align-items-center">
-                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/blog2/img1.png" alt="YC">
+                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/yc/imgs/page/blog2/img1.png" alt="YC">
                   </div>
                   <div class="col-xl-6 col-lg-7">
                     <div class="box-business-tab"><span class="btn btn-tag">Business</span>
@@ -200,7 +200,7 @@
             <div class="tab-pane fade" id="tab-explore-3" role="tabpanel" aria-labelledby="tab-explore-3">
               <div class="box-tab-32">
                 <div class="row align-items-center">
-                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/homepage10/img-tab.png"
+                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/yc/imgs/page/homepage10/img-tab.png"
                       alt="YC"></div>
                   <div class="col-xl-6 col-lg-7">
                     <div class="box-business-tab"><span class="btn btn-tag">Business</span>
@@ -262,7 +262,7 @@
             <div class="tab-pane fade" id="tab-explore-4" role="tabpanel" aria-labelledby="tab-explore-4">
               <div class="box-tab-32">
                 <div class="row align-items-center">
-                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/blog2/img1.png" alt="YC">
+                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/yc/imgs/page/blog2/img1.png" alt="YC">
                   </div>
                   <div class="col-xl-6 col-lg-7">
                     <div class="box-business-tab"><span class="btn btn-tag">Business</span>
@@ -324,7 +324,7 @@
             <div class="tab-pane fade" id="tab-explore-5" role="tabpanel" aria-labelledby="tab-explore-5">
               <div class="box-tab-32">
                 <div class="row align-items-center">
-                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/imgs/page/homepage10/img-tab.png"
+                  <div class="col-xl-6 col-lg-5"><img class="bd-rd16" src="assets/yc/imgs/page/homepage10/img-tab.png"
                       alt="YC"></div>
                   <div class="col-xl-6 col-lg-7">
                     <div class="box-business-tab"><span class="btn btn-tag">Business</span>

@@ -11,7 +11,7 @@
     <meta name="description" content="Index page">
     <meta name="keywords" content="index, page">
     <meta name="author" content="">
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/yc/imgs/template/favicon.svg')}}">
+   <link rel="icon" type="image/svg+xml" href="{{ asset('assets/yc/imgs/template/favicon.svg') }}">
     <link href="{{asset('assets/yc/css/style.css?v=5.0.0')}}" rel="stylesheet">
     <link href="{{asset('assets/yc/css/vendors/aos.css')}}" rel="stylesheet">
     <title>Outcomes</title>
@@ -243,10 +243,7 @@
                   <div class="card-info">
                     <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="#">Business Fundamentals Mastery</a></h4>
                     <p class="font-md color-grey-500 mb-5">Gain a solid foundation in essential business concepts, from branding to financial management, and learn how to apply them to your startup.</p>
-                    <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                      <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                      </svg></a></div>
+                   
                   </div>
                 </div>
               </div>
@@ -258,10 +255,7 @@
                   <div class="card-info">
                     <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="#">Customer-Centric Thinking</a></h4>
                     <p class="font-md color-grey-500 mb-5">Develop a customer-first mindset by understanding market needs, identifying target customers, and adapting your product to solve real pain points.</p>
-                    <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                      <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                      </svg></a></div>
+                   
                   </div>
                 </div>
               </div>
@@ -273,10 +267,7 @@
                   <div class="card-info">
                     <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="#">Data-Driven Strategy</a></h4>
                     <p class="font-md color-grey-500 mb-5">Learn how to make informed decisions using data, optimize your product offerings, and measure business performance for sustained growth.</p>
-                    <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                      <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                      </svg></a></div>
+                   
                   </div>
                 </div>
               </div>
@@ -288,10 +279,7 @@
                   <div class="card-info">
                     <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="#">Strategic Networking</a></h4>
                     <p class="font-md color-grey-500 mb-5">Build a powerful network of mentors, peers, and investors to support your business journey, exchange ideas, and unlock opportunities.</p>
-                    <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                      <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                      </svg></a></div>
+                   
                   </div>
                 </div>
               </div>
@@ -303,10 +291,7 @@
                   <div class="card-info">
                     <h4 class="color-brand-1 mb-10"><a class="color-brand-1" href="#">Operational Excellence</a></h4>
                     <p class="font-md color-grey-500 mb-5">Master operational skills such as resource management, scaling processes, and navigating challenges to keep your startup on track.</p>
-                    <div class="box-button-offer"><a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                      <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                      </svg></a></div>
+                   
                   </div>
                 </div>
               </div>
@@ -325,7 +310,7 @@
               Chanakya's</h2>
           </div>
           <div class="col-lg-6 col-md-6 text-md-end box-button mt-30 wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
-            <a class="btn btn-brand-1 hover-up" href="{{ route('about') }}">
+            <a class="btn btn-brand-1 hover-up" href="{{ route('become-a-chanakya') }}">
               Become a Chanakya
               <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
@@ -594,7 +579,7 @@
                 <div class="box-info-video"><span class="btn btn-tag wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Community</span>
                   <h3 class="color-brand-2 mt-10 mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Ready to Transform Your Future?</h3>
                   <p class="font-md color-white wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Join the Young Chanakya community today and start your journey towards becoming a leader in the world of business.</p>
-                  <div class="box-button mt-30 mb-60 wow animate__animated animate__fadeIn" data-wow-delay=".2s"><a class="btn btn-brand-1 hover-up bg-white text-dark" href="#">Become a Chanakya</a><a class="btn btn-default font-sm-bold hover-up text-white" href="#">Explore the Chanakya Program
+                  <div class="box-button mt-30 mb-60 wow animate__animated animate__fadeIn" data-wow-delay=".2s"><a class="btn btn-brand-1 hover-up bg-white text-dark" href="{{ route('become-a-chanakya') }}">Become a Chanakya</a><a class="btn btn-default font-sm-bold hover-up text-white" href="{{ route('about-chanakya') }}">Explore the Chanakya Program
                     <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="white" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                     </svg></a></div>     

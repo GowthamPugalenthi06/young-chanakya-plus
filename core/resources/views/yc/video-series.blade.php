@@ -10,7 +10,7 @@
   <meta name="description" content="Index page">
   <meta name="keywords" content="index, page">
   <meta name="author" content="">
-  <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/yc/imgs/template/favicon.svg')}}">
+ <link rel="icon" type="image/svg+xml" href="{{ asset('assets/yc/imgs/template/favicon.svg') }}">
   <link href="{{asset('assets/yc/css/style.css?v=5.0.0')}}" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <title>Video Series</title>
@@ -26,7 +26,7 @@
           <div class="row align-items-center">
             <div class="col-xxl-6 col-xl-7 col-lg-12">
               <div class="box-banner-service p-0">
-                <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp mb-30" data-wow-delay=".0s">Voice
+                <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp mb-30" data-wow-delay=".0s">Thoughts
                   of
                   Chanakya</h2>
                 <div class="row">
@@ -82,7 +82,7 @@
               <ul class="list-unstyled small text-muted mb-3">
                 <li class="mb-1"><i class="bi bi-mic-fill me-2 text-warning"></i> Kishorekumar</li>
                 <li class="mb-1"><i class="bi bi-calendar3 me-2 text-warning"></i> 20 Mar 2025</li>
-                <li class="mb-1"><i class="bi bi-list-task me-2 text-warning"></i> List Item #1</li>
+                <li class="mb-1"><i class="bi bi-list-task me-2 text-warning"></i> Duration</li>
               </ul>
             </div>
           </div>
@@ -104,7 +104,7 @@
               <ul class="list-unstyled small text-muted mb-3">
                 <li class="mb-1"><i class="bi bi-mic-fill me-2 text-warning"></i> Kishorekumar</li>
                 <li class="mb-1"><i class="bi bi-calendar3 me-2 text-warning"></i> 20 Mar 2025</li>
-                <li class="mb-1"><i class="bi bi-list-task me-2 text-warning"></i> List Item #1</li>
+                <li class="mb-1"><i class="bi bi-list-task me-2 text-warning"></i> Duration</li>
               </ul>
             </div>
             
@@ -133,7 +133,7 @@
               <ul class="list-unstyled small text-muted mb-3">
                 <li class="mb-1"><i class="bi bi-mic-fill me-2 text-warning"></i> Kishorekumar</li>
                 <li class="mb-1"><i class="bi bi-calendar3 me-2 text-warning"></i> 20 Mar 2025</li>
-                <li class="mb-1"><i class="bi bi-list-task me-2 text-warning"></i> List Item #1</li>
+                <li class="mb-1"><i class="bi bi-list-task me-2 text-warning"></i> Duration</li>
               </ul>
             </div>
             
@@ -156,7 +156,7 @@
               <ul class="list-unstyled small text-muted mb-3">
                 <li class="mb-1"><i class="bi bi-mic-fill me-2 text-warning"></i> Kishorekumar</li>
                 <li class="mb-1"><i class="bi bi-calendar3 me-2 text-warning"></i> 20 Mar 2025</li>
-                <li class="mb-1"><i class="bi bi-list-task me-2 text-warning"></i> List Item #1</li>
+                <li class="mb-1"><i class="bi bi-list-task me-2 text-warning"></i> Duration</li>
               </ul>
             </div>
             

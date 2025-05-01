@@ -152,7 +152,7 @@
               <h5 class="mb-10 color-brand-1">Useful Links</h5>
               <ul class="menu-footer">
                 <li><a href="{{ route('about') }}">About us</a></li>
-                <li><a href="{{route("about")}}">Founder Talk</a></li>
+                <li><a href="{{route('founder')}}">Founder Talk</a></li>
                 <li><a href="{{ route('membership') }}">Membership</a></li>
                 <li><a href="{{ url('/events') }}">Events</a></li>
                 <li><a href="{{ route('code-of-conduct') }}">Code of Conduct</a></li>
@@ -233,14 +233,14 @@
       <div class="footer-2">
         <div class="container">
           <div class="footer-bottom py-4">
-            <div class="row align-items-center text-center text-lg-start">
+            <div class="row  text-center text-lg-start">
               
               <!-- Column 1: Copyright -->
               <div class="col-lg-4 col-md-12 mb-3 mb-lg-0">
                 <span class=" font-md">Copyright © 2025 Young Chanakya. All rights reserved.</span>
               </div>
               
-              <div class="col-lg-4 col-md-12 text-lg-center">
+              <div class="col-lg-4 col-md-12 text-lg-center align-items-center">
                 <ul class="menu-footer list-inline mb-0">
                   <li class="list-inline-item"><a class="font-md " href="{{ route('privacy-policy') }}">Privacy Policy</a></li>
                   <li class="list-inline-item"><a class="font-md" href="{{ route('terms-and-condition') }}">Terms of Service</a></li>
@@ -251,7 +251,7 @@
 
               
               <!-- Column 3: Bottom Links -->
-              <div class="col-lg-4 col-md-12 text-lg-end">
+              <div class="col-lg-4 col-md-12 text-lg-end align-items-center">
                 <ul class="menu-bottom list-inline mb-0">
                   <li class="list-inline-item"><strong class="font-md ">Partners : </strong></li>
                   <li class="list-inline-item"><ul class="list-inline menu-footer"><li><a class="font-md  pd" href="https://fintechgie.com/">FintechGie </a></li><li class=" font-md "> & </li><li><a class="font-md pd" href="https://wegeni.com/"> WeGeni</a></ul></li></li> 

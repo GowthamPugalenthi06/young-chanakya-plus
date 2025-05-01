@@ -9,7 +9,7 @@
     <meta name="description" content="Index page">
     <meta name="keywords" content="index, page">
     <meta name="author" content="">
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/yc/imgs/template/favicon.svg')}}">
+   <link rel="icon" type="image/svg+xml" href="{{ asset('assets/yc/imgs/template/favicon.svg') }}">
     <link href="{{asset('assets/yc/css/style.css?v=5.0.0')}}" rel="stylesheet">
     <title>Become a Chanakya</title>
     <script>
@@ -63,7 +63,7 @@
                     <p class="font-md color-grey-500 mb-10">Join a network of experienced minds shaping the next generation of business builders through insight, experience, and strategic thinking.</p>
                   </div>
                 </div>
-                <div class="box-button mt-20 wow animate__animated animate__fadeInUp" data-wow-delay=".4s"><a class="btn btn-brand-1 hover-up" href="#">Become a Chanakya</a>
+                <div class="box-button mt-20 wow animate__animated animate__fadeInUp" data-wow-delay=".4s"><a class="btn btn-brand-1 hover-up" href="#chanakya-form">Become a Chanakya</a>
                 </div>
               </div>
               <div class="col-lg-6 wow animate__animated animate__fadeIn ">
@@ -932,7 +932,8 @@
           </div>
         </div>
       </section> -->
-      <section class="section banner-4">
+      <div id="chanakya-form"></div>
+      <section class="section banner-4"  >
         <div class="container">
           <div class="banner-1">
             <div class="row align-items-center">

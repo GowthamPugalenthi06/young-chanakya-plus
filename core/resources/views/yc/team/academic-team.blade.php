@@ -10,7 +10,7 @@
   <meta name="description" content="Index page">
   <meta name="keywords" content="index, page">
   <meta name="author" content="">
-  <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/yc/imgs/template/favicon.svg')}}">
+ <link rel="icon" type="image/svg+xml" href="{{ asset('assets/yc/imgs/template/favicon.svg') }}">
   <link href="{{asset('assets/yc/css/style.css?v=5.0.0')}}" rel="stylesheet">
   <title>Academic Team </title>
 </head>
@@ -29,7 +29,7 @@
               Comprising thought leaders, business educators, and research scholars, this team crafts powerful, outcome-driven modules that blend theory with real-time entrepreneurial practices.  
               They guide students through every phase of their leadership journey — from idea validation to go-to-market strategies — through 1:1 sessions, live mentoring circles, and tactical masterclasses.</p>
               
-              <div class="mt-40 text-start wow animate__animated animate__fadeInUp"><a class="btn btn-brand-1 hover-up" href="#">Learn More
+              <div class="mt-40 text-start wow animate__animated animate__fadeInUp"><a class="btn btn-brand-1 hover-up" href="#section1">Learn More
                   <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                   </svg></a></div>
@@ -40,12 +40,12 @@
         </div>
       </section>
 
-      <section class="section mt-100">
+      <section class="section mt-100 " id="section1">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
               <div class="card-guide bg-4">
-                <div class="card-image"><img src=" {{('assets/imgs/page/homepage7/payment.png')}}" alt="iori"></div>
+                <div class="card-image"><img src=" {{('assets/yc/imgs/page/homepage7/payment.png')}}" alt="iori"></div>
                 <div class="card-info">
                   <h5 class="color-brand-1 mb-15">Industry-Centric Curriculum</h5>
                   <p class="font-md color-grey-500"> Practical modules built with real-world startup challenges in mind</p>
@@ -55,7 +55,7 @@
             </div>
             <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
               <div class="card-guide bg-5">
-                <div class="card-image"><img src="assets/imgs/page/homepage7/money.png" alt="iori"></div>
+                <div class="card-image"><img src="assets/yc/imgs/page/homepage7/money.png" alt="iori"></div>
                 <div class="card-info">
                   <h5 class="color-brand-1 mb-15">Case-Based Learning</h5>
                   <p class="font-md color-grey-500">  Harvard-style business simulations, startup case studies, and team projects</p>
@@ -65,7 +65,7 @@
             </div>
             <div class="col-lg-4 mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
               <div class="card-guide bg-7">
-                <div class="card-image"><img src="assets/imgs/page/homepage7/support.png" alt="iori"></div>
+                <div class="card-image"><img src="assets/yc/imgs/page/homepage7/support.png" alt="iori"></div>
                 <div class="card-info">
                   <h5 class="color-brand-1 mb-15">Cross-Disciplinary Focus</h5>
                   <p class="font-md color-grey-500"> Designed for students from all domains — engineering, arts, commerce, science

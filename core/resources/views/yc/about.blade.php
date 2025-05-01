@@ -10,7 +10,7 @@
   <meta name="description" content="Index page">
   <meta name="keywords" content="index, page">
   <meta name="author" content="">
-  <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/yc/imgs/template/favicon.svg')}}">
+  <link rel="icon" type="image/svg+xml" href="{{ asset('assets/yc/imgs/template/favicon.svg') }}">
   <link href="{{asset('assets/yc/css/style.css?v=5.0.0')}}" rel="stylesheet">
   <link href="{{asset('assets/yc/css/vendors/aos.css')}}" rel="stylesheet">
   <title>About</title>
@@ -120,14 +120,14 @@
                     <i class="fas fa-check-circle me-2" style="color: #024430;"></i> Access to attend premium startup & leadership events
                   </li>
                 </ul>
-                <div class="box-button mt-30 mb-60 wow animate__animated animate__fadeIn" data-wow-delay=".2s"><a class="btn btn-brand-1 hover-up" href="#">Become a Member</a><a class="btn btn-default font-sm-bold hover-up" href="#">Become a Chanakya
+                <div class="box-button mt-30 mb-60 wow animate__animated animate__fadeIn" data-wow-delay=".2s"><a class="btn btn-brand-1 hover-up" href="{{ route('membership') }}">Become a Member</a><a class="btn btn-default font-sm-bold hover-up" href="{{ route('become-a-chanakya') }}">Become a Chanakya
                     <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                     </svg></a></div>
                 
                 <!-- <div class="box-author wow animate__animated animate__fadeIn" data-wow-delay=".6s"><a href="#"><img src="assets/yc/imgs/page/team/author.png" alt="YC"></a>
                   <div class="author-info"><a href="#"><span class="font-md-bold color-brand-1 author-name">Bessie Cooper</span></a>
-                    <div class="rating d-inline-block"><img src="assets/imgs/template/icons/star.svg" alt="YC"><img src="assets/yc/imgs/template/icons/star.svg" alt="YC"><img src="assets/imgs/template/icons/star.svg" alt="YC"><img src="assets/imgs/template/icons/star.svg" alt="YC"><img src="assets/imgs/template/icons/star.svg" alt="YC"></div>
+                    <div class="rating d-inline-block"><img src="assets/yc/imgs/template/icons/star.svg" alt="YC"><img src="assets/yc/imgs/template/icons/star.svg" alt="YC"><img src="assets/yc/imgs/template/icons/star.svg" alt="YC"><img src="assets/yc/imgs/template/icons/star.svg" alt="YC"><img src="assets/yc/imgs/template/icons/star.svg" alt="YC"></div>
                   </div>
                 </div> -->
               </div>
@@ -1028,8 +1028,8 @@
                 <h2 class="color-brand-1 mt-10 mb-15">Join the Elite Circle</h2>
                 <p class="color-grey-500 font-md">Connect with leaders, entrepreneurs and innovators.</p>
                 <p class="color-grey-500 font-md">Create opportunities, drive growth, and shape the future.</p>
-                <div class="box-button mt-30"> <a class="btn btn-brand-1 hover-up" href="#">Become a Member</a><a
-                    class="btn btn-default font-sm-bold hover-up" href="#">
+                <div class="box-button mt-30"> <a class="btn btn-brand-1 hover-up" href="{{ route('membership') }}">Become a Member</a><a 
+                    class="btn btn-default font-sm-bold hover-up" href="{{ route('become-a-sponsor') }}">
                     Become a Sponsor
                     <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
