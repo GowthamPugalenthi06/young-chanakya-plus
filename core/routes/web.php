@@ -159,9 +159,19 @@ Route::get('/clubs-and-activities',function(){
   Route::get('/internship',function(){
     return view('yc.internship');
   })->name('internship');
-  
-  
-
+  Route::get('/student-plan',function(){
+    return view('yc.membership-pages.student-plan');
+  })->name('student-plan');
+  Route::get('/startup-plan',function(){
+    return view('yc.membership-pages.startup-plan');
+  })->name('startup-plan');
+  Route::get('/business-plan',function(){
+    return view('yc.membership-pages.business-plan');
+  })->name('business-plan');
+  Route::get('/executive-plan',function(){
+    return view('yc.membership-pages.executive-plan');
+  })->name('executive-plan');
+ 
 Route::get('/admin/mentor-chanakya', [MentorChanakyaController::class, 'index'])->name('admin.mentor_chanakya.index');
 Route::get('/admin/mentor-chanakya/create', [MentorChanakyaController::class, 'create'])->name('admin.mentor_chanakya.create');
 Route::post('/admin/mentor-chanakya/store', [MentorChanakyaController::class, 'store'])->name('admin.mentor_chanakya.store');
@@ -198,6 +208,19 @@ Route::get('/student-membership', function () {
   Route::get('/executive-membership',function(){
     return view('yc.executive-membership');
   })->name('executive-membership');
+    Route::get('/student-plan',function(){
+    return view('yc.membership-pages.student-plan');
+  })->name('student-plan');
+  Route::get('/startup-plan',function(){
+    return view('yc.membership-pages.startup-plan');
+  })->name('startup-plan');
+  Route::get('/business-plan',function(){
+    return view('yc.membership-pages.business-plan');
+  })->name('business-plan');
+  Route::get('/executive-plan',function(){
+    return view('yc.membership-pages.executive-plan');
+  })->name('executive-plan');
+ 
 
 Route::fallback(function () {
   return view('errors.404');

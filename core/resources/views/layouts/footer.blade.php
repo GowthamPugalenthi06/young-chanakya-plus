@@ -188,7 +188,7 @@
             </div> -->
             <div class="col-lg-3 width-16 mb-30  ">
             <ul class="menu-footer">
-              <li><h5 class="mb-10 ">Contact us</h5>
+              <li><h5 class="mb-10 color-brand-1">Contact us</h5>
                 <!-- Address (click to open location in Google Maps)  -->
                 <a href="https://www.google.com/maps?q=West+Car+Street,+Tiruchengode,+Tamil+Nadu,+India"
                   target="_blank"

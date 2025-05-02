@@ -12,7 +12,7 @@
     <meta name="author" content="">
 <link rel="icon" type="image/svg+xml" href="{{ asset('assets/yc/imgs/template/favicon.svg') }}">
     <link href="{{asset('assets/yc/css/style.css?v=5.0.0')}}" rel="stylesheet">
-    <title>Business Memership form</title>
+    <title>Business Membership form</title>
     <style>
         .bg-chn {
             background-color: #E0F1F4;
