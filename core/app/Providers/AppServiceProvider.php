@@ -49,9 +49,7 @@ class AppServiceProvider extends ServiceProvider
         $ulinks = $currentLang->ulinks;
         $apopups = $currentLang->popups()->where('status', 1)->orderBy('serial_number', 'ASC')->get();
   
-        if (serviceCategory()) {
-          $scats = $currentLang->scategories()->where('status', 1)->orderBy('serial_number', 'ASC')->get();
-        }
+        
   
         if (Menu::where('language_id', $currentLang->id)->count() > 0) {
           $menus = Menu::where('language_id', $currentLang->id)->first()->menus;
@@ -68,9 +66,7 @@ class AppServiceProvider extends ServiceProvider
         $view->with('bs', $bs);
         $view->with('be', $be);
         $view->with('bex', $bex);
-        if (serviceCategory()) {
-          $view->with('scats', $scats);
-        }
+        
         $view->with('apopups', $apopups);
         $view->with('ulinks', $ulinks);
         $view->with('menus', $menus);
