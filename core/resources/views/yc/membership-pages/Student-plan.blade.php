@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -23,6 +24,10 @@
 <body>
   @include('layouts.header')
   @include('layouts.preload')
+  @php
+    $plan = request('plan');
+    $type = request('type');
+@endphp
   <main class="main">
   <section class="section banner-4 bg-1">
       <div class="container">
@@ -38,7 +43,7 @@
               </div>
               <div class="d-flex justify-content-start gap-3 flex-wrap">
                 <div class="box-button mt-30 wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
-                  <a class="btn btn-brand-1 hover-up" href="{{ route('student-membership') }}" style="backgroung-color:#fff;">
+                  <a class="btn btn-brand-1 hover-up"  href="{{ route('student-membership', ['plan' => $plan, 'type' => $type]) }}" style="backgroung-color:#fff;">
                     Apply Now
                     <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
@@ -301,7 +306,7 @@
 Empower your career and make a real impact.
 
 </p>
-                  <div class="box-button-video wow animate__animated animate__fadeInUp" data-wow-delay=".3s"><a class="btn btn-border-80 font-sm-bold hover-up" href="{{ route('student-membership') }}">Apply Now<svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
+                  <div class="box-button-video wow animate__animated animate__fadeInUp" data-wow-delay=".3s"><a class="btn btn-border-80 font-sm-bold hover-up"  href="{{ route('student-membership', ['plan' => $plan, 'type' => $type]) }}">Apply Now<svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M14 5l7 7m0 0l-7 7m7-7H3">

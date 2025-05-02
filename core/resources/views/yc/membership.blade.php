@@ -170,7 +170,7 @@
               </div>
               <div class="mt-20">
     <a id="get-started-btn" class="btn btn-brand-1-full hover-up" href="#"
-        data-route="{{ route('student-membership', ['plan' => 'student', 'type' => 'monthly']) }}">
+        data-route="{{ route('student-plan', ['plan' => 'student', 'type' => 'monthly']) }}">
         Get Started
         <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -271,7 +271,7 @@
               </div>
               <div class="mt-20">
                 <a id="get-started-startup-btn" class="btn btn-brand-1-full hover-up" href="#"
-                  data-route="{{ route('startup-membership', ['plan' => 'startup', 'type' => 'monthly']) }}">
+                  data-route="{{ route('startup-plan', ['plan' => 'startup', 'type' => 'monthly']) }}">
                   Get Started
                   <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
@@ -374,7 +374,7 @@
               </div>
               <div class="mt-20">
                 <a id="get-started-entrepreneur-btn" class="btn btn-brand-1-full hover-up" href="#"
-                  data-route="{{ route('entrepreneur-membership', ['plan' => 'entrepreneur', 'type' => 'monthly']) }}">
+                  data-route="{{ route('business-plan', ['plan' => 'entrepreneur', 'type' => 'monthly']) }}">
                   Get Started
                   <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
@@ -477,7 +477,7 @@
               </div>
               <div class="mt-20">
                 <a id="get-started-executive-btn" class="btn btn-brand-1-full hover-up" href="#"
-                  data-route="{{ route('executive-membership', ['plan' => 'executive', 'type' => 'monthly']) }}">
+                  data-route="{{ route('executive-plan', ['plan' => 'executive', 'type' => 'monthly']) }}">
                   Get Started
                   <svg class="w-6 h-6 icon-16 ml-10" fill="none" stroke="currentColor" viewbox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
