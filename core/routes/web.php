@@ -598,7 +598,118 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:admin', 'checkstatus',
 
   // Dynamic Routes
 
+  Route::get('/login', 'User\LoginController@showLoginForm')->name('user.login');
 
+  // Dynamic Routes - Fixed version
+  Route::group(['middleware' => ['setlang']], function () {
+    try {
+        // Routes with details=0 (listing pages)
+        $wdPermalinks = Permalink::where('details', 0)->get();
+        
+        foreach ($wdPermalinks as $pl) {
+            $type = $pl->type;
+            $permalink = $pl->permalink;
+  
+            switch ($type) {
+                case 'packages':
+                    Route::get($permalink, 'Front\FrontendController@packages')->name('front.packages');
+                    break;
+                    
+                case 'services':
+                    Route::get($permalink, 'Front\FrontendController@services')->name('front.services');
+                    break;
+                        
+                case 'portfolios':
+                    Route::get($permalink, 'Front\FrontendController@portfolios')->name('front.portfolios');
+                    break;
+                        
+                case 'products':
+                    Route::get($permalink, 'Front\ProductController@product')->name('front.product');
+                    break;
+                        
+                case 'cart':
+                    Route::get($permalink, 'Front\ProductController@cart')->name('front.cart');
+                    break;
+                        
+                case 'product_checkout':
+                    Route::get($permalink, 'Front\ProductController@checkout')->name('front.checkout');
+                    break;
+                        
+                case 'team':
+                    Route::get($permalink, 'Front\FrontendController@team')->name('front.team');
+                    break;
+                        
+                case 'courses':
+                    Route::get($permalink, 'Front\CourseController@courses')->name('courses');
+                    break;
+                        
+                case 'causes':
+                    Route::get($permalink, 'Front\FrontendController@causes')->name('front.causes');
+                    break;
+                        
+                case 'events':
+                    Route::get($permalink, 'Front\FrontendController@events')->name('front.events');
+                    break;
+                        
+                case 'career':
+                    Route::get($permalink, 'Front\FrontendController@career')->name('front.career');
+                    break;
+                        
+                case 'event_calendar':
+                    Route::get($permalink, 'Front\FrontendController@calendar')->name('front.calendar');
+                    break;
+                        
+                case 'knowledgebase':
+                    Route::get($permalink, 'Front\FrontendController@knowledgebase')->name('front.knowledgebase');
+                    break;
+                        
+                case 'gallery':
+                    Route::get($permalink, 'Front\FrontendController@gallery')->name('front.gallery');
+                    break;
+                        
+                case 'faq':
+                    Route::get($permalink, 'Front\FrontendController@faq')->name('front.faq');
+                    break;
+                        
+                case 'blogs':
+                    Route::get($permalink, 'Front\FrontendController@blogs')->name('front.blogs');
+                    break;
+                        
+                case 'rss':
+                    Route::get($permalink, 'Front\FrontendController@rss')->name('front.rss');
+                    break;
+                        
+                case 'contact':
+                    Route::get($permalink, 'Front\FrontendController@contact')->name('front.contact');
+                    break;
+                        
+                case 'quote':
+                    Route::get($permalink, 'Front\FrontendController@quote')->name('front.quote');
+                    break;
+                        
+                case 'login':
+                    Route::get($permalink, 'User\LoginController@showLoginForm')->name('user.login');
+                    break;
+                        
+                case 'register':
+                    Route::get($permalink, 'User\RegisterController@registerPage')->name('user-register');
+                    break;
+                        
+                case 'forget_password':
+                    Route::get($permalink, 'User\ForgotController@showforgotform')->name('user-forgot');
+                    break;
+                        
+                case 'admin_login':
+                    Route::get($permalink, 'Admin\LoginController@login')
+                        ->name('admin.login')
+                        ->middleware('guest:admin');
+                    break;
+            }
+        }
+    } catch (\Exception $e) {
+        \Log::error("Dynamic route registration failed: " . $e->getMessage());
+    }
+  });
 
 
 // Dynamic Page Routes
